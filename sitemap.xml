@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    
+    <lastmod>2016-08-09T19:25:52.631Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    
+    <lastmod>2016-08-09T19:25:52.631Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/WizNote/html.html</loc>
+    
+    <lastmod>2016-08-09T19:25:52.619Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/WizNote/%E7%BC%96%E5%86%99%E5%8F%AF%E8%AF%BB%E4%BB%A3%E7%A0%81%E7%9A%84%E8%89%BA%E6%9C%AF.html</loc>
     
     <lastmod>2016-08-09T18:39:11.911Z</lastmod>
@@ -247,7 +268,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -275,7 +296,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -289,7 +310,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -303,9 +331,9 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
     
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
   </url>
   
@@ -331,14 +359,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
+    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
     
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
+    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
@@ -352,14 +380,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
