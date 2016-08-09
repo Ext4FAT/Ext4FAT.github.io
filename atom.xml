@@ -348,6 +348,35 @@
   </entry>
   
   <entry>
+    <title>Refresh Page</title>
+    <link href="http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/"/>
+    <id>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</id>
+    <published>2016-05-31T21:29:53.000Z</published>
+    <updated>2016-08-09T13:20:39.943Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Refresh-Page-html-script&quot;&gt;&lt;a href=&quot;#Refresh-Page-html-script&quot; class=&quot;headerlink&quot; title=&quot;Refresh Page - html script&quot;&gt;&lt;/a&gt;Refresh Page - html script&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="Toys" scheme="http://idler1229.github.io/categories/Toys/"/>
+    
+      <category term="Html" scheme="http://idler1229.github.io/categories/Toys/Html/"/>
+    
+    
+      <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
+    
+      <category term="Html" scheme="http://idler1229.github.io/tags/Html/"/>
+    
+      <category term="Web" scheme="http://idler1229.github.io/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Cmd Send E-mail</title>
     <link href="http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/"/>
     <id>http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/</id>
@@ -377,35 +406,6 @@
       <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
     
       <category term="e-mail" scheme="http://idler1229.github.io/tags/e-mail/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Refresh Page</title>
-    <link href="http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/"/>
-    <id>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</id>
-    <published>2016-05-31T21:29:53.000Z</published>
-    <updated>2016-08-09T13:20:39.943Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Refresh-Page-html-script&quot;&gt;&lt;a href=&quot;#Refresh-Page-html-script&quot; class=&quot;headerlink&quot; title=&quot;Refresh Page - html script&quot;&gt;&lt;/a&gt;Refresh Page - html script&lt;/h2&gt;
-    
-    </summary>
-    
-      <category term="Toys" scheme="http://idler1229.github.io/categories/Toys/"/>
-    
-      <category term="Html" scheme="http://idler1229.github.io/categories/Toys/Html/"/>
-    
-    
-      <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
-    
-      <category term="Html" scheme="http://idler1229.github.io/tags/Html/"/>
-    
-      <category term="Web" scheme="http://idler1229.github.io/tags/Web/"/>
     
   </entry>
   
