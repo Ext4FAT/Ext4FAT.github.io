@@ -24,47 +24,6 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   <url>
     <loc>http://idler1229.github.io/2016/04/30/Project/Crawl/</loc>
     <lastmod>2016-08-09T13:48:09.271Z</lastmod>
@@ -422,9 +381,9 @@
         <title>Leetcode -- Valid Number</title>
         <pubTime>2016-06-13T23:30:59.000Z</pubTime>
         
-        <tag>C++</tag>
-         
         <tag>Solution</tag>
+         
+        <tag>C++</tag>
          
         <tag>Leetcode</tag>
          
@@ -981,28 +940,21 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/28/Linux/APUE/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>APUE</title>
-        <pubTime>2016-04-27T19:15:18.000Z</pubTime>
+        <title>Linux Add Fonts</title>
+        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
         
-        <tag>C</tag>
+        <tag>Linux</tag>
          
-        <tag>C++</tag>
-         
-        <tag>APUE</tag>
-         
-        <tag>Programming</tag>
+        <tag>Solution</tag>
          
          
            
              
               <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="APUE" url="http://idler1229.github.io/categories/Linux/APUE/"/>
           
         </display>
     </data>
@@ -1025,6 +977,81 @@
          
          
            
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Gedit Garbled</title>
+        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+        <tag>Ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Split Screen</title>
+        <pubTime>2016-04-26T09:05:40.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>Software</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Filename remove blank</title>
+        <pubTime>2016-04-27T14:51:33.000Z</pubTime>
+        
+        <tag>Solution</tag>
+         
+        <tag>Note</tag>
+         
+        <tag>Shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
+          
         </display>
     </data>
     </url>
@@ -1085,18 +1112,18 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Filename remove blank</title>
-        <pubTime>2016-04-27T14:51:33.000Z</pubTime>
+        <title>Laptop cannot wakeup</title>
+        <pubTime>2016-04-26T10:48:34.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>Solution</tag>
          
-        <tag>Note</tag>
-         
-        <tag>Shell</tag>
+        <tag>Ubuntu</tag>
          
          
            
@@ -1104,7 +1131,36 @@
               <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
           
              
-              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
+              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/28/Linux/APUE/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>APUE</title>
+        <pubTime>2016-04-27T19:15:18.000Z</pubTime>
+        
+        <tag>C</tag>
+         
+        <tag>C++</tag>
+         
+        <tag>APUE</tag>
+         
+        <tag>Programming</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="APUE" url="http://idler1229.github.io/categories/Linux/APUE/"/>
           
         </display>
     </data>
@@ -1132,103 +1188,6 @@
           
              
               <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Linux Add Fonts</title>
-        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Split Screen</title>
-        <pubTime>2016-04-26T09:05:40.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Ubuntu</tag>
-         
-        <tag>Software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Gedit Garbled</title>
-        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Ubuntu</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Laptop cannot wakeup</title>
-        <pubTime>2016-04-26T10:48:34.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Ubuntu</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
           
         </display>
     </data>
@@ -1371,6 +1330,33 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <data>
+        <display>
+        <title>Capture picture with camera</title>
+        <pubTime>2016-04-26T13:39:20.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>C++， Toys</tag>
+         
+         
+           
+             
+              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+          
+             
+              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     <data>
@@ -1427,26 +1413,23 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <loc>http://idler1229.github.io/2016/04/29/Compile/CMake/</loc>
+    <lastmod>2016-05-30T14:08:12.440Z</lastmod>
     <data>
         <display>
-        <title>Capture picture with camera</title>
-        <pubTime>2016-04-26T13:39:20.000Z</pubTime>
+        <title>CMake [To Do]</title>
+        <pubTime>2016-04-28T17:38:53.000Z</pubTime>
         
-        <tag>OpenCV</tag>
+        <tag>IDE</tag>
          
-        <tag>Computer Vision</tag>
+        <tag>Project</tag>
          
-        <tag>C++， Toys</tag>
+        <tag>Compile</tag>
          
          
            
              
-              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
-          
-             
-              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
+              <breadCrumb title="Compile" url="http://idler1229.github.io/categories/Compile/"/>
           
         </display>
     </data>
@@ -1474,30 +1457,6 @@
           
              
               <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/29/Compile/CMake/</loc>
-    <lastmod>2016-05-30T14:08:12.440Z</lastmod>
-    <data>
-        <display>
-        <title>CMake [To Do]</title>
-        <pubTime>2016-04-28T17:38:53.000Z</pubTime>
-        
-        <tag>IDE</tag>
-         
-        <tag>Project</tag>
-         
-        <tag>Compile</tag>
-         
-         
-           
-             
-              <breadCrumb title="Compile" url="http://idler1229.github.io/categories/Compile/"/>
           
         </display>
     </data>
