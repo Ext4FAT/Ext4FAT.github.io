@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+  <meta charset="utf-8">
+  
+  <title>Depth Segmentation | At A Loss What To Do</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A efficient depth segmentation base on Region growingMain idea: merge small regions and black regions to Main regions.The image on the left is the Color source and the right is its Depth image, which">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Depth Segmentation">
+<meta property="og:url" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/index.html">
+<meta property="og:site_name" content="At A Loss What To Do">
+<meta property="og:description" content="A efficient depth segmentation base on Region growingMain idea: merge small regions and black regions to Main regions.The image on the left is the Color source and the right is its Depth image, which">
+<meta property="og:image" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/color.png">
+<meta property="og:image" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/depth-mark.png">
+<meta property="og:image" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/merge.png">
+<meta property="og:image" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/segment.png">
+<meta property="og:image" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/algorithm.png">
+<meta property="og:updated_time" content="2016-06-16T03:41:03.523Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Depth Segmentation">
+<meta name="twitter:description" content="A efficient depth segmentation base on Region growingMain idea: merge small regions and black regions to Main regions.The image on the left is the Color source and the right is its Depth image, which">
+<meta name="twitter:image" content="http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/color.png">
+  
+    <link rel="alternative" href="/atom.xml" title="At A Loss What To Do" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+      <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+  
+  
+      <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+      <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+  
+  <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false,
+          fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+          scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+          search: true
+      }
+  </script>
+
+  
+      <script>
+          yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+      </script>
+  
+
+  
+      <script>
+          yiliaConfig.rootUrl = "/";
+      </script>
+  
+
+  
+      <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c8c98185175db"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+  
+</head>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/IDLER.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">_IDLER_</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">Idle About</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>Menu</li>
+                        <li>Tags</li>
+                        
+                        
+                        <li>About Me</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">Home</a></li>
+                        
+                            <li><a href="/archives">Archives</a></li>
+                        
+                            <li><a href="/tags/">Tags</a></li>
+                        
+                            <li><a href="/about/">About</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:zyy34472@gmail.com" title="Email"></a>
+                            
+                                <a class="fa Weibo" target="_blank" href="http://weibo.com/YiyangCNM" title="Weibo"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/IDLER1229" title="GitHub"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://cn.linkedin.com/in/idler-chou" title="LinkedIn"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/3D/">3D</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/APUE/">APUE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AWK/">AWK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Algorithm/">Algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Allocator/">Allocator</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Book/">Book</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-，-Applications/">C++， Applications</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-，-Toys/">C++， Toys</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cheat-Sheet/">Cheat Sheet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Compile/">Compile</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Functor/">Functor</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/">Html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDE/">IDE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JDK/">JDK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Leetcode/">Leetcode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Note/">Note</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OpenCV/">OpenCV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pattern-Recognition/">Pattern Recognition</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Point-Cloud/">Point Cloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Problem/">Problem</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programming/">Programming</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programming-Language/">Programming Language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Project/">Project</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Realsense/">Realsense</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Regular-Expression/">Regular Expression</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/STL/">STL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shell/">Shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shortcuts/">Shortcuts</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Software/">Software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Solution/">Solution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Source-Code/">Source Code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Syntax/">Syntax</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Toys/">Toys</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Trick/">Trick</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unsolve/">Unsolve</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web/">Web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Windows/">Windows</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Writer/">Writer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/e-mail/">e-mail</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+                
+                <section class="switch-part switch-part3">
+                
+                    <div id="js-aboutme">At a Loss What to Do</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">_IDLER_</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/IDLER.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">_IDLER_</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">Idle About</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">Home</a></li>
+                
+                    <li><a href="/archives">Archives</a></li>
+                
+                    <li><a href="/tags/">Tags</a></li>
+                
+                    <li><a href="/about/">About</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:zyy34472@gmail.com" title="Email"></a>
+                            
+                                <a class="fa Weibo" target="_blank" href="http://weibo.com/YiyangCNM" title="Weibo"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/IDLER1229" title="GitHub"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://cn.linkedin.com/in/idler-chou" title="LinkedIn"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
+</nav>
+      <div class="body-wrap"><article id="post-CV/Segmentation-Region-Grow" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/27/CV/Segmentation-Region-Grow/" class="article-date">
+      <time datetime="2016-04-26T18:43:46.000Z" itemprop="datePublished">2016-04-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Depth Segmentation
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Computer-Vision/">Computer Vision</a><a class="article-category-link" href="/categories/Computer-Vision/OpenCV/">OpenCV</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-，-Applications/">C++， Applications</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OpenCV/">OpenCV</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pattern-Recognition/">Pattern Recognition</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="A-efficient-depth-segmentation-base-on-Region-growing"><a href="#A-efficient-depth-segmentation-base-on-Region-growing" class="headerlink" title="A efficient depth segmentation base on Region growing"></a>A efficient depth segmentation base on Region growing</h2><h3 id="Main-idea-merge-small-regions-and-black-regions-to-Main-regions"><a href="#Main-idea-merge-small-regions-and-black-regions-to-Main-regions" class="headerlink" title="Main idea: merge small regions and black regions to Main regions."></a>Main idea: merge small regions and black regions to Main regions.</h3><p>The image on the left is the <em>Color</em> source and the right is its <em>Depth</em> image, which are captured by an Intel Realsense F200 camera. Note that the point which is brighter implies it is farer from the camera. However, the point may become black once it is out of camera range. The red region denotes unreliable points representing too far or too close positions, which exceed the effective distance range of the camera (out of 0.2m - 1.2m). The blue region implies that the Realsense camera cannot ensure the distance is effective due to diffuse reflection.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><em>Color</em></th>
+<th style="text-align:center"><em>Depth</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="/2016/04/27/CV/Segmentation-Region-Grow/color.png" alt="Color"></td>
+<td style="text-align:center"><img src="/2016/04/27/CV/Segmentation-Region-Grow/depth-mark.png" alt="Depth marked"></td>
+</tr>
+</tbody>
+</table>
+<p>The initial segmentations with <em>topk</em>=<em>5</em> are shown in <em>BeforeMerging</em>. After merging small regions and black regions, we obtain the results as shown in <em>Segmentation</em>. The colors are random generated to mark the segmentations in <em>BeforeMerging</em> and <em>Segmentation</em>, respectively. The black regions in <em>Segmentation</em> are unmarked, which means that they are either unreliable points in <em>Segmentation</em> or do not belong to any main segment.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><em>BeforeMerging</em></th>
+<th style="text-align:center"><em>Segmentation</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="/2016/04/27/CV/Segmentation-Region-Grow/merge.png" alt="Before merge"></td>
+<td style="text-align:center"><img src="/2016/04/27/CV/Segmentation-Region-Grow/segment.png" alt="Segmentation"></td>
+</tr>
+</tbody>
+</table>
+<p>And the whole algorithm flow is shown as follow:<br><img src="/2016/04/27/CV/Segmentation-Region-Grow/algorithm.png" alt="Algorithm"> </p>
+<a id="more"></a>
+<h3 id="Head-Files"><a href="#Head-Files" class="headerlink" title="[Head Files]"></a>[Head Files]</h3><h4 id="Segmentation-hpp"><a href="#Segmentation-hpp" class="headerlink" title="Segmentation.hpp"></a>Segmentation.hpp</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="string">&quot;Common.hpp&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="string">&quot;MyDraw.hpp&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> Segmentation: <span class="keyword">public</span> Draw</span><br><span class="line">{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="comment">/** @brief Constructor with parameters */</span></span><br><span class="line">    Segmentation(<span class="keyword">int</span> width, <span class="keyword">int</span> height, <span class="keyword">unsigned</span> topk = <span class="number">5</span>, <span class="keyword">short</span> t = <span class="number">3</span>);</span><br><span class="line">    Segmentation(Size sz, <span class="keyword">unsigned</span> topk = <span class="number">5</span>, <span class="keyword">short</span> t = <span class="number">3</span>);</span><br><span class="line">    <span class="comment">/** @brief Segment with depth image, and show some result in color image */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Segment</span><span class="params">(Mat&amp; depth)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Segment</span><span class="params">(Mat&amp; depth, Mat&amp; color)</span></span>;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief DFS: depth first search with recurrsive methold, but easy to stack overflow</span><br><span class="line">     * @param depth         depth data</span><br><span class="line">     * @param visit         marked visited point</span><br><span class="line">     * @param cur           current point position</span><br><span class="line">     * @param threshold     the max value between extend point</span><br><span class="line">     * @param v             from current point, a segment point set</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">DFS</span><span class="params">(Mat&amp; depth, Mat&amp; visit, Point cur, <span class="keyword">short</span>&amp; threshold, PointSet&amp; v)</span></span>;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief NonRecursive: prevent stack overflow</span><br><span class="line">     * @param depth     depth data</span><br><span class="line">     * @param visit     marked visited point</span><br><span class="line">     * @param cur       current point position</span><br><span class="line">     * @param pSet      from current point, a segment point set</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">NonRecursive</span><span class="params">(Mat&amp; depth, Mat&amp; visit, Point&amp; cur, PointSet&amp; pSet)</span></span>;</span><br><span class="line">    <span class="comment">/** @brief completeDepth complete black points with right/down/right-down direction which has depth value */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">completeDepth</span><span class="params">(Mat&amp; depth)</span></span>;</span><br><span class="line">    <span class="comment">/** @brief clear mainRegions_, blackRegions_ and distance_ */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">clear</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="comment">/** @brief return segmentation info*/</span></span><br><span class="line">    <span class="function">SegmentSet&amp; <span class="title">getMainRegions</span><span class="params">()</span>    </span>{return mainRegions_;}</span><br><span class="line">    <span class="function">SegmentSet&amp; <span class="title">getBlackRegions</span><span class="params">()</span>   </span>{return blackRegions_;}</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt;&amp; getDistance()    {return distance_;}</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief regionMerge: merge small region and black points to Main Regions</span><br><span class="line">     * @param depth     depth data</span><br><span class="line">     * @param minSim    0.0 - 1.0</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">regionMerge</span><span class="params">(Mat&amp; depth, <span class="keyword">double</span> minSim)</span></span>;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief hullBoundBox: get the each region convexHull&apos;s bounding box</span><br><span class="line">     * @param hull  the vertices of Convex hull</span><br><span class="line">     * @return bounding box</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function">Rect <span class="title">hullBoundBox</span><span class="params">(PointSet&amp; hull)</span></span>;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief isRegionInsideHull: determine if small or black regions belongs to one Main Region</span><br><span class="line">     * @param pSet      small region / black region</span><br><span class="line">     * @param hull      Convex hull</span><br><span class="line">     * @param minSim    0.0 - 1.0</span><br><span class="line">     * @return  in / not in</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isRegionInsideHull</span><span class="params">(PointSet&amp; pSet, PointSet&amp; hull, <span class="keyword">double</span> minSim)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isRegionInsideHull</span><span class="params">(PointSet&amp; pSet, PointSet&amp; hull, PointSet&amp; seg, <span class="keyword">double</span> minSim)</span></span>;</span><br><span class="line">    <span class="comment">/** @brief randColor: generate random colors to show */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">randColor</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="comment">/** @brief draw<span class="doctag">XXX:</span> extend from Draw */</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawRotateRect</span><span class="params">(Mat&amp; src, RotatedRect&amp; rr)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawConvexHull</span><span class="params">(Mat&amp; src, PointSet&amp; hull, Scalar color)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawBlack</span><span class="params">(SegmentSet&amp; blackRegions, Mat&amp; disp, Vec3b&amp; color)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">draw</span><span class="params">(SegmentSet&amp; segment, Mat&amp; disp, <span class="built_in">vector</span>&lt;Vec3b&gt;&amp; colors)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawBoundBox</span><span class="params">(SegmentSet&amp; segment, <span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt;&amp; distance, Mat&amp; color, Mat&amp; depth)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawRegions</span><span class="params">(SegmentSet&amp; segment, Mat&amp; color, Mat&amp; depth, Mat&amp; disp)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawSobel</span><span class="params">(Mat&amp; depth)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="comment">/** @brief _DIRECTIONS_ eight directions to extend point */</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">const</span> <span class="built_in">vector</span>&lt;Point&gt; _DIRECTIONS_;</span><br><span class="line">    <span class="comment">/** @brief _DIR_ three directions (right, down, right-down) to complete point */</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">const</span> <span class="built_in">vector</span>&lt;Point&gt; _DIR_;</span><br><span class="line">    <span class="comment">/** @brief colors_ random color to mark segmentation */</span></span><br><span class="line">    <span class="built_in">vector</span>&lt;Vec3b&gt; colors_;</span><br><span class="line">    <span class="comment">/** @brief RANGE_ image size to determine which region is out-of-range */</span></span><br><span class="line">    Rect RANGE_;</span><br><span class="line">    <span class="comment">/** @brief threshold_ the max value between extend point */</span></span><br><span class="line">    <span class="keyword">short</span> threshold_;</span><br><span class="line">    <span class="comment">/** @brief topk_ initial main regions number */</span></span><br><span class="line">    <span class="keyword">unsigned</span> topk_;</span><br><span class="line">    <span class="comment">/** @brief segmentation info */</span></span><br><span class="line">    SegmentSet mainRegions_;</span><br><span class="line">    SegmentSet blackRegions_;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; distance_;</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
+<h4 id="MyDraw-hpp"><a href="#MyDraw-hpp" class="headerlink" title="MyDraw.hpp"></a>MyDraw.hpp</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="string">&quot;Common.hpp&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> Draw</span><br><span class="line">{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawRotateRect</span><span class="params">(Mat&amp; src, RotatedRect&amp; rr)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawConvexHull</span><span class="params">(Mat&amp; src, PointSet&amp; hull, Scalar color)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawBlack</span><span class="params">(SegmentSet&amp; blackRegions, Mat&amp; disp, Vec3b&amp; color)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">draw</span><span class="params">(SegmentSet&amp; segment, Mat&amp; disp, <span class="built_in">vector</span>&lt;Vec3b&gt;&amp; colors)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawBoundBox</span><span class="params">(SegmentSet&amp; segment, <span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt;&amp; distance, Mat&amp; color, Mat&amp; depth)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawRegions</span><span class="params">(SegmentSet&amp; segment, Mat&amp; color, Mat&amp; depth, Mat&amp; disp)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">drawSobel</span><span class="params">(Mat&amp; depth)</span></span>=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">};</span><br></pre></td></tr></table></figure>
+<h4 id="FileOperation-hpp"><a href="#FileOperation-hpp" class="headerlink" title="FileOperation.hpp"></a>FileOperation.hpp</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">vector</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">string</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> FileOperation{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief getFilename: get all files / subdirs Under dirpath</span><br><span class="line">     * @param dirPath</span><br><span class="line">     * @return subFiles</span><br><span class="line">     */</span></span><br><span class="line">    <span class="keyword">virtual</span> <span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; getFilename(<span class="keyword">const</span> <span class="built_in">string</span>&amp; dirPath) ;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief getFilepath: get absolute path of files / subdirs Under dirpath</span><br><span class="line">     * @param dirPath</span><br><span class="line">     * @return absolutePaths</span><br><span class="line">     */</span></span><br><span class="line">    <span class="keyword">virtual</span> <span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; getFilepath(<span class="keyword">const</span> <span class="built_in">string</span>&amp; dirPath) ;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief findFileName: filter out filename from absolute path</span><br><span class="line">     * @param path</span><br><span class="line">     * @return filename</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="built_in">string</span> <span class="title">findFileName</span><span class="params">(<span class="keyword">const</span> <span class="built_in">string</span>&amp; path)</span> </span>;</span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * @brief testExist: test if file path exists or not</span><br><span class="line">     * @param path</span><br><span class="line">     * @return Ture if Exist</span><br><span class="line">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">bool</span> <span class="title">testExist</span><span class="params">(<span class="keyword">const</span> <span class="built_in">string</span>&amp; path)</span> </span>;</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
+<h4 id="Common-hpp"><a href="#Common-hpp" class="headerlink" title="Common.hpp"></a>Common.hpp</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;opencv2/opencv.hpp&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">string</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">vector</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> cv::Point;</span><br><span class="line"><span class="keyword">using</span> cv::Mat;</span><br><span class="line"><span class="keyword">using</span> cv::Size;</span><br><span class="line"><span class="keyword">using</span> cv::Rect;</span><br><span class="line"><span class="keyword">using</span> cv::Scalar;</span><br><span class="line"><span class="keyword">using</span> cv::Vec3b;</span><br><span class="line"><span class="keyword">using</span> cv::RotatedRect;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">vector</span>&lt;Point&gt; PointSet;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">vector</span>&lt;PointSet&gt; SegmentSet;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>Title:</span><a href="/2016/04/27/CV/Segmentation-Region-Grow/">Depth Segmentation</a></p>
+        <p><span>Author:</span><a href="/" title="Back to Homepage">_IDLER_</a></p>
+        <!--
+        <p><span>Created:</span>2016-04-27, 02:43:46</p>
+        <p><span>Updated:</span>2016-06-16, 11:41:03</p>
+        <p>
+            <span>Full URL:</span><a class="post-url" href="/2016/04/27/CV/Segmentation-Region-Grow/" title="Depth Segmentation">http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/</a>
+            <span class="copy-path" data-clipboard-text="From http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/　　By _IDLER_" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        -->
+        <p>
+            <span>License:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"CC BY-NC-SA 4.0"</a> Keep Link &amp; Author if Distribute.
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2016/04/27/Linux/Shell/Filename-remove-blank/">
+                    Filename remove blank
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/04/27/CV/HOG-SVM/">
+                    Simple Object Classification with HOG and SVM
+                </a>
+            </div>
+        
+    </nav>
+
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#A-efficient-depth-segmentation-base-on-Region-growing"><span class="toc-number">1.</span> <span class="toc-text">A efficient depth segmentation base on Region growing</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Main-idea-merge-small-regions-and-black-regions-to-Main-regions"><span class="toc-number">1.1.</span> <span class="toc-text">Main idea: merge small regions and black regions to Main regions.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Head-Files"><span class="toc-number">1.2.</span> <span class="toc-text">[Head Files]</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Segmentation-hpp"><span class="toc-number">1.2.1.</span> <span class="toc-text">Segmentation.hpp</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MyDraw-hpp"><span class="toc-number">1.2.2.</span> <span class="toc-text">MyDraw.hpp</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#FileOperation-hpp"><span class="toc-number">1.2.3.</span> <span class="toc-text">FileOperation.hpp</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Common-hpp"><span class="toc-number">1.2.4.</span> <span class="toc-text">Common.hpp</span></a></li></ol></li></ol></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="Hide"  title="Show or Hide Table of Contents">
+<script>
+    var valueHide = "Hide";
+    var valueShow = "Show";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).find('.toc-text').text();
+                $(this).attr("title", title);
+            });
+        })
+    </script>
+
+
+
+
+    
+<div class="share">
+    
+
+    
+        <div class="addthis_sharing_toolbox"></div>
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/04/27/Linux/Shell/Filename-remove-blank/" title="Pre: Filename remove blank">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="Mini Archives"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/04/27/CV/HOG-SVM/" title="Next: Simple Object Classification with HOG and SVM">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/08/Project/Registration/">Registration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/">Hide User in Ubuntu</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/04/Cheat Sheet/Regular-Expressions/">Regular Expressions</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/04/Cheat Sheet/SQL/">SQL</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/26/Programming/C++/Recommendation/Awesome-C++/">Recommendation -- Awesome C++</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/26/Programming/JAVA/Top10-Mistakes/">Top 10 Mistakes Java Developers Make</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/14/Toys/Leetcode/ValidNumber/">Leetcode -- Valid Number</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/13/Toys/C/Noloop/">No loop</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/Linux/Solution/Shortcuts-Backup/">Shortcuts Backup</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Shell/Send-Email/">Cmd Send E-mail</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Html/Refresh-Page/">Refresh Page</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Shell/Cmd-Login/">Cmd Login</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Linux/Shell/Convert/">Convert</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/31/Writer/Markdown/Markdown-Note/">Markdown Note</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/31/Programming/AWK/awk/">AWK NOTE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/Project/Crawl/">Idle-About</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/">STL ALLOCATOR CONSTRCUT</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/STL/STL-ALLOCATOR/">STL ALLOCATOR</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-FUNCTOR/">STL ALGO FUNCTOR</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/Linux/Software/Qt-Creator-Shotcuts/">Qt Creator Shotcuts</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-BASE/">STL ALGO BASE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/Compile/CMake/">CMake [To Do]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-NUMERIC/">STL ALGO NUMERIC</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Linux/APUE/">APUE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Linux/Shell/Leetcode-Shell/">Leetcode Shell</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Programming/C++/const-cast/">const_cast [To Do]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/Video-Capture/">Video Capture</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/Linux/Shell/Filename-remove-blank/">Filename remove blank</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/Segmentation-Region-Grow/">Depth Segmentation</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/HOG-SVM/">Simple Object Classification with HOG and SVM</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/Capture-picture-with-camera/">Capture picture with camera</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/Split-Video/">Split Video</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/STL/STL-ALGO-SET-OP/">STL ALGO SET OPERATION</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Books/Reading-Books/">Reading Books</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/">OpenCV3.0-RealSense-Configuration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/">Gedit Garbled</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/">Configure JDK on Linux</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Linux-Add-Fonts/">Linux Add Fonts</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/C++/CPP-Trick/">C++ Trick</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/C/C-Trick/">C Trick</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/">Laptop cannot wakeup</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Software/Split-Screen/">Split Screen</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Software/Take-a-Break/">Take A Break</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/">What the fuck on Ubuntu</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Shell/Linux-cmd/">Linux Command Miscellaneous</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/CV/PCL-Configuration/">PCL Configuration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/CV/Realsense-Q-A/">Realsense Q&A</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/Problems/Problems/">Problems</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/06/Linux/Solution/Beyond-Compare-Crack/">Beyond Compare Crack</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/">Use f.lux to protect eyes</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/Linux/Shell/Pic2Pdf/">Picture batch to Pdf</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/Linux/Shell/Shell-Maze/">Pic2Pdf</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016 _IDLER_
+            </div>
+            <div class="footer-right">
+                <!--<a href="http://hexo.io/" target="_blank" title="A fast, simple &amp; powerful blog framework">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="Another simple and elegant theme for Hexo  v3.0">Yelee</a>--> modified by _IDLER_</i>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+    </div>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 75;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="Back to Top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" title="Comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="Go to Bottom"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

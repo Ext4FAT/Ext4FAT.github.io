@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+  <meta charset="utf-8">
+  
+  <title>Linux Command Miscellaneous | At A Loss What To Do</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="&amp;#x5E38;&amp;#x7528;&amp;#x547D;&amp;#x4EE4;123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354##&amp;#x6CE8;&amp;#xFF1A;&amp;#x53D8;&amp;#x91CF;&amp;#x8D4B;&amp;#x503C;&amp;#x7B49;&amp;#x53F7;&amp;#x">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux Command Miscellaneous">
+<meta property="og:url" content="http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/index.html">
+<meta property="og:site_name" content="At A Loss What To Do">
+<meta property="og:description" content="&amp;#x5E38;&amp;#x7528;&amp;#x547D;&amp;#x4EE4;123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354##&amp;#x6CE8;&amp;#xFF1A;&amp;#x53D8;&amp;#x91CF;&amp;#x8D4B;&amp;#x503C;&amp;#x7B49;&amp;#x53F7;&amp;#x">
+<meta property="og:updated_time" content="2016-08-04T11:09:45.780Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Linux Command Miscellaneous">
+<meta name="twitter:description" content="&amp;#x5E38;&amp;#x7528;&amp;#x547D;&amp;#x4EE4;123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354##&amp;#x6CE8;&amp;#xFF1A;&amp;#x53D8;&amp;#x91CF;&amp;#x8D4B;&amp;#x503C;&amp;#x7B49;&amp;#x53F7;&amp;#x">
+  
+    <link rel="alternative" href="/atom.xml" title="At A Loss What To Do" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+      <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+  
+  
+      <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+      <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+  
+  <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false,
+          fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+          scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+          search: true
+      }
+  </script>
+
+  
+      <script>
+          yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+      </script>
+  
+
+  
+      <script>
+          yiliaConfig.rootUrl = "/";
+      </script>
+  
+
+  
+      <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c8c98185175db"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+  
+</head>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/IDLER.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">_IDLER_</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">Idle About</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>Menu</li>
+                        <li>Tags</li>
+                        
+                        
+                        <li>About Me</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">Home</a></li>
+                        
+                            <li><a href="/archives">Archives</a></li>
+                        
+                            <li><a href="/tags/">Tags</a></li>
+                        
+                            <li><a href="/about/">About</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:zyy34472@gmail.com" title="Email"></a>
+                            
+                                <a class="fa Weibo" target="_blank" href="http://weibo.com/YiyangCNM" title="Weibo"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/IDLER1229" title="GitHub"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://cn.linkedin.com/in/idler-chou" title="LinkedIn"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/3D/">3D</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/APUE/">APUE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AWK/">AWK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Algorithm/">Algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Allocator/">Allocator</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Book/">Book</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-，-Applications/">C++， Applications</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-，-Toys/">C++， Toys</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cheat-Sheet/">Cheat Sheet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Compile/">Compile</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Functor/">Functor</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/">Html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDE/">IDE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JDK/">JDK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Leetcode/">Leetcode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Note/">Note</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OpenCV/">OpenCV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pattern-Recognition/">Pattern Recognition</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Point-Cloud/">Point Cloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Problem/">Problem</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programming/">Programming</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programming-Language/">Programming Language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Project/">Project</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Realsense/">Realsense</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Regular-Expression/">Regular Expression</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/STL/">STL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shell/">Shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shortcuts/">Shortcuts</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Software/">Software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Solution/">Solution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Source-Code/">Source Code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Syntax/">Syntax</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Toys/">Toys</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Trick/">Trick</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unsolve/">Unsolve</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web/">Web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Windows/">Windows</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Writer/">Writer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/e-mail/">e-mail</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+                
+                <section class="switch-part switch-part3">
+                
+                    <div id="js-aboutme">At a Loss What to Do</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">_IDLER_</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/IDLER.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">_IDLER_</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">Idle About</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">Home</a></li>
+                
+                    <li><a href="/archives">Archives</a></li>
+                
+                    <li><a href="/tags/">Tags</a></li>
+                
+                    <li><a href="/about/">About</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:zyy34472@gmail.com" title="Email"></a>
+                            
+                                <a class="fa Weibo" target="_blank" href="http://weibo.com/YiyangCNM" title="Weibo"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/IDLER1229" title="GitHub"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://cn.linkedin.com/in/idler-chou" title="LinkedIn"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
+</nav>
+      <div class="body-wrap"><article id="post-Linux/Shell/Linux-cmd" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/26/Linux/Shell/Linux-cmd/" class="article-date">
+      <time datetime="2016-04-26T08:03:58.000Z" itemprop="datePublished">2016-04-26</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Linux Command Miscellaneous
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a><a class="article-category-link" href="/categories/Linux/Shell/">Shell</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Shell/">Shell</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="&#x5E38;&#x7528;&#x547D;&#x4EE4;"><a href="#&#x5E38;&#x7528;&#x547D;&#x4EE4;" class="headerlink" title="&#x5E38;&#x7528;&#x547D;&#x4EE4;"></a>&#x5E38;&#x7528;&#x547D;&#x4EE4;</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##&#x6CE8;&#xFF1A;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x7B49;&#x53F7;&#x4E0D;&#x80FD;&#x542B;&#x7A7A;&#x683C;</span></span><br><span class="line"></span><br><span class="line">cat -n file  or cat -b file    <span class="comment">#&#x663E;&#x793A;&#x6587;&#x4EF6;&#x6587;&#x4EF6;&#x65F6;&#x5019;&#x5E26;&#x4E0A;&#x884C;&#x53F7;</span></span><br><span class="line"></span><br><span class="line">find . -print -exec chmod 777 {} \;    <span class="comment">#&#x9012;&#x5F52;&#x4FEE;&#x6539;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x6743;&#x9650;&#x4E3A;777</span></span><br><span class="line"></span><br><span class="line">lshw -C display    <span class="comment">#&#x83B7;&#x53D6;&#x56FE;&#x5F62;&#x82AF;&#x7247;&#x4FE1;&#x606F;</span></span><br><span class="line"></span><br><span class="line">lsusb <span class="_">-d</span> &#x4EA7;&#x54C1;ID -v     <span class="comment">#&#x67E5;&#x770B;&#x786C;&#x4EF6;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;</span></span><br><span class="line">lsusb <span class="_">-s</span> devnum -v    </span><br><span class="line"></span><br><span class="line">find -type l -xtype d     <span class="comment">#&#x5BFB;&#x627E;&#x6240;&#x6709;&#x6307;&#x5411;&#x76EE;&#x5F55;&#x7684;&#x8F6F;link                        </span></span><br><span class="line"></span><br><span class="line">find /path/to/dir -type f | grep -o <span class="string">&apos;\.[^./]*$&apos;</span> | sort | uniq     <span class="comment">#&#x5217;&#x51FA;&#x76EE;&#x5F55;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x6269;&#x5C55;&#x540D;                        </span></span><br><span class="line"></span><br><span class="line">du -h /path | sort -h     <span class="comment">#&#x67E5;&#x770B;&#x6240;&#x6709;&#x76EE;&#x5F55;&#x5927;&#x5C0F;</span></span><br><span class="line"></span><br><span class="line">du <span class="_">-d</span> /path     <span class="comment">#&#x67E5;&#x770B;path&#x76EE;&#x5F55;&#x7684;&#x5360;&#x7528;&#x7A7A;&#x95F4;&#x5927;&#x5C0F;</span></span><br><span class="line"></span><br><span class="line">free -m | awk <span class="string">&apos;/cache:/ { printf(&quot;%d%\n&quot;,$3/($3+$4)*100)}&apos;</span> &#x7A7A;&#x95F2;&#x5185;&#x5B58;&#x767E;&#x5206;&#x6BD4;</span><br><span class="line"></span><br><span class="line">pgrep <span class="_">-f</span> <span class="string">&apos;process.*argument.*&apos;</span>     <span class="comment">#&#x6839;&#x636E;&#x540D;&#x79F0;&#x548C;&#x53C2;&#x6570;&#x83B7;&#x53D6;&#x8FDB;&#x7A0B;id       </span></span><br><span class="line"></span><br><span class="line">ps auxf <span class="comment">#&#x5E26;&#x7236;&#x5B50;&#x8FDB;&#x7A0B;&#x6811;&#x7684;ps&#x8F93;&#x51FA;</span></span><br><span class="line"></span><br><span class="line">find . -mtime +30 -exec mv {} old/ \;     <span class="comment">#&#x628A;30&#x5929;&#x524D;&#x4FEE;&#x6539;&#x7684;&#x6587;&#x4EF6;&#x79FB;&#x52A8;&#x5230; old &#x76EE;&#x5F55;     </span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&quot;*.cpp&quot;</span> |xargs cat|wc <span class="_">-l</span> <span class="comment">#&#x5F53;&#x524D;&#x76EE;&#x5F55;cpp&#x6E90;&#x6587;&#x4EF6;&#x4EE3;&#x7801;&#x884C;&#x6570;</span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&quot;*.cpp&quot;</span>|xargs cat|grep -v ^$|wc <span class="_">-l</span> <span class="comment">#&#x5F53;&#x524D;&#x76EE;&#x5F55;cpp&#x6E90;&#x6587;&#x4EF6;&#x975E;&#x7A7A;&#x884C;&#x4EE3;&#x7801;&#x6570;</span></span><br><span class="line"></span><br><span class="line">find . -type f -name <span class="string">&apos;*.pm&apos;</span> -printf <span class="string">&apos;%6s %p\n&apos;</span> | sort -nr | head -n 50     <span class="comment">#&#x5217;&#x51FA;50&#x4E2A;&#x5927;&#x6587;&#x4EF6; </span></span><br><span class="line"></span><br><span class="line">find -iname \*.pdf -print0 | xargs -0 pdfgrep -i <span class="string">&quot;my search text&quot;</span>     <span class="comment">#&#x5728;pdf&#x4E2D;&#x67E5;&#x627E; </span></span><br><span class="line"></span><br><span class="line">pwdx pid     <span class="comment">#&#x663E;&#x793A;&#x8FDB;&#x7A0B;&#x7684;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55; </span></span><br><span class="line"></span><br><span class="line">ps -ef | grep [f]oo | awk <span class="string">&apos;{print $2}&apos;</span> | xargs <span class="built_in">kill</span> -9  <span class="comment">#&#x6E05;&#x7406;&#x6240;&#x6709;&#x53EB;foo&#x7684;&#x8FDB;&#x7A0B;(killall)</span></span><br><span class="line"></span><br><span class="line">du -sm /home/* | sort -n | tail -10    <span class="comment">#&#x67E5;&#x627E;10&#x4E2A;home&#x76EE;&#x5F55;&#x5927;&#x7684;&#x7528;&#x6237;</span></span><br><span class="line"></span><br><span class="line">ls -1 | rename <span class="string">&apos;s/\ /_/&apos;</span>  <span class="comment">#&#x628A;&#x6587;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x7A7A;&#x683C;&#x66FF;&#x6362;&#x6210;&#x4E0B;&#x5212;&#x7EBF;</span></span><br><span class="line"></span><br><span class="line">find / -iname <span class="string">&apos;*.pdf&apos;</span> -print -exec pdftotext <span class="string">&apos;{}&apos;</span> - \; | grep --color -i <span class="string">&quot;unix&quot;</span> <span class="comment"># &#x5728;pdf&#x4E2D;grep</span></span><br><span class="line"></span><br><span class="line">sed <span class="string">&apos;/^ #.*DEBUG.*/ s/^# //&apos;</span> <span class="variable">$FILE</span> <span class="comment"># &#x4F7F;&#x7528; sed &#x6253;&#x5F00;&#x5173;&#x95ED;&#x6CE8;&#x91CA;</span></span><br><span class="line"></span><br><span class="line">pv file1 &gt; file2	<span class="comment">#&#x5E26;&#x8FDB;&#x5EA6;&#x6761;&#x7684;&#x590D;&#x5236;&#x6587;&#x4EF6;</span></span><br><span class="line"></span><br><span class="line">rename -v <span class="string">&apos;s/ /_/g&apos;</span> *	<span class="comment"># &#x66FF;&#x6362;&#x6587;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x7A7A;&#x683C;&#x4E3A;&#x4E0B;&#x5212;&#x7EBF;</span></span><br><span class="line"></span><br><span class="line">vim -c new myfile	<span class="comment"># &#x7528;vim&#x540C;&#x65F6;&#x6253;&#x5F00;&#x591A;&#x4E2A;&#x6587;&#x4EF6;</span></span><br><span class="line"></span><br><span class="line">rm **/*(-@)	<span class="comment"># &#x6E05;&#x7406;&#x6389;&#x65E0;&#x6548;&#x7684;&#x7B26;&#x53F7;link</span></span><br></pre></td></tr></table></figure>
+<h2 id="&#x76D1;&#x63A7;"><a href="#&#x76D1;&#x63A7;" class="headerlink" title="&#x76D1;&#x63A7;"></a>&#x76D1;&#x63A7;</h2><a id="more"></a>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &#x76D1;&#x63A7;&#x8FDB;&#x7A0B;&#x4FE1;&#x606F;&#x5E76;&#x5B9E;&#x65F6;&#x8F93;&#x51FA;</span></span><br><span class="line">top -b <span class="_">-d</span> 1 | sed <span class="string">&apos;s/^/varName schoolId/&apos;</span> | awk <span class="string">&apos;{print $1,$2,$3,$4,$11,$12,systime(),$14}&apos;</span> | grep --line-buffered firefox</span><br><span class="line"></span><br><span class="line">tcpdump -w - |pv -bert &gt;/dev/null  <span class="comment">#&#x67E5;&#x770B;&#x7F51;&#x7EDC;&#x541E;&#x5410;&#x91CF;</span></span><br><span class="line"></span><br><span class="line">ps axu | grep [a]pache2 <span class="comment">#&#x67E5;&#x770B;&#x8FDB;&#x7A0B;&#x65F6;&#x5019;&#x907F;&#x514D;&#x81EA;&#x5DF1;&#x88AB;grep &#x5230;</span></span><br><span class="line"></span><br><span class="line">ifconfig <span class="_">-a</span>| grep -o -E <span class="string">&apos;([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}&apos;</span> <span class="comment">#&#x83B7;&#x53D6;&#x6240;&#x6709;mac&#x5730;&#x5740;</span></span><br><span class="line"></span><br><span class="line">PID=httpd ; ps aux | grep <span class="variable">$PID</span> | grep -v grep | awk <span class="string">&apos;{print $2}&apos;</span> | xargs <span class="built_in">kill</span> -9 &#x6740;&#x6B7B;&#x6240;&#x6709; <span class="variable">$PID</span> &#x7684;&#x5B50;&#x8FDB;&#x7A0B;</span><br></pre></td></tr></table></figure>
+<h2 id="awk"><a href="#awk" class="headerlink" title="awk"></a>awk</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &#x8F6C;&#x6362;&#x4E3A;&#x5408;&#x9002;&#x7684;md&#x683C;&#x5F0F;</span></span><br><span class="line">awk -F <span class="string">&apos;|&apos;</span> <span class="string">&apos;{print &quot;|&quot;$2&quot;|&quot; &quot;[&quot;$3&quot;](&quot;$5&quot;)|&quot;$4&quot;|&quot;}&apos;</span>  filename   </span><br><span class="line"></span><br><span class="line"><span class="comment"># &#x53BB;&#x9664;md&#x683C;&#x5F0F;&#x4E2D;&#x8868;&#x683C;&#x5185;&#x90E8;&#x7684;&#x7A7A;&#x683C;</span></span><br><span class="line">awk <span class="string">&apos;gsub(/^ *| *$/,&quot;&quot;)&apos;</span> filename</span><br></pre></td></tr></table></figure>
+<p>##&#x5173;&#x95ED;&#x5730;&#x5740;&#x7A7A;&#x95F4;&#x968F;&#x673A;&#x5316;(ASLR)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> 0 &gt; /proc/sys/kernel/randomize_va_space</span><br></pre></td></tr></table></figure></p>
+<h2 id="curl&#x722C;&#x866B;"><a href="#curl&#x722C;&#x866B;" class="headerlink" title="curl&#x722C;&#x866B;"></a>curl&#x722C;&#x866B;</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl url | egrep -o <span class="string">&apos;(http|https)://[a-z0-9]*\.[a-z0-9]*\.[a-z0-9]*&apos;</span>|sort |uniq    <span class="comment">#&#x7F51;&#x9875;&#x4E2D;&#x63D0;&#x53D6;url</span></span><br></pre></td></tr></table></figure>
+<h2 id="curl&#x2013;&#x6A21;&#x62DF;post&#x767B;&#x9646;"><a href="#curl&#x2013;&#x6A21;&#x62DF;post&#x767B;&#x9646;" class="headerlink" title="curl&#x2013;&#x6A21;&#x62DF;post&#x767B;&#x9646;"></a>curl&#x2013;&#x6A21;&#x62DF;post&#x767B;&#x9646;</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ACCOUNT=xxx</span><br><span class="line">PASS=xxx</span><br><span class="line">curl <span class="_">-d</span> <span class="string">&quot;username=<span class="variable">$ACCOUNT</span>&amp;password=<span class="variable">$PASS</span>&quot;</span> http://p.nju.edu.cn/portal_io/login</span><br></pre></td></tr></table></figure>
+<h2 id="Transform"><a href="#Transform" class="headerlink" title="Transform"></a>Transform</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">convert example.png -resize 100x100! output.png &#x7F29;&#x653E;&#x56FE;&#x7247;</span><br><span class="line"></span><br><span class="line">ffmpeg -i initial.mkv -acodec libvorbis -ab 128k -ac 2 -vcodec libx264 -vpre max -crf 22 -threads 0 final.mkv <span class="comment">#&#x5C06;mkv&#x6587;&#x4EF6;&#x7F16;&#x7801;&#x6210;ogg+h264+mkv&#x683C;&#x5F0F;</span></span><br><span class="line"></span><br><span class="line">mencoder mf://*.jpg -mf fps=50:<span class="built_in">type</span>=jpg -ovc raw -oac copy -o out50fps.avi  <span class="comment">#&#x6309;&#x7167;&#x5B57;&#x6BCD;&#x8868;&#x987A;&#x5E8F;&#x5C06;&#x6240;&#x6709;jpeg&#x6587;&#x4EF6;&#x5408;&#x5E76;&#x6210;&#x4E00;&#x4E2A;50&#x5E27;&#x6BCF;&#x79D2;&#x7684;&#x89C6;&#x9891;</span></span><br><span class="line"></span><br><span class="line">gs -q <span class="_">-d</span>NOPAUSE <span class="_">-d</span>BATCH <span class="_">-s</span>DEVICE=pdfwrite <span class="_">-s</span>OutputFile=<span class="variable">${out}</span>.pdf <span class="variable">${filename1}</span> <span class="variable">${filename2}</span> ... <span class="comment">#&#x5408;&#x5E76;pdf</span></span><br></pre></td></tr></table></figure>
+<h3 id="&#x89E3;&#x538B;&#x547D;&#x4EE4;"><a href="#&#x89E3;&#x538B;&#x547D;&#x4EE4;" class="headerlink" title="&#x89E3;&#x538B;&#x547D;&#x4EE4;"></a>&#x89E3;&#x538B;&#x547D;&#x4EE4;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tar jxvf </span><br><span class="line">tar -xvf</span><br><span class="line">bzip2 <span class="_">-d</span> </span><br><span class="line">&#x89E3;&#x538B;tar.bz2</span><br></pre></td></tr></table></figure>
+<h2 id="&#x673A;&#x5668;&#x76F8;&#x5173;"><a href="#&#x673A;&#x5668;&#x76F8;&#x5173;" class="headerlink" title="&#x673A;&#x5668;&#x76F8;&#x5173;"></a>&#x673A;&#x5668;&#x76F8;&#x5173;</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">sudo dmidecode <span class="_">-s</span> system-product-name <span class="comment">#&#x673A;&#x5668;&#x578B;&#x53F7; </span></span><br><span class="line">sudo dmidecode --type=processor | grep -i -A 1 charac <span class="comment">#&#x68C0;&#x67E5;cpu&#x662F;&#x5426;&#x652F;&#x6301;64&#x4F4D;&#x6307;&#x4EE4;         </span></span><br><span class="line">pacmd <span class="built_in">set</span>-sink-volume 0 0x10000 <span class="comment">#&#x547D;&#x4EE4;&#x884C;&#x8C03;&#x8282;&#x97F3;&#x91CF;</span></span><br><span class="line">```    </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Linux&#x5236;&#x4F5C;&#x542F;&#x52A8;&#x76D8;</span></span><br><span class="line">```sh</span><br><span class="line">&#x78C1;&#x76D8;&#x590D;&#x5236; dd <span class="keyword">if</span>=/dev/sda of=/dev/sdb</span><br><span class="line">&#x523B;&#x5F55;&#x5149;&#x76D8; dd <span class="keyword">if</span>=XXXX.iso of=/dev/sdb</span><br><span class="line">&#x70E7;&#x5F55;<span class="built_in">cd</span> cdrecord -v dev=/dev/cdrom yourimage.iso</span><br></pre></td></tr></table></figure>
+<h2 id="sendmail&#x547D;&#x4EE4;&#x2013;cmd&#x4E0B;&#x53D1;&#x9001;&#x90AE;&#x4EF6;"><a href="#sendmail&#x547D;&#x4EE4;&#x2013;cmd&#x4E0B;&#x53D1;&#x9001;&#x90AE;&#x4EF6;" class="headerlink" title="sendmail&#x547D;&#x4EE4;&#x2013;cmd&#x4E0B;&#x53D1;&#x9001;&#x90AE;&#x4EF6;"></a>sendmail&#x547D;&#x4EE4;&#x2013;cmd&#x4E0B;&#x53D1;&#x9001;&#x90AE;&#x4EF6;</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">sendemail 	-s ${mail-server}</span><br><span class="line">			-f ${my_email} </span><br><span class="line">			-t ${dst-email} </span><br><span class="line">			-u WTF </span><br><span class="line">			-m &quot;Utilize command line tools - [sendemail] to send an e-mail to you.&quot; </span><br><span class="line">			-xu ${username} </span><br><span class="line">			-xp ${password} </span><br><span class="line">			-o tls=auto </span><br><span class="line">			-a ${attatch-file}</span><br><span class="line">ex:</span><br><span class="line">sendemail 	-s smtp.nju.edu.cn </span><br><span class="line">			-f mg1433094@smail.nju.edu.cn </span><br><span class="line">			-t 1826588117@qq.com </span><br><span class="line">			-u WTF </span><br><span class="line">			-m &quot;Utilize command line tools - [sendemail] to send an e-mail to you.&quot; </span><br><span class="line">			-xu mg1433094@smail.nju.edu.cn </span><br><span class="line">			-xp password </span><br><span class="line">			-o tls=auto</span><br></pre></td></tr></table></figure>
+<h2 id="MYSQL"><a href="#MYSQL" class="headerlink" title="MYSQL"></a>MYSQL</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p -N <span class="_">-e</span><span class="string">&quot;show processlist\G;&quot;</span> | egrep <span class="string">&quot;Host\:&quot;</span> | awk -F: <span class="string">&apos;{ print $2 }&apos;</span> | sort | uniq -c   <span class="comment">#&#x663E;&#x793A;MySQL&#x7684;&#x94FE;&#x63A5;&#x6570;</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>Title:</span><a href="/2016/04/26/Linux/Shell/Linux-cmd/">Linux Command Miscellaneous</a></p>
+        <p><span>Author:</span><a href="/" title="Back to Homepage">_IDLER_</a></p>
+        <!--
+        <p><span>Created:</span>2016-04-26, 16:03:58</p>
+        <p><span>Updated:</span>2016-08-04, 19:09:45</p>
+        <p>
+            <span>Full URL:</span><a class="post-url" href="/2016/04/26/Linux/Shell/Linux-cmd/" title="Linux Command Miscellaneous">http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</a>
+            <span class="copy-path" data-clipboard-text="From http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/　　By _IDLER_" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        -->
+        <p>
+            <span>License:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"CC BY-NC-SA 4.0"</a> Keep Link &amp; Author if Distribute.
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/">
+                    What the fuck on Ubuntu
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/04/16/CV/PCL-Configuration/">
+                    PCL Configuration
+                </a>
+            </div>
+        
+    </nav>
+
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#常用命令"><span class="toc-number">1.</span> <span class="toc-text">常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#监控"><span class="toc-number">2.</span> <span class="toc-text">监控</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#awk"><span class="toc-number">3.</span> <span class="toc-text">awk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#curl爬虫"><span class="toc-number">4.</span> <span class="toc-text">curl爬虫</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#curl–模拟post登陆"><span class="toc-number">5.</span> <span class="toc-text">curl–模拟post登陆</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transform"><span class="toc-number">6.</span> <span class="toc-text">Transform</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#解压命令"><span class="toc-number">6.1.</span> <span class="toc-text">解压命令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#机器相关"><span class="toc-number">7.</span> <span class="toc-text">机器相关</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#sendmail命令–cmd下发送邮件"><span class="toc-number">8.</span> <span class="toc-text">sendmail命令–cmd下发送邮件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MYSQL"><span class="toc-number">9.</span> <span class="toc-text">MYSQL</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="Hide"  title="Show or Hide Table of Contents">
+<script>
+    var valueHide = "Hide";
+    var valueShow = "Show";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).find('.toc-text').text();
+                $(this).attr("title", title);
+            });
+        })
+    </script>
+
+
+
+
+    
+<div class="share">
+    
+
+    
+        <div class="addthis_sharing_toolbox"></div>
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/" title="Pre: What the fuck on Ubuntu">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="Mini Archives"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/04/16/CV/PCL-Configuration/" title="Next: PCL Configuration">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/08/Project/Registration/">Registration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/">Hide User in Ubuntu</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/04/Cheat Sheet/Regular-Expressions/">Regular Expressions</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/04/Cheat Sheet/SQL/">SQL</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/26/Programming/C++/Recommendation/Awesome-C++/">Recommendation -- Awesome C++</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/26/Programming/JAVA/Top10-Mistakes/">Top 10 Mistakes Java Developers Make</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/14/Toys/Leetcode/ValidNumber/">Leetcode -- Valid Number</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/13/Toys/C/Noloop/">No loop</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/Linux/Solution/Shortcuts-Backup/">Shortcuts Backup</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Shell/Send-Email/">Cmd Send E-mail</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Html/Refresh-Page/">Refresh Page</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Shell/Cmd-Login/">Cmd Login</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Linux/Shell/Convert/">Convert</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/31/Writer/Markdown/Markdown-Note/">Markdown Note</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/31/Programming/AWK/awk/">AWK NOTE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/Project/Crawl/">Idle-About</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/">STL ALLOCATOR CONSTRCUT</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/STL/STL-ALLOCATOR/">STL ALLOCATOR</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-FUNCTOR/">STL ALGO FUNCTOR</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/Linux/Software/Qt-Creator-Shotcuts/">Qt Creator Shotcuts</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-BASE/">STL ALGO BASE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/Compile/CMake/">CMake [To Do]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-NUMERIC/">STL ALGO NUMERIC</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Linux/APUE/">APUE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Linux/Shell/Leetcode-Shell/">Leetcode Shell</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Programming/C++/const-cast/">const_cast [To Do]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/Video-Capture/">Video Capture</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/Linux/Shell/Filename-remove-blank/">Filename remove blank</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/Segmentation-Region-Grow/">Depth Segmentation</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/HOG-SVM/">Simple Object Classification with HOG and SVM</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/Capture-picture-with-camera/">Capture picture with camera</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/Split-Video/">Split Video</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/STL/STL-ALGO-SET-OP/">STL ALGO SET OPERATION</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Books/Reading-Books/">Reading Books</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/">OpenCV3.0-RealSense-Configuration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/">Gedit Garbled</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/">Configure JDK on Linux</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Linux-Add-Fonts/">Linux Add Fonts</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/C++/CPP-Trick/">C++ Trick</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/C/C-Trick/">C Trick</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/">Laptop cannot wakeup</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Software/Split-Screen/">Split Screen</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Software/Take-a-Break/">Take A Break</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/">What the fuck on Ubuntu</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Shell/Linux-cmd/">Linux Command Miscellaneous</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/CV/PCL-Configuration/">PCL Configuration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/CV/Realsense-Q-A/">Realsense Q&A</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/Problems/Problems/">Problems</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/06/Linux/Solution/Beyond-Compare-Crack/">Beyond Compare Crack</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/">Use f.lux to protect eyes</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/Linux/Shell/Pic2Pdf/">Picture batch to Pdf</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/Linux/Shell/Shell-Maze/">Pic2Pdf</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016 _IDLER_
+            </div>
+            <div class="footer-right">
+                <!--<a href="http://hexo.io/" target="_blank" title="A fast, simple &amp; powerful blog framework">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="Another simple and elegant theme for Hexo  v3.0">Yelee</a>--> modified by _IDLER_</i>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+    </div>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 75;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="Back to Top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" title="Comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="Go to Bottom"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>
