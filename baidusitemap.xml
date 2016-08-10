@@ -46,9 +46,9 @@
         
         <tag>Solution</tag>
          
-        <tag>Project</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Project</tag>
          
         <tag>CVS</tag>
          
@@ -922,27 +922,6 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
-    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
-    <data>
-        <display>
-        <title>Take A Break</title>
-        <pubTime>2016-04-26T09:02:34.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Ubuntu</tag>
-         
-        <tag>Software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     <data>
@@ -970,27 +949,21 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
+    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     <data>
         <display>
-        <title>Filename remove blank</title>
-        <pubTime>2016-04-27T14:51:33.000Z</pubTime>
+        <title>Take A Break</title>
+        <pubTime>2016-04-26T09:02:34.000Z</pubTime>
         
-        <tag>Solution</tag>
+        <tag>Linux</tag>
          
-        <tag>Note</tag>
+        <tag>Ubuntu</tag>
          
-        <tag>Shell</tag>
+        <tag>Software</tag>
          
          
            
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
-          
         </display>
     </data>
     </url>
@@ -1024,33 +997,11 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Linux Add Fonts</title>
-        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Picture batch to Pdf</title>
+        <title>Pic2Pdf</title>
         <pubTime>2016-04-01T17:40:05.000Z</pubTime>
         
         <tag>Linux</tag>
@@ -1073,11 +1024,11 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Pic2Pdf</title>
+        <title>Picture batch to Pdf</title>
         <pubTime>2016-04-01T17:40:05.000Z</pubTime>
         
         <tag>Linux</tag>
@@ -1177,6 +1128,33 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Filename remove blank</title>
+        <pubTime>2016-04-27T14:51:33.000Z</pubTime>
+        
+        <tag>Solution</tag>
+         
+        <tag>Note</tag>
+         
+        <tag>Shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
@@ -1225,80 +1203,21 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>C Trick</title>
-        <pubTime>2016-04-26T10:56:39.000Z</pubTime>
+        <title>Linux Add Fonts</title>
+        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
         
-        <tag>C</tag>
+        <tag>Linux</tag>
          
-        <tag>Programing Language</tag>
-         
-        <tag>Trick</tag>
+        <tag>Solution</tag>
          
          
            
              
-              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
-          
-             
-              <breadCrumb title="C" url="http://idler1229.github.io/categories/Programing-Language/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
-    <data>
-        <display>
-        <title>const_cast [To Do]</title>
-        <pubTime>2016-04-27T18:16:56.000Z</pubTime>
-        
-        <tag>C++</tag>
-         
-        <tag>Programing Language</tag>
-         
-        <tag>Trick</tag>
-         
-         
-           
-             
-              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
-          
-             
-              <breadCrumb title="C++" url="http://idler1229.github.io/categories/Programing-Language/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
-    <data>
-        <display>
-        <title>C++ Trick</title>
-        <pubTime>2016-04-26T10:56:39.000Z</pubTime>
-        
-        <tag>C++</tag>
-         
-        <tag>Programing Language</tag>
-         
-        <tag>Trick</tag>
-         
-         
-           
-             
-              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
-          
-             
-              <breadCrumb title="C++" url="http://idler1229.github.io/categories/Programing-Language/C/"/>
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
           
         </display>
     </data>
@@ -1333,28 +1252,80 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     <data>
         <display>
-        <title>OpenCV3.0-RealSense-Configuration</title>
-        <pubTime>2016-04-26T11:32:46.000Z</pubTime>
+        <title>C Trick</title>
+        <pubTime>2016-04-26T10:56:39.000Z</pubTime>
         
-        <tag>OpenCV</tag>
+        <tag>C</tag>
          
-        <tag>Computer Vision</tag>
+        <tag>Programing Language</tag>
          
-        <tag>Realsense</tag>
-         
-        <tag>Windows</tag>
+        <tag>Trick</tag>
          
          
            
              
-              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
           
              
-              <breadCrumb title="Realsense" url="http://idler1229.github.io/categories/Computer-Vision/Realsense/"/>
+              <breadCrumb title="C" url="http://idler1229.github.io/categories/Programing-Language/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <data>
+        <display>
+        <title>C++ Trick</title>
+        <pubTime>2016-04-26T10:56:39.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+        <tag>Programing Language</tag>
+         
+        <tag>Trick</tag>
+         
+         
+           
+             
+              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
+          
+             
+              <breadCrumb title="C++" url="http://idler1229.github.io/categories/Programing-Language/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <data>
+        <display>
+        <title>const_cast [To Do]</title>
+        <pubTime>2016-04-27T18:16:56.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+        <tag>Programing Language</tag>
+         
+        <tag>Trick</tag>
+         
+         
+           
+             
+              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
+          
+             
+              <breadCrumb title="C++" url="http://idler1229.github.io/categories/Programing-Language/C/"/>
           
         </display>
     </data>
@@ -1374,6 +1345,62 @@
         <tag>Realsense</tag>
          
         <tag>Solution</tag>
+         
+         
+           
+             
+              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+          
+             
+              <breadCrumb title="Realsense" url="http://idler1229.github.io/categories/Computer-Vision/Realsense/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <data>
+        <display>
+        <title>Capture picture with camera</title>
+        <pubTime>2016-04-26T13:39:20.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>C++， Toys</tag>
+         
+         
+           
+             
+              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+          
+             
+              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <data>
+        <display>
+        <title>OpenCV3.0-RealSense-Configuration</title>
+        <pubTime>2016-04-26T11:32:46.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>Realsense</tag>
+         
+        <tag>Windows</tag>
          
          
            
@@ -1416,33 +1443,6 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
-    <data>
-        <display>
-        <title>Capture picture with camera</title>
-        <pubTime>2016-04-26T13:39:20.000Z</pubTime>
-        
-        <tag>OpenCV</tag>
-         
-        <tag>Computer Vision</tag>
-         
-        <tag>C++， Toys</tag>
-         
-         
-           
-             
-              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
-          
-             
-              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://idler1229.github.io/2016/04/29/Compile/CMake/</loc>
     <lastmod>2016-05-30T14:08:12.440Z</lastmod>
     <data>
@@ -1450,9 +1450,9 @@
         <title>CMake [To Do]</title>
         <pubTime>2016-04-28T17:38:53.000Z</pubTime>
         
-        <tag>IDE</tag>
-         
         <tag>Project</tag>
+         
+        <tag>IDE</tag>
          
         <tag>Compile</tag>
          
