@@ -52,7 +52,7 @@
     <link href="http://idler1229.github.io/2016/08/08/Project/Registration/"/>
     <id>http://idler1229.github.io/2016/08/08/Project/Registration/</id>
     <published>2016-08-07T17:58:43.000Z</published>
-    <updated>2016-08-10T13:37:51.715Z</updated>
+    <updated>2016-08-11T07:56:29.993Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Developer"><a href="#Developer" class="headerlink" title="Developer"></a>Developer</h2><p><img src="/2016/08/08/Project/Registration/./IDLER.png" alt="pic"></p>
 <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This procedure implemented by C plus plus with Open Soure Library <strong>OpenCV</strong>, <strong>PCL</strong>, and <strong>Realsense Developer SDK</strong>.</p>
@@ -985,7 +985,7 @@
     <link href="http://idler1229.github.io/2016/04/30/Project/Crawl/"/>
     <id>http://idler1229.github.io/2016/04/30/Project/Crawl/</id>
     <published>2016-04-30T13:39:20.000Z</published>
-    <updated>2016-08-09T13:48:09.271Z</updated>
+    <updated>2016-08-11T07:56:43.629Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Idle-About"><a href="#Idle-About" class="headerlink" title="Idle-About"></a>Idle-About</h2><p>Show books order by rank</p>
 <h3 id="Project-on-Github"><a href="#Project-on-Github" class="headerlink" title="Project on Github"></a>Project on Github</h3><p><a href="https://github.com/IDLER1229/Crawl" target="_blank" rel="external">https://github.com/IDLER1229/Crawl</a></p>

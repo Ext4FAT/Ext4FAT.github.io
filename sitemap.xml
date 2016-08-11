@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/30/Project/Crawl/</loc>
+    
+    <lastmod>2016-08-11T07:56:43.629Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
     
-    <lastmod>2016-08-10T13:37:51.715Z</lastmod>
+    <lastmod>2016-08-11T07:56:29.993Z</lastmod>
     
   </url>
   
@@ -16,14 +23,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
@@ -40,13 +47,6 @@
     <loc>http://idler1229.github.io/WizNote/%E7%BC%96%E5%86%99%E5%8F%AF%E8%AF%BB%E4%BB%A3%E7%A0%81%E7%9A%84%E8%89%BA%E6%9C%AF.html</loc>
     
     <lastmod>2016-08-09T18:39:11.911Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/30/Project/Crawl/</loc>
-    
-    <lastmod>2016-08-09T13:48:09.271Z</lastmod>
     
   </url>
   
@@ -338,7 +338,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
@@ -352,7 +352,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
