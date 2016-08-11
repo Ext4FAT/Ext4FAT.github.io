@@ -922,6 +922,27 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
+    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
+    <data>
+        <display>
+        <title>Take A Break</title>
+        <pubTime>2016-04-26T09:02:34.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>Software</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     <data>
@@ -949,12 +970,12 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
-    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
+    <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Take A Break</title>
-        <pubTime>2016-04-26T09:02:34.000Z</pubTime>
+        <title>Beyond Compare Crack</title>
+        <pubTime>2016-04-06T14:36:50.000Z</pubTime>
         
         <tag>Linux</tag>
          
@@ -997,27 +1018,6 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Split Screen</title>
-        <pubTime>2016-04-26T09:05:40.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Ubuntu</tag>
-         
-        <tag>Software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
@@ -1030,108 +1030,6 @@
         <tag>Shell</tag>
          
         <tag>Leetcode</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Picture batch to Pdf</title>
-        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Beyond Compare Crack</title>
-        <pubTime>2016-04-06T14:36:50.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Ubuntu</tag>
-         
-        <tag>Software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Gedit Garbled</title>
-        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Ubuntu</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Pic2Pdf</title>
-        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Shell</tag>
          
          
            
@@ -1196,6 +1094,108 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Gedit Garbled</title>
+        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+        <tag>Ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Picture batch to Pdf</title>
+        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+        <tag>Shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Pic2Pdf</title>
+        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+        <tag>Shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Split Screen</title>
+        <pubTime>2016-04-26T09:05:40.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>Software</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/28/Linux/APUE/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
@@ -1218,33 +1218,6 @@
           
              
               <breadCrumb title="APUE" url="http://idler1229.github.io/categories/Linux/APUE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/</loc>
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
-    <data>
-        <display>
-        <title>Configure JDK on Linux</title>
-        <pubTime>2016-04-26T11:10:10.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>JAVA</tag>
-         
-        <tag>JDK</tag>
-         
-         
-           
-             
-              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
-          
-             
-              <breadCrumb title="JAVA" url="http://idler1229.github.io/categories/Programing-Language/JAVA/"/>
           
         </display>
     </data>
@@ -1333,53 +1306,26 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/</loc>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     <data>
         <display>
-        <title>Video Capture</title>
-        <pubTime>2016-04-27T15:19:04.000Z</pubTime>
+        <title>Configure JDK on Linux</title>
+        <pubTime>2016-04-26T11:10:10.000Z</pubTime>
         
-        <tag>OpenCV</tag>
+        <tag>Linux</tag>
          
-        <tag>Computer Vision</tag>
+        <tag>JAVA</tag>
          
-        <tag>C++， Toys</tag>
+        <tag>JDK</tag>
          
          
            
              
-              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+              <breadCrumb title="Programing Language" url="http://idler1229.github.io/categories/Programing-Language/"/>
           
              
-              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
-    <data>
-        <display>
-        <title>Capture picture with camera</title>
-        <pubTime>2016-04-26T13:39:20.000Z</pubTime>
-        
-        <tag>OpenCV</tag>
-         
-        <tag>Computer Vision</tag>
-         
-        <tag>C++， Toys</tag>
-         
-         
-           
-             
-              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
-          
-             
-              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
+              <breadCrumb title="JAVA" url="http://idler1229.github.io/categories/Programing-Language/JAVA/"/>
           
         </display>
     </data>
@@ -1416,6 +1362,33 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <data>
+        <display>
+        <title>Video Capture</title>
+        <pubTime>2016-04-27T15:19:04.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>C++， Toys</tag>
+         
+         
+           
+             
+              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+          
+             
+              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     <data>
@@ -1436,6 +1409,33 @@
           
              
               <breadCrumb title="Realsense" url="http://idler1229.github.io/categories/Computer-Vision/Realsense/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <data>
+        <display>
+        <title>Capture picture with camera</title>
+        <pubTime>2016-04-26T13:39:20.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>C++， Toys</tag>
+         
+         
+           
+             
+              <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
+          
+             
+              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
           
         </display>
     </data>
