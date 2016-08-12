@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idler1229.github.io/"/>
-  <updated>2016-08-12T20:14:36.900Z</updated>
+  <updated>2016-08-12T20:20:12.940Z</updated>
   <id>http://idler1229.github.io/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Secure Code</title>
+    <link href="http://idler1229.github.io/2016/08/13/Recommendation/Tools/Secure-Code/"/>
+    <id>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Secure-Code/</id>
+    <published>2016-08-12T19:33:33.000Z</published>
+    <updated>2016-08-12T20:20:12.940Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Writing-Secure-Code"><a href="#Writing-Secure-Code" class="headerlink" title="Writing Secure Code"></a>Writing Secure Code</h2><h3 id="Top-10-Most-Dangerous-Software-Errors"><a href="#Top-10-Most-Dangerous-Software-Errors" class="headerlink" title="Top 10 Most Dangerous Software Errors"></a>Top 10 Most Dangerous Software Errors</h3><ol>
+<li>Improper Neutralization of Special Elements used in an SQL Command<br>(&#x2018;SQL Injection&#x2019;)</li>
+<li>Improper Neutralization of Special Elements used in an OS Command (&#x2018;OS<br>Command Injection&#x2019;)</li>
+<li><strong>Buffer Copy without Checking Size of Input (&#x2018;Classic Buffer Overflow&#x2019;) </strong></li>
+<li>Improper Neutralization of Input During Web Page Generation (&#x2018;Cross-site<br>Scripting&#x2019;)</li>
+<li>Missing Authentication for Critical Function</li>
+<li>Missing Authorization</li>
+<li>Use of Hard-coded Credentials</li>
+<li>Missing Encryption of Sensitive Data</li>
+<li>Unrestricted Upload of File with Dangerous Type</li>
+<li>Reliance on Untrusted Inputs in a Security Decision</li>
+</ol>
+<h3 id="Thanks-to-TrendMirco&#x2019;s-Stanley-Liu"><a href="#Thanks-to-TrendMirco&#x2019;s-Stanley-Liu" class="headerlink" title="Thanks to TrendMirco&#x2019;s Stanley Liu"></a>Thanks to TrendMirco&#x2019;s Stanley Liu</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Writing-Secure-Code&quot;&gt;&lt;a href=&quot;#Writing-Secure-Code&quot; class=&quot;headerlink&quot; title=&quot;Writing Secure Code&quot;&gt;&lt;/a&gt;Writing Secure Code&lt;/h2&gt;&lt;h3 i
+    
+    </summary>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/categories/Recommendation/"/>
+    
+      <category term="Security" scheme="http://idler1229.github.io/categories/Recommendation/Security/"/>
+    
+    
+      <category term="Linux" scheme="http://idler1229.github.io/tags/Linux/"/>
+    
+      <category term="Windows" scheme="http://idler1229.github.io/tags/Windows/"/>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/tags/Recommendation/"/>
+    
+      <category term="Note" scheme="http://idler1229.github.io/tags/Note/"/>
+    
+      <category term="Code" scheme="http://idler1229.github.io/tags/Code/"/>
+    
+      <category term="Security" scheme="http://idler1229.github.io/tags/Security/"/>
+    
+  </entry>
   
   <entry>
     <title>Geek Tools</title>
@@ -1085,48 +1132,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;CONSTRCUT&quot;&gt;&lt;a href=&quot;#CONSTRCUT&quot; class=&quot;headerlink&quot; title=&quot;CONSTRCUT&quot;&gt;&lt;/a&gt;CONSTRCUT&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;In &amp;lt;stl_construct.h&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-      <category term="Programing Language" scheme="http://idler1229.github.io/categories/Programing-Language/"/>
-    
-      <category term="C++" scheme="http://idler1229.github.io/categories/Programing-Language/C/"/>
-    
-      <category term="STL" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/"/>
-    
-      <category term="Source Code" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/Source-Code/"/>
-    
-      <category term="Allocator" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/Source-Code/Allocator/"/>
-    
-    
-      <category term="C++" scheme="http://idler1229.github.io/tags/C/"/>
-    
-      <category term="Programing Language" scheme="http://idler1229.github.io/tags/Programing-Language/"/>
-    
-      <category term="STL" scheme="http://idler1229.github.io/tags/STL/"/>
-    
-      <category term="Source Code" scheme="http://idler1229.github.io/tags/Source-Code/"/>
-    
-      <category term="Trick" scheme="http://idler1229.github.io/tags/Trick/"/>
-    
-      <category term="Allocator" scheme="http://idler1229.github.io/tags/Allocator/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STL ALLOCATOR</title>
-    <link href="http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR/"/>
-    <id>http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR/</id>
-    <published>2016-04-30T10:26:43.000Z</published>
-    <updated>2016-05-30T14:11:26.672Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Allocator"><a href="#Allocator" class="headerlink" title="Allocator"></a>Allocator</h2><pre><code>In &lt;stl_alloc.h&gt;
-</code></pre><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Allocator&quot;&gt;&lt;a href=&quot;#Allocator&quot; class=&quot;headerlink&quot; title=&quot;Allocator&quot;&gt;&lt;/a&gt;Allocator&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;In &amp;lt;stl_alloc.h&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
