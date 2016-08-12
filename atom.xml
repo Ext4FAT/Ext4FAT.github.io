@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idler1229.github.io/"/>
-  <updated>2016-08-10T13:10:16.627Z</updated>
+  <updated>2016-08-12T19:48:17.064Z</updated>
   <id>http://idler1229.github.io/</id>
   
   <author>
@@ -14,6 +14,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Geek Tools</title>
+    <link href="http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/"/>
+    <id>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/</id>
+    <published>2016-08-12T19:33:33.000Z</published>
+    <updated>2016-08-12T19:48:17.064Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Some-Geek-Tools-Recommendation"><a href="#Some-Geek-Tools-Recommendation" class="headerlink" title="Some Geek Tools Recommendation"></a>Some Geek Tools Recommendation</h2><h3 id="Enhanced-Desktop"><a href="#Enhanced-Desktop" class="headerlink" title="Enhanced Desktop"></a>Enhanced Desktop</h3><h4 id="Ditto"><a href="#Ditto" class="headerlink" title="Ditto"></a>Ditto</h4><p>Enhance Clipboard</p>
+<h4 id="AutoHotKey"><a href="#AutoHotKey" class="headerlink" title="AutoHotKey"></a>AutoHotKey</h4><p>Enhance Keyboard</p>
+<h3 id="Searching-Optimization"><a href="#Searching-Optimization" class="headerlink" title="Searching Optimization"></a>Searching Optimization</h3><h4 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h4><p>Search Repository<br>example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">d:|e: *jpg dm:xxx-xxx</span><br><span class="line">c:|d: *.pdf|*.ppt da:thisweek</span><br></pre></td></tr></table></figure></p>
+<h4 id="Listary-free"><a href="#Listary-free" class="headerlink" title="Listary (free)"></a>Listary (free)</h4><p>Search Kepository</p>
+<h4 id="Google-Desktop-Search"><a href="#Google-Desktop-Search" class="headerlink" title="Google Desktop Search"></a>Google Desktop Search</h4><p>Search Repository</p>
+<h3 id="Knowledge-Management"><a href="#Knowledge-Management" class="headerlink" title="Knowledge Management"></a>Knowledge Management</h3><h4 id="geeknote"><a href="#geeknote" class="headerlink" title="geeknote"></a>geeknote</h4><h4 id="socialized-knowledge"><a href="#socialized-knowledge" class="headerlink" title="socialized knowledge"></a>socialized knowledge</h4><h3 id="Coding-Tools"><a href="#Coding-Tools" class="headerlink" title="Coding Tools"></a>Coding Tools</h3><h4 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h4><p>SublimeCodeIntel</p>
+<h4 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h4><p>ELECTION </p>
+<h4 id="VisualStudio-Code"><a href="#VisualStudio-Code" class="headerlink" title="VisualStudio Code"></a>VisualStudio Code</h4><h3 id="Design-amp-Diagram-Tools"><a href="#Design-amp-Diagram-Tools" class="headerlink" title="Design &amp; Diagram Tools"></a>Design &amp; Diagram Tools</h3><p>js-sequence-diagrams.js<br>flowchart.js</p>
+<h4 id="PlantUML"><a href="#PlantUML" class="headerlink" title="PlantUML"></a>PlantUML</h4><h3 id="Idea-amp-Mind-Tools"><a href="#Idea-amp-Mind-Tools" class="headerlink" title="Idea &amp; Mind Tools"></a>Idea &amp; Mind Tools</h3><h4 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h4><h4 id="Blumind"><a href="#Blumind" class="headerlink" title="Blumind"></a>Blumind</h4><h4 id="The-Brain-Personal-Brain"><a href="#The-Brain-Personal-Brain" class="headerlink" title="The Brain (Personal Brain)"></a>The Brain (Personal Brain)</h4><h3 id="Document-Tools"><a href="#Document-Tools" class="headerlink" title="Document Tools"></a>Document Tools</h3><h4 id="DocBook"><a href="#DocBook" class="headerlink" title="DocBook"></a>DocBook</h4><h4 id="DITA"><a href="#DITA" class="headerlink" title="DITA"></a>DITA</h4><h4 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h4><h4 id="RestructuringText"><a href="#RestructuringText" class="headerlink" title="RestructuringText"></a>RestructuringText</h4><h4 id="VIsualize-Regex"><a href="#VIsualize-Regex" class="headerlink" title="VIsualize Regex"></a>VIsualize Regex</h4><h4 id="Pandoc"><a href="#Pandoc" class="headerlink" title="Pandoc"></a>Pandoc</h4><h4 id="DIffcount-Utility"><a href="#DIffcount-Utility" class="headerlink" title="DIffcount Utility"></a>DIffcount Utility</h4><h3 id="Other-Handy-Tools"><a href="#Other-Handy-Tools" class="headerlink" title="Other Handy Tools"></a>Other Handy Tools</h3><h4 id="Visualize-Regex"><a href="#Visualize-Regex" class="headerlink" title="Visualize Regex"></a>Visualize Regex</h4><h4 id="Pandoc-1"><a href="#Pandoc-1" class="headerlink" title="Pandoc"></a>Pandoc</h4><h4 id="Diffcount-Utility"><a href="#Diffcount-Utility" class="headerlink" title="Diffcount Utility"></a>Diffcount Utility</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Some-Geek-Tools-Recommendation&quot;&gt;&lt;a href=&quot;#Some-Geek-Tools-Recommendation&quot; class=&quot;headerlink&quot; title=&quot;Some Geek Tools Recommendation&quot;&gt;
+    
+    </summary>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/categories/Recommendation/"/>
+    
+      <category term="Tools" scheme="http://idler1229.github.io/categories/Recommendation/Tools/"/>
+    
+    
+      <category term="Linux" scheme="http://idler1229.github.io/tags/Linux/"/>
+    
+      <category term="Windows" scheme="http://idler1229.github.io/tags/Windows/"/>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/tags/Recommendation/"/>
+    
+      <category term="Note" scheme="http://idler1229.github.io/tags/Note/"/>
+    
+      <category term="Tools" scheme="http://idler1229.github.io/tags/Tools/"/>
+    
+      <category term="Desktop" scheme="http://idler1229.github.io/tags/Desktop/"/>
+    
+  </entry>
   
   <entry>
     <title>Git Errors</title>
@@ -397,6 +439,35 @@
   </entry>
   
   <entry>
+    <title>Refresh Page</title>
+    <link href="http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/"/>
+    <id>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</id>
+    <published>2016-05-31T21:29:53.000Z</published>
+    <updated>2016-08-09T13:20:39.943Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Refresh-Page-html-script&quot;&gt;&lt;a href=&quot;#Refresh-Page-html-script&quot; class=&quot;headerlink&quot; title=&quot;Refresh Page - html script&quot;&gt;&lt;/a&gt;Refresh Page - html script&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="Toys" scheme="http://idler1229.github.io/categories/Toys/"/>
+    
+      <category term="Html" scheme="http://idler1229.github.io/categories/Toys/Html/"/>
+    
+    
+      <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
+    
+      <category term="Html" scheme="http://idler1229.github.io/tags/Html/"/>
+    
+      <category term="Web" scheme="http://idler1229.github.io/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Cmd Send E-mail</title>
     <link href="http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/"/>
     <id>http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/</id>
@@ -426,35 +497,6 @@
       <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
     
       <category term="e-mail" scheme="http://idler1229.github.io/tags/e-mail/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Refresh Page</title>
-    <link href="http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/"/>
-    <id>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</id>
-    <published>2016-05-31T21:29:53.000Z</published>
-    <updated>2016-08-09T13:20:39.943Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Refresh-Page-html-script&quot;&gt;&lt;a href=&quot;#Refresh-Page-html-script&quot; class=&quot;headerlink&quot; title=&quot;Refresh Page - html script&quot;&gt;&lt;/a&gt;Refresh Page - html script&lt;/h2&gt;
-    
-    </summary>
-    
-      <category term="Toys" scheme="http://idler1229.github.io/categories/Toys/"/>
-    
-      <category term="Html" scheme="http://idler1229.github.io/categories/Toys/Html/"/>
-    
-    
-      <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
-    
-      <category term="Html" scheme="http://idler1229.github.io/tags/Html/"/>
-    
-      <category term="Web" scheme="http://idler1229.github.io/tags/Web/"/>
     
   </entry>
   
@@ -1104,58 +1146,6 @@
       <category term="Trick" scheme="http://idler1229.github.io/tags/Trick/"/>
     
       <category term="Allocator" scheme="http://idler1229.github.io/tags/Allocator/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STL ALGO FUNCTOR</title>
-    <link href="http://idler1229.github.io/2016/04/29/STL/STL-ALGO-FUNCTOR/"/>
-    <id>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-FUNCTOR/</id>
-    <published>2016-04-29T08:19:57.000Z</published>
-    <updated>2016-05-30T14:11:02.476Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Functors"><a href="#Functors" class="headerlink" title="Functors"></a>Functors</h2><pre><code>In &lt;stl_function.h&gt;
-</code></pre><p>SGI STL has defined unary/binary operation templete with traits.<br><a id="more"></a></p>
-<h3 id="Unary-Function"><a href="#Unary-Function" class="headerlink" title="Unary Function"></a>Unary Function</h3><h4 id="templates"><a href="#templates" class="headerlink" title="templates"></a>templates</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Arg, <span class="keyword">class</span> _Result&gt;</span><br><span class="line"><span class="keyword">struct</span> unary_function {</span><br><span class="line">  <span class="keyword">typedef</span> _Arg argument_type;</span><br><span class="line">  <span class="keyword">typedef</span> _Result result_type;</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
-<h4 id="Identity-Select"><a href="#Identity-Select" class="headerlink" title="Identity, Select"></a>Identity, Select</h4><p>identity is an extensions: it is not part of the standard.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> _Identity : <span class="keyword">public</span> unary_function&lt;_Tp,_Tp&gt; {</span><br><span class="line">  <span class="keyword">const</span> _<span class="function">Tp&amp; <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x)</span> <span class="keyword">const</span> </span>{ return __x; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt; <span class="keyword">struct</span> identity : <span class="keyword">public</span> _Identity&lt;_Tp&gt; {};</span><br><span class="line"></span><br><span class="line"><span class="comment">// select1st and select2nd are extensions: they are not part of the standard.</span></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Pair&gt;</span><br><span class="line"><span class="keyword">struct</span> _Select1st : <span class="keyword">public</span> unary_function&lt;_Pair, <span class="keyword">typename</span> _Pair::first_type&gt; {</span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">typename</span> _Pair::<span class="function">first_type&amp; <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Pair&amp; __x)</span> <span class="keyword">const</span> </span>{</span><br><span class="line">    return __x.first;</span><br><span class="line">  }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Pair&gt;</span><br><span class="line"><span class="keyword">struct</span> _Select2nd : <span class="keyword">public</span> unary_function&lt;_Pair, <span class="keyword">typename</span> _Pair::second_type&gt;</span><br><span class="line">{</span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">typename</span> _Pair::<span class="function">second_type&amp; <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Pair&amp; __x)</span> <span class="keyword">const</span> </span>{</span><br><span class="line">    return __x.second;</span><br><span class="line">  }</span><br><span class="line">};</span><br></pre></td></tr></table></figure></p>
-<h3 id="Binary-Function"><a href="#Binary-Function" class="headerlink" title="Binary Function"></a>Binary Function</h3><h4 id="templates-1"><a href="#templates-1" class="headerlink" title="templates"></a>templates</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Arg1, <span class="keyword">class</span> _Arg2, <span class="keyword">class</span> _Result&gt;</span><br><span class="line"><span class="keyword">struct</span> binary_function {</span><br><span class="line">  <span class="keyword">typedef</span> _Arg1 first_argument_type;</span><br><span class="line">  <span class="keyword">typedef</span> _Arg2 second_argument_type;</span><br><span class="line">  <span class="keyword">typedef</span> _Result result_type;</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
-<h4 id="Arithmetic"><a href="#Arithmetic" class="headerlink" title="Arithmetic"></a>Arithmetic</h4><p>plus, minus, multipies, divides, modulus, negate<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> plus : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,_Tp&gt; {</span><br><span class="line">  _<span class="function">Tp <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x + __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> minus : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,_Tp&gt; {</span><br><span class="line">  _<span class="function">Tp <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x - __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> multiplies : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,_Tp&gt; {</span><br><span class="line">  _<span class="function">Tp <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x * __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> divides : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,_Tp&gt; {</span><br><span class="line">  _<span class="function">Tp <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x / __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> modulus : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,_Tp&gt; </span><br><span class="line">{</span><br><span class="line">  _<span class="function">Tp <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x % __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> negate : <span class="keyword">public</span> unary_function&lt;_Tp,_Tp&gt; </span><br><span class="line">{</span><br><span class="line">  _<span class="function">Tp <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x)</span> <span class="keyword">const</span> </span>{ return -__x; }</span><br><span class="line">};</span><br></pre></td></tr></table></figure></p>
-<h4 id="Relational"><a href="#Relational" class="headerlink" title="Relational"></a>Relational</h4><p>equal, not equal, greater, greater equal, less, less equal<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> equal_to : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt; </span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x == __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> not_equal_to : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt; </span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x != __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> greater : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt; </span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x &gt; __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> less : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt; </span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x &lt; __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> greater_equal : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt;</span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x &gt;= __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> less_equal : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt; </span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x &lt;= __y; }</span><br><span class="line">};</span><br></pre></td></tr></table></figure></p>
-<h4 id="Logical"><a href="#Logical" class="headerlink" title="Logical"></a>Logical</h4><p>and, or, not. not is unary function.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> logical_and : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt;</span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x &amp;&amp; __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> logical_or : <span class="keyword">public</span> binary_function&lt;_Tp,_Tp,<span class="keyword">bool</span>&gt;</span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x, <span class="keyword">const</span> _Tp&amp; __y)</span> <span class="keyword">const</span> </span>{ return __x || __y; }</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">struct</span> logical_not : <span class="keyword">public</span> unary_function&lt;_Tp,<span class="keyword">bool</span>&gt;</span><br><span class="line">{</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="keyword">const</span> _Tp&amp; __x)</span> <span class="keyword">const</span> </span>{ return !__x; }</span><br><span class="line">};</span><br></pre></td></tr></table></figure></p>
-<h3 id="Additional"><a href="#Additional" class="headerlink" title="Additional"></a>Additional</h3><h4 id="Identity-Element"><a href="#Identity-Element" class="headerlink" title="Identity Element"></a>Identity Element</h4><p>identity_element is not part of the C++ standard.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt; <span class="keyword">inline</span> _<span class="function">Tp <span class="title">identity_element</span><span class="params">(plus&lt;_Tp&gt;)</span> </span>{</span><br><span class="line">  return _Tp(<span class="number">0</span>);</span><br><span class="line">}</span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt; <span class="keyword">inline</span> _<span class="function">Tp <span class="title">identity_element</span><span class="params">(multiplies&lt;_Tp&gt;)</span> </span>{</span><br><span class="line">  return _Tp(<span class="number">1</span>);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Functors&quot;&gt;&lt;a href=&quot;#Functors&quot; class=&quot;headerlink&quot; title=&quot;Functors&quot;&gt;&lt;/a&gt;Functors&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;In &amp;lt;stl_function.h&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;SGI STL has defined unary/binary operation templete with traits.&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Programing Language" scheme="http://idler1229.github.io/categories/Programing-Language/"/>
-    
-      <category term="C++" scheme="http://idler1229.github.io/categories/Programing-Language/C/"/>
-    
-      <category term="STL" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/"/>
-    
-      <category term="Source Code" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/Source-Code/"/>
-    
-      <category term="Algorithm" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/Source-Code/Algorithm/"/>
-    
-    
-      <category term="C++" scheme="http://idler1229.github.io/tags/C/"/>
-    
-      <category term="Programing Language" scheme="http://idler1229.github.io/tags/Programing-Language/"/>
-    
-      <category term="STL" scheme="http://idler1229.github.io/tags/STL/"/>
-    
-      <category term="Source Code" scheme="http://idler1229.github.io/tags/Source-Code/"/>
-    
-      <category term="Trick" scheme="http://idler1229.github.io/tags/Trick/"/>
-    
-      <category term="Algorithm" scheme="http://idler1229.github.io/tags/Algorithm/"/>
-    
-      <category term="Functor" scheme="http://idler1229.github.io/tags/Functor/"/>
     
   </entry>
   
