@@ -400,78 +400,6 @@
 
 
   
-    <article id="post-Linux/Shell/Linux-cmd" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/26/Linux/Shell/Linux-cmd/" class="article-date">
-      <time datetime="2016-04-26T08:03:58.000Z" itemprop="datePublished">2016-04-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/26/Linux/Shell/Linux-cmd/">Linux Command Miscellaneous</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h2 id="&#x5E38;&#x7528;&#x547D;&#x4EE4;"><a href="#&#x5E38;&#x7528;&#x547D;&#x4EE4;" class="headerlink" title="&#x5E38;&#x7528;&#x547D;&#x4EE4;"></a>&#x5E38;&#x7528;&#x547D;&#x4EE4;</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##&#x6CE8;&#xFF1A;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x7B49;&#x53F7;&#x4E0D;&#x80FD;&#x542B;&#x7A7A;&#x683C;</span></span><br><span class="line"></span><br><span class="line">cat -n file  or cat -b file    <span class="comment">#&#x663E;&#x793A;&#x6587;&#x4EF6;&#x6587;&#x4EF6;&#x65F6;&#x5019;&#x5E26;&#x4E0A;&#x884C;&#x53F7;</span></span><br><span class="line"></span><br><span class="line">find . -print -exec chmod 777 {} \;    <span class="comment">#&#x9012;&#x5F52;&#x4FEE;&#x6539;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x6743;&#x9650;&#x4E3A;777</span></span><br><span class="line"></span><br><span class="line">lshw -C display    <span class="comment">#&#x83B7;&#x53D6;&#x56FE;&#x5F62;&#x82AF;&#x7247;&#x4FE1;&#x606F;</span></span><br><span class="line"></span><br><span class="line">lsusb <span class="_">-d</span> &#x4EA7;&#x54C1;ID -v     <span class="comment">#&#x67E5;&#x770B;&#x786C;&#x4EF6;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;</span></span><br><span class="line">lsusb <span class="_">-s</span> devnum -v    </span><br><span class="line"></span><br><span class="line">find -type l -xtype d     <span class="comment">#&#x5BFB;&#x627E;&#x6240;&#x6709;&#x6307;&#x5411;&#x76EE;&#x5F55;&#x7684;&#x8F6F;link                        </span></span><br><span class="line"></span><br><span class="line">find /path/to/dir -type f | grep -o <span class="string">&apos;\.[^./]*$&apos;</span> | sort | uniq     <span class="comment">#&#x5217;&#x51FA;&#x76EE;&#x5F55;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x6269;&#x5C55;&#x540D;                        </span></span><br><span class="line"></span><br><span class="line">du -h /path | sort -h     <span class="comment">#&#x67E5;&#x770B;&#x6240;&#x6709;&#x76EE;&#x5F55;&#x5927;&#x5C0F;</span></span><br><span class="line"></span><br><span class="line">du <span class="_">-d</span> /path     <span class="comment">#&#x67E5;&#x770B;path&#x76EE;&#x5F55;&#x7684;&#x5360;&#x7528;&#x7A7A;&#x95F4;&#x5927;&#x5C0F;</span></span><br><span class="line"></span><br><span class="line">free -m | awk <span class="string">&apos;/cache:/ { printf(&quot;%d%\n&quot;,$3/($3+$4)*100)}&apos;</span> &#x7A7A;&#x95F2;&#x5185;&#x5B58;&#x767E;&#x5206;&#x6BD4;</span><br><span class="line"></span><br><span class="line">pgrep <span class="_">-f</span> <span class="string">&apos;process.*argument.*&apos;</span>     <span class="comment">#&#x6839;&#x636E;&#x540D;&#x79F0;&#x548C;&#x53C2;&#x6570;&#x83B7;&#x53D6;&#x8FDB;&#x7A0B;id       </span></span><br><span class="line"></span><br><span class="line">ps auxf <span class="comment">#&#x5E26;&#x7236;&#x5B50;&#x8FDB;&#x7A0B;&#x6811;&#x7684;ps&#x8F93;&#x51FA;</span></span><br><span class="line"></span><br><span class="line">find . -mtime +30 -exec mv {} old/ \;     <span class="comment">#&#x628A;30&#x5929;&#x524D;&#x4FEE;&#x6539;&#x7684;&#x6587;&#x4EF6;&#x79FB;&#x52A8;&#x5230; old &#x76EE;&#x5F55;     </span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&quot;*.cpp&quot;</span> |xargs cat|wc <span class="_">-l</span> <span class="comment">#&#x5F53;&#x524D;&#x76EE;&#x5F55;cpp&#x6E90;&#x6587;&#x4EF6;&#x4EE3;&#x7801;&#x884C;&#x6570;</span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&quot;*.cpp&quot;</span>|xargs cat|grep -v ^$|wc <span class="_">-l</span> <span class="comment">#&#x5F53;&#x524D;&#x76EE;&#x5F55;cpp&#x6E90;&#x6587;&#x4EF6;&#x975E;&#x7A7A;&#x884C;&#x4EE3;&#x7801;&#x6570;</span></span><br><span class="line"></span><br><span class="line">find . -type f -name <span class="string">&apos;*.pm&apos;</span> -printf <span class="string">&apos;%6s %p\n&apos;</span> | sort -nr | head -n 50     <span class="comment">#&#x5217;&#x51FA;50&#x4E2A;&#x5927;&#x6587;&#x4EF6; </span></span><br><span class="line"></span><br><span class="line">find -iname \*.pdf -print0 | xargs -0 pdfgrep -i <span class="string">&quot;my search text&quot;</span>     <span class="comment">#&#x5728;pdf&#x4E2D;&#x67E5;&#x627E; </span></span><br><span class="line"></span><br><span class="line">pwdx pid     <span class="comment">#&#x663E;&#x793A;&#x8FDB;&#x7A0B;&#x7684;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55; </span></span><br><span class="line"></span><br><span class="line">ps -ef | grep [f]oo | awk <span class="string">&apos;{print $2}&apos;</span> | xargs <span class="built_in">kill</span> -9  <span class="comment">#&#x6E05;&#x7406;&#x6240;&#x6709;&#x53EB;foo&#x7684;&#x8FDB;&#x7A0B;(killall)</span></span><br><span class="line"></span><br><span class="line">du -sm /home/* | sort -n | tail -10    <span class="comment">#&#x67E5;&#x627E;10&#x4E2A;home&#x76EE;&#x5F55;&#x5927;&#x7684;&#x7528;&#x6237;</span></span><br><span class="line"></span><br><span class="line">ls -1 | rename <span class="string">&apos;s/\ /_/&apos;</span>  <span class="comment">#&#x628A;&#x6587;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x7A7A;&#x683C;&#x66FF;&#x6362;&#x6210;&#x4E0B;&#x5212;&#x7EBF;</span></span><br><span class="line"></span><br><span class="line">find / -iname <span class="string">&apos;*.pdf&apos;</span> -print -exec pdftotext <span class="string">&apos;{}&apos;</span> - \; | grep --color -i <span class="string">&quot;unix&quot;</span> <span class="comment"># &#x5728;pdf&#x4E2D;grep</span></span><br><span class="line"></span><br><span class="line">sed <span class="string">&apos;/^ #.*DEBUG.*/ s/^# //&apos;</span> <span class="variable">$FILE</span> <span class="comment"># &#x4F7F;&#x7528; sed &#x6253;&#x5F00;&#x5173;&#x95ED;&#x6CE8;&#x91CA;</span></span><br><span class="line"></span><br><span class="line">pv file1 &gt; file2	<span class="comment">#&#x5E26;&#x8FDB;&#x5EA6;&#x6761;&#x7684;&#x590D;&#x5236;&#x6587;&#x4EF6;</span></span><br><span class="line"></span><br><span class="line">rename -v <span class="string">&apos;s/ /_/g&apos;</span> *	<span class="comment"># &#x66FF;&#x6362;&#x6587;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x7A7A;&#x683C;&#x4E3A;&#x4E0B;&#x5212;&#x7EBF;</span></span><br><span class="line"></span><br><span class="line">vim -c new myfile	<span class="comment"># &#x7528;vim&#x540C;&#x65F6;&#x6253;&#x5F00;&#x591A;&#x4E2A;&#x6587;&#x4EF6;</span></span><br><span class="line"></span><br><span class="line">rm **/*(-@)	<span class="comment"># &#x6E05;&#x7406;&#x6389;&#x65E0;&#x6548;&#x7684;&#x7B26;&#x53F7;link</span></span><br></pre></td></tr></table></figure>
-<h2 id="&#x76D1;&#x63A7;"><a href="#&#x76D1;&#x63A7;" class="headerlink" title="&#x76D1;&#x63A7;"></a>&#x76D1;&#x63A7;</h2>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-        <div class="article-pop-out tagcloud">
-          <a class="">STICKY</a>
-        </div>
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Linux/">Linux</a><a class="article-category-link" href="/categories/Linux/Shell/">Shell</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Shell/">Shell</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/04/26/Linux/Shell/Linux-cmd/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
     <article id="post-Git/git-error" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -632,6 +560,70 @@
           
         <h2 id="Regular-Expressions-Cheat-Sheet"><a href="#Regular-Expressions-Cheat-Sheet" class="headerlink" title="Regular Expressions Cheat Sheet"></a>Regular Expressions Cheat Sheet</h2><h3 id="Sheet"><a href="#Sheet" class="headerlink" title="Sheet"></a>Sheet</h3><p><img src="/2016/08/04/Cheat Sheet/Regular-Expressions/./re-sheet.jpg" alt="pic"></p>
 <h3 id="BTW"><a href="#BTW" class="headerlink" title="BTW"></a>BTW</h3><p>Also, there is a good website to visualize Regular Expressions: <a href="https://jex.im/regulex/#!embed=false&amp;flags=&amp;re=^%28a|b%29*%3F%24" target="_blank" rel="external">https://jex.im/regulex/#!embed=false&amp;flags=&amp;re=^%28a|b%29*%3F%24</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Cheat-Sheet/">Cheat Sheet</a><a class="article-category-link" href="/categories/Cheat-Sheet/Regular-Expression/">Regular Expression</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Cheat-Sheet/">Cheat Sheet</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programming-Language/">Programming Language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Regular-Expression/">Regular Expression</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-Cheat Sheet/SQL" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/04/Cheat Sheet/SQL/" class="article-date">
+      <time datetime="2016-07-04T12:18:33.000Z" itemprop="datePublished">2016-07-04</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/04/Cheat Sheet/SQL/">SQL</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="SQL-Cheat-Sheet"><a href="#SQL-Cheat-Sheet" class="headerlink" title="SQL Cheat Sheet"></a>SQL Cheat Sheet</h2><h3 id="Sheet"><a href="#Sheet" class="headerlink" title="Sheet"></a>Sheet</h3><p><img src="/2016/07/04/Cheat Sheet/SQL/./sql-sheet.png" alt="pic"></p>
+<h3 id="FROM"><a href="#FROM" class="headerlink" title="FROM"></a>FROM</h3><p><a href="https://zeroturnaround.com/rebellabs/sql-cheat-sheet/" target="_blank" rel="external">https://zeroturnaround.com/rebellabs/sql-cheat-sheet/</a></p>
 
       
     </div>

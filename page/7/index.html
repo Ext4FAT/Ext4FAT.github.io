@@ -246,117 +246,6 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-CV/OpenCV3-0-RealSense-Configuration" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/" class="article-date">
-      <time datetime="2016-04-26T11:32:46.000Z" itemprop="datePublished">2016-04-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/">OpenCV3.0-RealSense-Configuration</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h2 id="1-Configure-RealSense"><a href="#1-Configure-RealSense" class="headerlink" title="1. Configure RealSense"></a>1. Configure RealSense</h2><h3 id="Install-the-driver-of-RealSense-F200-R200"><a href="#Install-the-driver-of-RealSense-F200-R200" class="headerlink" title="Install the driver of RealSense F200/R200"></a>Install the driver of RealSense F200/R200</h3><pre><code>EX:   
-    intel_rs_dcm_f200_1.4.27.41944.exe
-    intel_rs_dcm_r200_2.0.3.39488.exe
-</code></pre><h4 id="RSSDK-DIR-props"><a href="#RSSDK-DIR-props" class="headerlink" title="$ (RSSDK_DIR) / props"></a>$ (RSSDK_DIR) / props</h4><pre><code>VS2010-13.Integration.MD.props
-VS2010-13.Integration.MT.props
-</code></pre><h4 id="Visual-Studio-2010-2013-Integration"><a href="#Visual-Studio-2010-2013-Integration" class="headerlink" title="Visual Studio 2010-2013 Integration:"></a>Visual Studio 2010-2013 Integration:</h4><pre><code>Open property manager in view-&gt;PropertyManager. 
-
-For multi-threaded runtime projects, add property sheet
-  VS2010-13.Integration.MT.props to all Debug/Release builds
-For multi-threaded DLL runtime projects,
-  Add property sheet VS2010-13.Integration.MD.props to all Debug/Release builds.
-
-Build your SDK projects
-</code></pre><h2 id="2-Configure-OpenCV-3-0"><a href="#2-Configure-OpenCV-3-0" class="headerlink" title="2. Configure OpenCV 3.0"></a>2. Configure OpenCV 3.0</h2><h3 id="Install-the-Opencv-3-0-for-Windows-to"><a href="#Install-the-Opencv-3-0-for-Windows-to" class="headerlink" title="Install the Opencv 3.0 for Windows to"></a>Install the Opencv 3.0 for Windows to</h3><pre><code>EX:    
-    D:\OpenCV3.0
-</code></pre><h4 id="Configure-environment-variables"><a href="#Configure-environment-variables" class="headerlink" title="Configure environment variables"></a>Configure environment variables</h4><h5 id="System-variables"><a href="#System-variables" class="headerlink" title="System variables:"></a>System variables:</h5><pre><code>[Path] add D:\OpenCV3.0\opencv\build\x86\vc12\bin
-</code></pre><h5 id="User-variables"><a href="#User-variables" class="headerlink" title="User variables:"></a>User variables:</h5><pre><code>new [opencv] = D:\OpenCV3.0\opencv\build\x86
-</code></pre><h4 id="New-VS2013-Project"><a href="#New-VS2013-Project" class="headerlink" title="New VS2013 Project"></a>New VS2013 Project</h4><h5 id="Include-directory"><a href="#Include-directory" class="headerlink" title="Include directory:"></a>Include directory:</h5><pre><code>EX:
-    D:\OpenCV3.0\opencv\build\include
-    D:\OpenCV3.0\opencv\build\include\opencv
-    D:\OpenCV3.0\opencv\build\include\opencv2
-</code></pre><h5 id="Library-directory"><a href="#Library-directory" class="headerlink" title="Library directory:"></a>Library directory:</h5><pre><code>EX:
-    D:\OpenCV3.0\opencv\build\x86\vc12\lib
-</code></pre><h5 id="Linker-gt-Input-gt-Additional-dependencies"><a href="#Linker-gt-Input-gt-Additional-dependencies" class="headerlink" title="Linker-&gt;Input-&gt;Additional dependencies"></a>Linker-&gt;Input-&gt;Additional dependencies</h5><pre><code>opencv_ts300d.lib
-opencv_world300d.lib
-libjasperd.lib
-libjpegd.lib
-libpngd.lib
-libtiffd.lib
-libwebpd.lib
-opencv_calib3d300d.lib
-opencv_core300d.lib
-opencv_features2d300d.lib
-opencv_flann300d.lib
-opencv_highgui300d.lib
-opencv_imgcodecs300d.lib
-opencv_imgproc300d.lib
-opencv_ml300d.lib
-opencv_objdetect300d.lib
-opencv_photo300d.lib
-opencv_shape300d.lib
-opencv_stitching300d.lib
-opencv_superres300d.lib
-opencv_video300d.lib
-opencv_videoio300d.lib
-opencv_videostab300d.lib
-zlibd.lib
-msvcrtd.lib
-libcmtd.lib
-</code></pre>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Computer-Vision/">Computer Vision</a><a class="article-category-link" href="/categories/Computer-Vision/Realsense/">Realsense</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OpenCV/">OpenCV</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Realsense/">Realsense</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Windows/">Windows</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
     <article id="post-Linux/Solution/Gedit-gibberish-onscreen" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -684,6 +573,70 @@ libcmtd.lib
       
     <div class="article-tag tagcloud">
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Trick/">Trick</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-Linux/Solution/Laptop-cannot-wakeup" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/" class="article-date">
+      <time datetime="2016-04-26T10:48:34.000Z" itemprop="datePublished">2016-04-26</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/">Laptop cannot wakeup</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>##ubuntu&#x6302;&#x8D77;&#x540E;&#x4E0D;&#x80FD;&#x5524;&#x9192;&#x89E3;&#x51B3;</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##&#x5B89;&#x88C5;pm-utils  </span></span><br><span class="line">sudo apt-get install pm-utils  </span><br><span class="line"><span class="comment">##&#x5B89;&#x88C5;laptop-mode-tools</span></span><br><span class="line">sudo apt-get install laptop-mode-tools </span><br><span class="line"><span class="comment">##&#x67E5;&#x770B;&#x662F;&#x5426;&#x542F;&#x52A8;laptop_mode</span></span><br><span class="line">cat /proc/sys/vm/laptop_mode <span class="comment">#&#x5982;&#x679C;&#x663E;&#x793A;&#x7ED3;&#x679C;&#x4E3A;0&#xFF0C;&#x5219;&#x8868;&#x793A;&#x672A;&#x542F;&#x52A8;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##&#x89E3;&#x51B3;&#x65B9;&#x6848;</span></span><br><span class="line">&#x66F4;&#x6539;/etc/default/acpi-support&#x4E2D;ENABLE_LAPTOP_MODE=<span class="literal">true</span> </span><br><span class="line">sudo gedit /etc/default/acpi-support </span><br><span class="line"><span class="comment">##&#x60F3;&#x542F;&#x52A8;laptop_mode&#x6A21;&#x5F0F;</span></span><br><span class="line">sudo laptop_mode start</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a><a class="article-category-link" href="/categories/Linux/Ubuntu/">Ubuntu</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Solution/">Solution</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li></ul>
     </div>
 
       
