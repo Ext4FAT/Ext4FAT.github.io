@@ -662,7 +662,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[STL ALLOCATOR]]></title>
+      <title><![CDATA[STL ALLOCATOR [TODO]]]></title>
       <url>http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR/</url>
       <content type="html"><![CDATA[<h2 id="Allocator"><a href="#Allocator" class="headerlink" title="Allocator"></a>Allocator</h2><pre><code>In &lt;stl_alloc.h&gt;
 </code></pre><a id="more"></a>]]></content>
@@ -1012,7 +1012,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[CMake [To Do]]]></title>
+      <title><![CDATA[CMake [TODO]]]></title>
       <url>http://idler1229.github.io/2016/04/29/Compile/CMake/</url>
       <content type="html"><![CDATA[<h2 id="CMake-&#x5E38;&#x7528;&#x6307;&#x4EE4;"><a href="#CMake-&#x5E38;&#x7528;&#x6307;&#x4EE4;" class="headerlink" title="CMake &#x5E38;&#x7528;&#x6307;&#x4EE4;"></a>CMake &#x5E38;&#x7528;&#x6307;&#x4EE4;</h2><h3 id="CMake-Manual-&#x6458;&#x8981;"><a href="#CMake-Manual-&#x6458;&#x8981;" class="headerlink" title="CMake Manual &#x6458;&#x8981;"></a>CMake Manual &#x6458;&#x8981;</h3><h3 id="CMakeLists-txt"><a href="#CMakeLists-txt" class="headerlink" title="[CMakeLists.txt]"></a>[CMakeLists.txt]</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Example]</span><br><span class="line">PROJECT (HELLO)</span><br><span class="line">SET(SRC_LIST main.c)</span><br><span class="line">MESSAGE(STATUS <span class="string">&quot;This is BINARY dir &quot;</span> <span class="variable">${HELLO_BINARY_DIR}</span>)</span><br><span class="line">MESSAGE(STATUS <span class="string">&quot;This is SOURCE dir &quot;</span><span class="variable">${HELLO_SOURCE_DIR}</span>)</span><br><span class="line">ADD_EXECUTABLE(hello <span class="variable">${SRC_LIST}</span>)</span><br></pre></td></tr></table></figure>
 <h4 id="PROJECT"><a href="#PROJECT" class="headerlink" title="PROJECT"></a>PROJECT</h4><p>PROJECT&#x6307;&#x4EE4;&#x53EF;&#x5B9A;&#x4E49;&#x5DE5;&#x7A0B;&#x540D;&#x79F0;, &#x5E76;&#x6307;&#x5B9A;&#x5DE5;&#x7A0B;&#x652F;&#x6301;&#x7684;&#x8BED;&#x8A00;, (&#x652F;&#x6301;&#x7684;&#x8BED;&#x8A00;&#x5217;&#x8868;&#x662F;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;&#x7684;, &#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x8868;&#x793A;&#x652F;&#x6301;&#x6240;&#x6709;&#x8BED;&#x8A00;)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PROJECT(projectname [CXX] [C] [Java])</span><br></pre></td></tr></table></figure></p>
