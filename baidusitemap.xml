@@ -4,6 +4,39 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
+    <lastmod>2016-08-12T20:32:40.168Z</lastmod>
+    <data>
+        <display>
+        <title>Registration</title>
+        <pubTime>2016-08-07T17:58:43.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>Realsense</tag>
+         
+        <tag>Project</tag>
+         
+        <tag>C++</tag>
+         
+        <tag>PCL</tag>
+         
+         
+           
+             
+              <breadCrumb title="Project" url="http://idler1229.github.io/categories/Project/"/>
+          
+             
+              <breadCrumb title="C++" url="http://idler1229.github.io/categories/Project/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/29/Compile/CMake/</loc>
     <lastmod>2016-08-12T20:27:51.752Z</lastmod>
     <data>
@@ -169,39 +202,6 @@
         <tag>C++</tag>
          
         <tag>Programing Language</tag>
-         
-         
-           
-             
-              <breadCrumb title="Project" url="http://idler1229.github.io/categories/Project/"/>
-          
-             
-              <breadCrumb title="C++" url="http://idler1229.github.io/categories/Project/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
-    <lastmod>2016-08-12T13:57:54.423Z</lastmod>
-    <data>
-        <display>
-        <title>Registration</title>
-        <pubTime>2016-08-07T17:58:43.000Z</pubTime>
-        
-        <tag>OpenCV</tag>
-         
-        <tag>Computer Vision</tag>
-         
-        <tag>Realsense</tag>
-         
-        <tag>Project</tag>
-         
-        <tag>C++</tag>
-         
-        <tag>PCL</tag>
          
          
            
