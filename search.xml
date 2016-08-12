@@ -4,9 +4,17 @@
   
     
     <entry>
-      <title><![CDATA[Secure Code]]></title>
+      <title><![CDATA[Secure Code [TODO]]]></title>
       <url>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Secure-Code/</url>
-      <content type="html"><![CDATA[<h2 id="Writing-Secure-Code"><a href="#Writing-Secure-Code" class="headerlink" title="Writing Secure Code"></a>Writing Secure Code</h2><h3 id="Top-10-Most-Dangerous-Software-Errors"><a href="#Top-10-Most-Dangerous-Software-Errors" class="headerlink" title="Top 10 Most Dangerous Software Errors"></a>Top 10 Most Dangerous Software Errors</h3><ol>
+      <content type="html"><![CDATA[<h2 id="Writing-Secure-Code"><a href="#Writing-Secure-Code" class="headerlink" title="Writing Secure Code"></a>Writing Secure Code</h2><h3 id="STRIDE-Threat-Model"><a href="#STRIDE-Threat-Model" class="headerlink" title="STRIDE Threat Model"></a>STRIDE Threat Model</h3><ul>
+<li>Spoofing identity</li>
+<li>Tampering with data</li>
+<li>Repudiation</li>
+<li>Information disclosure</li>
+<li>Denial of service.</li>
+<li>Elevation of privilege</li>
+</ul>
+<h3 id="Top-10-Most-Dangerous-Software-Errors"><a href="#Top-10-Most-Dangerous-Software-Errors" class="headerlink" title="Top 10 Most Dangerous Software Errors"></a>Top 10 Most Dangerous Software Errors</h3><ol>
 <li>Improper Neutralization of Special Elements used in an SQL Command<br>(&#x2018;SQL Injection&#x2019;)</li>
 <li>Improper Neutralization of Special Elements used in an OS Command (&#x2018;OS<br>Command Injection&#x2019;)</li>
 <li><strong>Buffer Copy without Checking Size of Input (&#x2018;Classic Buffer Overflow&#x2019;) </strong></li>
