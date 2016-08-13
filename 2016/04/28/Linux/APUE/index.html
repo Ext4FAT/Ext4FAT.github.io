@@ -11,20 +11,17 @@
   
   <title>APUE | At A Loss What To Do</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="APUE NOTE##lseek
-Function Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t offset, int whence);// &amp;#x8FD4;&amp;#x56DE;:&amp;#x82E5;&amp;#x6210;&amp;#x529F;&amp;#x4E3A;&amp;#x65B0;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x4F4D">
+  <meta name="description" content="APUE NOTElseekFunction Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t offset, int whence);// &amp;#x8FD4;&amp;#x56DE;:&amp;#x82E5;&amp;#x6210;&amp;#x529F;&amp;#x4E3A;&amp;#x65B0;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x4F4D;&amp;#">
 <meta property="og:type" content="article">
 <meta property="og:title" content="APUE">
 <meta property="og:url" content="http://idler1229.github.io/2016/04/28/Linux/APUE/index.html">
 <meta property="og:site_name" content="At A Loss What To Do">
-<meta property="og:description" content="APUE NOTE##lseek
-Function Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t offset, int whence);// &amp;#x8FD4;&amp;#x56DE;:&amp;#x82E5;&amp;#x6210;&amp;#x529F;&amp;#x4E3A;&amp;#x65B0;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x4F4D">
+<meta property="og:description" content="APUE NOTElseekFunction Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t offset, int whence);// &amp;#x8FD4;&amp;#x56DE;:&amp;#x82E5;&amp;#x6210;&amp;#x529F;&amp;#x4E3A;&amp;#x65B0;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x4F4D;&amp;#">
 <meta property="og:image" content="http://idler1229.github.io/2016/04/28/Linux/APUE/./iov.png">
-<meta property="og:updated_time" content="2016-08-13T17:55:44.520Z">
+<meta property="og:updated_time" content="2016-08-13T20:15:28.156Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="APUE">
-<meta name="twitter:description" content="APUE NOTE##lseek
-Function Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t offset, int whence);// &amp;#x8FD4;&amp;#x56DE;:&amp;#x82E5;&amp;#x6210;&amp;#x529F;&amp;#x4E3A;&amp;#x65B0;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x4F4D">
+<meta name="twitter:description" content="APUE NOTElseekFunction Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t offset, int whence);// &amp;#x8FD4;&amp;#x56DE;:&amp;#x82E5;&amp;#x6210;&amp;#x529F;&amp;#x4E3A;&amp;#x65B0;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x4F4D;&amp;#">
 <meta name="twitter:image" content="http://idler1229.github.io/2016/04/28/Linux/APUE/./iov.png">
   
     <link rel="alternative" href="/atom.xml" title="At A Loss What To Do" type="application/atom+xml">
@@ -287,8 +284,7 @@ Function Prototype123#include &amp;lt;unistd.h&amp;gt;off_t lseek(int fd, off_t 
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="APUE-NOTE"><a href="#APUE-NOTE" class="headerlink" title="APUE NOTE"></a>APUE NOTE</h1><p>##lseek</p>
-<h3 id="Function-Prototype"><a href="#Function-Prototype" class="headerlink" title="Function Prototype"></a>Function Prototype</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="keyword">off_t</span> lseek(<span class="keyword">int</span> fd, <span class="keyword">off_t</span> offset, <span class="keyword">int</span> whence);</span><br><span class="line"><span class="comment">// &#x8FD4;&#x56DE;:&#x82E5;&#x6210;&#x529F;&#x4E3A;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x4F4D;&#x79FB;,&#x82E5;&#x51FA;&#x9519;&#x4E3A;- 1</span></span><br></pre></td></tr></table></figure>
+        <h1 id="APUE-NOTE"><a href="#APUE-NOTE" class="headerlink" title="APUE NOTE"></a>APUE NOTE</h1><h2 id="lseek"><a href="#lseek" class="headerlink" title="lseek"></a>lseek</h2><h3 id="Function-Prototype"><a href="#Function-Prototype" class="headerlink" title="Function Prototype"></a>Function Prototype</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="keyword">off_t</span> lseek(<span class="keyword">int</span> fd, <span class="keyword">off_t</span> offset, <span class="keyword">int</span> whence);</span><br><span class="line"><span class="comment">// &#x8FD4;&#x56DE;:&#x82E5;&#x6210;&#x529F;&#x4E3A;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x4F4D;&#x79FB;,&#x82E5;&#x51FA;&#x9519;&#x4E3A;- 1</span></span><br></pre></td></tr></table></figure>
 <h3 id="Whence"><a href="#Whence" class="headerlink" title="Whence"></a>Whence</h3><ul>
 <li>&#x82E5;wh enc e&#x662F;SEEK_S E T,&#x5219;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x79FB;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x8DDD;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x5904; offset &#x4E2A;&#x5B57;&#x8282;&#x3002;</li>
 <li>&#x82E5;whence&#x662F;SEEK_ CUR,&#x5219;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x79FB;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x5176;&#x5F53;&#x524D;&#x503C;&#x52A0;offset, offset&#x53EF;&#x4E3A;&#x6B63;&#x6216;&#x8D1F;&#x3002;</li>
@@ -326,7 +322,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
         <p><span>Author:</span><a href="/" title="Back to Homepage">_IDLER_</a></p>
         <!--
         <p><span>Created:</span>2016-04-28, 03:15:18</p>
-        <p><span>Updated:</span>2016-08-14, 01:55:44</p>
+        <p><span>Updated:</span>2016-08-14, 04:15:28</p>
         <p>
             <span>Full URL:</span><a class="post-url" href="/2016/04/28/Linux/APUE/" title="APUE">http://idler1229.github.io/2016/04/28/Linux/APUE/</a>
             <span class="copy-path" data-clipboard-text="From http://idler1229.github.io/2016/04/28/Linux/APUE/　　By _IDLER_" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
@@ -363,7 +359,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">Contents</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#APUE-NOTE"><span class="toc-number">1.</span> <span class="toc-text">APUE NOTE</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Function-Prototype"><span class="toc-number">1.0.1.</span> <span class="toc-text">Function Prototype</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Whence"><span class="toc-number">1.0.2.</span> <span class="toc-text">Whence</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#readv-writev"><span class="toc-number">1.1.</span> <span class="toc-text">readv, writev</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Function-Prototype-1"><span class="toc-number">1.1.1.</span> <span class="toc-text">Function Prototype</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#getopt"><span class="toc-number">1.2.</span> <span class="toc-text">getopt</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Function-Prototype-2"><span class="toc-number">1.2.1.</span> <span class="toc-text">Function Prototype</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#getopt-所设置的全局变量包括："><span class="toc-number">1.2.2.</span> <span class="toc-text">getopt() 所设置的全局变量包括：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Global-Variable-in-getopt"><span class="toc-number">1.2.3.</span> <span class="toc-text">Global Variable in getopt()</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Complement"><span class="toc-number">1.2.4.</span> <span class="toc-text">Complement</span></a></li></ol></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#APUE-NOTE"><span class="toc-number">1.</span> <span class="toc-text">APUE NOTE</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#lseek"><span class="toc-number">1.1.</span> <span class="toc-text">lseek</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Function-Prototype"><span class="toc-number">1.1.1.</span> <span class="toc-text">Function Prototype</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Whence"><span class="toc-number">1.1.2.</span> <span class="toc-text">Whence</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#readv-writev"><span class="toc-number">1.2.</span> <span class="toc-text">readv, writev</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Function-Prototype-1"><span class="toc-number">1.2.1.</span> <span class="toc-text">Function Prototype</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#getopt"><span class="toc-number">1.3.</span> <span class="toc-text">getopt</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Function-Prototype-2"><span class="toc-number">1.3.1.</span> <span class="toc-text">Function Prototype</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#getopt-所设置的全局变量包括："><span class="toc-number">1.3.2.</span> <span class="toc-text">getopt() 所设置的全局变量包括：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Global-Variable-in-getopt"><span class="toc-number">1.3.3.</span> <span class="toc-text">Global Variable in getopt()</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Complement"><span class="toc-number">1.3.4.</span> <span class="toc-text">Complement</span></a></li></ol></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
