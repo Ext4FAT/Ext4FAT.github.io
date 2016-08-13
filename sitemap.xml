@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/29/Compile/CMake/</loc>
+    
+    <lastmod>2016-08-13T20:21:36.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/15/Compile/CMake-Note/</loc>
+    
+    <lastmod>2016-08-13T20:21:18.152Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/28/Linux/APUE/</loc>
     
     <lastmod>2016-08-13T20:15:28.156Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
     
     <lastmod>2016-08-12T20:34:27.292Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/29/Compile/CMake/</loc>
-    
-    <lastmod>2016-08-12T20:27:51.752Z</lastmod>
     
   </url>
   
@@ -72,14 +79,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
@@ -282,13 +289,6 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
     
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
@@ -296,21 +296,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
     
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -324,6 +317,13 @@
   </url>
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
@@ -331,7 +331,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -345,6 +345,13 @@
   </url>
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
@@ -352,7 +359,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -387,14 +394,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
+    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
@@ -408,7 +415,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
