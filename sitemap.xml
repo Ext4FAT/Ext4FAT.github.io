@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-NUMERIC/</loc>
+    
+    <lastmod>2016-08-17T17:37:51.455Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</loc>
     
     <lastmod>2016-08-15T15:26:53.619Z</lastmod>
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
@@ -268,13 +275,6 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-NUMERIC/</loc>
-    
-    <lastmod>2016-05-30T14:11:12.768Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-FUNCTOR/</loc>
     
     <lastmod>2016-05-30T14:11:02.476Z</lastmod>
@@ -289,14 +289,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
+    <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
     
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
     
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     
@@ -317,34 +317,6 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
@@ -359,6 +331,27 @@
   </url>
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
@@ -366,7 +359,21 @@
   </url>
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
@@ -387,20 +394,6 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
@@ -409,6 +402,13 @@
   
   <url>
     <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
