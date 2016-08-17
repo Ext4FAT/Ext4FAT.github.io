@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
+    
+    <lastmod>2016-08-17T17:50:09.627Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-NUMERIC/</loc>
     
     <lastmod>2016-08-17T17:46:48.779Z</lastmod>
@@ -86,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
@@ -289,13 +296,6 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
     
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
@@ -303,49 +303,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
+    <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
     
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -359,7 +324,49 @@
   </url>
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -387,9 +394,16 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
+    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
     
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
   </url>
   
@@ -402,20 +416,6 @@
   
   <url>
     <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
