@@ -246,6 +246,69 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-CV/Video-Capture" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/27/CV/Video-Capture/" class="article-date">
+      <time datetime="2016-04-27T15:19:04.000Z" itemprop="datePublished">2016-04-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/27/CV/Video-Capture/">Video Capture</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="Capture-Video-data-from-camera-and-save"><a href="#Capture-Video-data-from-camera-and-save" class="headerlink" title="Capture Video data from camera and save"></a>Capture Video data from camera and save</h2><p>Press ESC to exit program.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;opencv2/opencv.hpp&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;video.hpp&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> cv;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span><br><span class="line"></span>{</span><br><span class="line">    <span class="keyword">if</span> (argc &lt; <span class="number">2</span>) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[Usage]&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;\t ./VideoCapture save_filename&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-1</span>;</span><br><span class="line">    }</span><br><span class="line">    VideoCapture vc;</span><br><span class="line">    vc.open(<span class="number">0</span>);</span><br><span class="line">    <span class="keyword">if</span> (!vc.isOpened()) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[ERROR] Camera can&apos;t open&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-2</span>;</span><br><span class="line">    }</span><br><span class="line">    VideoWriter vw;</span><br><span class="line">    vw.open( argv[<span class="number">1</span>], <span class="comment">// Saved filename</span></span><br><span class="line">            (int)vc.get( CV_CAP_PROP_FOURCC ), <span class="comment">// Windows:CV_FOURCC_PROMPT(-1) can select parameters in a Dialog</span></span><br><span class="line">            (double)vc.get( CV_CAP_PROP_FPS ), <span class="comment">// FPS</span></span><br><span class="line">            cv::Size( (int)vc.get( CV_CAP_PROP_FRAME_WIDTH ), (int)vc.get( CV_CAP_PROP_FRAME_HEIGHT ) ), <span class="comment">// Resolution</span></span><br><span class="line">            <span class="literal">true</span> ); <span class="comment">// Color or not);</span></span><br><span class="line">    <span class="keyword">if</span> (!vw.isOpened()) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[ERROR] Saved file can&apos;t open&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-3</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="comment">//Capture</span></span><br><span class="line">    Mat frame;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">long</span> <span class="keyword">long</span> framecnt = <span class="number">0</span>; vc.read(frame) &amp;&amp; waitKey(<span class="number">33</span>) != <span class="number">27</span>; framecnt++) {</span><br><span class="line">        vw &lt;&lt; frame;</span><br><span class="line">    }</span><br><span class="line">    vc.release();</span><br><span class="line">    vw.release();</span><br><span class="line">    return <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Computer-Vision/">Computer Vision</a><a class="article-category-link" href="/categories/Computer-Vision/OpenCV/">OpenCV</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-，-Toys/">C++， Toys</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OpenCV/">OpenCV</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
     <article id="post-Linux/Shell/Filename-remove-blank" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -624,75 +687,6 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-，-Toys/">C++， Toys</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OpenCV/">OpenCV</a></li></ul>
     </div>
 
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-STL/STL-ALGO-SET-OP" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/26/STL/STL-ALGO-SET-OP/" class="article-date">
-      <time datetime="2016-04-26T11:56:39.000Z" itemprop="datePublished">2016-04-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/26/STL/STL-ALGO-SET-OP/">STL ALGO SET OPERATION</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h2 id="Five-Type-of-Set-algorithms"><a href="#Five-Type-of-Set-algorithms" class="headerlink" title="Five Type of  Set algorithms"></a>Five Type of  Set algorithms</h2><pre><code>In &lt;stl_algo.h&gt;
-</code></pre><p>Set algorithms: includes, set_union, set_intersection, set_difference, set_symmetric_difference. All of these algorithms have the precondition that their input ranges are sorted and the postcondition that their output ranges are sorted.</p>
-<p>Each algorithm has two impletementation, one of them with user-defined Compare function. In this article, we just list the first one and annotate requirement check code.<br></p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Programing-Language/">Programing Language</a><a class="article-category-link" href="/categories/Programing-Language/C/">C++</a><a class="article-category-link" href="/categories/Programing-Language/C/STL/">STL</a><a class="article-category-link" href="/categories/Programing-Language/C/STL/Source-Code/">Source Code</a><a class="article-category-link" href="/categories/Programing-Language/C/STL/Source-Code/Algorithm/">Algorithm</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Algorithm/">Algorithm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/STL/">STL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Source-Code/">Source Code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Trick/">Trick</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/04/26/STL/STL-ALGO-SET-OP/#more">more >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>

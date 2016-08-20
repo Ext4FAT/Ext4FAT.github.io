@@ -246,6 +246,73 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-Linux/Solution/Hide-User-in-Ubuntu" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/" class="article-date">
+      <time datetime="2016-08-06T20:19:46.000Z" itemprop="datePublished">2016-08-07</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/">Hide User in Ubuntu</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="Hide-User"><a href="#Hide-User" class="headerlink" title="Hide User"></a>Hide User</h2><p>If your system uses AccountsService, you cannot hide a user from the greeter screen by reconfiguring lightdm because it defers to AccountsService. That is stated very clearly in the comments in:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/lightdm/users.conf</span><br></pre></td></tr></table></figure></p>
+<p>What you need to do instead is to reconfigure AccountsService. To hide a user named XXX, create a file named<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/var/lib/AccountsService/users/XXX</span><br></pre></td></tr></table></figure></p>
+<p>containing two lines:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[User]</span><br><span class="line">SystemAccount=<span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p><a href="http://askubuntu.com/questions/92349/how-do-i-hide-a-particular-user-from-the-login-screen" target="_blank" rel="external">http://askubuntu.com/questions/92349/how-do-i-hide-a-particular-user-from-the-login-screen</a></p>
+<h3 id="Thanks-to"><a href="#Thanks-to" class="headerlink" title="Thanks to"></a>Thanks to</h3><p>Yu Zhang, who is my  senior fellow apprentice.</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a><a class="article-category-link" href="/categories/Linux/Ubuntu/">Ubuntu</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Solution/">Solution</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
     <article id="post-Cheat Sheet/Regular-Expressions" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -568,73 +635,6 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Leetcode/">Leetcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Solution/">Solution</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Toys/">Toys</a></li></ul>
     </div>
 
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Toys/C/Noloop" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/13/Toys/C/Noloop/" class="article-date">
-      <time datetime="2016-06-13T07:29:53.000Z" itemprop="datePublished">2016-06-13</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/13/Toys/C/Noloop/">No loop</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h2 id="Without-if-if&#x2026;else-for-while-do&#x2026;while-goto-to-solve-Factorial"><a href="#Without-if-if&#x2026;else-for-while-do&#x2026;while-goto-to-solve-Factorial" class="headerlink" title="Without if, if&#x2026;else, ?:, for, while, do&#x2026;while, goto to solve Factorial"></a>Without <strong>if, if&#x2026;else, ?:, for, while, do&#x2026;while, goto</strong> to solve Factorial</h2>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Toys/">Toys</a><a class="article-category-link" href="/categories/Toys/C/">C</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Toys/">Toys</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Trick/">Trick</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/13/Toys/C/Noloop/#more">more >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>
