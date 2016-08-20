@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
+    
+    <lastmod>2016-08-20T21:40:16.200Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/30/Project/Crawl/</loc>
+    
+    <lastmod>2016-08-20T21:40:11.896Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
     
-    <lastmod>2016-08-20T21:35:54.956Z</lastmod>
+    <lastmod>2016-08-20T21:39:57.936Z</lastmod>
     
   </url>
   
@@ -47,20 +61,6 @@
     <loc>http://idler1229.github.io/2016/04/28/Linux/APUE/</loc>
     
     <lastmod>2016-08-13T20:15:28.156Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/30/Project/Crawl/</loc>
-    
-    <lastmod>2016-08-12T20:36:22.192Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
-    
-    <lastmod>2016-08-12T20:34:27.292Z</lastmod>
     
   </url>
   

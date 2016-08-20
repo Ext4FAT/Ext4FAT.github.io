@@ -60,7 +60,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Registration]]></title>
+      <title><![CDATA[✍ Registration]]></title>
       <url>http://idler1229.github.io/2016/08/08/Project/Registration/</url>
       <content type="html"><![CDATA[<h2 id="Registration"><a href="#Registration" class="headerlink" title="Registration"></a>Registration</h2><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>This procedure implemented by C plus plus with Open Soure Library <strong>OpenCV</strong>, <strong>PCL</strong>, and <strong>Realsense Developer SDK</strong>.</p>
 <h3 id="Project-On-Github"><a href="#Project-On-Github" class="headerlink" title="Project On Github"></a>Project On Github</h3><p><a href="https://github.com/IDLER1229/Registration" target="_blank" rel="external">https://github.com/IDLER1229/Registration</a> </p>
@@ -638,7 +638,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Idle-About]]></title>
+      <title><![CDATA[✍ Idle-About]]></title>
       <url>http://idler1229.github.io/2016/04/30/Project/Crawl/</url>
       <content type="html"><![CDATA[<h2 id="Idle-About"><a href="#Idle-About" class="headerlink" title="Idle-About"></a>Idle-About</h2><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>Show books order by rank, crawled booklists from <strong>douban</strong>.</p>
 <h3 id="Project-on-Github"><a href="#Project-on-Github" class="headerlink" title="Project on Github"></a>Project on Github</h3><p><a href="https://github.com/IDLER1229/Crawl" target="_blank" rel="external">https://github.com/IDLER1229/Crawl</a></p>
@@ -1250,7 +1250,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     </entry>
     
     <entry>
-      <title><![CDATA[㊠ Reading Books]]></title>
+      <title><![CDATA[✍ Reading Books]]></title>
       <url>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</url>
       <content type="html"><![CDATA[<h2 id="Book-List"><a href="#Book-List" class="headerlink" title="Book List"></a>Book List</h2><h3 id="&#x3010;Reading&#x3011;"><a href="#&#x3010;Reading&#x3011;" class="headerlink" title="&#x3010;Reading&#x3011;"></a>&#x3010;Reading&#x3011;</h3><h5 id="&#x3010;Linux&#x3011;"><a href="#&#x3010;Linux&#x3011;" class="headerlink" title="&#x3010;Linux&#x3011;"></a>&#x3010;Linux&#x3011;</h5><pre><code>Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;
 Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x7684;&#x827A;&#x672F;
