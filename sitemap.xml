@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
+    
+    <lastmod>2016-08-20T21:21:53.516Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</loc>
+    
+    <lastmod>2016-08-20T21:19:01.556Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</loc>
     
     <lastmod>2016-08-17T17:50:09.627Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-NUMERIC/</loc>
     
     <lastmod>2016-08-17T17:46:48.779Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</loc>
-    
-    <lastmod>2016-08-15T15:26:53.619Z</lastmod>
     
   </url>
   
@@ -93,14 +100,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
@@ -205,13 +212,6 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
-    
-    <lastmod>2016-05-31T22:17:54.388Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/</loc>
     
     <lastmod>2016-05-31T21:51:33.208Z</lastmod>
@@ -310,49 +310,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
-    
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     
@@ -366,6 +324,27 @@
   </url>
   
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
     
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
@@ -373,14 +352,35 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
@@ -401,7 +401,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
+    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
@@ -415,7 +415,7 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</loc>
     
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     
