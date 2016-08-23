@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
+    <lastmod>2016-08-23T23:53:12.428Z</lastmod>
+    <data>
+        <display>
+        <title>✍ Reading Books</title>
+        <pubTime>2016-04-26T11:52:51.000Z</pubTime>
+        
+        <tag>Book</tag>
+         
+         
+           
+             
+              <breadCrumb title="Book" url="http://idler1229.github.io/categories/Book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/08/08/Project/Registration/</loc>
     <lastmod>2016-08-20T21:40:16.200Z</lastmod>
     <data>
@@ -57,26 +77,6 @@
           
              
               <breadCrumb title="C++" url="http://idler1229.github.io/categories/Project/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
-    <lastmod>2016-08-20T21:39:57.936Z</lastmod>
-    <data>
-        <display>
-        <title>✍ Reading Books</title>
-        <pubTime>2016-04-26T11:52:51.000Z</pubTime>
-        
-        <tag>Book</tag>
-         
-         
-           
-             
-              <breadCrumb title="Book" url="http://idler1229.github.io/categories/Book/"/>
           
         </display>
     </data>
@@ -181,9 +181,9 @@
         <title>CMake Manual [TODO]</title>
         <pubTime>2016-04-28T17:38:53.000Z</pubTime>
         
-        <tag>Project</tag>
-         
         <tag>IDE</tag>
+         
+        <tag>Project</tag>
          
         <tag>Compile</tag>
          
@@ -205,9 +205,9 @@
         <title>CMake Note</title>
         <pubTime>2016-04-14T18:34:52.000Z</pubTime>
         
-        <tag>Project</tag>
-         
         <tag>IDE</tag>
+         
+        <tag>Project</tag>
          
         <tag>Compile</tag>
          
@@ -393,9 +393,9 @@
         
         <tag>Solution</tag>
          
-        <tag>Git</tag>
-         
         <tag>Project</tag>
+         
+        <tag>Git</tag>
          
         <tag>CVS</tag>
          
@@ -507,9 +507,9 @@
         <title>Recommendation -- Awesome C++</title>
         <pubTime>2016-06-26T11:54:33.000Z</pubTime>
         
-        <tag>Recommendation</tag>
-         
         <tag>C++</tag>
+         
+        <tag>Recommendation</tag>
          
         <tag>Programing Language</tag>
          
@@ -1161,12 +1161,12 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Laptop cannot wakeup</title>
-        <pubTime>2016-04-26T10:48:34.000Z</pubTime>
+        <title>Gedit Garbled</title>
+        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
         
         <tag>Linux</tag>
          
@@ -1181,33 +1181,6 @@
           
              
               <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Pic2Pdf</title>
-        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
           
         </display>
     </data>
@@ -1269,18 +1242,18 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Gedit Garbled</title>
-        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
+        <title>Picture batch to Pdf</title>
+        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
         
         <tag>Linux</tag>
          
         <tag>Solution</tag>
          
-        <tag>Ubuntu</tag>
+        <tag>Shell</tag>
          
          
            
@@ -1288,29 +1261,7 @@
               <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
           
              
-              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Linux Add Fonts</title>
-        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+              <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
           
         </display>
     </data>
@@ -1339,11 +1290,60 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Picture batch to Pdf</title>
+        <title>Linux Add Fonts</title>
+        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Laptop cannot wakeup</title>
+        <pubTime>2016-04-26T10:48:34.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+        <tag>Ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://idler1229.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Pic2Pdf</title>
         <pubTime>2016-04-01T17:40:05.000Z</pubTime>
         
         <tag>Linux</tag>
@@ -1474,18 +1474,20 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     <data>
         <display>
-        <title>Video Capture</title>
-        <pubTime>2016-04-27T15:19:04.000Z</pubTime>
+        <title>OpenCV3.0-RealSense-Configuration</title>
+        <pubTime>2016-04-26T11:32:46.000Z</pubTime>
         
         <tag>OpenCV</tag>
          
         <tag>Computer Vision</tag>
          
-        <tag>C++， Toys</tag>
+        <tag>Realsense</tag>
+         
+        <tag>Windows</tag>
          
          
            
@@ -1493,7 +1495,7 @@
               <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
           
              
-              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
+              <breadCrumb title="Realsense" url="http://idler1229.github.io/categories/Computer-Vision/Realsense/"/>
           
         </display>
     </data>
@@ -1528,20 +1530,18 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
+    <loc>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</loc>
     <lastmod>2016-05-30T14:08:12.444Z</lastmod>
     <data>
         <display>
-        <title>OpenCV3.0-RealSense-Configuration</title>
-        <pubTime>2016-04-26T11:32:46.000Z</pubTime>
+        <title>Video Capture</title>
+        <pubTime>2016-04-27T15:19:04.000Z</pubTime>
         
         <tag>OpenCV</tag>
          
         <tag>Computer Vision</tag>
          
-        <tag>Realsense</tag>
-         
-        <tag>Windows</tag>
+        <tag>C++， Toys</tag>
          
          
            
@@ -1549,7 +1549,7 @@
               <breadCrumb title="Computer Vision" url="http://idler1229.github.io/categories/Computer-Vision/"/>
           
              
-              <breadCrumb title="Realsense" url="http://idler1229.github.io/categories/Computer-Vision/Realsense/"/>
+              <breadCrumb title="OpenCV" url="http://idler1229.github.io/categories/Computer-Vision/OpenCV/"/>
           
         </display>
     </data>
