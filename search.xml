@@ -1252,19 +1252,22 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     <entry>
       <title><![CDATA[✍ Reading Books]]></title>
       <url>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</url>
-      <content type="html"><![CDATA[<h2 id="Book-List"><a href="#Book-List" class="headerlink" title="Book List"></a>Book List</h2><h3 id="&#x3010;Reading&#x3011;"><a href="#&#x3010;Reading&#x3011;" class="headerlink" title="&#x3010;Reading&#x3011;"></a>&#x3010;Reading&#x3011;</h3><h5 id="&#x3010;Linux&#x3011;"><a href="#&#x3010;Linux&#x3011;" class="headerlink" title="&#x3010;Linux&#x3011;"></a>&#x3010;Linux&#x3011;</h5><pre><code>Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;
-Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x7684;&#x827A;&#x672F;
-&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;Linux&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;&#x7CFB;&#x7EDF;&#x6784;&#x5EFA;&#x548C;&#x539F;&#x7406;&#x89E3;&#x6790;
-&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;
-&#x6DF1;&#x5165;Linux&#x5185;&#x6838;&#x67B6;&#x6784;
-
-&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;:&#x4F7F;&#x7528;Linux&#x6C47;&#x7F16;&#x8BED;&#x8A00;
-Linux&#x7CFB;&#x7EDF;&#x7F16;&#x7A0B;
-Linux&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x7F16;&#x7A0B;    
-APUE
-UNP-V1
-UNP-V2
-</code></pre><h5 id="&#x3010;Machine-Learning&#x3011;"><a href="#&#x3010;Machine-Learning&#x3011;" class="headerlink" title="&#x3010;Machine Learning&#x3011;"></a>&#x3010;Machine Learning&#x3011;</h5><ul>
+      <content type="html"><![CDATA[<h2 id="Book-List"><a href="#Book-List" class="headerlink" title="Book List"></a>Book List</h2><h3 id="&#x3010;Reading&#x3011;"><a href="#&#x3010;Reading&#x3011;" class="headerlink" title="&#x3010;Reading&#x3011;"></a>&#x3010;Reading&#x3011;</h3><h5 id="&#x3010;Linux&#x3011;"><a href="#&#x3010;Linux&#x3011;" class="headerlink" title="&#x3010;Linux&#x3011;"></a>&#x3010;Linux&#x3011;</h5><ul>
+<li>Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</li>
+<li>Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x7684;&#x827A;&#x672F;</li>
+<li>&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;Linux&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;&#x7CFB;&#x7EDF;&#x6784;&#x5EFA;&#x548C;&#x539F;&#x7406;&#x89E3;&#x6790;</li>
+<li>&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;</li>
+<li><p>&#x6DF1;&#x5165;Linux&#x5185;&#x6838;&#x67B6;&#x6784;</p>
+</li>
+<li><p>&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;:&#x4F7F;&#x7528;Linux&#x6C47;&#x7F16;&#x8BED;&#x8A00;</p>
+</li>
+<li>Linux&#x7CFB;&#x7EDF;&#x7F16;&#x7A0B;</li>
+<li>Linux&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x7F16;&#x7A0B;    </li>
+<li>APUE</li>
+<li>UNP-V1</li>
+<li>UNP-V2</li>
+</ul>
+<h5 id="&#x3010;Machine-Learning&#x3011;"><a href="#&#x3010;Machine-Learning&#x3011;" class="headerlink" title="&#x3010;Machine Learning&#x3011;"></a>&#x3010;Machine Learning&#x3011;</h5><ul>
 <li>PRML</li>
 <li>ESL</li>
 <li>Data Mining: Practical Machine Learning Tools and Techniques</li>
@@ -1275,77 +1278,108 @@ UNP-V2
 <li>[x] &#x5927;&#x6570;&#x636E;&#x65F6;&#x4EE3;</li>
 <li>[x] &#x5927;&#x6570;&#x636E;&#x601D;&#x7EF4;&#x4E0E;&#x51B3;&#x7B56;</li>
 </ul>
-<h5 id="&#x3010;Computer-Vision&#x3011;"><a href="#&#x3010;Computer-Vision&#x3011;" class="headerlink" title="&#x3010;Computer Vision&#x3011;"></a>&#x3010;Computer Vision&#x3011;</h5><pre><code>&#x7279;&#x5F81;&#x63D0;&#x53D6;&#x4E0E;&#x56FE;&#x50CF;&#x5904;&#x7406;
-&#x8BA1;&#x7B97;&#x673A;&#x89C6;&#x89C9;&#x2014;&#x2014;&#x7B97;&#x6CD5;&#x4E0E;&#x5E94;&#x7528;
-&#x6570;&#x5B57;&#x56FE;&#x50CF;&#x5904;&#x7406;
-</code></pre><h5 id="&#x3010;Algorithm&#x3011;"><a href="#&#x3010;Algorithm&#x3011;" class="headerlink" title="&#x3010;Algorithm&#x3011;"></a>&#x3010;Algorithm&#x3011;</h5><pre><code>&#x7F16;&#x7A0B;&#x73E0;&#x7391;&#xFF08;&#x7EED;&#xFF09;
-&#x7B97;&#x6CD5;&#x8C1C;&#x9898;
-
-&#x5177;&#x4F53;&#x6570;&#x5B66;
-&#x8FF7;&#x832B;&#x7684;&#x65C5;&#x884C;&#x5546;&#xFF1A;&#x4E00;&#x4E2A;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7B97;&#x6CD5;&#x95EE;&#x9898;
-</code></pre><h5 id="&#x3010;Basic&#x3011;"><a href="#&#x3010;Basic&#x3011;" class="headerlink" title="&#x3010;Basic&#x3011;"></a>&#x3010;Basic&#x3011;</h5><pre><code>&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;
-</code></pre><h5 id="&#x3010;Network&#x3011;"><a href="#&#x3010;Network&#x3011;" class="headerlink" title="&#x3010;Network&#x3011;"></a>&#x3010;Network&#x3011;</h5><pre><code>&#x7269;&#x8054;&#x7F51;&#x5BFC;&#x8BBA;(&#x5218;&#x4E91;&#x6D69; &#x7F16;&#x8457;)    
-Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;
-Nmap&#x626B;&#x63CF;&#x539F;&#x7406;&#x548C;&#x5E94;&#x7528;
-
-TCP/IP&#x8BE6;&#x89E3;-V3
-HTTP&#x6743;&#x5A01;&#x6307;&#x5357;
-Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;
-&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;
-&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx
-</code></pre><h5 id="&#x3010;HTML&#x3011;"><a href="#&#x3010;HTML&#x3011;" class="headerlink" title="&#x3010;HTML&#x3011;"></a>&#x3010;HTML&#x3011;</h5><pre><code>Headfirst html + css
-</code></pre><h5 id="&#x3010;Programming&#x3011;"><a href="#&#x3010;Programming&#x3011;" class="headerlink" title="&#x3010;Programming&#x3011;"></a>&#x3010;Programming&#x3011;</h5><pre><code>Effective C++
-More Effective C++
-Effective Modern C++
-Think in C++
-Effective STL
-STL&#x6E90;&#x4EE3;&#x7801;&#x5206;&#x6790;
-&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;C++&#x5BF9;&#x8C61;&#x6A21;&#x578B;
-C++&#x7F16;&#x7A0B;&#x89C4;&#x8303;101&#x6761;
-
-Think in Java
-Effective Java
-&#x6DF1;&#x5165;&#x7406;&#x89E3;Java&#x865A;&#x62DF;&#x673A;
-
-Java&#x5E76;&#x53D1;&#x7F16;&#x7A0B;&#x5B9E;&#x6218;
-
-Haskell&#x8DA3;&#x5B66;&#x6307;&#x5357;
-&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7684;&#x6784;&#x9020;&#x548C;&#x89E3;&#x91CA; 
-
-The Awk Programming Language       
-</code></pre><h5 id="&#x3010;History&#x3011;"><a href="#&#x3010;History&#x3011;" class="headerlink" title="&#x3010;History&#x3011;"></a>&#x3010;History&#x3011;</h5><pre><code>&#x4FE1;&#x606F;&#x7B80;&#x53F2;
-&#x65F6;&#x95F4;&#x7B80;&#x53F2;
-&#x6587;&#x660E;&#x4E4B;&#x5149;
-Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  
-
-&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;
-&#x96C6;&#x5F02;&#x74A7;
-
-&#x667A;&#x80FD;&#x65F6;&#x4EE3;    
-</code></pre><h5 id="&#x3010;Thinking&#x3011;"><a href="#&#x3010;Thinking&#x3011;" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h5><pre><code>&#x8BBE;&#x8BA1;&#x539F;&#x672C;
-&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;
-&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;
-&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;
-
-&#x6784;&#x5EFA;&#x4E4B;&#x6CD5;&#xFF1A;&#x73B0;&#x4EE3;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;
-
-&#x7F16;&#x7801;&#xFF1A;&#x9690;&#x533F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x80CC;&#x540E;&#x7684;&#x8BED;&#x8A00;
-
-&#x4EE3;&#x7801;&#x6574;&#x6D01;&#x4E4B;&#x9053;    
-
-&#x4EE3;&#x7801;&#x5927;&#x5168;
-</code></pre><h5 id="&#x3010;Hacker&#x3011;"><a href="#&#x3010;Hacker&#x3011;" class="headerlink" title="&#x3010;Hacker&#x3011;"></a>&#x3010;Hacker&#x3011;</h5><pre><code>&#x7070;&#x5E3D;&#x9ED1;&#x5BA2;
-&#x6B3A;&#x9A97;&#x7684;&#x827A;&#x672F;
-web&#x4E4B;&#x56F0;&#xFF1A;&#x73B0;&#x4EE3;web&#x5E94;&#x7528;&#x5B89;&#x5168;&#x6307;&#x5357;
-web&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#xFF1A;&#x4F7F;&#x7528;Kali Linux
-&#x9ED1;&#x5BA2;&#x6280;&#x672F;&#x653B;&#x9632;&#x5B9D;&#x5178;&#xFF1A;web&#x5B9E;&#x6218;&#x7BC7;
-&#x767D;&#x5E3D;&#x5B50;&#x8BB2;web&#x5B89;&#x5168;
-
-Metasploit&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#x9B54;&#x9B3C;&#x8BAD;&#x7EC3;&#x8425;
-</code></pre><h5 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h5><pre><code>&#x63D0;&#x95EE;&#x7684;&#x827A;&#x672F;
-&#x601D;&#x8003;&#x7684;&#x827A;&#x672F;
-</code></pre><h5 id="&#x3010;Other&#x3011;"><a href="#&#x3010;Other&#x3011;" class="headerlink" title="&#x3010;Other&#x3011;"></a>&#x3010;Other&#x3011;</h5><pre><code>&#x7EA2;&#x592A;&#x9633;&#x662F;&#x600E;&#x6837;&#x5347;&#x8D77;&#x7684;
-</code></pre><hr>
+<h5 id="&#x3010;Computer-Vision&#x3011;"><a href="#&#x3010;Computer-Vision&#x3011;" class="headerlink" title="&#x3010;Computer Vision&#x3011;"></a>&#x3010;Computer Vision&#x3011;</h5><ul>
+<li>&#x7279;&#x5F81;&#x63D0;&#x53D6;&#x4E0E;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
+<li>&#x8BA1;&#x7B97;&#x673A;&#x89C6;&#x89C9;&#x2014;&#x2014;&#x7B97;&#x6CD5;&#x4E0E;&#x5E94;&#x7528;</li>
+<li>&#x6570;&#x5B57;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
+</ul>
+<h5 id="&#x3010;Algorithm&#x3011;"><a href="#&#x3010;Algorithm&#x3011;" class="headerlink" title="&#x3010;Algorithm&#x3011;"></a>&#x3010;Algorithm&#x3011;</h5><ul>
+<li>&#x7F16;&#x7A0B;&#x73E0;&#x7391;&#xFF08;&#x7EED;&#xFF09;</li>
+<li><p>&#x7B97;&#x6CD5;&#x8C1C;&#x9898;</p>
+</li>
+<li><p>&#x5177;&#x4F53;&#x6570;&#x5B66;</p>
+</li>
+<li>&#x8FF7;&#x832B;&#x7684;&#x65C5;&#x884C;&#x5546;&#xFF1A;&#x4E00;&#x4E2A;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7B97;&#x6CD5;&#x95EE;&#x9898;</li>
+</ul>
+<h5 id="&#x3010;Basic&#x3011;"><a href="#&#x3010;Basic&#x3011;" class="headerlink" title="&#x3010;Basic&#x3011;"></a>&#x3010;Basic&#x3011;</h5><ul>
+<li>&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;</li>
+</ul>
+<h5 id="&#x3010;Network&#x3011;"><a href="#&#x3010;Network&#x3011;" class="headerlink" title="&#x3010;Network&#x3011;"></a>&#x3010;Network&#x3011;</h5><ul>
+<li>&#x7269;&#x8054;&#x7F51;&#x5BFC;&#x8BBA;(&#x5218;&#x4E91;&#x6D69; &#x7F16;&#x8457;)    </li>
+<li>Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
+<li><p>Nmap&#x626B;&#x63CF;&#x539F;&#x7406;&#x548C;&#x5E94;&#x7528;</p>
+</li>
+<li><p>TCP/IP&#x8BE6;&#x89E3;-V3</p>
+</li>
+<li>HTTP&#x6743;&#x5A01;&#x6307;&#x5357;</li>
+<li>Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
+<li>&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;</li>
+<li>&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx</li>
+</ul>
+<h5 id="&#x3010;HTML&#x3011;"><a href="#&#x3010;HTML&#x3011;" class="headerlink" title="&#x3010;HTML&#x3011;"></a>&#x3010;HTML&#x3011;</h5><ul>
+<li>Headfirst html + css</li>
+</ul>
+<h5 id="&#x3010;Programming&#x3011;"><a href="#&#x3010;Programming&#x3011;" class="headerlink" title="&#x3010;Programming&#x3011;"></a>&#x3010;Programming&#x3011;</h5><ul>
+<li>Effective C++</li>
+<li>More Effective C++</li>
+<li>Effective Modern C++</li>
+<li>Think in C++</li>
+<li>Effective STL</li>
+<li>STL&#x6E90;&#x4EE3;&#x7801;&#x5206;&#x6790;</li>
+<li>&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;C++&#x5BF9;&#x8C61;&#x6A21;&#x578B;</li>
+<li><p>C++&#x7F16;&#x7A0B;&#x89C4;&#x8303;101&#x6761;</p>
+</li>
+<li><p>Think in Java</p>
+</li>
+<li>Effective Java</li>
+<li><p>&#x6DF1;&#x5165;&#x7406;&#x89E3;Java&#x865A;&#x62DF;&#x673A;</p>
+</li>
+<li><p>Java&#x5E76;&#x53D1;&#x7F16;&#x7A0B;&#x5B9E;&#x6218;</p>
+</li>
+<li><p>Haskell&#x8DA3;&#x5B66;&#x6307;&#x5357;</p>
+</li>
+<li><p>&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7684;&#x6784;&#x9020;&#x548C;&#x89E3;&#x91CA; </p>
+</li>
+<li><p>The Awk Programming Language       </p>
+</li>
+</ul>
+<h5 id="&#x3010;History&#x3011;"><a href="#&#x3010;History&#x3011;" class="headerlink" title="&#x3010;History&#x3011;"></a>&#x3010;History&#x3011;</h5><ul>
+<li>&#x4FE1;&#x606F;&#x7B80;&#x53F2;</li>
+<li>&#x65F6;&#x95F4;&#x7B80;&#x53F2;</li>
+<li>&#x6587;&#x660E;&#x4E4B;&#x5149;</li>
+<li><p>Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </p>
+</li>
+<li><p>&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</p>
+</li>
+<li><p>&#x96C6;&#x5F02;&#x74A7;</p>
+</li>
+<li><p>&#x667A;&#x80FD;&#x65F6;&#x4EE3;    </p>
+</li>
+</ul>
+<h5 id="&#x3010;Thinking&#x3011;"><a href="#&#x3010;Thinking&#x3011;" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h5><ul>
+<li>&#x8BBE;&#x8BA1;&#x539F;&#x672C;</li>
+<li>&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;</li>
+<li>&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;</li>
+<li><p>&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;</p>
+</li>
+<li><p>&#x6784;&#x5EFA;&#x4E4B;&#x6CD5;&#xFF1A;&#x73B0;&#x4EE3;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;</p>
+</li>
+<li><p>&#x7F16;&#x7801;&#xFF1A;&#x9690;&#x533F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x80CC;&#x540E;&#x7684;&#x8BED;&#x8A00;</p>
+</li>
+<li><p>&#x4EE3;&#x7801;&#x6574;&#x6D01;&#x4E4B;&#x9053;    </p>
+</li>
+<li><p>&#x4EE3;&#x7801;&#x5927;&#x5168;</p>
+</li>
+</ul>
+<h5 id="&#x3010;Hacker&#x3011;"><a href="#&#x3010;Hacker&#x3011;" class="headerlink" title="&#x3010;Hacker&#x3011;"></a>&#x3010;Hacker&#x3011;</h5><ul>
+<li>&#x7070;&#x5E3D;&#x9ED1;&#x5BA2;</li>
+<li>&#x6B3A;&#x9A97;&#x7684;&#x827A;&#x672F;</li>
+<li>web&#x4E4B;&#x56F0;&#xFF1A;&#x73B0;&#x4EE3;web&#x5E94;&#x7528;&#x5B89;&#x5168;&#x6307;&#x5357;</li>
+<li>web&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#xFF1A;&#x4F7F;&#x7528;Kali Linux</li>
+<li>&#x9ED1;&#x5BA2;&#x6280;&#x672F;&#x653B;&#x9632;&#x5B9D;&#x5178;&#xFF1A;web&#x5B9E;&#x6218;&#x7BC7;</li>
+<li><p>&#x767D;&#x5E3D;&#x5B50;&#x8BB2;web&#x5B89;&#x5168;</p>
+</li>
+<li><p>Metasploit&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#x9B54;&#x9B3C;&#x8BAD;&#x7EC3;&#x8425;</p>
+</li>
+</ul>
+<h5 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h5><ul>
+<li>&#x63D0;&#x95EE;&#x7684;&#x827A;&#x672F;</li>
+<li>&#x601D;&#x8003;&#x7684;&#x827A;&#x672F;</li>
+</ul>
+<h5 id="&#x3010;Other&#x3011;"><a href="#&#x3010;Other&#x3011;" class="headerlink" title="&#x3010;Other&#x3011;"></a>&#x3010;Other&#x3011;</h5><ul>
+<li>&#x7EA2;&#x592A;&#x9633;&#x662F;&#x600E;&#x6837;&#x5347;&#x8D77;&#x7684;</li>
+</ul>
+<hr>
 <h3 id="&#x3010;Finish&#x3011;"><a href="#&#x3010;Finish&#x3011;" class="headerlink" title="&#x3010;Finish&#x3011;"></a>&#x3010;Finish&#x3011;</h3><h5 id="&#x3010;Thinking&#x3011;-1"><a href="#&#x3010;Thinking&#x3011;-1" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h5><ul>
 <li>[x]     &#x4EBA;&#x6708;&#x795E;&#x8BDD;</li>
 <li>[x]     &#x6570;&#x5B66;&#x4E4B;&#x7F8E;</li>
