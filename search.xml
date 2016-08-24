@@ -193,19 +193,19 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Refresh Page]]></title>
+      <url>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</url>
+      <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Cmd Send E-mail]]></title>
       <url>http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/</url>
       <content type="html"><![CDATA[<h2 id="Cmd-Send-E-mail"><a href="#Cmd-Send-E-mail" class="headerlink" title="Cmd Send E-mail"></a>Cmd Send E-mail</h2><p>With this Shell script, we can upload <em>.mobi</em>  to <strong>Kindle</strong></p>
 <a id="more"></a>
 <p>If without <code>-xp</code>, you need input pass of your E-mail.<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line">FROM=<span class="string">&quot;binder@gmail.com&quot;</span></span><br><span class="line">TO=<span class="string">&quot;xxx@kindle.cn&quot;</span></span><br><span class="line">ATTACH=<span class="string">&quot;./xxx.mobi&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> <span class="_">-gt</span> 0 ]; <span class="keyword">then</span></span><br><span class="line">	FROM=<span class="variable">$1</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> <span class="_">-gt</span> 1 ]; <span class="keyword">then</span></span><br><span class="line">	TO=<span class="variable">$2</span>	</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> <span class="_">-gt</span> 3 ]; <span class="keyword">then</span></span><br><span class="line">	ATTACH=<span class="variable">$3</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">sendemail 	<span class="_">-s</span> smtp.nju.edu.cn \</span><br><span class="line">			<span class="_">-f</span> mg1433094@smail.nju.edu.cn \</span><br><span class="line">			-t <span class="variable">$TO</span> \</span><br><span class="line">			-u <span class="string">&quot;Idler&apos;s Books&quot;</span> \</span><br><span class="line">			-m $<span class="string">&quot;Idle About&quot;</span> \</span><br><span class="line">			-xu <span class="variable">$FROM</span>	\ </span><br><span class="line">			<span class="comment">#-xp $PASS \</span></span><br><span class="line">			-o tls=auto \</span><br><span class="line">			<span class="_">-a</span> <span class="variable">$ATTACH</span></span><br></pre></td></tr></table></figure></p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Refresh Page]]></title>
-      <url>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</url>
-      <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
@@ -1268,7 +1268,12 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li>UNP-V2</li>
 </ul>
 <h5 id="&#x3010;Machine-Learning&#x3011;"><a href="#&#x3010;Machine-Learning&#x3011;" class="headerlink" title="&#x3010;Machine Learning&#x3011;"></a>&#x3010;Machine Learning&#x3011;</h5><ul>
-<li>PRML</li>
+<li>[x]     &#x7EDF;&#x8BA1;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;</li>
+<li>[x]     &#x673A;&#x5668;&#x5B66;&#x4E60;&#x5B9E;&#x6218;</li>
+<li><p>[x]     &#x673A;&#x5668;&#x5B66;&#x4E60;(&#x897F;&#x74DC;&#x4E66;)</p>
+</li>
+<li><p>PRML</p>
+</li>
 <li>ESL</li>
 <li>Data Mining: Practical Machine Learning Tools and Techniques</li>
 <li>Ensemble Methods: Foundations and Algorithms</li>
@@ -1279,6 +1284,8 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li>[x] &#x5927;&#x6570;&#x636E;&#x601D;&#x7EF4;&#x4E0E;&#x51B3;&#x7B56;</li>
 </ul>
 <h5 id="&#x3010;Computer-Vision&#x3011;"><a href="#&#x3010;Computer-Vision&#x3011;" class="headerlink" title="&#x3010;Computer Vision&#x3011;"></a>&#x3010;Computer Vision&#x3011;</h5><ul>
+<li>[x]     Learning Opencv</li>
+<li>[x]     OpenCV.2.Computer.Vision.Application.Programming.Cookbook</li>
 <li>&#x7279;&#x5F81;&#x63D0;&#x53D6;&#x4E0E;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
 <li>&#x8BA1;&#x7B97;&#x673A;&#x89C6;&#x89C9;&#x2014;&#x2014;&#x7B97;&#x6CD5;&#x4E0E;&#x5E94;&#x7528;</li>
 <li>&#x6570;&#x5B57;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
@@ -1333,21 +1340,36 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li><p>The Awk Programming Language       </p>
 </li>
 </ul>
-<h5 id="&#x3010;History&#x3011;"><a href="#&#x3010;History&#x3011;" class="headerlink" title="&#x3010;History&#x3011;"></a>&#x3010;History&#x3011;</h5><ul>
+<h5 id="&#x3010;History-amp-Biography&#x3011;"><a href="#&#x3010;History-amp-Biography&#x3011;" class="headerlink" title="&#x3010;History &amp; Biography&#x3011;"></a>&#x3010;History &amp; Biography&#x3011;</h5><ul>
+<li>[x]     &#x6D6A;&#x6F6E;&#x4E4B;&#x5DC5;</li>
+<li>[x]     &#x5927;&#x5B66;&#x4E4B;&#x8DEF;</li>
 <li>&#x4FE1;&#x606F;&#x7B80;&#x53F2;</li>
 <li>&#x65F6;&#x95F4;&#x7B80;&#x53F2;</li>
 <li>&#x6587;&#x660E;&#x4E4B;&#x5149;</li>
-<li><p>Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </p>
+<li><p>&#x667A;&#x80FD;&#x65F6;&#x4EE3; </p>
 </li>
-<li><p>&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</p>
+<li><p>[x]     Just For Fun</p>
 </li>
+<li>[x]     &#x5927;&#x6559;&#x5802;&#x4E0E;&#x5E02;&#x96C6;</li>
+<li>[x]     &#x9ED1;&#x5BA2;&#x4E0E;&#x753B;&#x5BB6;</li>
+<li>[x]     &#x4ECE;0&#x5230;1</li>
+<li>[x]     &#x8F6F;&#x4EF6;&#x968F;&#x60F3;&#x5F55;</li>
+<li>Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </li>
+<li>&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</li>
 <li><p>&#x96C6;&#x5F02;&#x74A7;</p>
 </li>
-<li><p>&#x667A;&#x80FD;&#x65F6;&#x4EE3;    </p>
+<li><p>[x]     &#x4E2D;&#x534E;&#x53F2;</p>
 </li>
+<li>&#x7EA2;&#x592A;&#x9633;&#x662F;&#x600E;&#x6837;&#x5347;&#x8D77;&#x7684;</li>
 </ul>
-<h5 id="&#x3010;Thinking&#x3011;"><a href="#&#x3010;Thinking&#x3011;" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h5><ul>
-<li>&#x8BBE;&#x8BA1;&#x539F;&#x672C;</li>
+<h5 id="&#x3010;Technique&#x3011;"><a href="#&#x3010;Technique&#x3011;" class="headerlink" title="&#x3010;Technique&#x3011;"></a>&#x3010;Technique&#x3011;</h5><h5 id="&#x3010;Thinking&#x3011;"><a href="#&#x3010;Thinking&#x3011;" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h5><ul>
+<li>[x]     &#x4EBA;&#x6708;&#x795E;&#x8BDD;</li>
+<li>[x]     &#x6570;&#x5B66;&#x4E4B;&#x7F8E;</li>
+<li>[x]     &#x7F16;&#x5199;&#x53EF;&#x8BFB;&#x4EE3;&#x7801;&#x7684;&#x827A;&#x672F;</li>
+<li><p>[x]     &#x6697;&#x65F6;&#x95F4;</p>
+</li>
+<li><p>&#x8BBE;&#x8BA1;&#x539F;&#x672C;</p>
+</li>
 <li>&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;</li>
 <li>&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;</li>
 <li><p>&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;</p>
@@ -1360,6 +1382,9 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 </li>
 <li><p>&#x4EE3;&#x7801;&#x5927;&#x5168;</p>
 </li>
+<li><p>[x]     &#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5FC3;&#x667A;: &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E4B;&#x54F2;&#x5B66;&#x539F;&#x7406;</p>
+</li>
+<li>[x]     C&#x9677;&#x9631;&#x4E0E;&#x7F3A;&#x9677;</li>
 </ul>
 <h5 id="&#x3010;Hacker&#x3011;"><a href="#&#x3010;Hacker&#x3011;" class="headerlink" title="&#x3010;Hacker&#x3011;"></a>&#x3010;Hacker&#x3011;</h5><ul>
 <li>&#x7070;&#x5E3D;&#x9ED1;&#x5BA2;</li>
@@ -1372,56 +1397,19 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li><p>Metasploit&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#x9B54;&#x9B3C;&#x8BAD;&#x7EC3;&#x8425;</p>
 </li>
 </ul>
-<h5 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h5><ul>
-<li>&#x63D0;&#x95EE;&#x7684;&#x827A;&#x672F;</li>
-<li>&#x601D;&#x8003;&#x7684;&#x827A;&#x672F;</li>
-</ul>
-<h5 id="&#x3010;Other&#x3011;"><a href="#&#x3010;Other&#x3011;" class="headerlink" title="&#x3010;Other&#x3011;"></a>&#x3010;Other&#x3011;</h5><ul>
-<li>&#x7EA2;&#x592A;&#x9633;&#x662F;&#x600E;&#x6837;&#x5347;&#x8D77;&#x7684;</li>
-</ul>
-<hr>
-<h3 id="&#x3010;Finish&#x3011;"><a href="#&#x3010;Finish&#x3011;" class="headerlink" title="&#x3010;Finish&#x3011;"></a>&#x3010;Finish&#x3011;</h3><h5 id="&#x3010;Thinking&#x3011;-1"><a href="#&#x3010;Thinking&#x3011;-1" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h5><ul>
-<li>[x]     &#x4EBA;&#x6708;&#x795E;&#x8BDD;</li>
-<li>[x]     &#x6570;&#x5B66;&#x4E4B;&#x7F8E;</li>
-<li>[x]     &#x7F16;&#x5199;&#x53EF;&#x8BFB;&#x4EE3;&#x7801;&#x7684;&#x827A;&#x672F;</li>
-<li>[x]     &#x6697;&#x65F6;&#x95F4;</li>
-</ul>
-<h5 id="&#x3010;History-amp-Biography&#x3011;"><a href="#&#x3010;History-amp-Biography&#x3011;" class="headerlink" title="&#x3010;History &amp; Biography&#x3011;"></a>&#x3010;History &amp; Biography&#x3011;</h5><ul>
-<li>[x]     &#x6D6A;&#x6F6E;&#x4E4B;&#x5DC5;</li>
-<li>[x]     &#x5927;&#x5B66;&#x4E4B;&#x8DEF;</li>
-<li>[x]     Just For Fun</li>
-<li>[x]     &#x5927;&#x6559;&#x5802;&#x4E0E;&#x5E02;&#x96C6;</li>
-<li>[x]     &#x9ED1;&#x5BA2;&#x4E0E;&#x753B;&#x5BB6;</li>
-<li>[x]     &#x4ECE;0&#x5230;1</li>
-<li><p>[x]     &#x8F6F;&#x4EF6;&#x968F;&#x60F3;&#x5F55;</p>
-</li>
-<li><p>[x]     &#x4E2D;&#x534E;&#x53F2;</p>
-</li>
-</ul>
-<h5 id="&#x3010;Technique&#x3011;"><a href="#&#x3010;Technique&#x3011;" class="headerlink" title="&#x3010;Technique&#x3011;"></a>&#x3010;Technique&#x3011;</h5><ul>
-<li>[x]     &#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5FC3;&#x667A;: &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E4B;&#x54F2;&#x5B66;&#x539F;&#x7406;</li>
-<li>[x]     C&#x9677;&#x9631;&#x4E0E;&#x7F3A;&#x9677;</li>
-</ul>
-<h5 id="&#x3010;Machine-Learning&#x3011;-1"><a href="#&#x3010;Machine-Learning&#x3011;-1" class="headerlink" title="&#x3010;Machine Learning&#x3011;"></a>&#x3010;Machine Learning&#x3011;</h5><ul>
-<li>[x]     &#x7EDF;&#x8BA1;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;</li>
-<li>[x]     &#x673A;&#x5668;&#x5B66;&#x4E60;&#x5B9E;&#x6218;</li>
-<li>[x]     &#x673A;&#x5668;&#x5B66;&#x4E60;(&#x897F;&#x74DC;&#x4E66;)</li>
-</ul>
-<h5 id="&#x3010;Computer-Vision&#x3011;-1"><a href="#&#x3010;Computer-Vision&#x3011;-1" class="headerlink" title="&#x3010;Computer Vision&#x3011;"></a>&#x3010;Computer Vision&#x3011;</h5><ul>
-<li>[x]     Learning Opencv</li>
-<li>[x]     OpenCV.2.Computer.Vision.Application.Programming.Cookbook</li>
-</ul>
 <h5 id="&#x3010;Trick&#x3011;"><a href="#&#x3010;Trick&#x3011;" class="headerlink" title="&#x3010;Trick&#x3011;"></a>&#x3010;Trick&#x3011;</h5><ul>
 <li>[x]     &#x7F16;&#x7A0B;&#x73E0;&#x7391;</li>
 <li>[x]     &#x7F16;&#x7A0B;&#x4E4B;&#x7F8E;</li>
 <li>[x]     &#x5251;&#x6307;Offer</li>
 </ul>
-<h5 id="&#x3010;Psychology&#x3011;-1"><a href="#&#x3010;Psychology&#x3011;-1" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h5><ul>
+<h5 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h5><ul>
 <li>[x]     &#x5F71;&#x54CD;&#x529B;</li>
 <li>[x]     &#x610F;&#x5FD7;&#x529B;</li>
 <li>[x]     &#x81EA;&#x63A7;&#x529B;</li>
 <li>[x]     &#x4E60;&#x60EF;&#x7684;&#x529B;&#x91CF;</li>
 <li>[x]     &#x60C5;&#x5546;</li>
+<li>&#x63D0;&#x95EE;&#x7684;&#x827A;&#x672F;</li>
+<li>&#x601D;&#x8003;&#x7684;&#x827A;&#x672F;</li>
 </ul>
 <h5 id="&#x3010;Novel&#x3011;"><a href="#&#x3010;Novel&#x3011;" class="headerlink" title="&#x3010;Novel&#x3011;"></a>&#x3010;Novel&#x3011;</h5><ul>
 <li>[x]     &#x96CD;&#x6B63;&#x5251;&#x4FA0;&#x56FE;&#x5341;&#x4E09;&#x90E8;</li>
@@ -1679,18 +1667,18 @@ modprobe -r uvcvideo <span class="comment">#remove module UVC</span>
     </entry>
     
     <entry>
-      <title><![CDATA[Pic2Pdf]]></title>
-      <url>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</url>
-      <content type="html"><![CDATA[<h2 id="Shell-&#x7591;&#x60D1;"><a href="#Shell-&#x7591;&#x60D1;" class="headerlink" title="Shell &#x7591;&#x60D1;"></a>Shell &#x7591;&#x60D1;</h2><h3 id="&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;"><a href="#&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;" class="headerlink" title="&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;"></a>&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;</h3><h4 id="&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;"><a href="#&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;" class="headerlink" title="&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;"></a>&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">trimDFS</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]</span><br><span class="line">        <span class="keyword">then</span></span><br><span class="line">			<span class="built_in">let</span> count+=1</span><br><span class="line">			<span class="built_in">echo</span> <span class="string">&quot;[<span class="variable">$count</span>] <span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">            trimDFS <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">        <span class="comment">#else</span></span><br><span class="line">            <span class="comment">#dos2unix $1&quot;/&quot;$file</span></span><br><span class="line">            <span class="comment">#echo &quot;$1&quot;&quot;/&quot;&quot;$file&quot;</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">trimDFS <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Picture batch to Pdf]]></title>
       <url>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</url>
       <content type="html"><![CDATA[<h2 id="Archive-pictures-to-pdf"><a href="#Archive-pictures-to-pdf" class="headerlink" title="Archive pictures to pdf"></a>Archive pictures to pdf</h2><h3 id="Get-rid-of-filename-blank"><a href="#Get-rid-of-filename-blank" class="headerlink" title="Get rid of filename blank"></a>Get rid of filename blank</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">function</span> rm-ALL-<span class="function"><span class="title">blank</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">		<span class="comment">#echo $newfile</span></span><br><span class="line">		<span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">			newfile=`<span class="built_in">echo</span> <span class="variable">$file</span> | sed <span class="string">&apos;s/ //g&apos;</span>`</span><br><span class="line">			mv <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$newfile</span>&quot;</span> 2&gt;/dev/null</span><br><span class="line">			rm-ALL-blank <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">		<span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">rm-ALL-blank <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
 <h3 id="Pictures-to-pdf"><a href="#Pictures-to-pdf" class="headerlink" title="Pictures to pdf"></a>Pictures to pdf</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">myconvert</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]</span><br><span class="line">        <span class="keyword">then</span></span><br><span class="line">			find <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> -maxdepth 1 -name <span class="string">&quot;*.jpg&quot;</span>|sort 1&gt;<span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span></span><br><span class="line">			<span class="keyword">if</span> [ <span class="_">-s</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span> ]; <span class="keyword">then</span>  </span><br><span class="line">				<span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span>.pdf</span><br><span class="line">				convert @<span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span>.pdf</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				myconvert <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">			<span class="keyword">fi</span></span><br><span class="line">		<span class="keyword">fi</span></span><br><span class="line">		rm <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span> 2&gt;/dev/null</span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">myconvert <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
 <h3 id="Move-pdf"><a href="#Move-pdf" class="headerlink" title="Move pdf"></a>Move pdf</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkdir ../pdf</span><br><span class="line"><span class="keyword">for</span> pdf <span class="keyword">in</span> `find . -name <span class="string">&quot;*.pdf&quot;</span>`</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">	mv <span class="variable">$pdf</span> ../pdf/</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Pic2Pdf]]></title>
+      <url>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</url>
+      <content type="html"><![CDATA[<h2 id="Shell-&#x7591;&#x60D1;"><a href="#Shell-&#x7591;&#x60D1;" class="headerlink" title="Shell &#x7591;&#x60D1;"></a>Shell &#x7591;&#x60D1;</h2><h3 id="&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;"><a href="#&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;" class="headerlink" title="&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;"></a>&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;</h3><h4 id="&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;"><a href="#&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;" class="headerlink" title="&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;"></a>&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">trimDFS</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]</span><br><span class="line">        <span class="keyword">then</span></span><br><span class="line">			<span class="built_in">let</span> count+=1</span><br><span class="line">			<span class="built_in">echo</span> <span class="string">&quot;[<span class="variable">$count</span>] <span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">            trimDFS <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">        <span class="comment">#else</span></span><br><span class="line">            <span class="comment">#dos2unix $1&quot;/&quot;$file</span></span><br><span class="line">            <span class="comment">#echo &quot;$1&quot;&quot;/&quot;&quot;$file&quot;</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">trimDFS <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
 ]]></content>
     </entry>
     
