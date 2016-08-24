@@ -1346,8 +1346,8 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li><progress value="30" max="100"></progress>&#x2003;&#x4FE1;&#x606F;&#x7B80;&#x53F2;</li>
 <li><progress value="15" max="100"></progress>&#x2003;&#x65F6;&#x95F4;&#x7B80;&#x53F2;</li>
 <li>[x]     &#x4E07;&#x7269;&#x7B80;&#x53F2;</li>
-<li>&#x6587;&#x660E;&#x4E4B;&#x5149;</li>
-<li><p>&#x667A;&#x80FD;&#x65F6;&#x4EE3; </p>
+<li><progress value="45" max="100"></progress>&#x2003;&#x6587;&#x660E;&#x4E4B;&#x5149;</li>
+<li><p><progress value="50" max="100"></progress>&#x2003;&#x667A;&#x80FD;&#x65F6;&#x4EE3; </p>
 </li>
 <li><p>[x]     Just For Fun</p>
 </li>
@@ -1378,32 +1378,32 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li>[x]     &#x7F16;&#x5199;&#x53EF;&#x8BFB;&#x4EE3;&#x7801;&#x7684;&#x827A;&#x672F;</li>
 <li><p>[x]     &#x6697;&#x65F6;&#x95F4;</p>
 </li>
-<li><p>&#x8BBE;&#x8BA1;&#x539F;&#x672C;</p>
+<li><p><progress value="15" max="100"></progress>&#x2003;&#x8BBE;&#x8BA1;&#x539F;&#x672C;</p>
 </li>
-<li>&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;</li>
-<li>&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;</li>
-<li>&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;</li>
-<li><p>&#x7A0B;&#x5E8F;&#x5458;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;-&#x4E13;&#x4E1A;&#x7A0B;&#x5E8F;&#x5458;&#x5FC5;&#x77E5;&#x7684;33&#x4E2A;&#x6280;&#x5DE7;</p>
+<li><progress value="50" max="100"></progress>&#x2003;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;</li>
+<li><progress value="18" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;</li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;</li>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;-&#x4E13;&#x4E1A;&#x7A0B;&#x5E8F;&#x5458;&#x5FC5;&#x77E5;&#x7684;33&#x4E2A;&#x6280;&#x5DE7;</p>
 </li>
-<li><p>&#x6784;&#x5EFA;&#x4E4B;&#x6CD5;&#xFF1A;&#x73B0;&#x4EE3;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;</p>
+<li><p><progress value="14" max="100"></progress>&#x2003;&#x6784;&#x5EFA;&#x4E4B;&#x6CD5;&#xFF1A;&#x73B0;&#x4EE3;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;</p>
 </li>
-<li><p>&#x7F16;&#x7801;&#xFF1A;&#x9690;&#x533F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x80CC;&#x540E;&#x7684;&#x8BED;&#x8A00;</p>
+<li><p><progress value="20" max="100"></progress>&#x2003;&#x7F16;&#x7801;&#xFF1A;&#x9690;&#x533F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x80CC;&#x540E;&#x7684;&#x8BED;&#x8A00;</p>
 </li>
-<li><p>&#x4EE3;&#x7801;&#x6574;&#x6D01;&#x4E4B;&#x9053;    </p>
+<li><p><progress value="95" max="100"></progress>&#x2003;&#x4EE3;&#x7801;&#x6574;&#x6D01;&#x4E4B;&#x9053;    </p>
 </li>
-<li><p>&#x4EE3;&#x7801;&#x5927;&#x5168;</p>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x4EE3;&#x7801;&#x5927;&#x5168;</p>
 </li>
 <li><p>[x]     &#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5FC3;&#x667A;: &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E4B;&#x54F2;&#x5B66;&#x539F;&#x7406;</p>
 </li>
 <li><p>[x]     C&#x9677;&#x9631;&#x4E0E;&#x7F3A;&#x9677;</p>
 </li>
-<li><p>Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </p>
+<li><p><progress value="40" max="100"></progress>&#x2003;Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </p>
 </li>
-<li>&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</li>
-<li>&#x96C6;&#x5F02;&#x74A7;</li>
-<li>&#x521B;&#x4E1A;&#x7EF4;&#x8270;</li>
-<li>&#x56DA;&#x5F92;&#x7684;&#x56F0;&#x5883;-&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;,&#x535A;&#x5F08;&#x8BBA;&#x548C;&#x539F;&#x5B50;&#x5F39;&#x4E4B;&#x8C1C;</li>
-<li>&#x8D28;&#x6570;&#x7684;&#x5B64;&#x72EC;</li>
+<li><progress value="30" max="100"></progress>&#x2003;&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</li>
+<li><progress value="35" max="100"></progress>&#x2003;&#x96C6;&#x5F02;&#x74A7;</li>
+<li><progress value="5" max="100"></progress>&#x2003;&#x521B;&#x4E1A;&#x7EF4;&#x8270;</li>
+<li><progress value="5" max="100"></progress>&#x2003;&#x56DA;&#x5F92;&#x7684;&#x56F0;&#x5883;-&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;,&#x535A;&#x5F08;&#x8BBA;&#x548C;&#x539F;&#x5B50;&#x5F39;&#x4E4B;&#x8C1C;</li>
+<li><progress value="2" max="100"></progress>&#x2003;&#x8D28;&#x6570;&#x7684;&#x5B64;&#x72EC;</li>
 </ul>
 <h3 id="&#x3010;Hacker&#x3011;"><a href="#&#x3010;Hacker&#x3011;" class="headerlink" title="&#x3010;Hacker&#x3011;"></a>&#x3010;Hacker&#x3011;</h3><ul>
 <li><progress value="20" max="100"></progress>&#x2003;&#x7070;&#x5E3D;&#x9ED1;&#x5BA2;</li>
