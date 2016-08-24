@@ -1252,7 +1252,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     <entry>
       <title><![CDATA[✍ Reading Books]]></title>
       <url>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</url>
-      <content type="html"><![CDATA[<h2 id="My-Book-List"><a href="#My-Book-List" class="headerlink" title="My Book List"></a>My Book List</h2><h3 id="&#x3010;Linux&#x3011;"><a href="#&#x3010;Linux&#x3011;" class="headerlink" title="&#x3010;Linux&#x3011;"></a>&#x3010;Linux&#x3011;</h3><ul>
+      <content type="html"><![CDATA[<h2 id="My-Book-List"><a href="#My-Book-List" class="headerlink" title="My Book List"></a>My Book List</h2><h3 id="&#x3010;Unix-Linux&#x3011;"><a href="#&#x3010;Unix-Linux&#x3011;" class="headerlink" title="&#x3010;Unix/Linux&#x3011;"></a>&#x3010;Unix/Linux&#x3011;</h3><ul>
 <li><progress value="70" max="100"></progress>&#x2003;Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0; </li>
 <li><progress value="50" max="100"></progress>&#x2003;Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x7684;&#x827A;&#x672F;</li>
 <li><progress value="35" max="100"></progress>&#x2003;&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;Linux&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;&#x7CFB;&#x7EDF;&#x6784;&#x5EFA;&#x548C;&#x539F;&#x7406;&#x89E3;&#x6790;</li>
@@ -1292,15 +1292,14 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li><progress value="85" max="100"></progress>&#x2003;&#x6570;&#x5B57;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
 </ul>
 <h3 id="&#x3010;Algorithm&#x3011;"><a href="#&#x3010;Algorithm&#x3011;" class="headerlink" title="&#x3010;Algorithm&#x3011;"></a>&#x3010;Algorithm&#x3011;</h3><ul>
-<li><progress value="50" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;&#xFF08;&#x7EED;&#xFF09;</li>
-<li><p><progress value="60" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x8C1C;&#x9898;</p>
-</li>
-<li><p><progress value="20" max="100"></progress>&#x2003;&#x5177;&#x4F53;&#x6570;&#x5B66;</p>
-</li>
+<li><progress value="85" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x5BFC;&#x8BBA;    </li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x5177;&#x4F53;&#x6570;&#x5B66;</li>
 <li><progress value="45" max="100"></progress>&#x2003;&#x8FF7;&#x832B;&#x7684;&#x65C5;&#x884C;&#x5546;&#xFF1A;&#x4E00;&#x4E2A;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7B97;&#x6CD5;&#x95EE;&#x9898;</li>
 </ul>
-<h3 id="&#x3010;Basic&#x3011;"><a href="#&#x3010;Basic&#x3011;" class="headerlink" title="&#x3010;Basic&#x3011;"></a>&#x3010;Basic&#x3011;</h3><ul>
+<h3 id="&#x3010;Compile&#x3011;"><a href="#&#x3010;Compile&#x3011;" class="headerlink" title="&#x3010;Compile&#x3011;"></a>&#x3010;Compile&#x3011;</h3><ul>
 <li><progress value="90" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;</li>
+<li><progress value="35" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x81EA;&#x6211;&#x4FEE;&#x517B;</li>
+<li><progress value="75" max="100"></progress>&#x2003;&#x7F16;&#x8BD1;&#x539F;&#x7406;</li>
 </ul>
 <h3 id="&#x3010;Network&#x3011;"><a href="#&#x3010;Network&#x3011;" class="headerlink" title="&#x3010;Network&#x3011;"></a>&#x3010;Network&#x3011;</h3><ul>
 <li><progress value="70" max="100"></progress>&#x2003;&#x7269;&#x8054;&#x7F51;&#x5BFC;&#x8BBA;(&#x5218;&#x4E91;&#x6D69; &#x7F16;&#x8457;)    </li>
@@ -1312,10 +1311,10 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li><progress value="30" max="100"></progress>&#x2003;HTTP&#x6743;&#x5A01;&#x6307;&#x5357;</li>
 <li><progress value="10" max="100"></progress>&#x2003;Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
 <li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;</li>
-<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx</li>
-</ul>
-<h3 id="&#x3010;HTML&#x3011;"><a href="#&#x3010;HTML&#x3011;" class="headerlink" title="&#x3010;HTML&#x3011;"></a>&#x3010;HTML&#x3011;</h3><ul>
-<li><progress value="75" max="100"></progress>&#x2003;Headfirst html + css</li>
+<li><p><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx</p>
+</li>
+<li><p><progress value="75" max="100"></progress>&#x2003;Headfirst html + css</p>
+</li>
 </ul>
 <h3 id="&#x3010;Programming&#x3011;"><a href="#&#x3010;Programming&#x3011;" class="headerlink" title="&#x3010;Programming&#x3011;"></a>&#x3010;Programming&#x3011;</h3><ul>
 <li><progress value="85" max="100"></progress>&#x2003;Effective C++</li>
@@ -1421,6 +1420,8 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
 <li><progress value="96" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;</li>
 <li><progress value="88" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x4E4B;&#x7F8E;</li>
 <li><progress value="93" max="100"></progress>&#x2003;&#x5251;&#x6307;Offer</li>
+<li><progress value="50" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;&#xFF08;&#x7EED;&#xFF09;</li>
+<li><progress value="60" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x8C1C;&#x9898;</li>
 </ul>
 <h3 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h3><ul>
 <li><progress value="100" max="100"></progress>&#x2003;&#x5F71;&#x54CD;&#x529B;</li>
