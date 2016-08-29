@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idler1229.github.io/"/>
-  <updated>2016-08-12T20:14:36.900Z</updated>
+  <updated>2016-08-12T20:25:23.648Z</updated>
   <id>http://idler1229.github.io/</id>
   
   <author>
@@ -14,55 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Geek Tools</title>
-    <link href="http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/"/>
-    <id>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/</id>
-    <published>2016-08-12T19:33:33.000Z</published>
-    <updated>2016-08-12T20:14:36.900Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Some-Geek-Tools-Recommendation"><a href="#Some-Geek-Tools-Recommendation" class="headerlink" title="Some Geek Tools Recommendation"></a>Some Geek Tools Recommendation</h2><h3 id="Enhanced-Desktop"><a href="#Enhanced-Desktop" class="headerlink" title="Enhanced Desktop"></a>Enhanced Desktop</h3><h4 id="Ditto"><a href="#Ditto" class="headerlink" title="Ditto"></a>Ditto</h4><p>Enhance Clipboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--4.jpg" alt="ditto"></p>
-<h4 id="AutoHotKey"><a href="#AutoHotKey" class="headerlink" title="AutoHotKey"></a>AutoHotKey</h4><p>Enhance Keyboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--5.jpg" alt="autohotkey"></p>
-<h3 id="Searching-Optimization"><a href="#Searching-Optimization" class="headerlink" title="Searching Optimization"></a>Searching Optimization</h3><h4 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h4><p>Search Repository (Platform: Windows)<br>example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">d:|e: *jpg dm:xxx-xxx</span><br><span class="line">c:|d: *.pdf|*.ppt da:thisweek</span><br></pre></td></tr></table></figure></p>
-<h4 id="Listary-free"><a href="#Listary-free" class="headerlink" title="Listary (free)"></a>Listary (free)</h4><p>(Platform: Windows)</p>
-<h4 id="Google-Desktop-Search"><a href="#Google-Desktop-Search" class="headerlink" title="Google Desktop Search"></a>Google Desktop Search</h4><p>(Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--7.jpg" alt="rep"></p>
-<h4 id="Hack-Google"><a href="#Hack-Google" class="headerlink" title="Hack Google"></a>Hack Google</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--8.jpg" alt="hack"></p>
-<h3 id="Knowledge-Management"><a href="#Knowledge-Management" class="headerlink" title="Knowledge Management"></a>Knowledge Management</h3><h4 id="Evernote-Geeknote"><a href="#Evernote-Geeknote" class="headerlink" title="Evernote, Geeknote"></a>Evernote, Geeknote</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--10.jpg" alt="eg"></p>
-<h4 id="Socialized-Knowledge"><a href="#Socialized-Knowledge" class="headerlink" title="Socialized Knowledge"></a>Socialized Knowledge</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--11.jpg" alt="sk"></p>
-<h3 id="Coding-Tools"><a href="#Coding-Tools" class="headerlink" title="Coding Tools"></a>Coding Tools</h3><h4 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h4><p>SublimeCodeIntel</p>
-<h4 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h4><p>ELECTION </p>
-<h4 id="VisualStudio-Code"><a href="#VisualStudio-Code" class="headerlink" title="VisualStudio Code"></a>VisualStudio Code</h4><h3 id="Design-amp-Diagram-Tools"><a href="#Design-amp-Diagram-Tools" class="headerlink" title="Design &amp; Diagram Tools"></a>Design &amp; Diagram Tools</h3><h4 id="js-sequence-diagrams-js-flowchart-js"><a href="#js-sequence-diagrams-js-flowchart-js" class="headerlink" title="js-sequence-diagrams.js flowchart.js"></a>js-sequence-diagrams.js flowchart.js</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--18.jpg" alt="js"></p>
-<h4 id="Graphviz-DOT"><a href="#Graphviz-DOT" class="headerlink" title="Graphviz (DOT)"></a>Graphviz (DOT)</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--19.jpg" alt="gd"></p>
-<h4 id="PlantUML"><a href="#PlantUML" class="headerlink" title="PlantUML"></a>PlantUML</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--20.jpg" alt="uml"></p>
-<h3 id="Idea-amp-Mind-Tools"><a href="#Idea-amp-Mind-Tools" class="headerlink" title="Idea &amp; Mind Tools"></a>Idea &amp; Mind Tools</h3><h4 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h4><h4 id="Blumind"><a href="#Blumind" class="headerlink" title="Blumind"></a>Blumind</h4><h4 id="The-Brain-Personal-Brain"><a href="#The-Brain-Personal-Brain" class="headerlink" title="The Brain (Personal Brain)"></a>The Brain (Personal Brain)</h4><h3 id="Document-Tools"><a href="#Document-Tools" class="headerlink" title="Document Tools"></a>Document Tools</h3><h4 id="DocBook"><a href="#DocBook" class="headerlink" title="DocBook"></a>DocBook</h4><h4 id="DITA"><a href="#DITA" class="headerlink" title="DITA"></a>DITA</h4><h4 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h4><h4 id="RestructuringText"><a href="#RestructuringText" class="headerlink" title="RestructuringText"></a>RestructuringText</h4><h3 id="Other-Handy-Tools"><a href="#Other-Handy-Tools" class="headerlink" title="Other Handy Tools"></a>Other Handy Tools</h3><h4 id="Visualize-Regex"><a href="#Visualize-Regex" class="headerlink" title="Visualize Regex"></a>Visualize Regex</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--30.jpg" alt="vr"></p>
-<h4 id="Pandoc"><a href="#Pandoc" class="headerlink" title="Pandoc"></a>Pandoc</h4><h4 id="Diffcount-Utility"><a href="#Diffcount-Utility" class="headerlink" title="Diffcount Utility"></a>Diffcount Utility</h4><h3 id="Thanks-to-TrendMicro&#x2019;s-Charlie-Cao"><a href="#Thanks-to-TrendMicro&#x2019;s-Charlie-Cao" class="headerlink" title="Thanks to TrendMicro&#x2019;s Charlie Cao"></a>Thanks to TrendMicro&#x2019;s Charlie Cao</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Some-Geek-Tools-Recommendation&quot;&gt;&lt;a href=&quot;#Some-Geek-Tools-Recommendation&quot; class=&quot;headerlink&quot; title=&quot;Some Geek Tools Recommendation&quot;&gt;
-    
-    </summary>
-    
-      <category term="Recommendation" scheme="http://idler1229.github.io/categories/Recommendation/"/>
-    
-      <category term="Tools" scheme="http://idler1229.github.io/categories/Recommendation/Tools/"/>
-    
-    
-      <category term="Linux" scheme="http://idler1229.github.io/tags/Linux/"/>
-    
-      <category term="Windows" scheme="http://idler1229.github.io/tags/Windows/"/>
-    
-      <category term="Recommendation" scheme="http://idler1229.github.io/tags/Recommendation/"/>
-    
-      <category term="Note" scheme="http://idler1229.github.io/tags/Note/"/>
-    
-      <category term="Tools" scheme="http://idler1229.github.io/tags/Tools/"/>
-    
-      <category term="Desktop" scheme="http://idler1229.github.io/tags/Desktop/"/>
-    
-  </entry>
   
   <entry>
     <title>Secure Code [TODO]</title>
@@ -116,6 +67,55 @@
       <category term="Code" scheme="http://idler1229.github.io/tags/Code/"/>
     
       <category term="Security" scheme="http://idler1229.github.io/tags/Security/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Geek Tools</title>
+    <link href="http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/"/>
+    <id>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/</id>
+    <published>2016-08-12T19:33:33.000Z</published>
+    <updated>2016-08-12T20:14:36.900Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Some-Geek-Tools-Recommendation"><a href="#Some-Geek-Tools-Recommendation" class="headerlink" title="Some Geek Tools Recommendation"></a>Some Geek Tools Recommendation</h2><h3 id="Enhanced-Desktop"><a href="#Enhanced-Desktop" class="headerlink" title="Enhanced Desktop"></a>Enhanced Desktop</h3><h4 id="Ditto"><a href="#Ditto" class="headerlink" title="Ditto"></a>Ditto</h4><p>Enhance Clipboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--4.jpg" alt="ditto"></p>
+<h4 id="AutoHotKey"><a href="#AutoHotKey" class="headerlink" title="AutoHotKey"></a>AutoHotKey</h4><p>Enhance Keyboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--5.jpg" alt="autohotkey"></p>
+<h3 id="Searching-Optimization"><a href="#Searching-Optimization" class="headerlink" title="Searching Optimization"></a>Searching Optimization</h3><h4 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h4><p>Search Repository (Platform: Windows)<br>example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">d:|e: *jpg dm:xxx-xxx</span><br><span class="line">c:|d: *.pdf|*.ppt da:thisweek</span><br></pre></td></tr></table></figure></p>
+<h4 id="Listary-free"><a href="#Listary-free" class="headerlink" title="Listary (free)"></a>Listary (free)</h4><p>(Platform: Windows)</p>
+<h4 id="Google-Desktop-Search"><a href="#Google-Desktop-Search" class="headerlink" title="Google Desktop Search"></a>Google Desktop Search</h4><p>(Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--7.jpg" alt="rep"></p>
+<h4 id="Hack-Google"><a href="#Hack-Google" class="headerlink" title="Hack Google"></a>Hack Google</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--8.jpg" alt="hack"></p>
+<h3 id="Knowledge-Management"><a href="#Knowledge-Management" class="headerlink" title="Knowledge Management"></a>Knowledge Management</h3><h4 id="Evernote-Geeknote"><a href="#Evernote-Geeknote" class="headerlink" title="Evernote, Geeknote"></a>Evernote, Geeknote</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--10.jpg" alt="eg"></p>
+<h4 id="Socialized-Knowledge"><a href="#Socialized-Knowledge" class="headerlink" title="Socialized Knowledge"></a>Socialized Knowledge</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--11.jpg" alt="sk"></p>
+<h3 id="Coding-Tools"><a href="#Coding-Tools" class="headerlink" title="Coding Tools"></a>Coding Tools</h3><h4 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h4><p>SublimeCodeIntel</p>
+<h4 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h4><p>ELECTION </p>
+<h4 id="VisualStudio-Code"><a href="#VisualStudio-Code" class="headerlink" title="VisualStudio Code"></a>VisualStudio Code</h4><h3 id="Design-amp-Diagram-Tools"><a href="#Design-amp-Diagram-Tools" class="headerlink" title="Design &amp; Diagram Tools"></a>Design &amp; Diagram Tools</h3><h4 id="js-sequence-diagrams-js-flowchart-js"><a href="#js-sequence-diagrams-js-flowchart-js" class="headerlink" title="js-sequence-diagrams.js flowchart.js"></a>js-sequence-diagrams.js flowchart.js</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--18.jpg" alt="js"></p>
+<h4 id="Graphviz-DOT"><a href="#Graphviz-DOT" class="headerlink" title="Graphviz (DOT)"></a>Graphviz (DOT)</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--19.jpg" alt="gd"></p>
+<h4 id="PlantUML"><a href="#PlantUML" class="headerlink" title="PlantUML"></a>PlantUML</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--20.jpg" alt="uml"></p>
+<h3 id="Idea-amp-Mind-Tools"><a href="#Idea-amp-Mind-Tools" class="headerlink" title="Idea &amp; Mind Tools"></a>Idea &amp; Mind Tools</h3><h4 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h4><h4 id="Blumind"><a href="#Blumind" class="headerlink" title="Blumind"></a>Blumind</h4><h4 id="The-Brain-Personal-Brain"><a href="#The-Brain-Personal-Brain" class="headerlink" title="The Brain (Personal Brain)"></a>The Brain (Personal Brain)</h4><h3 id="Document-Tools"><a href="#Document-Tools" class="headerlink" title="Document Tools"></a>Document Tools</h3><h4 id="DocBook"><a href="#DocBook" class="headerlink" title="DocBook"></a>DocBook</h4><h4 id="DITA"><a href="#DITA" class="headerlink" title="DITA"></a>DITA</h4><h4 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h4><h4 id="RestructuringText"><a href="#RestructuringText" class="headerlink" title="RestructuringText"></a>RestructuringText</h4><h3 id="Other-Handy-Tools"><a href="#Other-Handy-Tools" class="headerlink" title="Other Handy Tools"></a>Other Handy Tools</h3><h4 id="Visualize-Regex"><a href="#Visualize-Regex" class="headerlink" title="Visualize Regex"></a>Visualize Regex</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--30.jpg" alt="vr"></p>
+<h4 id="Pandoc"><a href="#Pandoc" class="headerlink" title="Pandoc"></a>Pandoc</h4><h4 id="Diffcount-Utility"><a href="#Diffcount-Utility" class="headerlink" title="Diffcount Utility"></a>Diffcount Utility</h4><h3 id="Thanks-to-TrendMicro&#x2019;s-Charlie-Cao"><a href="#Thanks-to-TrendMicro&#x2019;s-Charlie-Cao" class="headerlink" title="Thanks to TrendMicro&#x2019;s Charlie Cao"></a>Thanks to TrendMicro&#x2019;s Charlie Cao</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Some-Geek-Tools-Recommendation&quot;&gt;&lt;a href=&quot;#Some-Geek-Tools-Recommendation&quot; class=&quot;headerlink&quot; title=&quot;Some Geek Tools Recommendation&quot;&gt;
+    
+    </summary>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/categories/Recommendation/"/>
+    
+      <category term="Tools" scheme="http://idler1229.github.io/categories/Recommendation/Tools/"/>
+    
+    
+      <category term="Linux" scheme="http://idler1229.github.io/tags/Linux/"/>
+    
+      <category term="Windows" scheme="http://idler1229.github.io/tags/Windows/"/>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/tags/Recommendation/"/>
+    
+      <category term="Note" scheme="http://idler1229.github.io/tags/Note/"/>
+    
+      <category term="Tools" scheme="http://idler1229.github.io/tags/Tools/"/>
+    
+      <category term="Desktop" scheme="http://idler1229.github.io/tags/Desktop/"/>
     
   </entry>
   
@@ -260,6 +260,65 @@
       <category term="Programming Language" scheme="http://idler1229.github.io/tags/Programming-Language/"/>
     
       <category term="Recommendation" scheme="http://idler1229.github.io/tags/Recommendation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要</title>
+    <link href="http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/"/>
+    <id>http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/</id>
+    <published>2016-07-12T20:49:02.000Z</published>
+    <updated>2016-08-29T20:51:08.318Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Nginx-&#x2013;-&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89;-&#x8BBF;&#x8C08;&#x6458;&#x8981;"><a href="#Nginx-&#x2013;-&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89;-&#x8BBF;&#x8C08;&#x6458;&#x8981;" class="headerlink" title="Nginx &#x2013; &#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89; &#x8BBF;&#x8C08;&#x6458;&#x8981;"></a>Nginx &#x2013; &#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89; &#x8BBF;&#x8C08;&#x6458;&#x8981;</h2><h3 id="&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx"><a href="#&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx" class="headerlink" title="&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx"></a>&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx</h3><ul>
+<li>&#x4E0D;&#x8981;&#x91CD;&#x590D;&#x5F00;&#x53D1;&#x8F6E;&#x5B50;&#xFF0C;&#x5C24;&#x5176;Nginx&#x8F6E;&#x5B50;&#x7684;&#x5F00;&#x53D1;&#x96BE;&#x5EA6;&#x8FD8;&#x4E0D;&#x4F4E;</li>
+<li>Nginx.conf&#x91CC;&#x53EF;&#x4EE5;&#x73A9;&#x7684;&#x82B1;&#x6837;&#x5F88;&#x591A;&#xFF08;&#x8FD9;&#x7531;&#x6BCF;&#x4E00;&#x4E2A;Nginx&#x6A21;&#x5757;&#x51B3;&#x5B9A;&#xFF0C;&#x5982;ngx_lua&#x8FD9;&#x6837;&#x7684;&#x6A21;&#x5757;&#x8FD8;&#x53EF;&#x4EE5;&#x5728;&#x91CC;&#x9762;&#x63D2;&#x5165;lua&#x8BED;&#x6CD5;&#xFF09;</li>
+<li>Nginx&#x8FDB;&#x7A0B;&#x91CC;&#x662F;&#x62D2;&#x7EDD;&#x4EFB;&#x4F55;&#x963B;&#x585E;&#x64CD;&#x4F5C;&#x7684;&#xFF0C;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x6A21;&#x5757;&#x90FD;&#x8FD0;&#x884C;&#x5728;IO&#x6838;&#x5FC3;&#x5904;&#x7406;&#x7EBF;&#x7A0B;&#x4E2D;&#x7684;&#x3002;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x8FB9;&#x7F18;&#x5316;&#x7684;&#x6A21;&#x5757;&#x90FD;&#x53EF;&#x80FD;&#x56E0;&#x4E3A;&#x81EA;&#x5DF1;&#x5C0F;&#x5C0F;&#x7684;&#x963B;&#x585E;&#x8C03;&#x7528;&#x6BC1;&#x6389;Nginx&#x7684;&#x9AD8;&#x6027;&#x80FD;&#x3002;</li>
+<li>debug&#x7EA7;&#x522B;&#x7684;error.log&#x65E5;&#x5FD7;&#x975E;&#x5E38;&#x8BE6;&#x5C3D;&#xFF0C;&#x4EC5;&#x6709;&#x5B83;&#x5C31;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x51FA;&#x5F88;&#x591A;&#x4F60;&#x7684;&#x6A21;&#x5757;bug&#xFF0C;&#x522B;&#x5FD8;&#x4E86;&#x4F7F;&#x7528;&#x5B83;&#x5FC5;&#x987B;&#x5728;&#x7F16;&#x8BD1;&#x65F6;&#x52A0;&#x5165;&#x2013;with-debug<h3 id="Nginx&#x5EFA;&#x8BAE;"><a href="#Nginx&#x5EFA;&#x8BAE;" class="headerlink" title="Nginx&#x5EFA;&#x8BAE;"></a>Nginx&#x5EFA;&#x8BAE;</h3></li>
+<li><p>&#x9996;&#x5148;&#xFF0C;&#x4ECE;&#x6700;&#x5916;&#x9762;&#x770B;Nginx&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#xFF0C;&#x4E86;&#x89E3;&#x8FDB;&#x7A0B;&#x6A21;&#x578B;&#x3001;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x8BED;&#x6CD5;&#x3001;&#x57FA;&#x672C;&#x529F;&#x80FD;&#x7B49;</p>
+</li>
+<li><p>&#x5176;&#x6B21;&#xFF0C;&#x4ECE;&#x5C1D;&#x8BD5;&#x7F16;&#x5199;&#x6700;&#x7B80;&#x5355;&#x7684;http&#x6A21;&#x5757;&#x5165;&#x624B;&#xFF0C;&#x6E10;&#x6E10;&#x5730;&#x4F7F;&#x7528;&#x5230;Nginx Http&#x6846;&#x67B6;&#x7684;&#x4E00;&#x4E9B;&#x9AD8;&#x7EA7;&#x7279;&#x6027;&#xFF0C;&#x4E86;&#x89E3;Nginx&#x7684;&#x5185;&#x5B58;&#x6C60;&#x3001;&#x5404;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x7528;&#x6CD5;&#x7B49;&#xFF1B;</p>
+</li>
+<li><p>&#x518D;&#x6B21;&#xFF0C;&#x7CFB;&#x7EDF;&#x7684;&#x4E86;&#x89E3;Nginx&#x6846;&#x67B6;&#xFF0C;&#x5305;&#x62EC;&#x5B83;&#x5982;&#x4F55;&#x542F;&#x52A8;&#x3001;&#x5982;&#x4F55;&#x505C;&#x6B62;&#x3001;&#x5982;&#x4F55;&#x5347;&#x7EA7;&#x3001;&#x5982;&#x4F55;&#x91CD;&#x8F7D;&#x914D;&#x7F6E;&#xFF0C;&#x591A;&#x8FDB;&#x7A0B;&#x95F4;&#x5982;&#x4F55;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#xFF0C;http&#x8FDE;&#x63A5;&#x7684;&#x5EFA;&#x7ACB;&#x3001;URL&#x4E0E;&#x5305;&#x5934;&#x7684;&#x6536;&#x53D6;&#x3001;&#x89E3;&#x6790;&#x3001;&#x9009;&#x7528;&#x54EA;&#x4E9B;http&#x6A21;&#x5757;&#x5904;&#x7406;&#x8BF7;&#x6C42;&#x3001;&#x5982;&#x4F55;&#x5411;&#x5BA2;&#x6237;&#x7AEF;&#x56DE;&#x54CD;&#x5E94;&#x7B49;</p>
+</li>
+<li><p>&#x4E86;&#x89E3;&#x5F02;&#x6B65;&#x4E8B;&#x4EF6;&#x6846;&#x67B6;&#xFF0C;&#x7406;&#x89E3;&#x677E;&#x8026;&#x5408;&#x8BBE;&#x8BA1;&#x4E0E;web&#x8BF7;&#x6C42;&#x7684;&#x5904;&#x7406;&#x65B9;&#x5F0F;</p>
+</li>
+</ul>
+<h3 id="&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;"><a href="#&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;" class="headerlink" title="&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;"></a>&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;</h3><ul>
+<li>&#x5355;&#x7EC4;&#x4EF6;&#x7684;&#x6027;&#x80FD;&#x63D0;&#x5347;&#x4E0A;&#xFF0C;&#x7B97;&#x6CD5;&#x6700;&#x91CD;&#x8981;&#xFF1A;&#x7279;&#x522B;&#x662F;&#x8D8A;&#x524D;&#x6CBF;&#x7684;&#x6280;&#x672F;&#x3001;&#x573A;&#x666F;&#xFF0C;&#x901A;&#x7528;&#x7B97;&#x6CD5;&#x7684;&#x529F;&#x6548;&#x8DDD;&#x79BB;&#x671F;&#x671B;&#x503C;&#x5C31;&#x8D8A;&#x8FDC;</li>
+<li>&#x80FD;&#x591F;&#x5E76;&#x884C;&#x5904;&#x7406;&#x7684;&#x7EDD;&#x5BF9;&#x4E0D;&#x8981;&#x4E32;&#x884C;&#x5316;&#xFF0C;&#x8C28;&#x614E;&#x52A0;&#x9501;&#xFF0C;&#x63D0;&#x9AD8;&#x541E;&#x5410;&#x91CF;</li>
+<li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x3001;&#x8BBE;&#x5907;&#x3001;TCP&#x534F;&#x8BAE;&#x3001;&#x5185;&#x5B58;&#x6C60;&#x3001;&#x7F13;&#x5B58;</li>
+<li>&#x534F;&#x7A0B;&#x662F;&#x4E00;&#x4E2A;&#x5F88;&#x597D;&#x7684;&#x65B9;&#x5411;&#xFF0C;&#x901A;&#x8FC7;&#x521B;&#x5EFA;&#x534F;&#x7A0B;&#x6808;&#x6765;&#x4F2A;&#x9020;&#x7EBF;&#x7A0B;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x63D0;&#x5347;&#x5F00;&#x53D1;&#x6548;&#x7387;&#xFF0C;&#x901A;&#x8FC7;&#x6539;&#x53D8;&#x5E95;&#x5C42;&#x963B;&#x585E;API&#x7684;&#x5B9E;&#x73B0;&#x6765;&#x63D0;&#x5347;&#x541E;&#x5410;&#x91CF;&#x3001;&#x8FD0;&#x884C;&#x6548;&#x7387;</li>
+<li>&#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;&#x7684;ACP&#x662F;&#x4E00;&#x4E2A;&#x6743;&#x8861;&#x95EE;&#x9898;&#xFF0C;&#x9002;&#x5F53;&#x7684;&#x727A;&#x7272;&#x4E00;&#x81F4;&#x6027;&#x662F;&#x5E38;&#x89C1;&#x89E3;&#x51B3;&#x65B9;&#x6848;</li>
+<li>&#x5F00;&#x53D1;&#x5927;&#x578B;&#x7CFB;&#x7EDF;&#x65F6;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x9AD8;&#x5185;&#x805A;&#x677E;&#x8026;&#x5408;&#x5F88;&#x91CD;&#x8981;</li>
+<li>&#x5206;&#x5E03;&#x5F0F;&#x6570;&#x636E;&#x5E93;&#x7684;&#x4E8B;&#x52A1;<h3 id="Ngnix&#x7684;&#x4E0D;&#x8DB3;"><a href="#Ngnix&#x7684;&#x4E0D;&#x8DB3;" class="headerlink" title="Ngnix&#x7684;&#x4E0D;&#x8DB3;"></a>Ngnix&#x7684;&#x4E0D;&#x8DB3;</h3></li>
+<li>&#x4EE5;nginx.conf&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#x6765;&#x5B9A;&#x4E49;web&#x8BF7;&#x6C42;&#x7684;&#x52A8;&#x6001;&#x5904;&#x7406;&#x6D41;&#x7A0B;&#xFF0C;&#x4F46;&#x53EA;&#x80FD;&#x5904;&#x7406;&#x5927;&#x4F17;&#x5316;&#x7684;&#x9700;&#x6C42;</li>
+<li>nginx&#x6A21;&#x5757;&#x7684;&#x5F00;&#x53D1;&#x95E8;&#x69DB;&#x8FD8;&#x633A;&#x9AD8;&#xFF0C;&#x9700;&#x8981;&#x5F00;&#x53D1;&#x8005;&#x5BF9;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x7684;&#x975E;&#x963B;&#x585E;&#x8C03;&#x7528;&#x3001;&#x4E8B;&#x4EF6;&#x6A21;&#x578B;&#x6709;&#x8F83;&#x6DF1;&#x7684;&#x7406;&#x89E3;</li>
+<li>&#x5F00;&#x53D1;&#x8005;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#x7B80;&#x5355;&#x7684;&#x5806;&#x5206;&#x914D;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x8981;&#x4F7F;&#x7528;nginx_slab&#x7BA1;&#x7406;&#x5185;&#x5B58;</li>
+<li>&#x76EE;&#x524D;nginx&#x6700;&#x5E94;&#x8BE5;&#x5B8C;&#x5584;&#x7684;&#x5E94;&#x5F53;&#x662F;&#x4E8C;&#x6B21;&#x5F00;&#x53D1;&#x7684;&#x6613;&#x7528;&#x6027;&#x2013;&#x80FD;&#x591F;&#x66F4;&#x65B9;&#x4FBF;&#x3001;&#x5FEB;&#x901F;&#x7684;&#x5F00;&#x53D1;&#x51FA;&#x9AD8;&#x6027;&#x80FD;&#x7684;nginx&#x6A21;&#x5757;<h3 id="Ngnix&#x7684;&#x672A;&#x6765;"><a href="#Ngnix&#x7684;&#x672A;&#x6765;" class="headerlink" title="Ngnix&#x7684;&#x672A;&#x6765;"></a>Ngnix&#x7684;&#x672A;&#x6765;</h3></li>
+<li>&#x670D;&#x52A1;&#x5668;&#x8D44;&#x6E90;&#x7684;&#x6548;&#x7387;&#x5728;&#x4F01;&#x4E1A;&#x6210;&#x672C;&#x4E0A;&#x5C06;&#x5360;&#x636E;&#x8D8A;&#x53D1;&#x91CD;&#x8981;&#x7684;&#x5730;&#x4F4D;&#xFF0C;Apache&#x7684;&#x5E02;&#x573A;&#x4EFD;&#x989D;&#x88AB;Nginx&#x53D6;&#x4EE3;&#x7684;&#x8D8B;&#x52BF;&#x662F;&#x4E0D;&#x4F1A;&#x53D8;&#x7684;</li>
+</ul>
+<h2 id="&#x6458;&#x81EA;"><a href="#&#x6458;&#x81EA;" class="headerlink" title="&#x6458;&#x81EA;"></a>&#x6458;&#x81EA;</h2><p><a href="http://taohui.org.cn/csdn_interview.html" target="_blank" rel="external">http://taohui.org.cn/csdn_interview.html</a> </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Nginx-&amp;#x2013;-&amp;#x300A;&amp;#x6DF1;&amp;#x5165;&amp;#x7406;&amp;#x89E3;Nginx&amp;#x300B;&amp;#x4F5C;&amp;#x8005;-&amp;#x9676;&amp;#x8F89;-&amp;#x8BBF;&amp;#x8C08;&amp;#x6458;&amp;#x898
+    
+    </summary>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/categories/Recommendation/"/>
+    
+      <category term="Ngnix" scheme="http://idler1229.github.io/categories/Recommendation/Ngnix/"/>
+    
+    
+      <category term="Linux" scheme="http://idler1229.github.io/tags/Linux/"/>
+    
+      <category term="Recommendation" scheme="http://idler1229.github.io/tags/Recommendation/"/>
+    
+      <category term="Note" scheme="http://idler1229.github.io/tags/Note/"/>
+    
+      <category term="Ngnix" scheme="http://idler1229.github.io/tags/Ngnix/"/>
     
   </entry>
   
@@ -501,6 +560,35 @@
   </entry>
   
   <entry>
+    <title>Refresh Page</title>
+    <link href="http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/"/>
+    <id>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</id>
+    <published>2016-05-31T21:29:53.000Z</published>
+    <updated>2016-08-09T13:20:39.943Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Refresh-Page-html-script&quot;&gt;&lt;a href=&quot;#Refresh-Page-html-script&quot; class=&quot;headerlink&quot; title=&quot;Refresh Page - html script&quot;&gt;&lt;/a&gt;Refresh Page - html script&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="Toys" scheme="http://idler1229.github.io/categories/Toys/"/>
+    
+      <category term="Html" scheme="http://idler1229.github.io/categories/Toys/Html/"/>
+    
+    
+      <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
+    
+      <category term="Html" scheme="http://idler1229.github.io/tags/Html/"/>
+    
+      <category term="Web" scheme="http://idler1229.github.io/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Cmd Send E-mail</title>
     <link href="http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/"/>
     <id>http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/</id>
@@ -530,35 +618,6 @@
       <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
     
       <category term="e-mail" scheme="http://idler1229.github.io/tags/e-mail/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Refresh Page</title>
-    <link href="http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/"/>
-    <id>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</id>
-    <published>2016-05-31T21:29:53.000Z</published>
-    <updated>2016-08-09T13:20:39.943Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Refresh-Page-html-script&quot;&gt;&lt;a href=&quot;#Refresh-Page-html-script&quot; class=&quot;headerlink&quot; title=&quot;Refresh Page - html script&quot;&gt;&lt;/a&gt;Refresh Page - html script&lt;/h2&gt;
-    
-    </summary>
-    
-      <category term="Toys" scheme="http://idler1229.github.io/categories/Toys/"/>
-    
-      <category term="Html" scheme="http://idler1229.github.io/categories/Toys/Html/"/>
-    
-    
-      <category term="Toys" scheme="http://idler1229.github.io/tags/Toys/"/>
-    
-      <category term="Html" scheme="http://idler1229.github.io/tags/Html/"/>
-    
-      <category term="Web" scheme="http://idler1229.github.io/tags/Web/"/>
     
   </entry>
   
@@ -1123,49 +1182,6 @@
       <category term="C++" scheme="http://idler1229.github.io/tags/C/"/>
     
       <category term="Programing Language" scheme="http://idler1229.github.io/tags/Programing-Language/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STL ALLOCATOR CONSTRCUT</title>
-    <link href="http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/"/>
-    <id>http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/</id>
-    <published>2016-04-30T10:33:42.000Z</published>
-    <updated>2016-05-30T14:11:37.140Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="CONSTRCUT"><a href="#CONSTRCUT" class="headerlink" title="CONSTRCUT"></a>CONSTRCUT</h2><pre><code>In &lt;stl_construct.h&gt;
-</code></pre><a id="more"></a>
-<h3 id="Construct"><a href="#Construct" class="headerlink" title="Construct"></a>Construct</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _T1, <span class="keyword">class</span> _T2&gt;</span><br><span class="line"><span class="keyword">inline</span> <span class="keyword">void</span> _Construct(_T1* __p, <span class="keyword">const</span> _T2&amp; __value) {</span><br><span class="line">  new ((void*) __p) _T1(__value);</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _T1&gt;</span><br><span class="line"><span class="keyword">inline</span> <span class="keyword">void</span> _Construct(_T1* __p) {</span><br><span class="line">  new ((void*) __p) _T1();</span><br><span class="line">}</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;CONSTRCUT&quot;&gt;&lt;a href=&quot;#CONSTRCUT&quot; class=&quot;headerlink&quot; title=&quot;CONSTRCUT&quot;&gt;&lt;/a&gt;CONSTRCUT&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;In &amp;lt;stl_construct.h&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-      <category term="Programing Language" scheme="http://idler1229.github.io/categories/Programing-Language/"/>
-    
-      <category term="C++" scheme="http://idler1229.github.io/categories/Programing-Language/C/"/>
-    
-      <category term="STL" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/"/>
-    
-      <category term="Source Code" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/Source-Code/"/>
-    
-      <category term="Allocator" scheme="http://idler1229.github.io/categories/Programing-Language/C/STL/Source-Code/Allocator/"/>
-    
-    
-      <category term="C++" scheme="http://idler1229.github.io/tags/C/"/>
-    
-      <category term="Programing Language" scheme="http://idler1229.github.io/tags/Programing-Language/"/>
-    
-      <category term="STL" scheme="http://idler1229.github.io/tags/STL/"/>
-    
-      <category term="Source Code" scheme="http://idler1229.github.io/tags/Source-Code/"/>
-    
-      <category term="Trick" scheme="http://idler1229.github.io/tags/Trick/"/>
-    
-      <category term="Allocator" scheme="http://idler1229.github.io/tags/Allocator/"/>
     
   </entry>
   

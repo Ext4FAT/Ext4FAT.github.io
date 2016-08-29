@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/</loc>
+    
+    <lastmod>2016-08-29T20:51:08.318Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
     
     <lastmod>2016-08-29T06:56:01.626Z</lastmod>
@@ -100,14 +107,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     

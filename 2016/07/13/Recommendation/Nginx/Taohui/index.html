@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+  <meta charset="utf-8">
+  
+  <title>Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要 | At A Loss What To Do</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Nginx &amp;#x2013; &amp;#x300A;&amp;#x6DF1;&amp;#x5165;&amp;#x7406;&amp;#x89E3;Nginx&amp;#x300B;&amp;#x4F5C;&amp;#x8005;-&amp;#x9676;&amp;#x8F89; &amp;#x8BBF;&amp;#x8C08;&amp;#x6458;&amp;#x8981;&amp;#x4EC5;&amp;#x5F53;&amp;#x9700;&amp;#x8981;&amp;#x5E76;&amp;#x53D1;&amp;#x5904;&amp;#x7406;&amp;#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要">
+<meta property="og:url" content="http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/index.html">
+<meta property="og:site_name" content="At A Loss What To Do">
+<meta property="og:description" content="Nginx &amp;#x2013; &amp;#x300A;&amp;#x6DF1;&amp;#x5165;&amp;#x7406;&amp;#x89E3;Nginx&amp;#x300B;&amp;#x4F5C;&amp;#x8005;-&amp;#x9676;&amp;#x8F89; &amp;#x8BBF;&amp;#x8C08;&amp;#x6458;&amp;#x8981;&amp;#x4EC5;&amp;#x5F53;&amp;#x9700;&amp;#x8981;&amp;#x5E76;&amp;#x53D1;&amp;#x5904;&amp;#x7406;&amp;#">
+<meta property="og:updated_time" content="2016-08-29T20:51:08.318Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要">
+<meta name="twitter:description" content="Nginx &amp;#x2013; &amp;#x300A;&amp;#x6DF1;&amp;#x5165;&amp;#x7406;&amp;#x89E3;Nginx&amp;#x300B;&amp;#x4F5C;&amp;#x8005;-&amp;#x9676;&amp;#x8F89; &amp;#x8BBF;&amp;#x8C08;&amp;#x6458;&amp;#x8981;&amp;#x4EC5;&amp;#x5F53;&amp;#x9700;&amp;#x8981;&amp;#x5E76;&amp;#x53D1;&amp;#x5904;&amp;#x7406;&amp;#">
+  
+    <link rel="alternative" href="/atom.xml" title="At A Loss What To Do" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+      <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+  
+  
+      <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+      <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+  
+  <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false,
+          fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+          scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+          search: true
+      }
+  </script>
+
+  
+      <script>
+          yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+      </script>
+  
+
+  
+      <script>
+          yiliaConfig.rootUrl = "/";
+      </script>
+  
+
+  
+      <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c8c98185175db"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+  
+</head>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/IDLER.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">_IDLER_</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">Idle About</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>Menu</li>
+                        <li>Tags</li>
+                        
+                        
+                        <li>About Me</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">Home</a></li>
+                        
+                            <li><a href="/archives">Archives</a></li>
+                        
+                            <li><a href="/tags/">Tags</a></li>
+                        
+                            <li><a href="/about/">About</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:zyy34472@gmail.com" title="Email"></a>
+                            
+                                <a class="fa Weibo" target="_blank" href="http://weibo.com/YiyangCNM" title="Weibo"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/IDLER1229" title="GitHub"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://cn.linkedin.com/in/idler-chou" title="LinkedIn"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/3D/">3D</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/APUE/">APUE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AWK/">AWK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Algorithm/">Algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Allocator/">Allocator</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Book/">Book</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-，-Applications/">C++， Applications</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-，-Toys/">C++， Toys</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CVS/">CVS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cheat-Sheet/">Cheat Sheet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Code/">Code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Compile/">Compile</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Desktop/">Desktop</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Functor/">Functor</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/">Html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDE/">IDE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JDK/">JDK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Leetcode/">Leetcode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ngnix/">Ngnix</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Note/">Note</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OpenCV/">OpenCV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PCL/">PCL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pattern-Recognition/">Pattern Recognition</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Point-Cloud/">Point Cloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Problem/">Problem</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programming/">Programming</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Programming-Language/">Programming Language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Project/">Project</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Realsense/">Realsense</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Regular-Expression/">Regular Expression</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/STL/">STL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Security/">Security</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shell/">Shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shortcuts/">Shortcuts</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Software/">Software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Solution/">Solution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Source-Code/">Source Code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Syntax/">Syntax</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tools/">Tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Toys/">Toys</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Trick/">Trick</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unsolve/">Unsolve</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web/">Web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Windows/">Windows</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Writer/">Writer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/e-mail/">e-mail</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+                
+                <section class="switch-part switch-part3">
+                
+                    <div id="js-aboutme">At a Loss What to Do</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">_IDLER_</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/IDLER.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">_IDLER_</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">Idle About</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">Home</a></li>
+                
+                    <li><a href="/archives">Archives</a></li>
+                
+                    <li><a href="/tags/">Tags</a></li>
+                
+                    <li><a href="/about/">About</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:zyy34472@gmail.com" title="Email"></a>
+                            
+                                <a class="fa Weibo" target="_blank" href="http://weibo.com/YiyangCNM" title="Weibo"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/IDLER1229" title="GitHub"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://cn.linkedin.com/in/idler-chou" title="LinkedIn"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
+</nav>
+      <div class="body-wrap"><article id="post-Recommendation/Nginx/Taohui" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/13/Recommendation/Nginx/Taohui/" class="article-date">
+      <time datetime="2016-07-12T20:49:02.000Z" itemprop="datePublished">2016-07-13</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Recommendation/">Recommendation</a><a class="article-category-link" href="/categories/Recommendation/Ngnix/">Ngnix</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ngnix/">Ngnix</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Recommendation/">Recommendation</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="Nginx-&#x2013;-&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89;-&#x8BBF;&#x8C08;&#x6458;&#x8981;"><a href="#Nginx-&#x2013;-&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89;-&#x8BBF;&#x8C08;&#x6458;&#x8981;" class="headerlink" title="Nginx &#x2013; &#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89; &#x8BBF;&#x8C08;&#x6458;&#x8981;"></a>Nginx &#x2013; &#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89; &#x8BBF;&#x8C08;&#x6458;&#x8981;</h2><h3 id="&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx"><a href="#&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx" class="headerlink" title="&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx"></a>&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx</h3><ul>
+<li>&#x4E0D;&#x8981;&#x91CD;&#x590D;&#x5F00;&#x53D1;&#x8F6E;&#x5B50;&#xFF0C;&#x5C24;&#x5176;Nginx&#x8F6E;&#x5B50;&#x7684;&#x5F00;&#x53D1;&#x96BE;&#x5EA6;&#x8FD8;&#x4E0D;&#x4F4E;</li>
+<li>Nginx.conf&#x91CC;&#x53EF;&#x4EE5;&#x73A9;&#x7684;&#x82B1;&#x6837;&#x5F88;&#x591A;&#xFF08;&#x8FD9;&#x7531;&#x6BCF;&#x4E00;&#x4E2A;Nginx&#x6A21;&#x5757;&#x51B3;&#x5B9A;&#xFF0C;&#x5982;ngx_lua&#x8FD9;&#x6837;&#x7684;&#x6A21;&#x5757;&#x8FD8;&#x53EF;&#x4EE5;&#x5728;&#x91CC;&#x9762;&#x63D2;&#x5165;lua&#x8BED;&#x6CD5;&#xFF09;</li>
+<li>Nginx&#x8FDB;&#x7A0B;&#x91CC;&#x662F;&#x62D2;&#x7EDD;&#x4EFB;&#x4F55;&#x963B;&#x585E;&#x64CD;&#x4F5C;&#x7684;&#xFF0C;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x6A21;&#x5757;&#x90FD;&#x8FD0;&#x884C;&#x5728;IO&#x6838;&#x5FC3;&#x5904;&#x7406;&#x7EBF;&#x7A0B;&#x4E2D;&#x7684;&#x3002;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x8FB9;&#x7F18;&#x5316;&#x7684;&#x6A21;&#x5757;&#x90FD;&#x53EF;&#x80FD;&#x56E0;&#x4E3A;&#x81EA;&#x5DF1;&#x5C0F;&#x5C0F;&#x7684;&#x963B;&#x585E;&#x8C03;&#x7528;&#x6BC1;&#x6389;Nginx&#x7684;&#x9AD8;&#x6027;&#x80FD;&#x3002;</li>
+<li>debug&#x7EA7;&#x522B;&#x7684;error.log&#x65E5;&#x5FD7;&#x975E;&#x5E38;&#x8BE6;&#x5C3D;&#xFF0C;&#x4EC5;&#x6709;&#x5B83;&#x5C31;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x51FA;&#x5F88;&#x591A;&#x4F60;&#x7684;&#x6A21;&#x5757;bug&#xFF0C;&#x522B;&#x5FD8;&#x4E86;&#x4F7F;&#x7528;&#x5B83;&#x5FC5;&#x987B;&#x5728;&#x7F16;&#x8BD1;&#x65F6;&#x52A0;&#x5165;&#x2013;with-debug<h3 id="Nginx&#x5EFA;&#x8BAE;"><a href="#Nginx&#x5EFA;&#x8BAE;" class="headerlink" title="Nginx&#x5EFA;&#x8BAE;"></a>Nginx&#x5EFA;&#x8BAE;</h3></li>
+<li><p>&#x9996;&#x5148;&#xFF0C;&#x4ECE;&#x6700;&#x5916;&#x9762;&#x770B;Nginx&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#xFF0C;&#x4E86;&#x89E3;&#x8FDB;&#x7A0B;&#x6A21;&#x578B;&#x3001;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x8BED;&#x6CD5;&#x3001;&#x57FA;&#x672C;&#x529F;&#x80FD;&#x7B49;</p>
+</li>
+<li><p>&#x5176;&#x6B21;&#xFF0C;&#x4ECE;&#x5C1D;&#x8BD5;&#x7F16;&#x5199;&#x6700;&#x7B80;&#x5355;&#x7684;http&#x6A21;&#x5757;&#x5165;&#x624B;&#xFF0C;&#x6E10;&#x6E10;&#x5730;&#x4F7F;&#x7528;&#x5230;Nginx Http&#x6846;&#x67B6;&#x7684;&#x4E00;&#x4E9B;&#x9AD8;&#x7EA7;&#x7279;&#x6027;&#xFF0C;&#x4E86;&#x89E3;Nginx&#x7684;&#x5185;&#x5B58;&#x6C60;&#x3001;&#x5404;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x7528;&#x6CD5;&#x7B49;&#xFF1B;</p>
+</li>
+<li><p>&#x518D;&#x6B21;&#xFF0C;&#x7CFB;&#x7EDF;&#x7684;&#x4E86;&#x89E3;Nginx&#x6846;&#x67B6;&#xFF0C;&#x5305;&#x62EC;&#x5B83;&#x5982;&#x4F55;&#x542F;&#x52A8;&#x3001;&#x5982;&#x4F55;&#x505C;&#x6B62;&#x3001;&#x5982;&#x4F55;&#x5347;&#x7EA7;&#x3001;&#x5982;&#x4F55;&#x91CD;&#x8F7D;&#x914D;&#x7F6E;&#xFF0C;&#x591A;&#x8FDB;&#x7A0B;&#x95F4;&#x5982;&#x4F55;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#xFF0C;http&#x8FDE;&#x63A5;&#x7684;&#x5EFA;&#x7ACB;&#x3001;URL&#x4E0E;&#x5305;&#x5934;&#x7684;&#x6536;&#x53D6;&#x3001;&#x89E3;&#x6790;&#x3001;&#x9009;&#x7528;&#x54EA;&#x4E9B;http&#x6A21;&#x5757;&#x5904;&#x7406;&#x8BF7;&#x6C42;&#x3001;&#x5982;&#x4F55;&#x5411;&#x5BA2;&#x6237;&#x7AEF;&#x56DE;&#x54CD;&#x5E94;&#x7B49;</p>
+</li>
+<li><p>&#x4E86;&#x89E3;&#x5F02;&#x6B65;&#x4E8B;&#x4EF6;&#x6846;&#x67B6;&#xFF0C;&#x7406;&#x89E3;&#x677E;&#x8026;&#x5408;&#x8BBE;&#x8BA1;&#x4E0E;web&#x8BF7;&#x6C42;&#x7684;&#x5904;&#x7406;&#x65B9;&#x5F0F;</p>
+</li>
+</ul>
+<h3 id="&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;"><a href="#&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;" class="headerlink" title="&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;"></a>&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x8BBE;&#x8BA1;&#x7ECF;&#x9A8C;</h3><ul>
+<li>&#x5355;&#x7EC4;&#x4EF6;&#x7684;&#x6027;&#x80FD;&#x63D0;&#x5347;&#x4E0A;&#xFF0C;&#x7B97;&#x6CD5;&#x6700;&#x91CD;&#x8981;&#xFF1A;&#x7279;&#x522B;&#x662F;&#x8D8A;&#x524D;&#x6CBF;&#x7684;&#x6280;&#x672F;&#x3001;&#x573A;&#x666F;&#xFF0C;&#x901A;&#x7528;&#x7B97;&#x6CD5;&#x7684;&#x529F;&#x6548;&#x8DDD;&#x79BB;&#x671F;&#x671B;&#x503C;&#x5C31;&#x8D8A;&#x8FDC;</li>
+<li>&#x80FD;&#x591F;&#x5E76;&#x884C;&#x5904;&#x7406;&#x7684;&#x7EDD;&#x5BF9;&#x4E0D;&#x8981;&#x4E32;&#x884C;&#x5316;&#xFF0C;&#x8C28;&#x614E;&#x52A0;&#x9501;&#xFF0C;&#x63D0;&#x9AD8;&#x541E;&#x5410;&#x91CF;</li>
+<li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x3001;&#x8BBE;&#x5907;&#x3001;TCP&#x534F;&#x8BAE;&#x3001;&#x5185;&#x5B58;&#x6C60;&#x3001;&#x7F13;&#x5B58;</li>
+<li>&#x534F;&#x7A0B;&#x662F;&#x4E00;&#x4E2A;&#x5F88;&#x597D;&#x7684;&#x65B9;&#x5411;&#xFF0C;&#x901A;&#x8FC7;&#x521B;&#x5EFA;&#x534F;&#x7A0B;&#x6808;&#x6765;&#x4F2A;&#x9020;&#x7EBF;&#x7A0B;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x63D0;&#x5347;&#x5F00;&#x53D1;&#x6548;&#x7387;&#xFF0C;&#x901A;&#x8FC7;&#x6539;&#x53D8;&#x5E95;&#x5C42;&#x963B;&#x585E;API&#x7684;&#x5B9E;&#x73B0;&#x6765;&#x63D0;&#x5347;&#x541E;&#x5410;&#x91CF;&#x3001;&#x8FD0;&#x884C;&#x6548;&#x7387;</li>
+<li>&#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;&#x7684;ACP&#x662F;&#x4E00;&#x4E2A;&#x6743;&#x8861;&#x95EE;&#x9898;&#xFF0C;&#x9002;&#x5F53;&#x7684;&#x727A;&#x7272;&#x4E00;&#x81F4;&#x6027;&#x662F;&#x5E38;&#x89C1;&#x89E3;&#x51B3;&#x65B9;&#x6848;</li>
+<li>&#x5F00;&#x53D1;&#x5927;&#x578B;&#x7CFB;&#x7EDF;&#x65F6;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x9AD8;&#x5185;&#x805A;&#x677E;&#x8026;&#x5408;&#x5F88;&#x91CD;&#x8981;</li>
+<li>&#x5206;&#x5E03;&#x5F0F;&#x6570;&#x636E;&#x5E93;&#x7684;&#x4E8B;&#x52A1;<h3 id="Ngnix&#x7684;&#x4E0D;&#x8DB3;"><a href="#Ngnix&#x7684;&#x4E0D;&#x8DB3;" class="headerlink" title="Ngnix&#x7684;&#x4E0D;&#x8DB3;"></a>Ngnix&#x7684;&#x4E0D;&#x8DB3;</h3></li>
+<li>&#x4EE5;nginx.conf&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#x6765;&#x5B9A;&#x4E49;web&#x8BF7;&#x6C42;&#x7684;&#x52A8;&#x6001;&#x5904;&#x7406;&#x6D41;&#x7A0B;&#xFF0C;&#x4F46;&#x53EA;&#x80FD;&#x5904;&#x7406;&#x5927;&#x4F17;&#x5316;&#x7684;&#x9700;&#x6C42;</li>
+<li>nginx&#x6A21;&#x5757;&#x7684;&#x5F00;&#x53D1;&#x95E8;&#x69DB;&#x8FD8;&#x633A;&#x9AD8;&#xFF0C;&#x9700;&#x8981;&#x5F00;&#x53D1;&#x8005;&#x5BF9;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x7684;&#x975E;&#x963B;&#x585E;&#x8C03;&#x7528;&#x3001;&#x4E8B;&#x4EF6;&#x6A21;&#x578B;&#x6709;&#x8F83;&#x6DF1;&#x7684;&#x7406;&#x89E3;</li>
+<li>&#x5F00;&#x53D1;&#x8005;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#x7B80;&#x5355;&#x7684;&#x5806;&#x5206;&#x914D;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x8981;&#x4F7F;&#x7528;nginx_slab&#x7BA1;&#x7406;&#x5185;&#x5B58;</li>
+<li>&#x76EE;&#x524D;nginx&#x6700;&#x5E94;&#x8BE5;&#x5B8C;&#x5584;&#x7684;&#x5E94;&#x5F53;&#x662F;&#x4E8C;&#x6B21;&#x5F00;&#x53D1;&#x7684;&#x6613;&#x7528;&#x6027;&#x2013;&#x80FD;&#x591F;&#x66F4;&#x65B9;&#x4FBF;&#x3001;&#x5FEB;&#x901F;&#x7684;&#x5F00;&#x53D1;&#x51FA;&#x9AD8;&#x6027;&#x80FD;&#x7684;nginx&#x6A21;&#x5757;<h3 id="Ngnix&#x7684;&#x672A;&#x6765;"><a href="#Ngnix&#x7684;&#x672A;&#x6765;" class="headerlink" title="Ngnix&#x7684;&#x672A;&#x6765;"></a>Ngnix&#x7684;&#x672A;&#x6765;</h3></li>
+<li>&#x670D;&#x52A1;&#x5668;&#x8D44;&#x6E90;&#x7684;&#x6548;&#x7387;&#x5728;&#x4F01;&#x4E1A;&#x6210;&#x672C;&#x4E0A;&#x5C06;&#x5360;&#x636E;&#x8D8A;&#x53D1;&#x91CD;&#x8981;&#x7684;&#x5730;&#x4F4D;&#xFF0C;Apache&#x7684;&#x5E02;&#x573A;&#x4EFD;&#x989D;&#x88AB;Nginx&#x53D6;&#x4EE3;&#x7684;&#x8D8B;&#x52BF;&#x662F;&#x4E0D;&#x4F1A;&#x53D8;&#x7684;</li>
+</ul>
+<h2 id="&#x6458;&#x81EA;"><a href="#&#x6458;&#x81EA;" class="headerlink" title="&#x6458;&#x81EA;"></a>&#x6458;&#x81EA;</h2><p><a href="http://taohui.org.cn/csdn_interview.html" target="_blank" rel="external">http://taohui.org.cn/csdn_interview.html</a> </p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>Title:</span><a href="/2016/07/13/Recommendation/Nginx/Taohui/">Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要</a></p>
+        <p><span>Author:</span><a href="/" title="Back to Homepage">_IDLER_</a></p>
+        <!--
+        <p><span>Created:</span>2016-07-13, 04:49:02</p>
+        <p><span>Updated:</span>2016-08-30, 04:51:08</p>
+        <p>
+            <span>Full URL:</span><a class="post-url" href="/2016/07/13/Recommendation/Nginx/Taohui/" title="Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要">http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/</a>
+            <span class="copy-path" data-clipboard-text="From http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/　　By _IDLER_" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        -->
+        <p>
+            <span>License:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"CC BY-NC-SA 4.0"</a> Keep Link &amp; Author if Distribute.
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2016/08/04/Cheat Sheet/Regular-Expressions/">
+                    Regular Expressions
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/07/04/Cheat Sheet/SQL/">
+                    SQL
+                </a>
+            </div>
+        
+    </nav>
+
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Nginx-–-《深入理解Nginx》作者-陶辉-访谈摘要"><span class="toc-number">1.</span> <span class="toc-text">Nginx – 《深入理解Nginx》作者-陶辉 访谈摘要</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#仅当需要并发处理万级别或以上的TCP连接时，才应当考虑Nginx"><span class="toc-number">1.1.</span> <span class="toc-text">仅当需要并发处理万级别或以上的TCP连接时，才应当考虑Nginx</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Nginx建议"><span class="toc-number">1.2.</span> <span class="toc-text">Nginx建议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#高性能服务器设计经验"><span class="toc-number">1.3.</span> <span class="toc-text">高性能服务器设计经验</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ngnix的不足"><span class="toc-number">1.4.</span> <span class="toc-text">Ngnix的不足</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ngnix的未来"><span class="toc-number">1.5.</span> <span class="toc-text">Ngnix的未来</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#摘自"><span class="toc-number">2.</span> <span class="toc-text">摘自</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="Hide"  title="Show or Hide Table of Contents">
+<script>
+    var valueHide = "Hide";
+    var valueShow = "Show";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).find('.toc-text').text();
+                $(this).attr("title", title);
+            });
+        })
+    </script>
+
+
+
+
+    
+<div class="share">
+    
+
+    
+        <div class="addthis_sharing_toolbox"></div>
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/08/04/Cheat Sheet/Regular-Expressions/" title="Pre: Regular Expressions">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="Mini Archives"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/07/04/Cheat Sheet/SQL/" title="Next: SQL">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/13/Recommendation/Tools/Geek-Tools/">Geek Tools</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/13/Recommendation/Tools/Secure-Code/">Secure Code [TODO]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/10/Git/git-error/">Git Errors</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/08/Project/Registration/">✍ Registration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/">Hide User in Ubuntu</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/04/Cheat Sheet/Regular-Expressions/">Regular Expressions</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/13/Recommendation/Nginx/Taohui/">Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/04/Cheat Sheet/SQL/">SQL</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/26/Programming/C++/Recommendation/Awesome-C++/">Recommendation -- Awesome C++</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/26/Programming/JAVA/Top10-Mistakes/">Top 10 Mistakes Java Developers Make</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/14/Toys/Leetcode/ValidNumber/">Leetcode -- Valid Number</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/13/Toys/C/Noloop/">No loop</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/Linux/Solution/Shortcuts-Backup/">Shortcuts Backup</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Shell/Send-Email/">Cmd Send E-mail</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Html/Refresh-Page/">Refresh Page</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Toys/Shell/Cmd-Login/">Cmd Login</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/01/Linux/Shell/Convert/">Convert</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/31/Writer/Markdown/Markdown-Note/">Markdown Note</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/31/Programming/AWK/awk/">AWK NOTE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/Project/Crawl/">✍ Idle-About</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/">STL ALLOCATOR CONSTRCUT</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/30/STL/STL-ALLOCATOR/">STL ALLOCATOR [TODO]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-FUNCTOR/">STL ALGO FUNCTOR</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/Linux/Software/Qt-Creator-Shotcuts/">Qt Creator Shotcuts</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-BASE/">STL ALGO BASE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/Compile/CMake/">CMake Manual [TODO]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/29/STL/STL-ALGO-NUMERIC/">STL ALGO NUMERIC</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Linux/APUE/">APUE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Linux/Shell/Leetcode-Shell/">Leetcode Shell</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/Programming/C++/const-cast/">const_cast [TODO]</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/Video-Capture/">Video Capture</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/Linux/Shell/Filename-remove-blank/">Filename remove blank</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/Segmentation-Region-Grow/">Depth Segmentation</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/27/CV/HOG-SVM/">Simple Object Classification with HOG and SVM</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/Capture-picture-with-camera/">Capture picture with camera</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/Split-Video/">Split Video</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/STL/STL-ALGO-SET-OP/">STL ALGO SET OPERATION</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Books/Reading-Books/">✍ Reading Books</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/">OpenCV3.0-RealSense-Configuration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/">Gedit Garbled</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/">Configure JDK on Linux</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Linux-Add-Fonts/">Linux Add Fonts</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/C/C-Trick/">C Trick</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Programming/C++/CPP-Trick/">C++ Trick</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/">Laptop cannot wakeup</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Software/Split-Screen/">Split Screen</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Software/Take-a-Break/">Take A Break</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/">What the fuck on Ubuntu</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/Linux/Shell/Linux-cmd/">Linux Command Miscellaneous</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/CV/PCL-Configuration/">PCL Configuration</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/Compile/CMake-Note/">CMake Note</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/CV/Realsense-Q-A/">Realsense Q&A</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/Problems/Problems/">Problems</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/06/Linux/Solution/Beyond-Compare-Crack/">Beyond Compare Crack</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/">Use f.lux to protect eyes</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/Linux/Shell/Pic2Pdf/">Picture batch to Pdf</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/Linux/Shell/Shell-Maze/">Pic2Pdf</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016 _IDLER_
+            </div>
+            <div class="footer-right">
+                <!--<a href="http://hexo.io/" target="_blank" title="A fast, simple &amp; powerful blog framework">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="Another simple and elegant theme for Hexo  v3.0">Yelee</a>--> modified by _IDLER_</i>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+    </div>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 75;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="Back to Top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" title="Comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="Go to Bottom"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>
