@@ -660,11 +660,11 @@
 
 
   
-    <article id="post-Recommendation/Tools/Secure-Code" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Programming/C++/C++11" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/08/13/Recommendation/Tools/Secure-Code/" class="article-date">
-      <time datetime="2016-08-12T19:33:33.000Z" itemprop="datePublished">2016-08-13</time>
+      <a href="/2016/08/29/Programming/C++/C++11/" class="article-date">
+      <time datetime="2016-08-29T12:16:56.000Z" itemprop="datePublished">2016-08-29</time>
 </a>
     </div>
   
@@ -677,7 +677,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/13/Recommendation/Tools/Secure-Code/">Secure Code [TODO]</a>
+      <a class="article-title" href="/2016/08/29/Programming/C++/C++11/">Understanding C++ 11</a>
     </h1>
   
 
@@ -687,27 +687,30 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="Writing-Secure-Code"><a href="#Writing-Secure-Code" class="headerlink" title="Writing Secure Code"></a>Writing Secure Code</h2><h3 id="STRIDE-Threat-Model"><a href="#STRIDE-Threat-Model" class="headerlink" title="STRIDE Threat Model"></a>STRIDE Threat Model</h3><ul>
-<li>Spoofing identity</li>
-<li>Tampering with data</li>
-<li>Repudiation</li>
-<li>Information disclosure</li>
-<li>Denial of service.</li>
-<li>Elevation of privilege</li>
+        <h1 id="C-11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;"><a href="#C-11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;" class="headerlink" title="C++11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;"></a>C++11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;</h1><h2 id="&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;"><a href="#&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;" class="headerlink" title="&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;"></a>&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;</h2><h3 id="&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;"><a href="#&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;" class="headerlink" title="&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;"></a>&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;</h3><ul>
+<li>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x7C7B;&#x6709;&#x6790;&#x6784;&#x51FD;&#x6570;&#xFF0C;&#x4E3A;&#x5176;&#x751F;&#x6210;&#x62F7;&#x8D1D;&#x6784;&#x9020;&#x51FD;&#x6570;&#x548C;&#x62F7;&#x8D1D;&#x8D4B;&#x503C;&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x7279;&#x6027;&#x88AB;&#x5F03;&#x7528;&#x4E86;&#x3002;</li>
+<li><p>&#x4E0D;&#x518D;&#x5141;&#x8BB8;&#x5B57;&#x7B26;&#x4E32;&#x5B57;&#x9762;&#x503C;&#x5E38;&#x91CF;&#x8D4B;&#x503C;&#x7ED9;&#x4E00;&#x4E2A; <code>char *</code>&#x3002;&#x5982;&#x679C;&#x9700;&#x8981;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5B57;&#x9762;&#x503C;&#x5E38;&#x91CF;&#x8D4B;&#x503C;&#x548C;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A; <code>char *</code>&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528; <code>const char *</code> &#x6216;&#x8005; <code>auto</code>&#x3002; e.g.</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> *str = <span class="string">&quot;hello world!&quot;</span>; <span class="comment">// &#x5C06;&#x51FA;&#x73B0;&#x5F03;&#x7528;&#x8B66;&#x544A;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>C++98 &#x5F02;&#x5E38;&#x8BF4;&#x660E;&#x3001; unexcepted_handler&#x3001;set_unexpected() &#x7B49;&#x76F8;&#x5173;&#x7279;&#x6027;&#x88AB;&#x5F03;&#x7528;&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528; noexcept&#x3002;</p>
+</li>
+<li>auto_ptr &#x88AB;&#x5F03;&#x7528;&#xFF0C;&#x5E94;&#x4F7F;&#x7528; unique_ptr&#x3002;</li>
+<li>register &#x5173;&#x952E;&#x5B57;&#x88AB;&#x5F03;&#x7528;&#x3002;</li>
+<li>bool &#x7C7B;&#x578B;&#x7684; ++ &#x64CD;&#x4F5C;&#x88AB;&#x5F03;&#x7528;&#x3002;</li>
+<li>C &#x8BED;&#x8A00;&#x98CE;&#x683C;&#x7684;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x88AB;&#x5F03;&#x7528;&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;&#x3002; <code>static_cast</code>&#x3001;<code>reinterpret_cast</code>&#x3001;<code>const_cast</code> &#x6765;&#x8FDB;&#x884C;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x3002;</li>
+<li>&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x5176;&#x4ED6;&#x8BF8;&#x5982;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;&#xFF08;C++11 &#x63D0;&#x4F9B;&#x4E86; std::bind &#x548C; std::function&#xFF09;&#x3001;export &#x7B49;&#x7279;&#x6027;&#x4E5F;&#x5747;&#x88AB;&#x5F03;&#x7528;&#x3002;</li>
 </ul>
-<h3 id="Top-10-Most-Dangerous-Software-Errors"><a href="#Top-10-Most-Dangerous-Software-Errors" class="headerlink" title="Top 10 Most Dangerous Software Errors"></a>Top 10 Most Dangerous Software Errors</h3><ol>
-<li>Improper Neutralization of Special Elements used in an SQL Command<br>(&#x2018;SQL Injection&#x2019;)</li>
-<li>Improper Neutralization of Special Elements used in an OS Command (&#x2018;OS<br>Command Injection&#x2019;)</li>
-<li><strong>Buffer Copy without Checking Size of Input (&#x2018;Classic Buffer Overflow&#x2019;) </strong></li>
-<li>Improper Neutralization of Input During Web Page Generation (&#x2018;Cross-site<br>Scripting&#x2019;)</li>
-<li>Missing Authentication for Critical Function</li>
-<li>Missing Authorization</li>
-<li>Use of Hard-coded Credentials</li>
-<li>Missing Encryption of Sensitive Data</li>
-<li>Unrestricted Upload of File with Dangerous Type</li>
-<li>Reliance on Untrusted Inputs in a Security Decision</li>
-</ol>
-<h3 id="Thanks-to-TrendMirco&#x2019;s-Stanley-Liu"><a href="#Thanks-to-TrendMirco&#x2019;s-Stanley-Liu" class="headerlink" title="Thanks to TrendMirco&#x2019;s Stanley Liu"></a>Thanks to TrendMirco&#x2019;s Stanley Liu</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
+<h3 id="C-&#x4E0D;&#x662F;-C-&#x7684;&#x4E00;&#x4E2A;&#x8D85;&#x96C6;"><a href="#C-&#x4E0D;&#x662F;-C-&#x7684;&#x4E00;&#x4E2A;&#x8D85;&#x96C6;" class="headerlink" title="C++ &#x4E0D;&#x662F; C &#x7684;&#x4E00;&#x4E2A;&#x8D85;&#x96C6;"></a>C++ &#x4E0D;&#x662F; C &#x7684;&#x4E00;&#x4E2A;&#x8D85;&#x96C6;</h3><p>&#x5728;&#x7F16;&#x5199; C++ &#x65F6;&#xFF0C;&#x4E5F;&#x5E94;&#x8BE5;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x907F;&#x514D;&#x4F7F;&#x7528;&#x8BF8;&#x5982; void* &#x4E4B;&#x7C7B;&#x7684;&#x7A0B;&#x5E8F;&#x98CE;&#x683C;&#x3002;&#x800C;&#x5728;&#x4E0D;&#x5F97;&#x4E0D;&#x4F7F;&#x7528; C &#x65F6;&#xFF0C;&#x5E94;&#x8BE5;&#x6CE8;&#x610F;&#x4F7F;&#x7528; extern &#x201C;C&#x201D; &#x8FD9;&#x79CD;&#x7279;&#x6027;&#xFF0C;&#x5C06; C &#x8BED;&#x8A00;&#x7684;&#x4EE3;&#x7801;&#x4E0E; C++&#x4EE3;&#x7801;&#x8FDB;&#x884C;&#x5206;&#x79BB;&#x7F16;&#x8BD1;&#xFF0C;&#x518D;&#x7EDF;&#x4E00;&#x94FE;&#x63A5;&#x8FD9;&#x79CD;&#x505A;&#x6CD5;&#x3002; e.g.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// foo.h</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __cplusplus</span></span><br><span class="line"><span class="keyword">extern</span> <span class="string">&quot;C&quot;</span> {</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __cplusplus</span></span><br><span class="line">}</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// foo.c</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>{</span><br><span class="line">    return x+y;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// main.cpp</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="string">&quot;foo.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">    add(<span class="number">1</span>, <span class="number">2</span>);</span><br><span class="line">    return <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
+<p>&#x8981;&#x5148;&#x7F16;&#x8BD1;c&#x4EE3;&#x7801;, &#x7136;&#x540E;&#x518D;&#x628A;c++&#x548C;.o&#x4EE3;&#x7801;&#x94FE;&#x63A5;&#x8D77;&#x6765;<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcc -c foo.c</span><br><span class="line">g++ main.cpp foo.o -o main</span><br></pre></td></tr></table></figure></p>
+<h2 id="&#x8BED;&#x8A00;&#x7279;&#x6027;&#x589E;&#x5F3A;"><a href="#&#x8BED;&#x8A00;&#x7279;&#x6027;&#x589E;&#x5F3A;" class="headerlink" title="&#x8BED;&#x8A00;&#x7279;&#x6027;&#x589E;&#x5F3A;"></a>&#x8BED;&#x8A00;&#x7279;&#x6027;&#x589E;&#x5F3A;</h2><h3 id="nullptr"><a href="#nullptr" class="headerlink" title="nullptr"></a>nullptr</h3><ul>
+<li><p><code>nullptr</code> &#x51FA;&#x73B0;&#x7684;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;&#x66FF;&#x4EE3; <code>NULL</code>&#x3002;&#x5728;&#x67D0;&#x79CD;&#x610F;&#x4E49;&#x4E0A;&#x6765;&#x8BF4;&#xFF0C;&#x4F20;&#x7EDF; <code>C++</code> &#x4F1A;&#x628A; <code>NULL</code>&#x3001;<code>0</code> &#x89C6;&#x4E3A;&#x540C;&#x4E00;&#x79CD;&#x4E1C;&#x897F;&#xFF0C;&#x8FD9;&#x53D6;&#x51B3;&#x4E8E;&#x7F16;&#x8BD1;&#x5668;&#x5982;&#x4F55;&#x5B9A;&#x4E49; <code>NULL</code>&#xFF0C;&#x6709;&#x4E9B;&#x7F16;&#x8BD1;&#x5668;&#x4F1A;&#x5C06; <code>NULL</code> &#x5B9A;&#x4E49;&#x4E3A; <code>((void*)0)</code>&#xFF0C;&#x6709;&#x4E9B;&#x5219;&#x4F1A;&#x76F4;&#x63A5;&#x5C06;&#x5176;&#x5B9A;&#x4E49;&#x4E3A; <code>0</code>&#x3002;</p>
+</li>
+<li><p><code>C++</code> &#x4E0D;&#x5141;&#x8BB8;&#x76F4;&#x63A5;&#x5C06; <code>void *</code> &#x9690;&#x5F0F;&#x8F6C;&#x6362;&#x5230;&#x5176;&#x4ED6;&#x7C7B;&#x578B;</p>
+</li>
+<li><code>C++11</code> &#x5F15;&#x5165;&#x4E86; <code>nullptr</code> &#x5173;&#x952E;&#x5B57;&#xFF0C;&#x4E13;&#x95E8;&#x7528;&#x6765;&#x533A;&#x5206;<code>&#x7A7A;&#x6307;&#x9488;</code>&#x3001;<code>0</code>&#x3002;<code>nullptr</code> &#x7684;&#x7C7B;&#x578B;&#x4E3A; <code>nullptr_t</code>&#xFF0C;&#x80FD;&#x591F;&#x9690;&#x5F0F;&#x7684;&#x8F6C;&#x6362;&#x4E3A;&#x4EFB;&#x4F55;&#x6307;&#x9488;&#x6216;&#x6210;&#x5458;&#x6307;&#x9488;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x4E5F;&#x80FD;&#x548C;&#x4ED6;&#x4EEC;&#x8FDB;&#x884C;&#x76F8;&#x7B49;&#x6216;&#x8005;&#x4E0D;&#x7B49;&#x7684;&#x6BD4;&#x8F83;&#x3002; ==&#x9632;&#x6B62;NULL&#x8F6C;&#x6362;&#x6491;0, &#x8FDB;&#x800C;&#x5728;&#x91CD;&#x8F7D;&#x8FC7;&#x7A0B;&#x4E2D;&#x5339;&#x914D;&#x6210;int==</li>
+</ul>
+<h3 id="constexpr"><a href="#constexpr" class="headerlink" title="constexpr"></a>constexpr</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#define LEN 10</span><br><span class="line"></span><br><span class="line">int len_foo() {</span><br><span class="line">    return 5;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">int main() {</span><br><span class="line">    char arr_1[10];</span><br><span class="line">    char arr_2[LEN];</span><br><span class="line">    int len = 5;</span><br><span class="line">    char arr_3[len+5];          // &#x975E;&#x6CD5;</span><br><span class="line">    const int len_2 = 10;</span><br><span class="line">    char arr_4[len_2];        // &#x5408;&#x6CD5;</span><br><span class="line">    char arr_5[len_foo()+5];  // &#x975E;&#x6CD5;</span><br><span class="line"></span><br><span class="line">    return 0;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<p>&#x5728; <code>C++11</code> &#x4E4B;&#x524D;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x5E38;&#x91CF;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x4F7F;&#x7528;&#x7684;&#x53D8;&#x91CF;&#x5FC5;&#x987B;&#x88AB;&#x58F0;&#x660E;&#x4E3A; <code>const</code>&#xFF0C;&#x5728;&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;<code>len_2</code> &#x88AB;&#x5B9A;&#x4E49;&#x6210;&#x4E86;&#x5E38;&#x91CF;&#xFF0C;&#x56E0;&#x6B64; <code>len+5</code> &#x662F;&#x4E00;&#x4E2A;&#x5E38;&#x91CF;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x6240;&#x4EE5;&#x80FD;&#x591F;&#x5408;&#x6CD5;&#x7684;&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF1B;<br>&#x800C;&#x5BF9;&#x4E8E; <code>arr_5</code> &#x6765;&#x8BF4;&#xFF0C;<code>C++98</code> &#x4E4B;&#x524D;&#x7684;&#x7F16;&#x8BD1;&#x5668;&#x65E0;&#x6CD5;&#x5F97;&#x77E5; <code>len_foo()</code> &#x5728;&#x8FD0;&#x884C;&#x671F;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5E38;&#x6570;&#xFF0C;&#x8FD9;&#x4E5F;&#x5C31;&#x5BFC;&#x81F4;&#x4E86;&#x975E;&#x6CD5;&#x7684;&#x4EA7;&#x751F;&#x3002;<br><code>C++11</code> &#x63D0;&#x4F9B;&#x4E86; <code>constexpr</code> &#x8BA9;&#x7528;&#x6237;&#x663E;&#x5F0F;&#x7684;&#x58F0;&#x660E;&#x51FD;&#x6570;&#x6216;&#x5BF9;&#x8C61;&#x6784;&#x9020;&#x51FD;&#x6570;&#x5728;&#x7F16;&#x8BD1;&#x5668;&#x4F1A;&#x6210;&#x4E3A;&#x5E38;&#x6570;&#xFF0C;&#x8FD9;&#x4E2A;&#x5173;&#x952E;&#x5B57;&#x660E;&#x786E;&#x7684;&#x544A;&#x8BC9;&#x7F16;&#x8BD1;&#x5668;&#x5E94;&#x8BE5;&#x53BB;&#x9A8C;&#x8BC1; <code>len_foo</code> &#x5728;&#x7F16;&#x8BD1;&#x5668;&#x5C31;&#x5E94;&#x8BE5;&#x662F;&#x4E00;&#x4E2A;&#x5E38;&#x6570;&#x3002;==&#x4E5F;&#x5C31;&#x662F;&#x8BF4;, &#x76F8;&#x5F53;&#x4E8E;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x7684;&#x503C;&#x544A;&#x8BC9;&#x7F16;&#x8BD1;&#x5668;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;const, &#x53EF;&#x4F5C;&#x4E3A;&#x6570;&#x7EC4;&#x7684;&#x957F;&#x5EA6;&#x5B9A;&#x4E49;&#x3002;==<br>&#x540C;&#x65F6;constexpr&#x7684;&#x51FD;&#x6570;&#x8FD8;&#x652F;&#x6301;&#x9012;&#x5F52;, e.g.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">constexpr</span> <span class="keyword">int</span> <span class="title">fibonacci</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> n)</span> </span>{</span><br><span class="line">    return n == <span class="number">1</span> || n == <span class="number">2</span> ? <span class="number">1</span> : fibonacci(n<span class="number">-1</span>)+fibonacci(n<span class="number">-2</span>);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -716,13 +719,13 @@
       
       
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Recommendation/">Recommendation</a><a class="article-category-link" href="/categories/Recommendation/Security/">Security</a>
+    <a class="article-category-link" href="/categories/Programing-Language/">Programing Language</a><a class="article-category-link" href="/categories/Programing-Language/C/">C++</a>
     </div>
 
 
       
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Code/">Code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Security/">Security</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Windows/">Windows</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Trick/">Trick</a></li></ul>
     </div>
 
       
@@ -820,11 +823,11 @@
 
 
   
-    <article id="post-Git/git-error" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Recommendation/Tools/Secure-Code" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/08/10/Git/git-error/" class="article-date">
-      <time datetime="2016-08-10T13:03:20.000Z" itemprop="datePublished">2016-08-10</time>
+      <a href="/2016/08/13/Recommendation/Tools/Secure-Code/" class="article-date">
+      <time datetime="2016-08-12T19:33:33.000Z" itemprop="datePublished">2016-08-13</time>
 </a>
     </div>
   
@@ -837,7 +840,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/10/Git/git-error/">Git Errors</a>
+      <a class="article-title" href="/2016/08/13/Recommendation/Tools/Secure-Code/">Secure Code [TODO]</a>
     </h1>
   
 
@@ -847,8 +850,27 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="Git-Errors-Solution"><a href="#Git-Errors-Solution" class="headerlink" title="Git Errors Solution"></a>Git Errors Solution</h2><h3 id="Fatal-loose-object&#x2026;is-corrupt"><a href="#Fatal-loose-object&#x2026;is-corrupt" class="headerlink" title="Fatal: loose object&#x2026;is corrupt"></a>Fatal: loose object&#x2026;is corrupt</h3><h4 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">error: object file .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab is empty </span><br><span class="line">fatal: loose object 9a83e9c5b3d697d12a2e315e1777ceaf27ea1bab (stored <span class="keyword">in</span> .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab) is corrupt</span><br></pre></td></tr></table></figure>
-<h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">rm -fr .git  </span><br><span class="line">git init  </span><br><span class="line">git remote add origin your-git-remote-url  </span><br><span class="line">git fetch  </span><br><span class="line">git reset --hard origin/master  </span><br><span class="line">git branch --set-upstream-to=origin/master master</span><br></pre></td></tr></table></figure>
+        <h2 id="Writing-Secure-Code"><a href="#Writing-Secure-Code" class="headerlink" title="Writing Secure Code"></a>Writing Secure Code</h2><h3 id="STRIDE-Threat-Model"><a href="#STRIDE-Threat-Model" class="headerlink" title="STRIDE Threat Model"></a>STRIDE Threat Model</h3><ul>
+<li>Spoofing identity</li>
+<li>Tampering with data</li>
+<li>Repudiation</li>
+<li>Information disclosure</li>
+<li>Denial of service.</li>
+<li>Elevation of privilege</li>
+</ul>
+<h3 id="Top-10-Most-Dangerous-Software-Errors"><a href="#Top-10-Most-Dangerous-Software-Errors" class="headerlink" title="Top 10 Most Dangerous Software Errors"></a>Top 10 Most Dangerous Software Errors</h3><ol>
+<li>Improper Neutralization of Special Elements used in an SQL Command<br>(&#x2018;SQL Injection&#x2019;)</li>
+<li>Improper Neutralization of Special Elements used in an OS Command (&#x2018;OS<br>Command Injection&#x2019;)</li>
+<li><strong>Buffer Copy without Checking Size of Input (&#x2018;Classic Buffer Overflow&#x2019;) </strong></li>
+<li>Improper Neutralization of Input During Web Page Generation (&#x2018;Cross-site<br>Scripting&#x2019;)</li>
+<li>Missing Authentication for Critical Function</li>
+<li>Missing Authorization</li>
+<li>Use of Hard-coded Credentials</li>
+<li>Missing Encryption of Sensitive Data</li>
+<li>Unrestricted Upload of File with Dangerous Type</li>
+<li>Reliance on Untrusted Inputs in a Security Decision</li>
+</ol>
+<h3 id="Thanks-to-TrendMirco&#x2019;s-Stanley-Liu"><a href="#Thanks-to-TrendMirco&#x2019;s-Stanley-Liu" class="headerlink" title="Thanks to TrendMirco&#x2019;s Stanley Liu"></a>Thanks to TrendMirco&#x2019;s Stanley Liu</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
 
       
     </div>
@@ -857,13 +879,13 @@
       
       
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Git/">Git</a><a class="article-category-link" href="/categories/Git/Solution/">Solution</a>
+    <a class="article-category-link" href="/categories/Recommendation/">Recommendation</a><a class="article-category-link" href="/categories/Recommendation/Security/">Security</a>
     </div>
 
 
       
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CVS/">CVS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project/">Project</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Solution/">Solution</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Code/">Code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Security/">Security</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Windows/">Windows</a></li></ul>
     </div>
 
       

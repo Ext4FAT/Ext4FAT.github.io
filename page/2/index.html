@@ -246,6 +246,70 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-Git/git-error" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/08/10/Git/git-error/" class="article-date">
+      <time datetime="2016-08-10T13:03:20.000Z" itemprop="datePublished">2016-08-10</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/08/10/Git/git-error/">Git Errors</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="Git-Errors-Solution"><a href="#Git-Errors-Solution" class="headerlink" title="Git Errors Solution"></a>Git Errors Solution</h2><h3 id="Fatal-loose-object&#x2026;is-corrupt"><a href="#Fatal-loose-object&#x2026;is-corrupt" class="headerlink" title="Fatal: loose object&#x2026;is corrupt"></a>Fatal: loose object&#x2026;is corrupt</h3><h4 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">error: object file .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab is empty </span><br><span class="line">fatal: loose object 9a83e9c5b3d697d12a2e315e1777ceaf27ea1bab (stored <span class="keyword">in</span> .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab) is corrupt</span><br></pre></td></tr></table></figure>
+<h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">rm -fr .git  </span><br><span class="line">git init  </span><br><span class="line">git remote add origin your-git-remote-url  </span><br><span class="line">git fetch  </span><br><span class="line">git reset --hard origin/master  </span><br><span class="line">git branch --set-upstream-to=origin/master master</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Git/">Git</a><a class="article-category-link" href="/categories/Git/Solution/">Solution</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CVS/">CVS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project/">Project</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Solution/">Solution</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
     <article id="post-Linux/Solution/Hide-User-in-Ubuntu" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -575,93 +639,6 @@
       
     <div class="article-tag tagcloud">
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Recommendation/">Recommendation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Trick/">Trick</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Programming/JAVA/Top10-Mistakes" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/26/Programming/JAVA/Top10-Mistakes/" class="article-date">
-      <time datetime="2016-06-26T07:12:12.000Z" itemprop="datePublished">2016-06-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/26/Programming/JAVA/Top10-Mistakes/">Top 10 Mistakes Java Developers Make</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h2 id="Top-10-Mistakes-Java-Developers-Make"><a href="#Top-10-Mistakes-Java-Developers-Make" class="headerlink" title="Top 10 Mistakes Java Developers Make"></a>Top 10 Mistakes Java Developers Make</h2><p>Reoriganize From <a href="http://www.programcreek.com/2014/05/top-10-mistakes-java-developers-make/" target="_blank" rel="external">http://www.programcreek.com/2014/05/top-10-mistakes-java-developers-make/</a></p>
-<h3 id="Convert-Array-to-ArrayList"><a href="#Convert-Array-to-ArrayList" class="headerlink" title="Convert Array to ArrayList"></a>Convert Array to ArrayList</h3><p>&#x7528;&#x4EE5;&#x4E0B;&#x65B9;&#x5F0F;&#x5C06;&#x6570;&#x7EC4;&#x8F6C;&#x6210;ArrayList<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;String&gt; list = Arrays.asList(arr);</span><br></pre></td></tr></table></figure></p>
-<p><code>Arrays.asList()</code>&#x8FD4;&#x56DE;&#x7684;<code>Arrays</code>&#x7684;&#x4E00;&#x4E2A;&#x5185;&#x90E8;&#x9759;&#x6001;&#x7C7B;<code>ArrayList</code>, &#x800C;&#x4E0D;&#x662F;<code>java.util.ArrayList</code>. <code>java.util.Arrays.ArrayList</code>&#x4F1A;&#x6709;&#x4E00;&#x4E9B;&#x8BF8;&#x5982;<code>set(), get(), contains()</code>&#x7684;&#x65B9;&#x6CD5;, &#x4F46;&#x662F;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x6DFB;&#x52A0;&#x5143;&#x7D20;&#x7684;&#x65B9;&#x6CD5;, &#x56E0;&#x4E3A;&#x8FD9;&#x4E2A;&#x7C7B;&#x662F;&#x5B9A;&#x957F;&#x7684;. &#x6B63;&#x786E;&#x7684;&#x505A;&#x6CD5;&#x5982;&#x4E0B;:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;String&gt; arrayList = <span class="keyword">new</span> ArrayList&lt;String&gt;(Arrays.asList(arr));</span><br></pre></td></tr></table></figure></p>
-<p><code>ArrayList</code> &#x662F;&#x5141;&#x8BB8;&#x63A5;&#x6536;&#x4E00;&#x4E2A;&#x96C6;&#x5408;&#x7C7B;&#x4E3A;&#x53C2;&#x6570;&#x7684;, &#x6240;&#x4EE5;&#x8981;&#x628A;<code>java.util.Arrays.ArrayList</code>&#x518D;&#x901A;&#x8FC7;<code>ArrayList</code>&#x7ED9;&#x6784;&#x9020;&#x4E00;&#x4E0B;.</p>
-<h3 id="Check-If-an-Array-Contains-a-Value"><a href="#Check-If-an-Array-Contains-a-Value" class="headerlink" title="Check If an Array Contains a Value"></a>Check If an Array Contains a Value</h3><p>&#x6709;&#x4EBA;&#x603B;&#x559C;&#x6B22;&#x8FD9;&#x4E48;&#x505A;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Set&lt;String&gt; set = <span class="keyword">new</span> HashSet&lt;String&gt;(Arrays.asList(arr));</span><br><span class="line"><span class="keyword">return</span> set.contains(targetValue);</span><br></pre></td></tr></table></figure></p>
-<p>&#x4F46;&#x662F;&#x6CA1;&#x5FC5;&#x8981;, &#x56E0;&#x4E3A;&#x76F4;&#x63A5;&#x7528;&#x4E5F;&#x80FD;&#x770B;&#x6709;&#x65E0;&#x5305;&#x542B;&#x5143;&#x7D20;. &#x8F6C;&#x6210;Set&#x6CA1;&#x6709;&#x5FC5;&#x8981;, &#x8FD8;&#x8981;&#x6D6A;&#x8D39;&#x6784;&#x9020;&#x5F00;&#x9500;.<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Arrays.asList(arr).contains(targetValue);</span><br></pre></td></tr></table></figure></p>
-<p>&#x751A;&#x81F3;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(String s: arr){</span><br><span class="line">	<span class="keyword">if</span>(s.equals(targetValue))</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">false</span>;</span><br></pre></td></tr></table></figure></p>
-<p>&#x4F46;&#x7B2C;&#x4E00;&#x4E2A;&#x53EF;&#x8BFB;&#x6027;&#x597D;&#x4E00;&#x70B9;</p>
-<h3 id="Remove-an-Element-from-a-List-Inside-a-Loop"><a href="#Remove-an-Element-from-a-List-Inside-a-Loop" class="headerlink" title="Remove an Element from a List Inside a Loop"></a>Remove an Element from a List Inside a Loop</h3><p>size&#x4F1A;&#x53D8;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;(Arrays.asList(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>, <span class="string">&quot;d&quot;</span>));</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; list.size(); i++) {</span><br><span class="line">	list.remove(i);</span><br><span class="line">}</span><br><span class="line">System.out.println(list);</span><br></pre></td></tr></table></figure></p>
-<p>&#x8FED;&#x4EE3;&#x5668;&#x5F02;&#x5E38;, &#x4F1A;&#x7206;<a href="http://www.programcreek.com/2014/01/java-util-concurrentmodificationexception/" target="_blank" rel="external">ConcurrentModificationException.</a><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;(Arrays.asList(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>, <span class="string">&quot;d&quot;</span>));</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span> (String s : list) {</span><br><span class="line">	<span class="keyword">if</span> (s.equals(<span class="string">&quot;a&quot;</span>))</span><br><span class="line">		list.remove(s);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
-<p>&#x6B63;&#x786E;&#x7684;&#x65B9;&#x5F0F;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;(Arrays.asList(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>, <span class="string">&quot;d&quot;</span>));</span><br><span class="line">Iterator&lt;String&gt; iter = list.iterator();</span><br><span class="line"><span class="keyword">while</span> (iter.hasNext()) {</span><br><span class="line">	String s = iter.next();</span><br><span class="line"> </span><br><span class="line">	<span class="keyword">if</span> (s.equals(<span class="string">&quot;a&quot;</span>)) {</span><br><span class="line">		iter.remove();</span><br><span class="line">	}</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
-<p>&#x56E0;&#x4E3A;&#x5728;foreach&#x5FAA;&#x73AF;&#x91CC;, &#x7F16;&#x8BD1;&#x5668;&#x4F1A;&#x81EA;&#x52A8;&#x5C06;&#x5220;&#x9664;&#x5143;&#x7D20;&#x540E;&#x518D;&#x8FDB;&#x884C;&#x8FED;&#x4EE3;&#x5668;&#x7684;<code>next()</code>&#x64CD;&#x4F5C;, &#x8FD9;&#x5C31;&#x4F1A;&#x5F15;&#x8D77;<a href="http://www.programcreek.com/2014/01/java-util-concurrentmodificationexception/" target="_blank" rel="external">ConcurrentModificationException.</a>&#x5F02;&#x5E38;. &#x53EF;&#x4EE5;&#x5BF9;&#x6BD4;&#x4E00;&#x4E0B;<a href="http://www.programcreek.com/2014/01/deep-understanding-of-arraylist-iterator/" target="_blank" rel="external">Iterator</a>&#x7684;&#x6E90;&#x7801;.</p>
-<h3 id="Hashtable-vs-HashMap"><a href="#Hashtable-vs-HashMap" class="headerlink" title="Hashtable vs HashMap"></a>Hashtable vs HashMap</h3><p><code>Hashtable</code> &#x548C; <code>HashMap</code> &#x6700;&#x5927;&#x7684;&#x533A;&#x522B;&#x662F;&#x540C;&#x6B65;&#x5316;.</p>
-<h3 id="Use-Raw-Type-of-Collection"><a href="#Use-Raw-Type-of-Collection" class="headerlink" title="Use Raw Type of Collection"></a>Use Raw Type of Collection</h3><p>Java&#x91CC;, &#x539F;&#x751F;&#x6001;&#x578B;(raw type)&#x548C;&#x901A;&#x914D;&#x7B26;(wildcard type)&#x53EF;&#x4EE5;&#x6DF7;&#x7528;. &#x6BD4;&#x5982; Set&lt;?&gt;.<br>&#x4F46;&#x5982;&#x4E0B;&#x4EE3;&#x7801;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(List list, Object o)</span></span>{</span><br><span class="line">	list.add(o);</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>{</span><br><span class="line">	List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">	add(list, <span class="number">10</span>);</span><br><span class="line">	String s = list.get(<span class="number">0</span>);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
-<p>&#x4F1A;&#x7206;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Exception in thread <span class="string">&quot;main&quot;</span> java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String at ...</span><br></pre></td></tr></table></figure></p>
-<p>&#x56E0;&#x4E3A;&#x539F;&#x751F;&#x6001;&#x578B;&#x7684;&#x96C6;&#x5408;&#x7C7B;&#x8DF3;&#x8FC7;&#x4E86;&#x6CDB;&#x578B;&#x68C0;&#x67E5;, <code>Set</code>, <code>Set&lt;?&gt;</code>, &#x548C; <code>Set&lt;Object&gt;</code> &#x662F;&#x5B58;&#x5728;&#x5F88;&#x5927;&#x5DEE;&#x522B;&#x7684;. More details in <a href="http://www.programcreek.com/2013/12/raw-type-set-vs-unbounded-wildcard-set/" target="_blank" rel="external">Raw type vs. Unbounded wildcard</a> .</p>
-<h3 id="Access-Level"><a href="#Access-Level" class="headerlink" title="Access Level"></a>Access Level</h3><p>public&#x5F88;&#x65B9;&#x4FBF;, &#x4F46;&#x662F;&#x8FD9;&#x6837;&#x8BBE;&#x8BA1;&#x5F88;&#x4E11;&#x964B;.<br>&#x5982;&#x4F55;&#x4F18;&#x96C5;&#x8BBE;&#x8BA1;, &#x53C2;&#x89C1;<a href="http://www.programcreek.com/2011/11/java-access-level-public-protected-private/" target="_blank" rel="external">public, default, protected, and private</a>.</p>
-<h3 id="ArrayList-vs-LinkedList"><a href="#ArrayList-vs-LinkedList" class="headerlink" title="ArrayList vs. LinkedList"></a>ArrayList vs. LinkedList</h3><p>LinkedList &#x5927;&#x91CF;&#x5220;&#x9664;&#x63D2;&#x5165;, &#x5C11;&#x91CF;&#x968F;&#x673A;&#x8BBF;&#x95EE;<br>ArrayList &#x6B63;&#x597D;&#x76F8;&#x53CD;.</p>
-<h3 id="Mutable-vs-Immutable"><a href="#Mutable-vs-Immutable" class="headerlink" title="Mutable vs. Immutable"></a>Mutable vs. Immutable</h3><p><code>mutable</code>&#x901A;&#x5E38;&#x7528;&#x6765;&#x907F;&#x514D;&#x8FC7;&#x591A;&#x7684;&#x4E2D;&#x95F4;&#x5BF9;&#x8C61;. &#x4E00;&#x4E2A;&#x7ECF;&#x5178;&#x7684;&#x4F8B;&#x5B50;&#x5C31;&#x662F;&#x5927;&#x6570;&#x5B57;&#x7B26;&#x4E32;, &#x5982;&#x679C;&#x4F7F;&#x7528;<code>immutable</code>&#x7684;&#x5B57;&#x7B26;&#x4E32;, &#x90A3;&#x5C31;&#x5C06;&#x4EA7;&#x751F;&#x5927;&#x91CF;&#x4E2D;&#x95F4;&#x5BF9;&#x8C61;, &#x65E2;&#x8017;&#x7A7A;&#x95F4;&#x53C8;&#x6D6A;&#x8D39;&#x65F6;&#x95F4;, &#x8FD8;&#x8981;&#x5783;&#x573E;&#x7ACB;&#x5373;&#x56DE;&#x6536;.<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String result=<span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="keyword">for</span>(String s: arr){</span><br><span class="line">	result = result + s;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
-<p>&#x56E0;&#x6B64;&#x4F7F;&#x7528;<code>StringBuffer</code>&#x8FD9;&#x79CD;<code>mutable</code>&#x7684;&#x7C7B;&#x6BD4;&#x8F83;&#x5408;&#x9002;.<br>more details in <a href="http://www.programcreek.com/2013/04/why-string-is-immutable-in-java/" target="_blank" rel="external">Why String is immutable in Java ? </a></p>
-<h3 id="Constructor-of-Super-and-Sub"><a href="#Constructor-of-Super-and-Sub" class="headerlink" title="Constructor of Super and Sub"></a>Constructor of Super and Sub</h3><p><a href="./Implicit-super-constructor-is-undefined-for-default-constructor.png">!pic</a><br>&#x7236;&#x7C7B;&#x9ED8;&#x8BA4;&#x6784;&#x9020;&#x672A;&#x5B9A;&#x4E49;, &#x4F46;&#x662F;&#x5B50;&#x7C7B;&#x5B9A;&#x4E49;&#x4E86;. Java&#x91CC;, &#x4E00;&#x4E2A;&#x7C7B;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5B9A;&#x4E49;&#x6784;&#x9020;&#x65B9;&#x6CD5;, &#x7F16;&#x8BD1;&#x5668;&#x4F1A;&#x81EA;&#x52A8;&#x63D2;&#x4E00;&#x4E2A;&#x65E0;&#x53C2;&#x7684;, &#x4F46;&#x662F;&#x5982;&#x679C;&#x663E;&#x793A;&#x5B9A;&#x4E49;&#x4E86;&#x90A3;&#x5C31;&#x4E0D;&#x63D2;&#x4E86;(&#x8FD9;&#x548C;C++&#x4E0D;&#x4E00;&#x6837;).<br>&#x800C;&#x6B64;&#x65F6;&#x5B50;&#x7C7B;&#x7684;&#x65E0;&#x53C2;&#x6784;&#x9020;&#x9700;&#x8981;&#x8C03;&#x7528;&#x7236;&#x7C7B;&#x7684;&#x65E0;&#x53C2;&#x6784;&#x9020;, &#x4F46;&#x662F;&#x53D1;&#x73B0;&#x4E0D;&#x5B58;&#x5728;, &#x56E0;&#x6B64;&#x8981;&#x62A5;&#x9519;.<br>&#x8981;&#x60F3;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;, &#x8981;&#x4E48;&#x7ED9;&#x7236;&#x7C7B;&#x52A0;&#x4E00;&#x4E2A;&#x65E0;&#x53C2;&#x7684;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">Super</span><span class="params">()</span></span>{</span><br><span class="line">    System.out.println(<span class="string">&quot;Super&quot;</span>);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
-<p>&#x8981;&#x4E48;&#x628A;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&#x7236;&#x7C7B;&#x6784;&#x9020;&#x7ED9;&#x53BB;&#x4E86;, &#x518D;&#x8981;&#x4E48;&#x76F4;&#x63A5;&#x628A;<code>super(value)</code>&#x585E;&#x5B50;&#x7C7B;&#x6784;&#x9020;&#x91CC;.</p>
-<h3 id="const-or-Constructor"><a href="#const-or-Constructor" class="headerlink" title="const or Constructor?"></a>const or Constructor?</h3><p>&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x521B;&#x5EFA;String<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//1. use double quotes</span></span><br><span class="line">String x = <span class="string">&quot;abc&quot;</span>;</span><br><span class="line"><span class="comment">//2. use constructor</span></span><br><span class="line">String y = <span class="keyword">new</span> String(<span class="string">&quot;abc&quot;</span>);</span><br></pre></td></tr></table></figure></p>
-<p>&#x4F46;&#x662F;<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">String a = <span class="string">&quot;abcd&quot;</span>;</span><br><span class="line">String b = <span class="string">&quot;abcd&quot;</span>;</span><br><span class="line">System.out.println(a == b);  <span class="comment">// True</span></span><br><span class="line">System.out.println(a.equals(b)); <span class="comment">// True</span></span><br><span class="line"> </span><br><span class="line">String c = <span class="keyword">new</span> String(<span class="string">&quot;abcd&quot;</span>);</span><br><span class="line">String d = <span class="keyword">new</span> String(<span class="string">&quot;abcd&quot;</span>);</span><br><span class="line">System.out.println(c == d);  <span class="comment">// False</span></span><br><span class="line">System.out.println(c.equals(d)); <span class="comment">// True</span></span><br></pre></td></tr></table></figure></p>
-<p>&#x5B57;&#x7B26;&#x4E32;&#x76F4;&#x63A5;&#x8D4B;&#x503C;&#x662F;&#x5E38;&#x91CF;, &#x56E0;&#x6B64;&#x90FD;&#x76F8;&#x7B49;; &#x4F46;new&#x7684;&#x65F6;&#x5019;&#x662F;&#x5404;&#x81EA;&#x5F00;&#x8F9F;&#x7A7A;&#x95F4;, == &#x6BD4;&#x8F83;&#x7684;&#x662F;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x76F8;&#x7B49;, &#x56E0;&#x800C;&#x4E0D;&#x7B49;; equals&#x6BD4;&#x8F83;&#x7684;&#x662F;&#x503C;&#x90A3;&#x5C31;&#x76F8;&#x7B49;.</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Programing-Language/">Programing Language</a><a class="article-category-link" href="/categories/Programing-Language/JAVA/">JAVA</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JAVA/">JAVA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JDK/">JDK</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
     </div>
 
       
