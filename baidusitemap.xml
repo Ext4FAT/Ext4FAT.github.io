@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
+    <lastmod>2016-09-01T02:16:13.576Z</lastmod>
+    <data>
+        <display>
+        <title>✍ Reading Books</title>
+        <pubTime>2016-04-26T11:52:51.000Z</pubTime>
+        
+        <tag>Book</tag>
+         
+        <tag>Recommendation</tag>
+         
+         
+           
+             
+              <breadCrumb title="Book" url="http://idler1229.github.io/categories/Book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/08/29/Programming/C++/C++11/</loc>
     <lastmod>2016-08-30T14:54:31.049Z</lastmod>
     <data>
@@ -51,28 +73,6 @@
           
              
               <breadCrumb title="Shell" url="http://idler1229.github.io/categories/Linux/Shell/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</loc>
-    <lastmod>2016-08-29T22:16:56.314Z</lastmod>
-    <data>
-        <display>
-        <title>✍ Reading Books</title>
-        <pubTime>2016-04-26T11:52:51.000Z</pubTime>
-        
-        <tag>Book</tag>
-         
-        <tag>Recommendation</tag>
-         
-         
-           
-             
-              <breadCrumb title="Book" url="http://idler1229.github.io/categories/Book/"/>
           
         </display>
     </data>
