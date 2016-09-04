@@ -246,6 +246,117 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-CV/HOG-SVM" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/27/CV/HOG-SVM/" class="article-date">
+      <time datetime="2016-04-26T17:24:13.000Z" itemprop="datePublished">2016-04-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/27/CV/HOG-SVM/">Simple Object Classification with HOG and SVM</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h2 id="Do-object-recognition-with-HOG-feature-and-SVM-classifier"><a href="#Do-object-recognition-with-HOG-feature-and-SVM-classifier" class="headerlink" title="Do object recognition with HOG feature and SVM classifier."></a>Do object recognition with HOG feature and SVM classifier.</h2><h3 id="Usage"><a href="#Usage" class="headerlink" title="[Usage]"></a>[Usage]</h3><h4 id="Training-Algorithm-Flow"><a href="#Training-Algorithm-Flow" class="headerlink" title="Training Algorithm Flow"></a>Training Algorithm Flow</h4><blockquote>
+<ol>
+<li><p>manually select representive _sample_s to generate <em>TrainSet</em> and <em>TestSet</em></p>
+</li>
+<li><p>Extract HOG feature for each samples either in <em>TrainSet</em> or in <em>TestSet</em></p>
+</li>
+<li><p>Attatch label to each <em>sample</em></p>
+</li>
+<li><p>Set parameters and train <em>Model</em> (you can determine save <em>Model</em> or not. If saved, <em>Model</em> will be saved into a XML file.) </p>
+</li>
+<li><p>Predict <em>sample</em>s in <em>TestSet</em> with SVM <em>Model</em></p>
+</li>
+</ol>
+</blockquote>
+<p>Training Example Code with EndToEnd<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">....</span><br><span class="line">....</span><br><span class="line"></span><br><span class="line"><span class="built_in">string</span> dirPath = <span class="string">&quot;...&quot;</span></span><br><span class="line">HOG_SVM hog_svm;</span><br><span class="line">hog_svm.SetSvmParameter(....);</span><br><span class="line"><span class="keyword">float</span> result = hog_svm.EndToEnd(dirPath);</span><br><span class="line"></span><br><span class="line">....</span><br><span class="line">....</span><br></pre></td></tr></table></figure></p>
+<h4 id="Predict-with-Model-in-in-practice"><a href="#Predict-with-Model-in-in-practice" class="headerlink" title="Predict with Model in  in practice:"></a>Predict with Model in  in practice:</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">....</span><br><span class="line">....</span><br><span class="line"></span><br><span class="line">Mat src = .... ;</span><br><span class="line"><span class="built_in">string</span> modelPath = <span class="string">&quot;...&quot;</span></span><br><span class="line">HOG_SVM hog_svm(modelPath);</span><br><span class="line"><span class="keyword">float</span> result = hog_svm.predict(src);</span><br><span class="line"></span><br><span class="line">....</span><br><span class="line">....</span><br></pre></td></tr></table></figure>
+<h3 id="Example"><a href="#Example" class="headerlink" title="[Example]"></a>[Example]</h3><p>White rectangle bounding boxes denote the <em>topk</em> (which select <em>topk</em> Main Region with <em>Depth Segmentation Algorithm in the previous blog</em>) color candidate regions to calculate HOG features, which will be classified by an SVM classifier. The recognition results of the right image show that cuboid regions filtered by the classifier are marked red, while the rest white regions are removed from candidate regions after classifying.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><em>Color</em></th>
+<th style="text-align:center"><em>Depth</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="/2016/04/27/CV/HOG-SVM/color.png" alt="Color"></td>
+<td style="text-align:center"><img src="/2016/04/27/CV/HOG-SVM/depth.png" alt="Depth"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><em>Regions</em></th>
+<th style="text-align:center"><em>Classification</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="/2016/04/27/CV/HOG-SVM/regions.png" alt="Regions"></td>
+<td style="text-align:center"><img src="/2016/04/27/CV/HOG-SVM/classification.png" alt="Classification"></td>
+</tr>
+</tbody>
+</table>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Computer-Vision/">Computer Vision</a><a class="article-category-link" href="/categories/Computer-Vision/OpenCV/">OpenCV</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-，-Applications/">C++， Applications</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Computer-Vision/">Computer Vision</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OpenCV/">OpenCV</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pattern-Recognition/">Pattern Recognition</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/04/27/CV/HOG-SVM/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
     <article id="post-CV/Capture-picture-with-camera" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -594,71 +705,6 @@ libcmtd.lib
       
     <div class="article-tag tagcloud">
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Solution/">Solution</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Programming/JAVA/Configure-JDK-on-Linux" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/" class="article-date">
-      <time datetime="2016-04-26T11:10:10.000Z" itemprop="datePublished">2016-04-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/">Configure JDK on Linux</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h2 id="Configure-JDK"><a href="#Configure-JDK" class="headerlink" title="Configure JDK"></a>Configure JDK</h2><h3 id="Decompression-JDK-to"><a href="#Decompression-JDK-to" class="headerlink" title="Decompression JDK to"></a>Decompression JDK to</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/lib/jvm</span><br></pre></td></tr></table></figure>
-<h3 id="See-if-there-is-other-optional-Java"><a href="#See-if-there-is-other-optional-Java" class="headerlink" title="See if there is other optional Java"></a>See if there is other optional Java</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-alternatives --list java</span><br></pre></td></tr></table></figure>
-<h3 id="Configure-environment-varible&#xFF1A;"><a href="#Configure-environment-varible&#xFF1A;" class="headerlink" title="Configure environment varible&#xFF1A;"></a>Configure environment varible&#xFF1A;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit ~/.bashrc</span><br><span class="line"><span class="comment">## copy and paste </span></span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/lib/jvm/jdk1.7.0_55   </span><br><span class="line"><span class="built_in">export</span> JRE_HOME=<span class="variable">${JAVA_HOME}</span>/jre  </span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.:{JRE_HOME}/lib  </span><br><span class="line"><span class="built_in">export</span> PATH=PATH</span><br></pre></td></tr></table></figure>
-<h3 id="Success-or-Fail"><a href="#Success-or-Fail" class="headerlink" title="Success or Fail"></a>Success or Fail</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Programing-Language/">Programing Language</a><a class="article-category-link" href="/categories/Programing-Language/JAVA/">JAVA</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JAVA/">JAVA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JDK/">JDK</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
     </div>
 
       

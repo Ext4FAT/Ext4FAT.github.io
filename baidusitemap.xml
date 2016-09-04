@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://idler1229.github.io/2016/07/26/Linux/Software/GNOME-Sushi/</loc>
+    <lastmod>2016-09-04T23:55:58.317Z</lastmod>
+    <data>
+        <display>
+        <title>GNOME Sushi</title>
+        <pubTime>2016-07-26T09:10:45.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>Software</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</loc>
     <lastmod>2016-09-04T23:47:17.313Z</lastmod>
     <data>
@@ -1152,27 +1173,6 @@
 
     
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
-    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
-    <data>
-        <display>
-        <title>Take A Break</title>
-        <pubTime>2016-04-26T09:02:34.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Ubuntu</tag>
-         
-        <tag>Software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</loc>
     <lastmod>2016-05-30T14:08:12.464Z</lastmod>
     <data>
@@ -1194,6 +1194,27 @@
              
               <breadCrumb title="Ubuntu" url="http://idler1229.github.io/categories/Linux/Ubuntu/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</loc>
+    <lastmod>2016-05-30T14:08:12.464Z</lastmod>
+    <data>
+        <display>
+        <title>Take A Break</title>
+        <pubTime>2016-04-26T09:02:34.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>Software</tag>
+         
+         
+           
         </display>
     </data>
     </url>

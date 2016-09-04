@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://idler1229.github.io/2016/07/26/Linux/Software/GNOME-Sushi/</loc>
+    
+    <lastmod>2016-09-04T23:55:58.317Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</loc>
     
     <lastmod>2016-09-04T23:47:17.313Z</lastmod>
@@ -114,14 +121,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/WizNote/html_files/wiz_reading_note_19.css</loc>
+    <loc>http://idler1229.github.io/WizNote/html_files/wiz_writing_note_19.css</loc>
     
     <lastmod>2016-08-09T19:25:52.631Z</lastmod>
     
@@ -387,14 +394,14 @@
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</loc>
+    <loc>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
     
     <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     

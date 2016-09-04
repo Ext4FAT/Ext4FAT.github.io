@@ -246,6 +246,74 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-STL/STL-ALLOCATOR" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/30/STL/STL-ALLOCATOR/" class="article-date">
+      <time datetime="2016-04-30T10:26:43.000Z" itemprop="datePublished">2016-04-30</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/30/STL/STL-ALLOCATOR/">STL ALLOCATOR [TODO]</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h2 id="Allocator"><a href="#Allocator" class="headerlink" title="Allocator"></a>Allocator</h2><pre><code>In &lt;stl_alloc.h&gt;
+</code></pre>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Programing-Language/">Programing Language</a><a class="article-category-link" href="/categories/Programing-Language/C/">C++</a><a class="article-category-link" href="/categories/Programing-Language/C/STL/">STL</a><a class="article-category-link" href="/categories/Programing-Language/C/STL/Source-Code/">Source Code</a><a class="article-category-link" href="/categories/Programing-Language/C/STL/Source-Code/Allocator/">Allocator</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Allocator/">Allocator</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programing-Language/">Programing Language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/STL/">STL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Source-Code/">Source Code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Trick/">Trick</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/04/30/STL/STL-ALLOCATOR/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+  
     <article id="post-STL/STL-ALGO-FUNCTOR" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -573,94 +641,6 @@
         <p class="article-more-link">
           <a href="/2016/04/29/STL/STL-ALGO-NUMERIC/#more">more >></a>
         </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Linux/APUE" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/28/Linux/APUE/" class="article-date">
-      <time datetime="2016-04-27T19:15:18.000Z" itemprop="datePublished">2016-04-28</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/28/Linux/APUE/">APUE</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="APUE-NOTE"><a href="#APUE-NOTE" class="headerlink" title="APUE NOTE"></a>APUE NOTE</h1><h2 id="lseek"><a href="#lseek" class="headerlink" title="lseek"></a>lseek</h2><h3 id="Function-Prototype"><a href="#Function-Prototype" class="headerlink" title="Function Prototype"></a>Function Prototype</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="keyword">off_t</span> lseek(<span class="keyword">int</span> fd, <span class="keyword">off_t</span> offset, <span class="keyword">int</span> whence);</span><br><span class="line"><span class="comment">// &#x8FD4;&#x56DE;:&#x82E5;&#x6210;&#x529F;&#x4E3A;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x4F4D;&#x79FB;,&#x82E5;&#x51FA;&#x9519;&#x4E3A;- 1</span></span><br></pre></td></tr></table></figure>
-<h3 id="Whence"><a href="#Whence" class="headerlink" title="Whence"></a>Whence</h3><ul>
-<li>&#x82E5;wh enc e&#x662F;SEEK_S E T,&#x5219;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x79FB;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x8DDD;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x5904; offset &#x4E2A;&#x5B57;&#x8282;&#x3002;</li>
-<li>&#x82E5;whence&#x662F;SEEK_ CUR,&#x5219;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x79FB;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x5176;&#x5F53;&#x524D;&#x503C;&#x52A0;offset, offset&#x53EF;&#x4E3A;&#x6B63;&#x6216;&#x8D1F;&#x3002;</li>
-<li>&#x82E5;when ce&#x662F;SEEK_END,&#x5219;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x79FB;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x6587;&#x4EF6;&#x957F;&#x5EA6;&#x52A0;offset, offset&#x53EF;&#x4E3A;&#x6B63;&#x6216;&#x8D1F;&#x3002;</li>
-<li>&#x82E5;lse ek&#x6210;&#x529F;&#x6267;&#x884C;,&#x5219;&#x8FD4;&#x56DE;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x4F4D;&#x79FB;&#x91CF;,&#x4E3A;&#x6B64;&#x53EF;&#x4EE5;&#x7528;&#x4E0B;&#x5217;&#x65B9;&#x5F0F;&#x786E;&#x5B9A;&#x4E00;&#x4E2A;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x7684;&#x5F53;&#x524D;&#x4F4D;&#x79FB;&#x91CF;:<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">off_t</span> currpos;</span><br><span class="line">currpos = lseek(fd, <span class="number">0</span>, SEEK_CUR);</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="readv-writev"><a href="#readv-writev" class="headerlink" title="readv, writev"></a>readv, writev</h2><p>readv&#x548C;writev&#x51FD;&#x6570;&#x7528;&#x4E8E;&#x5728;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x4E2D;&#x8BFB;&#x3001;&#x5199;&#x591A;&#x4E2A;&#x975E;&#x8FDE;&#x7EED;&#x7F13;&#x5B58;. &#x6709;&#x65F6;&#x4E5F;&#x5C06;&#x8FD9;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x79F0;&#x4E3A;&#x6563;&#x5E03;&#x8BFB;(scatter read)&#x548C;&#x805A;&#x96C6;&#x5199;(gather write).</p>
-<h3 id="Function-Prototype-1"><a href="#Function-Prototype-1" class="headerlink" title="Function Prototype"></a>Function Prototype</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/uio.h&gt;</span></span></span><br><span class="line"><span class="keyword">ssize_t</span> readv(<span class="keyword">int</span> fd, <span class="keyword">const</span> <span class="keyword">struct</span> iovec *iov, <span class="keyword">int</span> iovcnt);</span><br><span class="line"><span class="keyword">ssize_t</span> writev(<span class="keyword">int</span> fd, <span class="keyword">const</span> <span class="keyword">struct</span> iovec *iov, <span class="keyword">int</span> iovcnt);</span><br><span class="line"><span class="comment">//&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x8FD4;&#x56DE;:&#x5DF2;&#x8BFB;&#x3001;&#x5199;&#x7684;&#x5B57;&#x8282;&#x6570;,&#x82E5;&#x51FA;&#x9519;&#x5219;&#x4E3A; - 1</span></span><br></pre></td></tr></table></figure>
-<p>&#x8FD9;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x7684;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x6307;&#x5411; iovec&#x7ED3;&#x6784;&#x6570;&#x7EC4;&#x7684;&#x4E00;&#x4E2A;&#x6307;&#x9488;:<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> iovec {</span><br><span class="line"><span class="keyword">void</span>* iov_base; <span class="comment">/* starting address of buffer */</span></span><br><span class="line"><span class="keyword">size_t</span> iov_len; <span class="comment">/* size of buffer */</span></span><br><span class="line">};</span><br></pre></td></tr></table></figure></p>
-<p><img src="/2016/04/28/Linux/APUE/./iov.png" alt="iovec"></p>
-<ul>
-<li>writev&#x4EE5;&#x987A;&#x5E8F;iov[0], iov[1]&#x81F3;iov[iovcnt-1] &#x4ECE;&#x7F13;&#x5B58;&#x4E2D;&#x805A;&#x96C6;&#x8F93;&#x51FA;&#x6570;&#x636E;. writev&#x8FD4;&#x56DE;&#x8F93;&#x51FA;&#x7684;&#x5B57;&#x8282;&#x603B;&#x6570;,&#x5B83;&#x5E94;&#x7B49;&#x4E8E;&#x6240;&#x6709;&#x7F13;&#x5B58;&#x957F;&#x5EA6;&#x4E4B;&#x548C;.</li>
-<li>readv&#x5219;&#x5C06;&#x8BFB;&#x5165;&#x7684;&#x6570;&#x636E;&#x6309;&#x4E0A;&#x8FF0;&#x540C;&#x6837;&#x987A;&#x5E8F;&#x6563;&#x5E03;&#x5230;&#x7F13;&#x5B58;&#x4E2D;. readv&#x603B;&#x662F;&#x5148;&#x586B;&#x6EE1;&#x4E00;&#x4E2A;&#x7F13;&#x5B58;, &#x7136;&#x540E;&#x518D;&#x586B;&#x5199;&#x4E0B;&#x4E00;&#x4E2A;. readv&#x8FD4;&#x56DE;&#x8BFB;&#x5F97;&#x7684;&#x603B;&#x5B57;&#x8282;&#x6570;. &#x5982;&#x679C;&#x9047;&#x5230;&#x6587;&#x4EF6;&#x7ED3;&#x5C3E;,&#x5DF2;&#x65E0;&#x6570;&#x636E;&#x53EF;&#x8BFB;, &#x5219;&#x8FD4;&#x56DE;0.</li>
-</ul>
-<h2 id="getopt"><a href="#getopt" class="headerlink" title="getopt"></a>getopt</h2><h3 id="Function-Prototype-2"><a href="#Function-Prototype-2" class="headerlink" title="Function Prototype"></a>Function Prototype</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">getopt</span><span class="params">(<span class="keyword">int</span> argc,<span class="keyword">char</span> * <span class="keyword">const</span> argv[ ],<span class="keyword">const</span> <span class="keyword">char</span> * optstring)</span></span>;</span><br><span class="line"><span class="keyword">extern</span> <span class="keyword">char</span> *optarg;</span><br><span class="line"><span class="keyword">extern</span> <span class="keyword">int</span> optind, opterr, optopt;</span><br></pre></td></tr></table></figure>
-<h3 id="getopt-&#x6240;&#x8BBE;&#x7F6E;&#x7684;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x5305;&#x62EC;&#xFF1A;"><a href="#getopt-&#x6240;&#x8BBE;&#x7F6E;&#x7684;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x5305;&#x62EC;&#xFF1A;" class="headerlink" title="getopt() &#x6240;&#x8BBE;&#x7F6E;&#x7684;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x5305;&#x62EC;&#xFF1A;"></a>getopt() &#x6240;&#x8BBE;&#x7F6E;&#x7684;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x5305;&#x62EC;&#xFF1A;</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">optarg&#x2014;&#x2014;&#x6307;&#x5411;&#x5F53;&#x524D;&#x9009;&#x9879;&#x53C2;&#x6570;&#xFF08;&#x5982;&#x679C;&#x6709;&#xFF09;&#x7684;&#x6307;&#x9488;&#x3002; </span><br><span class="line">optind&#x2014;&#x2014;&#x518D;&#x6B21;&#x8C03;&#x7528; getopt() &#x65F6;&#x7684;&#x4E0B;&#x4E00;&#x4E2A; argv &#x6307;&#x9488;&#x7684;&#x7D22;&#x5F15;&#x3002; </span><br><span class="line">optopt&#x2014;&#x2014;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;&#x9879;&#x3002;</span><br></pre></td></tr></table></figure>
-<h3 id="Global-Variable-in-getopt"><a href="#Global-Variable-in-getopt" class="headerlink" title="Global Variable in getopt()"></a>Global Variable in getopt()</h3><pre><code>optarg &#x2014;&#x2014; &#x6307;&#x5411;&#x5F53;&#x524D;&#x9009;&#x9879;&#x53C2;&#x6570;&#xFF08;&#x5982;&#x679C;&#x6709;&#xFF09;&#x7684;&#x6307;&#x9488;&#x3002; 
-optind &#x2014;&#x2014; &#x518D;&#x6B21;&#x8C03;&#x7528; getopt() &#x65F6;&#x7684;&#x4E0B;&#x4E00;&#x4E2A; argv &#x6307;&#x9488;&#x7684;&#x7D22;&#x5F15; 
-optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;&#x9879;
-</code></pre><h3 id="Complement"><a href="#Complement" class="headerlink" title="Complement"></a>Complement</h3><pre><code>optstring&#x4E2D;&#x7684;&#x6307;&#x5B9A;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x610F;&#x4E49;
-&#x4F8B;&#x5982; getopt(argc, argv, &quot;ab:c:de::&quot;);
-    1.&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#xFF0C;&#x8868;&#x793A;&#x9009;&#x9879;&#xFF0C;&#xFF08;&#x5982;&#x4E0A;&#x4F8B;&#x4E2D;&#x7684;abcde&#x5404;&#x4E3A;&#x4E00;&#x4E2A;&#x9009;&#x9879;&#xFF09;
-    2.&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#x540E;&#x63A5;&#x4E00;&#x4E2A;&#x5192;&#x53F7;&#xFF1A;&#x8868;&#x793A;&#x8BE5;&#x9009;&#x9879;&#x540E;&#x5FC5;&#x987B;&#x8DDF;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x3002;&#x53C2;&#x6570;&#x7D27;&#x8DDF;&#x5728;&#x9009;&#x9879;&#x540E;&#x6216;&#x8005;&#x4EE5;&#x7A7A;&#x683C;&#x9694;&#x5F00;&#x3002;&#x8BE5;&#x53C2;&#x6570;&#x7684;&#x6307;&#x9488;&#x8D4B;&#x7ED9;optarg&#x3002;&#xFF08;&#x5982;&#x4E0A;&#x4F8B;&#x4E2D;&#x7684;b:c:&#xFF09;
-    3.&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#x540E;&#x8DDF;&#x4E24;&#x4E2A;&#x5192;&#x53F7;&#xFF0C;&#x8868;&#x793A;&#x8BE5;&#x9009;&#x9879;&#x540E;&#x53EF;&#x4EE5;&#x8DDF;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4E0D;&#x8DDF;&#x3002;&#x5982;&#x679C;&#x8DDF;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x53C2;&#x6570;&#x5FC5;&#x987B;&#x7D27;&#x8DDF;&#x5728;&#x9009;&#x9879;&#x540E;&#x4E0D;&#x80FD;&#x4EE5;&#x7A7A;&#x683C;&#x9694;&#x5F00;&#x3002;&#x8BE5;&#x53C2;&#x6570;&#x7684;&#x6307;&#x9488;&#x8D4B;&#x7ED9;optarg&#x3002;(&#x5982;&#x4E0A;&#x4F8B;&#x4E2D;&#x7684;e::&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x8DDF;&#x53C2;&#x6570;&#xFF0C;&#x5219;optarg = NULL)
-</code></pre>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Linux/">Linux</a><a class="article-category-link" href="/categories/Linux/APUE/">APUE</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/APUE/">APUE</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Programming/">Programming</a></li></ul>
-    </div>
-
       
       <div class="clearfix"></div>
     </div>
