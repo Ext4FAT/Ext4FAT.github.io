@@ -255,9 +255,9 @@
         <title>CMake Manual [TODO]</title>
         <pubTime>2016-04-28T17:38:53.000Z</pubTime>
         
-        <tag>Project</tag>
-         
         <tag>IDE</tag>
+         
+        <tag>Project</tag>
          
         <tag>Compile</tag>
          
@@ -279,9 +279,9 @@
         <title>CMake Note</title>
         <pubTime>2016-04-14T18:34:52.000Z</pubTime>
         
-        <tag>Project</tag>
-         
         <tag>IDE</tag>
+         
+        <tag>Project</tag>
          
         <tag>Compile</tag>
          
@@ -467,9 +467,9 @@
         
         <tag>Solution</tag>
          
-        <tag>Git</tag>
-         
         <tag>Project</tag>
+         
+        <tag>Git</tag>
          
         <tag>CVS</tag>
          
@@ -1214,12 +1214,61 @@
 
     
   <url>
-    <loc>http://Ext4FAT.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
+    <loc>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Split Screen</title>
-        <pubTime>2016-04-26T09:05:40.000Z</pubTime>
+        <title>Linux Add Fonts</title>
+        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Gedit Garbled</title>
+        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Solution</tag>
+         
+        <tag>Ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Ubuntu" url="http://Ext4FAT.github.io/categories/Linux/Ubuntu/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Ext4FAT.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
+    <data>
+        <display>
+        <title>Beyond Compare Crack</title>
+        <pubTime>2016-04-06T14:36:50.000Z</pubTime>
         
         <tag>Linux</tag>
          
@@ -1262,93 +1311,12 @@
 
     
   <url>
-    <loc>http://Ext4FAT.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <loc>http://Ext4FAT.github.io/2016/04/26/Linux/Software/Split-Screen/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Filename remove blank</title>
-        <pubTime>2016-04-27T14:51:33.000Z</pubTime>
-        
-        <tag>Solution</tag>
-         
-        <tag>Note</tag>
-         
-        <tag>Shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Shell" url="http://Ext4FAT.github.io/categories/Linux/Shell/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Gedit Garbled</title>
-        <pubTime>2016-04-26T11:13:47.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Solution</tag>
-         
-        <tag>Ubuntu</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Ubuntu" url="http://Ext4FAT.github.io/categories/Linux/Ubuntu/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://Ext4FAT.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Leetcode Shell</title>
-        <pubTime>2016-04-27T18:39:59.000Z</pubTime>
-        
-        <tag>Solution</tag>
-         
-        <tag>Shell</tag>
-         
-        <tag>Leetcode</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
-          
-             
-              <breadCrumb title="Shell" url="http://Ext4FAT.github.io/categories/Linux/Shell/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://Ext4FAT.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</loc>
-    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
-    <data>
-        <display>
-        <title>Beyond Compare Crack</title>
-        <pubTime>2016-04-06T14:36:50.000Z</pubTime>
+        <title>Split Screen</title>
+        <pubTime>2016-04-26T09:05:40.000Z</pubTime>
         
         <tag>Linux</tag>
          
@@ -1364,21 +1332,26 @@
 
     
   <url>
-    <loc>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</loc>
+    <loc>http://Ext4FAT.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Linux Add Fonts</title>
-        <pubTime>2016-04-26T11:06:57.000Z</pubTime>
+        <title>Pic2Pdf</title>
+        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
         
         <tag>Linux</tag>
          
         <tag>Solution</tag>
          
+        <tag>Shell</tag>
+         
          
            
              
               <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
+          
+             
+              <breadCrumb title="Shell" url="http://Ext4FAT.github.io/categories/Linux/Shell/"/>
           
         </display>
     </data>
@@ -1413,18 +1386,18 @@
 
     
   <url>
-    <loc>http://Ext4FAT.github.io/2016/04/02/Linux/Shell/Shell-Maze/</loc>
+    <loc>http://Ext4FAT.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</loc>
     <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>Pic2Pdf</title>
-        <pubTime>2016-04-01T17:40:05.000Z</pubTime>
+        <title>Leetcode Shell</title>
+        <pubTime>2016-04-27T18:39:59.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Solution</tag>
          
         <tag>Shell</tag>
+         
+        <tag>Leetcode</tag>
          
          
            
@@ -1440,53 +1413,26 @@
 
     
   <url>
-    <loc>http://Ext4FAT.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <loc>http://Ext4FAT.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</loc>
+    <lastmod>2016-05-30T14:08:12.460Z</lastmod>
     <data>
         <display>
-        <title>C++ Trick</title>
-        <pubTime>2016-04-26T10:56:39.000Z</pubTime>
+        <title>Filename remove blank</title>
+        <pubTime>2016-04-27T14:51:33.000Z</pubTime>
         
-        <tag>C++</tag>
+        <tag>Solution</tag>
          
-        <tag>Programing Language</tag>
+        <tag>Note</tag>
          
-        <tag>Trick</tag>
+        <tag>Shell</tag>
          
          
            
              
-              <breadCrumb title="Programing Language" url="http://Ext4FAT.github.io/categories/Programing-Language/"/>
+              <breadCrumb title="Linux" url="http://Ext4FAT.github.io/categories/Linux/"/>
           
              
-              <breadCrumb title="C++" url="http://Ext4FAT.github.io/categories/Programing-Language/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://Ext4FAT.github.io/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/</loc>
-    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
-    <data>
-        <display>
-        <title>Configure JDK on Linux</title>
-        <pubTime>2016-04-26T11:10:10.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>JAVA</tag>
-         
-        <tag>JDK</tag>
-         
-         
-           
-             
-              <breadCrumb title="Programing Language" url="http://Ext4FAT.github.io/categories/Programing-Language/"/>
-          
-             
-              <breadCrumb title="JAVA" url="http://Ext4FAT.github.io/categories/Programing-Language/JAVA/"/>
+              <breadCrumb title="Shell" url="http://Ext4FAT.github.io/categories/Linux/Shell/"/>
           
         </display>
     </data>
@@ -1521,28 +1467,53 @@
 
     
   <url>
-    <loc>http://Ext4FAT.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
-    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <loc>http://Ext4FAT.github.io/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/</loc>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
     <data>
         <display>
-        <title>OpenCV3.0-RealSense-Configuration</title>
-        <pubTime>2016-04-26T11:32:46.000Z</pubTime>
+        <title>Configure JDK on Linux</title>
+        <pubTime>2016-04-26T11:10:10.000Z</pubTime>
         
-        <tag>OpenCV</tag>
+        <tag>Linux</tag>
          
-        <tag>Computer Vision</tag>
+        <tag>JAVA</tag>
          
-        <tag>Realsense</tag>
-         
-        <tag>Windows</tag>
+        <tag>JDK</tag>
          
          
            
              
-              <breadCrumb title="Computer Vision" url="http://Ext4FAT.github.io/categories/Computer-Vision/"/>
+              <breadCrumb title="Programing Language" url="http://Ext4FAT.github.io/categories/Programing-Language/"/>
           
              
-              <breadCrumb title="Realsense" url="http://Ext4FAT.github.io/categories/Computer-Vision/Realsense/"/>
+              <breadCrumb title="JAVA" url="http://Ext4FAT.github.io/categories/Programing-Language/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Ext4FAT.github.io/2016/04/26/Programming/C++/CPP-Trick/</loc>
+    <lastmod>2016-05-30T14:08:12.456Z</lastmod>
+    <data>
+        <display>
+        <title>C++ Trick</title>
+        <pubTime>2016-04-26T10:56:39.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+        <tag>Programing Language</tag>
+         
+        <tag>Trick</tag>
+         
+         
+           
+             
+              <breadCrumb title="Programing Language" url="http://Ext4FAT.github.io/categories/Programing-Language/"/>
+          
+             
+              <breadCrumb title="C++" url="http://Ext4FAT.github.io/categories/Programing-Language/C/"/>
           
         </display>
     </data>
@@ -1562,6 +1533,35 @@
         <tag>Realsense</tag>
          
         <tag>Solution</tag>
+         
+         
+           
+             
+              <breadCrumb title="Computer Vision" url="http://Ext4FAT.github.io/categories/Computer-Vision/"/>
+          
+             
+              <breadCrumb title="Realsense" url="http://Ext4FAT.github.io/categories/Computer-Vision/Realsense/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Ext4FAT.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</loc>
+    <lastmod>2016-05-30T14:08:12.444Z</lastmod>
+    <data>
+        <display>
+        <title>OpenCV3.0-RealSense-Configuration</title>
+        <pubTime>2016-04-26T11:32:46.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+        <tag>Computer Vision</tag>
+         
+        <tag>Realsense</tag>
+         
+        <tag>Windows</tag>
          
          
            
