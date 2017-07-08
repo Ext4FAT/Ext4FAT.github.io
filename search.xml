@@ -4,8 +4,234 @@
   
     
     <entry>
+      <title></title>
+      <url>http://Ext4FAT.github.io/2017/04/19/Books/Reading-Books/</url>
+      <content type="html"><![CDATA[<h2 id="My-Reading-Book-List"><a href="#My-Reading-Book-List" class="headerlink" title="My Reading Book List"></a>My Reading Book List</h2><h3 id="&#x3010;Unix-Linux&#x3011;"><a href="#&#x3010;Unix-Linux&#x3011;" class="headerlink" title="&#x3010;Unix/Linux&#x3011;"></a>&#x3010;Unix/Linux&#x3011;</h3><ul>
+<li><progress value="70" max="100"></progress>&#x2003;Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</li>
+<li><progress value="50" max="100"></progress>&#x2003;Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x7684;&#x827A;&#x672F;</li>
+<li><progress value="35" max="100"></progress>&#x2003;&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;Linux&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;&#x7CFB;&#x7EDF;&#x6784;&#x5EFA;&#x548C;&#x539F;&#x7406;&#x89E3;&#x6790;</li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;</li>
+<li><p><progress value="25" max="100"></progress>&#x2003;&#x6DF1;&#x5165;Linux&#x5185;&#x6838;&#x67B6;&#x6784;</p>
+</li>
+<li><p><progress value="65" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;:&#x4F7F;&#x7528;Linux&#x6C47;&#x7F16;&#x8BED;&#x8A00;</p>
+</li>
+<li><progress value="30" max="100"></progress>&#x2003;Linux&#x7CFB;&#x7EDF;&#x7F16;&#x7A0B;</li>
+<li><progress value="70" max="100"></progress>&#x2003;Linux&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x7F16;&#x7A0B;</li>
+<li><progress value="85" max="100"></progress>&#x2003;APUE</li>
+<li><progress value="25" max="100"></progress>&#x2003;UNP-V1</li>
+<li><p><progress value="75" max="100"></progress>&#x2003;UNP-V2</p>
+</li>
+<li><p><progress value="30" max="100"></progress>&#x2003;Linux C&#x4E00;&#x7AD9;&#x5F0F;&#x5B66;&#x4E60;</p>
+</li>
+<li><p><progress value="15" max="100"></progress>&#x2003;&#x7CFB;&#x7EDF;&#x865A;&#x62DF;&#x5316;-&#x539F;&#x7406;&#x4E0E;&#x5B9E;&#x73B0;</p>
+</li>
+</ul>
+<h3 id="&#x3010;Machine-Learning&#x3011;"><a href="#&#x3010;Machine-Learning&#x3011;" class="headerlink" title="&#x3010;Machine Learning&#x3011;"></a>&#x3010;Machine Learning&#x3011;</h3><ul>
+<li><progress value="95" max="100"></progress>&#x2003;&#x7EDF;&#x8BA1;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;</li>
+<li><progress value="90" max="100"></progress>&#x2003;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5B9E;&#x6218;</li>
+<li><p><progress value="80" max="100"></progress>&#x2003;&#x673A;&#x5668;&#x5B66;&#x4E60;(&#x897F;&#x74DC;&#x4E66;)</p>
+</li>
+<li><p><progress value="50" max="100"></progress>&#x2003;PRML</p>
+</li>
+<li><progress value="30" max="100"></progress>&#x2003;ESL</li>
+<li><progress value="35" max="100"></progress>&#x2003;Data mining concepts and techniques 3rd</li>
+<li><progress value="60" max="100"></progress>&#x2003;Data Mining: Practical Machine Learning Tools and Techniques</li>
+<li><progress value="85" max="100"></progress>&#x2003;Ensemble Methods: Foundations and Algorithms</li>
+<li><progress value="10" max="100"></progress>&#x2003;Understanding Machine Learning: From Theory To Algorithm</li>
+</ul>
+<h3 id="&#x3010;Big-Data&#x3011;"><a href="#&#x3010;Big-Data&#x3011;" class="headerlink" title="&#x3010;Big Data&#x3011;"></a>&#x3010;Big Data&#x3011;</h3><ul>
+<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x6570;&#x636E;&#x65F6;&#x4EE3;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x6570;&#x636E;&#x601D;&#x7EF4;&#x4E0E;&#x51B3;&#x7B56;</li>
+<li><progress value="65" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x5927;&#x6570;&#x636E;</li>
+</ul>
+<h3 id="&#x3010;Database&#x3011;"><a href="#&#x3010;Database&#x3011;" class="headerlink" title="&#x3010;Database&#x3011;"></a>&#x3010;Database&#x3011;</h3><ul>
+<li><progress value="25" max="100"></progress>&#x2003;&#x6570;&#x636E;&#x5E93;&#x7CFB;&#x7EDF;&#x5B9E;&#x73B0;</li>
+</ul>
+<h3 id="&#x3010;Computer-Vision&#x3011;"><a href="#&#x3010;Computer-Vision&#x3011;" class="headerlink" title="&#x3010;Computer Vision&#x3011;"></a>&#x3010;Computer Vision&#x3011;</h3><ul>
+<li><progress value="92" max="100"></progress>&#x2003;Learning Opencv</li>
+<li><progress value="96" max="100"></progress>&#x2003;OpenCV.2.Computer.Vision.Application.Programming.Cookbook</li>
+<li><progress value="70" max="100"></progress>&#x2003;&#x7279;&#x5F81;&#x63D0;&#x53D6;&#x4E0E;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
+<li><progress value="45" max="100"></progress>&#x2003;&#x8BA1;&#x7B97;&#x673A;&#x89C6;&#x89C9;&#x2014;&#x2014;&#x7B97;&#x6CD5;&#x4E0E;&#x5E94;&#x7528;</li>
+<li><p><progress value="85" max="100"></progress>&#x2003;&#x6570;&#x5B57;&#x56FE;&#x50CF;&#x5904;&#x7406;</p>
+</li>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x70B9;&#x4E91;&#x5E93;PCL&#x5B66;&#x4E60;&#x6559;&#x7A0B;</p>
+</li>
+</ul>
+<h3 id="&#x3010;Algorithm&#x3011;"><a href="#&#x3010;Algorithm&#x3011;" class="headerlink" title="&#x3010;Algorithm&#x3011;"></a>&#x3010;Algorithm&#x3011;</h3><ul>
+<li><progress value="85" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x5BFC;&#x8BBA;</li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x5177;&#x4F53;&#x6570;&#x5B66;</li>
+<li><progress value="45" max="100"></progress>&#x2003;&#x8FF7;&#x832B;&#x7684;&#x65C5;&#x884C;&#x5546;&#xFF1A;&#x4E00;&#x4E2A;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7B97;&#x6CD5;&#x95EE;&#x9898;</li>
+</ul>
+<h3 id="&#x3010;Compile&#x3011;"><a href="#&#x3010;Compile&#x3011;" class="headerlink" title="&#x3010;Compile&#x3011;"></a>&#x3010;Compile&#x3011;</h3><ul>
+<li><progress value="90" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;</li>
+<li><progress value="35" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x81EA;&#x6211;&#x4FEE;&#x517B;</li>
+<li><p><progress value="75" max="100"></progress>&#x2003;&#x7F16;&#x8BD1;&#x539F;&#x7406;</p>
+</li>
+<li><p><progress value="8" max="100"></progress>&#x2003;&#x7F16;&#x8BD1;&#x5668;&#x8BBE;&#x8BA1;</p>
+</li>
+</ul>
+<h3 id="&#x3010;Network&#x3011;"><a href="#&#x3010;Network&#x3011;" class="headerlink" title="&#x3010;Network&#x3011;"></a>&#x3010;Network&#x3011;</h3><ul>
+<li><progress value="70" max="100"></progress>&#x2003;&#x7269;&#x8054;&#x7F51;&#x5BFC;&#x8BBA;(&#x5218;&#x4E91;&#x6D69; &#x7F16;&#x8457;)</li>
+<li><progress value="20" max="100"></progress>&#x2003;Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
+<li><p><progress value="25" max="100"></progress>&#x2003;Nmap&#x626B;&#x63CF;&#x539F;&#x7406;&#x548C;&#x5E94;&#x7528;</p>
+</li>
+<li><p><progress value="30" max="100"></progress>&#x2003;TCP/IP&#x8BE6;&#x89E3;-V3</p>
+</li>
+<li><progress value="30" max="100"></progress>&#x2003;HTTP&#x6743;&#x5A01;&#x6307;&#x5357;</li>
+<li><progress value="10" max="100"></progress>&#x2003;Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;</li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx</li>
+<li><p><progress value="92" max="100"></progress>&#x2003;&#x540E;&#x53F0;&#x5F00;&#x53D1;:&#x6838;&#x5FC3;&#x6280;&#x672F;&#x4E0E;&#x5E94;&#x7528;&#x5B9E;&#x8DF5;</p>
+</li>
+<li><p><progress value="75" max="100"></progress>&#x2003;Headfirst html + css</p>
+</li>
+</ul>
+<h3 id="&#x3010;Programming&#x3011;"><a href="#&#x3010;Programming&#x3011;" class="headerlink" title="&#x3010;Programming&#x3011;"></a>&#x3010;Programming&#x3011;</h3><ul>
+<li><progress value="35" max="100"></progress>&#x2003;&#x5B66;&#x4E60;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</li>
+<li><progress value="85" max="100"></progress>&#x2003;Effective C++</li>
+<li><progress value="85" max="100"></progress>&#x2003;More Effective C++</li>
+<li><progress value="15" max="100"></progress>&#x2003;Effective Modern C++</li>
+<li><progress value="30" max="100"></progress>&#x2003;Think in C++</li>
+<li><progress value="55" max="100"></progress>&#x2003;Effective STL</li>
+<li><progress value="68" max="100"></progress>&#x2003;STL&#x6E90;&#x4EE3;&#x7801;&#x5206;&#x6790;</li>
+<li><progress value="78" max="100"></progress>&#x2003;&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;C++&#x5BF9;&#x8C61;&#x6A21;&#x578B;</li>
+<li><p><progress value="72" max="100"></progress>&#x2003;C++&#x7F16;&#x7A0B;&#x89C4;&#x8303;101&#x6761;</p>
+</li>
+<li><p><progress value="20" max="100"></progress>&#x2003;C++&#x5E76;&#x53D1;&#x7F16;&#x7A0B;&#x5B9E;&#x6218;</p>
+</li>
+<li><p><progress value="20" max="100"></progress>&#x2003;Think in Java</p>
+</li>
+<li><progress value="10" max="100"></progress>&#x2003;Effective Java</li>
+<li><p><progress value="15" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Java&#x865A;&#x62DF;&#x673A;</p>
+</li>
+<li><p><progress value="25" max="100"></progress>&#x2003;Java&#x5E76;&#x53D1;&#x7F16;&#x7A0B;&#x5B9E;&#x6218;</p>
+</li>
+<li><p><progress value="15" max="100"></progress>&#x2003;Haskell&#x8DA3;&#x5B66;&#x6307;&#x5357;</p>
+</li>
+<li><p><progress value="16" max="100"></progress>&#x2003;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7684;&#x6784;&#x9020;&#x548C;&#x89E3;&#x91CA; </p>
+</li>
+<li><p><progress value="40" max="100"></progress>&#x2003;The Awk Programming Language</p>
+</li>
+</ul>
+<h3 id="&#x3010;History-amp-Biography&#x3011;"><a href="#&#x3010;History-amp-Biography&#x3011;" class="headerlink" title="&#x3010;History &amp; Biography&#x3011;"></a>&#x3010;History &amp; Biography&#x3011;</h3><ul>
+<li><progress value="100" max="100"></progress>&#x2003;&#x6D6A;&#x6F6E;&#x4E4B;&#x5DC5;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x5B66;&#x4E4B;&#x8DEF;</li>
+<li><progress value="95" max="100"></progress>&#x2003;&#x4FE1;&#x606F;&#x7B80;&#x53F2;</li>
+<li><progress value="15" max="100"></progress>&#x2003;&#x65F6;&#x95F4;&#x7B80;&#x53F2;</li>
+<li><progress value="70" max="100"></progress>&#x2003;&#x4E07;&#x7269;&#x7B80;&#x53F2;</li>
+<li><progress value="45" max="100"></progress>&#x2003;&#x6587;&#x660E;&#x4E4B;&#x5149;</li>
+<li><p><progress value="50" max="100"></progress>&#x2003;&#x667A;&#x80FD;&#x65F6;&#x4EE3; </p>
+</li>
+<li><p><progress value="100" max="100"></progress>&#x2003;Just For Fun</p>
+</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x6559;&#x5802;&#x4E0E;&#x5E02;&#x96C6;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x9ED1;&#x5BA2;&#x4E0E;&#x753B;&#x5BB6;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x4ECE;0&#x5230;1</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x8F6F;&#x4EF6;&#x968F;&#x60F3;&#x5F55;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x589E;&#x957F;&#x9ED1;&#x5BA2;</li>
+<li><p><progress value="5" max="100"></progress>&#x2003;&#x7279;&#x65AF;&#x62C9;&#x56DE;&#x5FC6;&#x5F55;</p>
+</li>
+<li><p><progress value="100" max="100"></progress>&#x2003;&#x6C11;&#x56FD;&#x98CE;&#x5EA6;</p>
+</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x4E2D;&#x56FD;&#x8FD1;&#x4EE3;&#x53F2;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x4E2D;&#x534E;&#x53F2;(&#x81F3;&#x7B2C;17&#x5377;&#xFF1A;&#x5927;&#x5B8B;&#x9769;&#x65B0;)</li>
+<li><progress value="30" max="100"></progress>&#x2003;&#x7EA2;&#x592A;&#x9633;&#x662F;&#x600E;&#x6837;&#x5347;&#x8D77;&#x7684;</li>
+<li><p><progress value="30" max="100"></progress>&#x2003;&#x5E90;&#x5C71;&#x4F1A;&#x8BAE;&#x5B9E;&#x5F55;</p>
+</li>
+<li><p><progress value="3" max="100"></progress>&#x2003;&#x5168;&#x7403;&#x901A;&#x53F2;</p>
+</li>
+<li><p><progress value="3" max="100"></progress>&#x2003;&#x6781;&#x7B80;&#x6B27;&#x6D32;&#x53F2;</p>
+</li>
+<li><p><progress value="100" max="100"></progress>&#x2003;&#x8DB3;&#x7403;&#x6839;&#x672C;&#x4E0D;&#x662F;&#x5706;&#x7684;</p>
+</li>
+</ul>
+<h3 id="&#x3010;Thinking&#x3011;"><a href="#&#x3010;Thinking&#x3011;" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h3><ul>
+<li><progress value="100" max="100"></progress>&#x2003;&#x4EBA;&#x6708;&#x795E;&#x8BDD;</li>
+<li><progress value="95" max="100"></progress>&#x2003;&#x6570;&#x5B66;&#x4E4B;&#x7F8E;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x7F16;&#x5199;&#x53EF;&#x8BFB;&#x4EE3;&#x7801;&#x7684;&#x827A;&#x672F;</li>
+<li><p><progress value="92" max="100"></progress>&#x2003;&#x6697;&#x65F6;&#x95F4;</p>
+</li>
+<li><p><progress value="15" max="100"></progress>&#x2003;&#x8BBE;&#x8BA1;&#x539F;&#x672C;</p>
+</li>
+<li><progress value="50" max="100"></progress>&#x2003;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;</li>
+<li><progress value="18" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;</li>
+<li><progress value="20" max="100"></progress>&#x2003;&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;</li>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;-&#x4E13;&#x4E1A;&#x7A0B;&#x5E8F;&#x5458;&#x5FC5;&#x77E5;&#x7684;33&#x4E2A;&#x6280;&#x5DE7;</p>
+</li>
+<li><p><progress value="60" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x5065;&#x5EB7;&#x6307;&#x5357;</p>
+</li>
+<li><p><progress value="20" max="100"></progress>&#x2003;&#x8F6F;&#x6280;&#x80FD;&#x4EE3;&#x7801;&#x4E4B;&#x5916;&#x7684;&#x751F;&#x5B58;&#x6307;&#x5357;</p>
+</li>
+<li><p><progress value="14" max="100"></progress>&#x2003;&#x6784;&#x5EFA;&#x4E4B;&#x6CD5;&#xFF1A;&#x73B0;&#x4EE3;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;</p>
+</li>
+<li><p><progress value="20" max="100"></progress>&#x2003;&#x7F16;&#x7801;&#xFF1A;&#x9690;&#x533F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x80CC;&#x540E;&#x7684;&#x8BED;&#x8A00;</p>
+</li>
+<li><p><progress value="95" max="100"></progress>&#x2003;&#x4EE3;&#x7801;&#x6574;&#x6D01;&#x4E4B;&#x9053;    </p>
+</li>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x4EE3;&#x7801;&#x5927;&#x5168;</p>
+</li>
+<li><p><progress value="100" max="100"></progress>&#x2003;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5FC3;&#x667A;: &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E4B;&#x54F2;&#x5B66;&#x539F;&#x7406;</p>
+</li>
+<li><p><progress value="100" max="100"></progress>&#x2003;C&#x9677;&#x9631;&#x4E0E;&#x7F3A;&#x9677;</p>
+</li>
+<li><p><progress value="40" max="100"></progress>&#x2003;Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </p>
+</li>
+<li><progress value="30" max="100"></progress>&#x2003;&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</li>
+<li><progress value="35" max="100"></progress>&#x2003;&#x54E5;&#x5FB7;&#x5C14; &#x57C3;&#x820D;&#x5C14; &#x5DF4;&#x8D6B;&#x2014;&#x2014;&#x96C6;&#x5F02;&#x74A7;&#x4E4B;&#x5927;&#x6210;</li>
+<li><progress value="5" max="100"></progress>&#x2003;&#x521B;&#x4E1A;&#x7EF4;&#x8270;</li>
+<li><progress value="75" max="100"></progress>&#x2003;&#x56DA;&#x5F92;&#x7684;&#x56F0;&#x5883;-&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;,&#x535A;&#x5F08;&#x8BBA;&#x548C;&#x539F;&#x5B50;&#x5F39;&#x4E4B;&#x8C1C;</li>
+<li><progress value="2" max="100"></progress>&#x2003;&#x8D28;&#x6570;&#x7684;&#x5B64;&#x72EC;</li>
+</ul>
+<h3 id="&#x3010;Hacker&#x3011;"><a href="#&#x3010;Hacker&#x3011;" class="headerlink" title="&#x3010;Hacker&#x3011;"></a>&#x3010;Hacker&#x3011;</h3><ul>
+<li><progress value="20" max="100"></progress>&#x2003;&#x7070;&#x5E3D;&#x9ED1;&#x5BA2;</li>
+<li><progress value="30" max="100"></progress>&#x2003;&#x6B3A;&#x9A97;&#x7684;&#x827A;&#x672F;</li>
+<li><progress value="10" max="100"></progress>&#x2003;web&#x4E4B;&#x56F0;&#xFF1A;&#x73B0;&#x4EE3;web&#x5E94;&#x7528;&#x5B89;&#x5168;&#x6307;&#x5357;</li>
+<li><progress value="5" max="100"></progress>&#x2003;web&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#xFF1A;&#x4F7F;&#x7528;Kali Linux</li>
+<li><progress value="10" max="100"></progress>&#x2003;&#x9ED1;&#x5BA2;&#x6280;&#x672F;&#x653B;&#x9632;&#x5B9D;&#x5178;&#xFF1A;web&#x5B9E;&#x6218;&#x7BC7;</li>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x767D;&#x5E3D;&#x5B50;&#x8BB2;web&#x5B89;&#x5168;</p>
+</li>
+<li><p><progress value="5" max="100"></progress>&#x2003;Metasploit&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#x9B54;&#x9B3C;&#x8BAD;&#x7EC3;&#x8425;</p>
+</li>
+<li><p><progress value="20" max="100"></progress>&#x2003;Violent Python</p>
+</li>
+</ul>
+<h3 id="&#x3010;Trick&#x3011;"><a href="#&#x3010;Trick&#x3011;" class="headerlink" title="&#x3010;Trick&#x3011;"></a>&#x3010;Trick&#x3011;</h3><ul>
+<li><progress value="96" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;</li>
+<li><progress value="88" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x4E4B;&#x7F8E;</li>
+<li><progress value="93" max="100"></progress>&#x2003;&#x5251;&#x6307;Offer</li>
+<li><progress value="50" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;&#xFF08;&#x7EED;&#xFF09;</li>
+<li><progress value="60" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x8C1C;&#x9898;</li>
+</ul>
+<h3 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h3><ul>
+<li><progress value="100" max="100"></progress>&#x2003;&#x5F71;&#x54CD;&#x529B;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x610F;&#x5FD7;&#x529B;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x81EA;&#x63A7;&#x529B;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x4E60;&#x60EF;&#x7684;&#x529B;&#x91CF;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x60C5;&#x5546;</li>
+<li><progress value="35" max="100"></progress>&#x2003;&#x63D0;&#x95EE;&#x7684;&#x827A;&#x672F;</li>
+<li><progress value="30" max="100"></progress>&#x2003;&#x601D;&#x8003;&#x7684;&#x827A;&#x672F;</li>
+<li><progress value="15" max="100"></progress>&#x2003;&#x4EBA;&#x6027;&#x7684;&#x5F31;&#x70B9;</li>
+</ul>
+<h3 id="&#x3010;Science&#x3011;"><a href="#&#x3010;Science&#x3011;" class="headerlink" title="&#x3010;Science&#x3011;"></a>&#x3010;Science&#x3011;</h3><ul>
+<li><progress value="100" max="100"></progress>&#x2003;&#x91CF;&#x5B50;&#x7269;&#x7406;&#x53F2;&#x8BDD;-&#x4E0A;&#x5E1D;&#x63B7;&#x9AB0;&#x5B50;&#x5417;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x65F6;&#x95F4;&#x7684;&#x5F62;&#x72B6;</li>
+<li><p><progress value="100" max="100"></progress>&#x2003;&#x7231;&#x56E0;&#x65AF;&#x5766;&#x4F20;</p>
+</li>
+<li><p><progress value="10" max="100"></progress>&#x2003;&#x679C;&#x58F3;&#x4E2D;&#x7684;&#x5B87;&#x5B99;</p>
+</li>
+</ul>
+<h3 id="&#x3010;Novel&#x3011;"><a href="#&#x3010;Novel&#x3011;" class="headerlink" title="&#x3010;Novel&#x3011;"></a>&#x3010;Novel&#x3011;</h3><ul>
+<li><progress value="93" max="100"></progress>&#x2003;&#x96CD;&#x6B63;&#x5251;&#x4FA0;&#x56FE;&#x5341;&#x4E09;&#x90E8;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x9EC4;&#x91D1;&#x65F6;&#x4EE3;</li>
+<li><progress value="100" max="100"></progress>&#x2003;&#x5929;&#x624D;&#x5728;&#x5DE6;&#xFF0C;&#x75AF;&#x5B50;&#x5728;&#x53F3;</li>
+</ul>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><p>The progress bar <progress value="80" max="100"></progress> is just my reading progress of this book, not the popularity or recommendation rate of this book</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Understanding C++ 11]]></title>
-      <url>http://idler1229.github.io/2016/08/29/Programming/C++/C++11/</url>
+      <url>http://Ext4FAT.github.io/2016/08/29/Programming/C++/C++11/</url>
       <content type="html"><![CDATA[<h1 id="C-11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;"><a href="#C-11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;" class="headerlink" title="C++11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;"></a>C++11&#x7684;&#x95EE;&#x9898;&#x82E5;&#x5E72;</h1><h2 id="&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;"><a href="#&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;" class="headerlink" title="&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;"></a>&#x5386;&#x53F2;&#x9057;&#x7559;&#x95EE;&#x9898;</h2><h3 id="&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;"><a href="#&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;" class="headerlink" title="&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;"></a>&#x88AB;&#x5F03;&#x7528;&#x7684;&#x7279;&#x6027;</h3><ul>
 <li>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x7C7B;&#x6709;&#x6790;&#x6784;&#x51FD;&#x6570;&#xFF0C;&#x4E3A;&#x5176;&#x751F;&#x6210;&#x62F7;&#x8D1D;&#x6784;&#x9020;&#x51FD;&#x6570;&#x548C;&#x62F7;&#x8D1D;&#x8D4B;&#x503C;&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x7279;&#x6027;&#x88AB;&#x5F03;&#x7528;&#x4E86;&#x3002;</li>
 <li><p>&#x4E0D;&#x518D;&#x5141;&#x8BB8;&#x5B57;&#x7B26;&#x4E32;&#x5B57;&#x9762;&#x503C;&#x5E38;&#x91CF;&#x8D4B;&#x503C;&#x7ED9;&#x4E00;&#x4E2A; <code>char *</code>&#x3002;&#x5982;&#x679C;&#x9700;&#x8981;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5B57;&#x9762;&#x503C;&#x5E38;&#x91CF;&#x8D4B;&#x503C;&#x548C;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A; <code>char *</code>&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528; <code>const char *</code> &#x6216;&#x8005; <code>auto</code>&#x3002; e.g.</p>
@@ -39,8 +265,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Geek Tools]]></title>
+      <url>http://Ext4FAT.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/</url>
+      <content type="html"><![CDATA[<h2 id="Some-Geek-Tools-Recommendation"><a href="#Some-Geek-Tools-Recommendation" class="headerlink" title="Some Geek Tools Recommendation"></a>Some Geek Tools Recommendation</h2><h3 id="Enhanced-Desktop"><a href="#Enhanced-Desktop" class="headerlink" title="Enhanced Desktop"></a>Enhanced Desktop</h3><h4 id="Ditto"><a href="#Ditto" class="headerlink" title="Ditto"></a>Ditto</h4><p>Enhance Clipboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--4.jpg" alt="ditto"></p>
+<h4 id="AutoHotKey"><a href="#AutoHotKey" class="headerlink" title="AutoHotKey"></a>AutoHotKey</h4><p>Enhance Keyboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--5.jpg" alt="autohotkey"></p>
+<h3 id="Searching-Optimization"><a href="#Searching-Optimization" class="headerlink" title="Searching Optimization"></a>Searching Optimization</h3><h4 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h4><p>Search Repository (Platform: Windows)<br>example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">d:|e: *jpg dm:xxx-xxx</span><br><span class="line">c:|d: *.pdf|*.ppt da:thisweek</span><br></pre></td></tr></table></figure></p>
+<h4 id="Listary-free"><a href="#Listary-free" class="headerlink" title="Listary (free)"></a>Listary (free)</h4><p>(Platform: Windows)</p>
+<h4 id="Google-Desktop-Search"><a href="#Google-Desktop-Search" class="headerlink" title="Google Desktop Search"></a>Google Desktop Search</h4><p>(Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--7.jpg" alt="rep"></p>
+<h4 id="Hack-Google"><a href="#Hack-Google" class="headerlink" title="Hack Google"></a>Hack Google</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--8.jpg" alt="hack"></p>
+<h3 id="Knowledge-Management"><a href="#Knowledge-Management" class="headerlink" title="Knowledge Management"></a>Knowledge Management</h3><h4 id="Evernote-Geeknote"><a href="#Evernote-Geeknote" class="headerlink" title="Evernote, Geeknote"></a>Evernote, Geeknote</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--10.jpg" alt="eg"></p>
+<h4 id="Socialized-Knowledge"><a href="#Socialized-Knowledge" class="headerlink" title="Socialized Knowledge"></a>Socialized Knowledge</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--11.jpg" alt="sk"></p>
+<h3 id="Coding-Tools"><a href="#Coding-Tools" class="headerlink" title="Coding Tools"></a>Coding Tools</h3><h4 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h4><p>SublimeCodeIntel</p>
+<h4 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h4><p>ELECTION </p>
+<h4 id="VisualStudio-Code"><a href="#VisualStudio-Code" class="headerlink" title="VisualStudio Code"></a>VisualStudio Code</h4><h3 id="Design-amp-Diagram-Tools"><a href="#Design-amp-Diagram-Tools" class="headerlink" title="Design &amp; Diagram Tools"></a>Design &amp; Diagram Tools</h3><h4 id="js-sequence-diagrams-js-flowchart-js"><a href="#js-sequence-diagrams-js-flowchart-js" class="headerlink" title="js-sequence-diagrams.js flowchart.js"></a>js-sequence-diagrams.js flowchart.js</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--18.jpg" alt="js"></p>
+<h4 id="Graphviz-DOT"><a href="#Graphviz-DOT" class="headerlink" title="Graphviz (DOT)"></a>Graphviz (DOT)</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--19.jpg" alt="gd"></p>
+<h4 id="PlantUML"><a href="#PlantUML" class="headerlink" title="PlantUML"></a>PlantUML</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--20.jpg" alt="uml"></p>
+<h3 id="Idea-amp-Mind-Tools"><a href="#Idea-amp-Mind-Tools" class="headerlink" title="Idea &amp; Mind Tools"></a>Idea &amp; Mind Tools</h3><h4 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h4><h4 id="Blumind"><a href="#Blumind" class="headerlink" title="Blumind"></a>Blumind</h4><h4 id="The-Brain-Personal-Brain"><a href="#The-Brain-Personal-Brain" class="headerlink" title="The Brain (Personal Brain)"></a>The Brain (Personal Brain)</h4><h3 id="Document-Tools"><a href="#Document-Tools" class="headerlink" title="Document Tools"></a>Document Tools</h3><h4 id="DocBook"><a href="#DocBook" class="headerlink" title="DocBook"></a>DocBook</h4><h4 id="DITA"><a href="#DITA" class="headerlink" title="DITA"></a>DITA</h4><h4 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h4><h4 id="RestructuringText"><a href="#RestructuringText" class="headerlink" title="RestructuringText"></a>RestructuringText</h4><h3 id="Other-Handy-Tools"><a href="#Other-Handy-Tools" class="headerlink" title="Other Handy Tools"></a>Other Handy Tools</h3><h4 id="Visualize-Regex"><a href="#Visualize-Regex" class="headerlink" title="Visualize Regex"></a>Visualize Regex</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--30.jpg" alt="vr"></p>
+<h4 id="Pandoc"><a href="#Pandoc" class="headerlink" title="Pandoc"></a>Pandoc</h4><h4 id="Diffcount-Utility"><a href="#Diffcount-Utility" class="headerlink" title="Diffcount Utility"></a>Diffcount Utility</h4><h3 id="Thanks-to-TrendMicro&#x2019;s-Charlie-Cao"><a href="#Thanks-to-TrendMicro&#x2019;s-Charlie-Cao" class="headerlink" title="Thanks to TrendMicro&#x2019;s Charlie Cao"></a>Thanks to TrendMicro&#x2019;s Charlie Cao</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Secure Code [TODO]]]></title>
-      <url>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Secure-Code/</url>
+      <url>http://Ext4FAT.github.io/2016/08/13/Recommendation/Tools/Secure-Code/</url>
       <content type="html"><![CDATA[<h2 id="Writing-Secure-Code"><a href="#Writing-Secure-Code" class="headerlink" title="Writing Secure Code"></a>Writing Secure Code</h2><h3 id="STRIDE-Threat-Model"><a href="#STRIDE-Threat-Model" class="headerlink" title="STRIDE Threat Model"></a>STRIDE Threat Model</h3><ul>
 <li>Spoofing identity</li>
 <li>Tampering with data</li>
@@ -66,29 +313,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Geek Tools]]></title>
-      <url>http://idler1229.github.io/2016/08/13/Recommendation/Tools/Geek-Tools/</url>
-      <content type="html"><![CDATA[<h2 id="Some-Geek-Tools-Recommendation"><a href="#Some-Geek-Tools-Recommendation" class="headerlink" title="Some Geek Tools Recommendation"></a>Some Geek Tools Recommendation</h2><h3 id="Enhanced-Desktop"><a href="#Enhanced-Desktop" class="headerlink" title="Enhanced Desktop"></a>Enhanced Desktop</h3><h4 id="Ditto"><a href="#Ditto" class="headerlink" title="Ditto"></a>Ditto</h4><p>Enhance Clipboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--4.jpg" alt="ditto"></p>
-<h4 id="AutoHotKey"><a href="#AutoHotKey" class="headerlink" title="AutoHotKey"></a>AutoHotKey</h4><p>Enhance Keyboard (Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--5.jpg" alt="autohotkey"></p>
-<h3 id="Searching-Optimization"><a href="#Searching-Optimization" class="headerlink" title="Searching Optimization"></a>Searching Optimization</h3><h4 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h4><p>Search Repository (Platform: Windows)<br>example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">d:|e: *jpg dm:xxx-xxx</span><br><span class="line">c:|d: *.pdf|*.ppt da:thisweek</span><br></pre></td></tr></table></figure></p>
-<h4 id="Listary-free"><a href="#Listary-free" class="headerlink" title="Listary (free)"></a>Listary (free)</h4><p>(Platform: Windows)</p>
-<h4 id="Google-Desktop-Search"><a href="#Google-Desktop-Search" class="headerlink" title="Google Desktop Search"></a>Google Desktop Search</h4><p>(Platform: Windows)<br><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--7.jpg" alt="rep"></p>
-<h4 id="Hack-Google"><a href="#Hack-Google" class="headerlink" title="Hack Google"></a>Hack Google</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--8.jpg" alt="hack"></p>
-<h3 id="Knowledge-Management"><a href="#Knowledge-Management" class="headerlink" title="Knowledge Management"></a>Knowledge Management</h3><h4 id="Evernote-Geeknote"><a href="#Evernote-Geeknote" class="headerlink" title="Evernote, Geeknote"></a>Evernote, Geeknote</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--10.jpg" alt="eg"></p>
-<h4 id="Socialized-Knowledge"><a href="#Socialized-Knowledge" class="headerlink" title="Socialized Knowledge"></a>Socialized Knowledge</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--11.jpg" alt="sk"></p>
-<h3 id="Coding-Tools"><a href="#Coding-Tools" class="headerlink" title="Coding Tools"></a>Coding Tools</h3><h4 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h4><p>SublimeCodeIntel</p>
-<h4 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h4><p>ELECTION </p>
-<h4 id="VisualStudio-Code"><a href="#VisualStudio-Code" class="headerlink" title="VisualStudio Code"></a>VisualStudio Code</h4><h3 id="Design-amp-Diagram-Tools"><a href="#Design-amp-Diagram-Tools" class="headerlink" title="Design &amp; Diagram Tools"></a>Design &amp; Diagram Tools</h3><h4 id="js-sequence-diagrams-js-flowchart-js"><a href="#js-sequence-diagrams-js-flowchart-js" class="headerlink" title="js-sequence-diagrams.js flowchart.js"></a>js-sequence-diagrams.js flowchart.js</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--18.jpg" alt="js"></p>
-<h4 id="Graphviz-DOT"><a href="#Graphviz-DOT" class="headerlink" title="Graphviz (DOT)"></a>Graphviz (DOT)</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--19.jpg" alt="gd"></p>
-<h4 id="PlantUML"><a href="#PlantUML" class="headerlink" title="PlantUML"></a>PlantUML</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--20.jpg" alt="uml"></p>
-<h3 id="Idea-amp-Mind-Tools"><a href="#Idea-amp-Mind-Tools" class="headerlink" title="Idea &amp; Mind Tools"></a>Idea &amp; Mind Tools</h3><h4 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h4><h4 id="Blumind"><a href="#Blumind" class="headerlink" title="Blumind"></a>Blumind</h4><h4 id="The-Brain-Personal-Brain"><a href="#The-Brain-Personal-Brain" class="headerlink" title="The Brain (Personal Brain)"></a>The Brain (Personal Brain)</h4><h3 id="Document-Tools"><a href="#Document-Tools" class="headerlink" title="Document Tools"></a>Document Tools</h3><h4 id="DocBook"><a href="#DocBook" class="headerlink" title="DocBook"></a>DocBook</h4><h4 id="DITA"><a href="#DITA" class="headerlink" title="DITA"></a>DITA</h4><h4 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h4><h4 id="RestructuringText"><a href="#RestructuringText" class="headerlink" title="RestructuringText"></a>RestructuringText</h4><h3 id="Other-Handy-Tools"><a href="#Other-Handy-Tools" class="headerlink" title="Other Handy Tools"></a>Other Handy Tools</h3><h4 id="Visualize-Regex"><a href="#Visualize-Regex" class="headerlink" title="Visualize Regex"></a>Visualize Regex</h4><p><img src="/2016/08/13/Recommendation/Tools/Geek-Tools/./geektools--30.jpg" alt="vr"></p>
-<h4 id="Pandoc"><a href="#Pandoc" class="headerlink" title="Pandoc"></a>Pandoc</h4><h4 id="Diffcount-Utility"><a href="#Diffcount-Utility" class="headerlink" title="Diffcount Utility"></a>Diffcount Utility</h4><h3 id="Thanks-to-TrendMicro&#x2019;s-Charlie-Cao"><a href="#Thanks-to-TrendMicro&#x2019;s-Charlie-Cao" class="headerlink" title="Thanks to TrendMicro&#x2019;s Charlie Cao"></a>Thanks to TrendMicro&#x2019;s Charlie Cao</h3><p>TrendMicro: <a href="http://www.trendmicro.com.cn/cn/" target="_blank" rel="external">http://www.trendmicro.com.cn/cn/</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Git Errors]]></title>
-      <url>http://idler1229.github.io/2016/08/10/Git/git-error/</url>
+      <url>http://Ext4FAT.github.io/2016/08/10/Git/git-error/</url>
       <content type="html"><![CDATA[<h2 id="Git-Errors-Solution"><a href="#Git-Errors-Solution" class="headerlink" title="Git Errors Solution"></a>Git Errors Solution</h2><h3 id="Fatal-loose-object&#x2026;is-corrupt"><a href="#Fatal-loose-object&#x2026;is-corrupt" class="headerlink" title="Fatal: loose object&#x2026;is corrupt"></a>Fatal: loose object&#x2026;is corrupt</h3><h4 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">error: object file .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab is empty </span><br><span class="line">fatal: loose object 9a83e9c5b3d697d12a2e315e1777ceaf27ea1bab (stored <span class="keyword">in</span> .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab) is corrupt</span><br></pre></td></tr></table></figure>
 <h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">rm -fr .git  </span><br><span class="line">git init  </span><br><span class="line">git remote add origin your-git-remote-url  </span><br><span class="line">git fetch  </span><br><span class="line">git reset --hard origin/master  </span><br><span class="line">git branch --set-upstream-to=origin/master master</span><br></pre></td></tr></table></figure>
 ]]></content>
@@ -96,7 +322,7 @@
     
     <entry>
       <title><![CDATA[✍ Registration]]></title>
-      <url>http://idler1229.github.io/2016/08/08/Project/Registration/</url>
+      <url>http://Ext4FAT.github.io/2016/08/08/Project/Registration/</url>
       <content type="html"><![CDATA[<h2 id="Registration"><a href="#Registration" class="headerlink" title="Registration"></a>Registration</h2><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>This procedure implemented by C plus plus with Open Soure Library <strong>OpenCV</strong>, <strong>PCL</strong>, and <strong>Realsense Developer SDK</strong>.</p>
 <h3 id="Project-On-Github"><a href="#Project-On-Github" class="headerlink" title="Project On Github"></a>Project On Github</h3><p><a href="https://github.com/IDLER1229/Registration" target="_blank" rel="external">https://github.com/IDLER1229/Registration</a> </p>
 <h3 id="Developer"><a href="#Developer" class="headerlink" title="Developer"></a>Developer</h3><p><img src="/2016/08/08/Project/Registration/./IDLER.png" alt="pic"></p>
@@ -115,7 +341,7 @@
     
     <entry>
       <title><![CDATA[Hide User in Ubuntu]]></title>
-      <url>http://idler1229.github.io/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/</url>
+      <url>http://Ext4FAT.github.io/2016/08/07/Linux/Solution/Hide-User-in-Ubuntu/</url>
       <content type="html"><![CDATA[<h2 id="Hide-User"><a href="#Hide-User" class="headerlink" title="Hide User"></a>Hide User</h2><p>If your system uses AccountsService, you cannot hide a user from the greeter screen by reconfiguring lightdm because it defers to AccountsService. That is stated very clearly in the comments in:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/lightdm/users.conf</span><br></pre></td></tr></table></figure></p>
 <p>What you need to do instead is to reconfigure AccountsService. To hide a user named XXX, create a file named<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/var/lib/AccountsService/users/XXX</span><br></pre></td></tr></table></figure></p>
 <p>containing two lines:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[User]</span><br><span class="line">SystemAccount=<span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
@@ -126,7 +352,7 @@
     
     <entry>
       <title><![CDATA[Regular Expressions]]></title>
-      <url>http://idler1229.github.io/2016/08/04/Cheat%20Sheet/Regular-Expressions/</url>
+      <url>http://Ext4FAT.github.io/2016/08/04/Cheat%20Sheet/Regular-Expressions/</url>
       <content type="html"><![CDATA[<h2 id="Regular-Expressions-Cheat-Sheet"><a href="#Regular-Expressions-Cheat-Sheet" class="headerlink" title="Regular Expressions Cheat Sheet"></a>Regular Expressions Cheat Sheet</h2><h3 id="Sheet"><a href="#Sheet" class="headerlink" title="Sheet"></a>Sheet</h3><p><img src="/2016/08/04/Cheat Sheet/Regular-Expressions/./re-sheet.jpg" alt="pic"></p>
 <h3 id="BTW"><a href="#BTW" class="headerlink" title="BTW"></a>BTW</h3><p>Also, there is a good website to visualize Regular Expressions: <a href="https://jex.im/regulex/#!embed=false&amp;flags=&amp;re=^%28a|b%29*%3F%24" target="_blank" rel="external">https://jex.im/regulex/#!embed=false&amp;flags=&amp;re=^%28a|b%29*%3F%24</a></p>
 ]]></content>
@@ -134,7 +360,7 @@
     
     <entry>
       <title><![CDATA[GNOME Sushi]]></title>
-      <url>http://idler1229.github.io/2016/07/26/Linux/Software/GNOME-Sushi/</url>
+      <url>http://Ext4FAT.github.io/2016/07/26/Linux/Software/GNOME-Sushi/</url>
       <content type="html"><![CDATA[<h1 id="GNOME-Sushi"><a href="#GNOME-Sushi" class="headerlink" title="GNOME Sushi"></a>GNOME Sushi</h1><p>&#x4E3A;Nautilus&#x6DFB;&#x52A0;&#x9884;&#x89C8;&#x529F;&#x80FD;&#x2014;&#x2014;GNOME Sushi&#xFF0C;&#x53EF;&#x5B9E;&#x73B0;&#x6587;&#x672C;&#x3001;&#x89C6;&#x9891;&#x3001;&#x97F3;&#x9891;&#x6587;&#x4EF6;&#x5FEB;&#x901F;&#x9884;&#x89C8;&#xFF0C;&#x9009;&#x62E9;&#x9700;&#x8981;&#x9884;&#x89C8;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x6309;&#x4E0B;&#x7A7A;&#x683C;&#x952E;&#x5373;&#x53EF;&#x9884;&#x89C8;&#x3002;<br>&#x5B89;&#x88C5;&#xFF1A;<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install gnome-sushi</span><br></pre></td></tr></table></figure></p>
 <p><img src="/2016/07/26/Linux/Software/GNOME-Sushi/./snapshot.png" alt="pic"></p>
 ]]></content>
@@ -142,7 +368,7 @@
     
     <entry>
       <title><![CDATA[Nginx -- 《深入理解Nginx》作者-陶辉 访谈摘要]]></title>
-      <url>http://idler1229.github.io/2016/07/13/Recommendation/Nginx/Taohui/</url>
+      <url>http://Ext4FAT.github.io/2016/07/13/Recommendation/Nginx/Taohui/</url>
       <content type="html"><![CDATA[<h2 id="Nginx-&#x2013;-&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89;-&#x8BBF;&#x8C08;&#x6458;&#x8981;"><a href="#Nginx-&#x2013;-&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89;-&#x8BBF;&#x8C08;&#x6458;&#x8981;" class="headerlink" title="Nginx &#x2013; &#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89; &#x8BBF;&#x8C08;&#x6458;&#x8981;"></a>Nginx &#x2013; &#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx&#x300B;&#x4F5C;&#x8005;-&#x9676;&#x8F89; &#x8BBF;&#x8C08;&#x6458;&#x8981;</h2><h3 id="&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx"><a href="#&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx" class="headerlink" title="&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx"></a>&#x4EC5;&#x5F53;&#x9700;&#x8981;&#x5E76;&#x53D1;&#x5904;&#x7406;&#x4E07;&#x7EA7;&#x522B;&#x6216;&#x4EE5;&#x4E0A;&#x7684;TCP&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x624D;&#x5E94;&#x5F53;&#x8003;&#x8651;Nginx</h3><ul>
 <li>&#x4E0D;&#x8981;&#x91CD;&#x590D;&#x5F00;&#x53D1;&#x8F6E;&#x5B50;&#xFF0C;&#x5C24;&#x5176;Nginx&#x8F6E;&#x5B50;&#x7684;&#x5F00;&#x53D1;&#x96BE;&#x5EA6;&#x8FD8;&#x4E0D;&#x4F4E;</li>
 <li>Nginx.conf&#x91CC;&#x53EF;&#x4EE5;&#x73A9;&#x7684;&#x82B1;&#x6837;&#x5F88;&#x591A;&#xFF08;&#x8FD9;&#x7531;&#x6BCF;&#x4E00;&#x4E2A;Nginx&#x6A21;&#x5757;&#x51B3;&#x5B9A;&#xFF0C;&#x5982;ngx_lua&#x8FD9;&#x6837;&#x7684;&#x6A21;&#x5757;&#x8FD8;&#x53EF;&#x4EE5;&#x5728;&#x91CC;&#x9762;&#x63D2;&#x5165;lua&#x8BED;&#x6CD5;&#xFF09;</li>
@@ -177,7 +403,7 @@
     
     <entry>
       <title><![CDATA[SQL]]></title>
-      <url>http://idler1229.github.io/2016/07/04/Cheat%20Sheet/SQL/</url>
+      <url>http://Ext4FAT.github.io/2016/07/04/Cheat%20Sheet/SQL/</url>
       <content type="html"><![CDATA[<h2 id="SQL-Cheat-Sheet"><a href="#SQL-Cheat-Sheet" class="headerlink" title="SQL Cheat Sheet"></a>SQL Cheat Sheet</h2><h3 id="Sheet"><a href="#Sheet" class="headerlink" title="Sheet"></a>Sheet</h3><p><img src="/2016/07/04/Cheat Sheet/SQL/./sql-sheet.png" alt="pic"></p>
 <h3 id="FROM"><a href="#FROM" class="headerlink" title="FROM"></a>FROM</h3><p><a href="https://zeroturnaround.com/rebellabs/sql-cheat-sheet/" target="_blank" rel="external">https://zeroturnaround.com/rebellabs/sql-cheat-sheet/</a></p>
 ]]></content>
@@ -185,14 +411,14 @@
     
     <entry>
       <title><![CDATA[Recommendation -- Awesome C++]]></title>
-      <url>http://idler1229.github.io/2016/06/26/Programming/C++/Recommendation/Awesome-C++/</url>
+      <url>http://Ext4FAT.github.io/2016/06/26/Programming/C++/Recommendation/Awesome-C++/</url>
       <content type="html"><![CDATA[<h2 id="Awesome-C"><a href="#Awesome-C" class="headerlink" title="Awesome C++"></a>Awesome C++</h2><p>A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.<br>We can freely search all kinds of C++ libraries we need on <a href="https://github.com/IDLER1229/awesome-cpp" target="_blank" rel="external">https://github.com/IDLER1229/awesome-cpp</a><br><img src="/2016/06/26/Programming/C++/Recommendation/Awesome-C++/./awesome.jpg" alt="pic"></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Top 10 Mistakes Java Developers Make]]></title>
-      <url>http://idler1229.github.io/2016/06/26/Programming/JAVA/Top10-Mistakes/</url>
+      <url>http://Ext4FAT.github.io/2016/06/26/Programming/JAVA/Top10-Mistakes/</url>
       <content type="html"><![CDATA[<h2 id="Top-10-Mistakes-Java-Developers-Make"><a href="#Top-10-Mistakes-Java-Developers-Make" class="headerlink" title="Top 10 Mistakes Java Developers Make"></a>Top 10 Mistakes Java Developers Make</h2><p>Reoriganize From <a href="http://www.programcreek.com/2014/05/top-10-mistakes-java-developers-make/" target="_blank" rel="external">http://www.programcreek.com/2014/05/top-10-mistakes-java-developers-make/</a></p>
 <h3 id="Convert-Array-to-ArrayList"><a href="#Convert-Array-to-ArrayList" class="headerlink" title="Convert Array to ArrayList"></a>Convert Array to ArrayList</h3><p>&#x7528;&#x4EE5;&#x4E0B;&#x65B9;&#x5F0F;&#x5C06;&#x6570;&#x7EC4;&#x8F6C;&#x6210;ArrayList<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;String&gt; list = Arrays.asList(arr);</span><br></pre></td></tr></table></figure></p>
 <p><code>Arrays.asList()</code>&#x8FD4;&#x56DE;&#x7684;<code>Arrays</code>&#x7684;&#x4E00;&#x4E2A;&#x5185;&#x90E8;&#x9759;&#x6001;&#x7C7B;<code>ArrayList</code>, &#x800C;&#x4E0D;&#x662F;<code>java.util.ArrayList</code>. <code>java.util.Arrays.ArrayList</code>&#x4F1A;&#x6709;&#x4E00;&#x4E9B;&#x8BF8;&#x5982;<code>set(), get(), contains()</code>&#x7684;&#x65B9;&#x6CD5;, &#x4F46;&#x662F;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x6DFB;&#x52A0;&#x5143;&#x7D20;&#x7684;&#x65B9;&#x6CD5;, &#x56E0;&#x4E3A;&#x8FD9;&#x4E2A;&#x7C7B;&#x662F;&#x5B9A;&#x957F;&#x7684;. &#x6B63;&#x786E;&#x7684;&#x505A;&#x6CD5;&#x5982;&#x4E0B;:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;String&gt; arrayList = <span class="keyword">new</span> ArrayList&lt;String&gt;(Arrays.asList(arr));</span><br></pre></td></tr></table></figure></p>
@@ -223,20 +449,20 @@
     
     <entry>
       <title><![CDATA[Leetcode -- Valid Number]]></title>
-      <url>http://idler1229.github.io/2016/06/14/Toys/Leetcode/ValidNumber/</url>
+      <url>http://Ext4FAT.github.io/2016/06/14/Toys/Leetcode/ValidNumber/</url>
       <content type="html"><![CDATA[<h2 id="Valid-Number"><a href="#Valid-Number" class="headerlink" title="Valid Number"></a><a href="https://leetcode.com/problems/valid-number/" target="_blank" rel="external">Valid Number</a></h2><h3 id="Solve-with-Automata"><a href="#Solve-with-Automata" class="headerlink" title="Solve with Automata"></a>Solve with Automata</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> Solution {</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">initPos</span><span class="params">()</span> </span>{</span><br><span class="line">        <span class="built_in">memset</span>(pos, <span class="number">-1</span>, <span class="number">128</span>);</span><br><span class="line">    	<span class="built_in">memset</span>(pos + <span class="number">48</span>, <span class="number">1</span>, <span class="number">10</span>);</span><br><span class="line">    	pos[<span class="string">&apos;+&apos;</span>] = pos[<span class="string">&apos;-&apos;</span>] = <span class="number">0</span>;</span><br><span class="line">    	pos[<span class="string">&apos;e&apos;</span>] = pos[<span class="string">&apos;E&apos;</span>] = <span class="number">3</span>;</span><br><span class="line">    	pos[<span class="string">&apos;.&apos;</span>] = <span class="number">2</span>;</span><br><span class="line">    	pos[<span class="string">&apos; &apos;</span>] = <span class="number">4</span>;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isNumber</span><span class="params">(<span class="built_in">string</span> s)</span> </span>{</span><br><span class="line">    	<span class="keyword">int</span> state = <span class="number">0</span>;</span><br><span class="line">    	initPos();</span><br><span class="line">    	<span class="keyword">for</span>(<span class="keyword">char</span> c: s)</span><br><span class="line">    		<span class="keyword">if</span> (!(pos[c] &gt;= <span class="number">0</span> &amp;&amp; <span class="number">0</span> &lt;= (state = trans[state][pos[c]])))</span><br><span class="line">    		    return <span class="literal">false</span>;</span><br><span class="line">    	return trans[state][<span class="number">5</span>];</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="comment">//	+/- d . e/E space can_accept</span></span><br><span class="line">    <span class="keyword">int</span> trans[<span class="number">11</span>][<span class="number">6</span>] = {</span><br><span class="line">    	{  <span class="number">1</span>, <span class="number">2</span>, <span class="number">8</span>, <span class="number">-1</span>, <span class="number">0</span>, <span class="number">0</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">2</span>, <span class="number">8</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">0</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">10</span>, <span class="number">1</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">4</span>, <span class="number">-1</span>, <span class="number">5</span>, <span class="number">10</span>, <span class="number">1</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">4</span>, <span class="number">-1</span>, <span class="number">5</span>, <span class="number">10</span>, <span class="number">1</span> },</span><br><span class="line">    	{  <span class="number">6</span>, <span class="number">7</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">0</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">7</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">10</span>, <span class="number">0</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">7</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">10</span>, <span class="number">1</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">9</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">0</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">9</span>, <span class="number">-1</span>, <span class="number">5</span>, <span class="number">10</span>, <span class="number">1</span> },</span><br><span class="line">    	{ <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">10</span> ,<span class="number">1</span>}</span><br><span class="line">    }; </span><br><span class="line"></span><br><span class="line">    <span class="keyword">char</span> pos[<span class="number">128</span>];</span><br><span class="line">};</span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[No loop]]></title>
-      <url>http://idler1229.github.io/2016/06/13/Toys/C/Noloop/</url>
+      <url>http://Ext4FAT.github.io/2016/06/13/Toys/C/Noloop/</url>
       <content type="html"><![CDATA[<h2 id="Without-if-if&#x2026;else-for-while-do&#x2026;while-goto-to-solve-Factorial"><a href="#Without-if-if&#x2026;else-for-while-do&#x2026;while-goto-to-solve-Factorial" class="headerlink" title="Without if, if&#x2026;else, ?:, for, while, do&#x2026;while, goto to solve Factorial"></a>Without <strong>if, if&#x2026;else, ?:, for, while, do&#x2026;while, goto</strong> to solve Factorial</h2><a id="more"></a>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span><br><span class="line">	&gt; File Name: noloop.c</span><br><span class="line">	&gt; Author: _IDLER_</span><br><span class="line">	&gt; Website: http://idler1229.top</span><br><span class="line"> ************************************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL long long </span></span><br><span class="line"></span><br><span class="line"><span class="function">LL <span class="title">Factorial</span><span class="params">(LL n)</span></span><br><span class="line"></span>{</span><br><span class="line">    LL part = <span class="number">1</span>;  </span><br><span class="line">    n &amp;&amp; (part = n * Factorial(n<span class="number">-1</span>)); </span><br><span class="line">    return part; </span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span><span class="params">()</span></span><br><span class="line"></span>{</span><br><span class="line">    <span class="keyword">for</span> (LL i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	    <span class="built_in">printf</span>(<span class="string">&quot;%lld\n&quot;</span>, Factorial(i)); </span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span></span><br><span class="line"></span>{</span><br><span class="line">    test(); </span><br><span class="line">    return <span class="number">0</span>; </span><br><span class="line">}</span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Shortcuts Backup]]></title>
-      <url>http://idler1229.github.io/2016/06/03/Linux/Solution/Shortcuts-Backup/</url>
+      <url>http://Ext4FAT.github.io/2016/06/03/Linux/Solution/Shortcuts-Backup/</url>
       <content type="html"><![CDATA[<h2 id="Shortcuts-Backup-on-My-Laptop"><a href="#Shortcuts-Backup-on-My-Laptop" class="headerlink" title="Shortcuts Backup on My Laptop"></a>Shortcuts Backup on My Laptop</h2><table>
 <thead>
 <tr>
@@ -271,15 +497,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Refresh Page]]></title>
-      <url>http://idler1229.github.io/2016/06/01/Toys/Html/Refresh-Page/</url>
-      <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Cmd Send E-mail]]></title>
-      <url>http://idler1229.github.io/2016/06/01/Toys/Shell/Send-Email/</url>
+      <url>http://Ext4FAT.github.io/2016/06/01/Toys/Shell/Send-Email/</url>
       <content type="html"><![CDATA[<h2 id="Cmd-Send-E-mail"><a href="#Cmd-Send-E-mail" class="headerlink" title="Cmd Send E-mail"></a>Cmd Send E-mail</h2><p>With this Shell script, we can upload <em>.mobi</em>  to <strong>Kindle</strong></p>
 <a id="more"></a>
 <p>If without <code>-xp</code>, you need input pass of your E-mail.<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line">FROM=<span class="string">&quot;binder@gmail.com&quot;</span></span><br><span class="line">TO=<span class="string">&quot;xxx@kindle.cn&quot;</span></span><br><span class="line">ATTACH=<span class="string">&quot;./xxx.mobi&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> <span class="_">-gt</span> 0 ]; <span class="keyword">then</span></span><br><span class="line">	FROM=<span class="variable">$1</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> <span class="_">-gt</span> 1 ]; <span class="keyword">then</span></span><br><span class="line">	TO=<span class="variable">$2</span>	</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> <span class="_">-gt</span> 3 ]; <span class="keyword">then</span></span><br><span class="line">	ATTACH=<span class="variable">$3</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">sendemail 	<span class="_">-s</span> smtp.nju.edu.cn \</span><br><span class="line">			<span class="_">-f</span> mg1433094@smail.nju.edu.cn \</span><br><span class="line">			-t <span class="variable">$TO</span> \</span><br><span class="line">			-u <span class="string">&quot;Idler&apos;s Books&quot;</span> \</span><br><span class="line">			-m $<span class="string">&quot;Idle About&quot;</span> \</span><br><span class="line">			-xu <span class="variable">$FROM</span>	\ </span><br><span class="line">			<span class="comment">#-xp $PASS \</span></span><br><span class="line">			-o tls=auto \</span><br><span class="line">			<span class="_">-a</span> <span class="variable">$ATTACH</span></span><br></pre></td></tr></table></figure></p>
@@ -287,8 +506,15 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Refresh Page]]></title>
+      <url>http://Ext4FAT.github.io/2016/06/01/Toys/Html/Refresh-Page/</url>
+      <content type="html"><![CDATA[<h2 id="Refresh-Page-html-script"><a href="#Refresh-Page-html-script" class="headerlink" title="Refresh Page - html script"></a>Refresh Page - html script</h2><a id="more"></a>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">frameset</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">&quot;http://xxx.xxx.xxx.cn&quot;</span> <span class="attr">name</span>=<span class="string">&quot;iframe&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Cmd Login]]></title>
-      <url>http://idler1229.github.io/2016/06/01/Toys/Shell/Cmd-Login/</url>
+      <url>http://Ext4FAT.github.io/2016/06/01/Toys/Shell/Cmd-Login/</url>
       <content type="html"><![CDATA[<h2 id="Cmd-Login-Network"><a href="#Cmd-Login-Network" class="headerlink" title="Cmd Login Network"></a>Cmd Login Network</h2><p>Post account and password with <em>curl</em> or <em>wget</em>.</p>
 <a id="more"></a>
 <h3 id="curl"><a href="#curl" class="headerlink" title="curl"></a>curl</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;[Usage]&quot;</span>  </span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;\t&quot;</span><span class="string">&apos;./Login $ACC $PASS&apos;</span></span><br><span class="line">ACCOUNT=<span class="variable">$1</span></span><br><span class="line">PASS=<span class="variable">$2</span></span><br><span class="line">curl <span class="_">-d</span> <span class="string">&quot;username=<span class="variable">$ACCOUNT</span>&amp;password=<span class="variable">$PASS</span>&quot;</span> http://p.nju.edu.cn/portal_io/login</span><br></pre></td></tr></table></figure>
@@ -297,14 +523,14 @@
     
     <entry>
       <title><![CDATA[Convert]]></title>
-      <url>http://idler1229.github.io/2016/06/01/Linux/Shell/Convert/</url>
+      <url>http://Ext4FAT.github.io/2016/06/01/Linux/Shell/Convert/</url>
       <content type="html"><![CDATA[<h2 id="Imagemagick-Command-&#x2013;-Convert"><a href="#Imagemagick-Command-&#x2013;-Convert" class="headerlink" title="Imagemagick Command &#x2013; Convert"></a>Imagemagick Command &#x2013; Convert</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get image info</span></span><br><span class="line">identify <span class="variable">$filename</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># resize</span></span><br><span class="line"><span class="comment">## ! can force-cast to the required size  </span></span><br><span class="line">convert -resize 160x80! <span class="variable">$infile</span> <span class="variable">$outfile</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># quality</span></span><br><span class="line"><span class="comment">## compress with quality, generally 60 -80  </span></span><br><span class="line">convert -quality [0-100] <span class="variable">$infile</span> <span class="variable">$outfile</span></span><br></pre></td></tr></table></figure>
 <h3 id="e-g-resize-jpg-in-current-file"><a href="#e-g-resize-jpg-in-current-file" class="headerlink" title="e.g, resize jpg in current file"></a>e.g, resize jpg in current file</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> `ls *.jpg`; <span class="keyword">do</span></span><br><span class="line">	convert <span class="variable">$file</span> -resize 256x160! -quality 30 <span class="variable">$file</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Markdown Note]]></title>
-      <url>http://idler1229.github.io/2016/05/31/Writer/Markdown/Markdown-Note/</url>
+      <url>http://Ext4FAT.github.io/2016/05/31/Writer/Markdown/Markdown-Note/</url>
       <content type="html"><![CDATA[<h2 id="Some-Markdown-Syntax"><a href="#Some-Markdown-Syntax" class="headerlink" title="Some Markdown Syntax"></a>Some Markdown Syntax</h2><h3 id="Common-Syntax"><a href="#Common-Syntax" class="headerlink" title="Common Syntax"></a>Common Syntax</h3><h4 id="Escape"><a href="#Escape" class="headerlink" title="Escape"></a>Escape</h4><p>These characters cannot be directly printed. Must prefixed with <code>\</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">\</span><br><span class="line">`</span><br><span class="line">*</span><br><span class="line">_</span><br><span class="line">{}</span><br><span class="line">[]</span><br><span class="line">()</span><br><span class="line">#</span><br><span class="line">+</span><br><span class="line">-</span><br><span class="line">.</span><br><span class="line">!</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <h5 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">*IDLER*</span><br><span class="line">\*IDLER\*</span><br></pre></td></tr></table></figure>
@@ -395,7 +621,7 @@
     
     <entry>
       <title><![CDATA[AWK NOTE]]></title>
-      <url>http://idler1229.github.io/2016/05/31/Programming/AWK/awk/</url>
+      <url>http://Ext4FAT.github.io/2016/05/31/Programming/AWK/awk/</url>
       <content type="html"><![CDATA[<h2 id="AWK-SUMMARY"><a href="#AWK-SUMMARY" class="headerlink" title="AWK SUMMARY"></a>AWK SUMMARY</h2><p>Reading Notes from classic book &#x2013; <a href="https://book.douban.com/subject/1876898/" target="_blank" rel="external">The AWK Programming Language</a></p>
 <blockquote>
 <p><img src="https://img3.doubanio.com/mpic/s3252374.jpg" alt="PIC"></p>
@@ -717,7 +943,7 @@
     
     <entry>
       <title><![CDATA[✍ Idle-About]]></title>
-      <url>http://idler1229.github.io/2016/04/30/Project/Crawl/</url>
+      <url>http://Ext4FAT.github.io/2016/04/30/Project/Crawl/</url>
       <content type="html"><![CDATA[<h2 id="Idle-About"><a href="#Idle-About" class="headerlink" title="Idle-About"></a>Idle-About</h2><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>Show books order by rank, crawled booklists from <strong>douban</strong>.</p>
 <h3 id="Project-on-Github"><a href="#Project-on-Github" class="headerlink" title="Project on Github"></a>Project on Github</h3><p><a href="https://github.com/IDLER1229/Crawl" target="_blank" rel="external">https://github.com/IDLER1229/Crawl</a></p>
 <h3 id="Developer"><a href="#Developer" class="headerlink" title="Developer"></a>Developer</h3><p><img src="/2016/04/30/Project/Crawl/./IDLER.png" alt="pic"></p>
@@ -733,7 +959,7 @@
     
     <entry>
       <title><![CDATA[STL ALLOCATOR CONSTRCUT]]></title>
-      <url>http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/</url>
+      <url>http://Ext4FAT.github.io/2016/04/30/STL/STL-ALLOCATOR-CONSTRCUT/</url>
       <content type="html"><![CDATA[<h2 id="CONSTRCUT"><a href="#CONSTRCUT" class="headerlink" title="CONSTRCUT"></a>CONSTRCUT</h2><pre><code>In &lt;stl_construct.h&gt;
 </code></pre><a id="more"></a>
 <h3 id="Construct"><a href="#Construct" class="headerlink" title="Construct"></a>Construct</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _T1, <span class="keyword">class</span> _T2&gt;</span><br><span class="line"><span class="keyword">inline</span> <span class="keyword">void</span> _Construct(_T1* __p, <span class="keyword">const</span> _T2&amp; __value) {</span><br><span class="line">  new ((void*) __p) _T1(__value);</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _T1&gt;</span><br><span class="line"><span class="keyword">inline</span> <span class="keyword">void</span> _Construct(_T1* __p) {</span><br><span class="line">  new ((void*) __p) _T1();</span><br><span class="line">}</span><br></pre></td></tr></table></figure>]]></content>
@@ -741,14 +967,14 @@
     
     <entry>
       <title><![CDATA[STL ALLOCATOR [TODO]]]></title>
-      <url>http://idler1229.github.io/2016/04/30/STL/STL-ALLOCATOR/</url>
+      <url>http://Ext4FAT.github.io/2016/04/30/STL/STL-ALLOCATOR/</url>
       <content type="html"><![CDATA[<h2 id="Allocator"><a href="#Allocator" class="headerlink" title="Allocator"></a>Allocator</h2><pre><code>In &lt;stl_alloc.h&gt;
 </code></pre><a id="more"></a>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[STL ALGO FUNCTOR]]></title>
-      <url>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-FUNCTOR/</url>
+      <url>http://Ext4FAT.github.io/2016/04/29/STL/STL-ALGO-FUNCTOR/</url>
       <content type="html"><![CDATA[<h2 id="Functors"><a href="#Functors" class="headerlink" title="Functors"></a>Functors</h2><pre><code>In &lt;stl_function.h&gt;
 </code></pre><p>SGI STL has defined unary/binary operation templete with traits.<br><a id="more"></a></p>
 <h3 id="Unary-Function"><a href="#Unary-Function" class="headerlink" title="Unary Function"></a>Unary Function</h3><h4 id="templates"><a href="#templates" class="headerlink" title="templates"></a>templates</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Arg, <span class="keyword">class</span> _Result&gt;</span><br><span class="line"><span class="keyword">struct</span> unary_function {</span><br><span class="line">  <span class="keyword">typedef</span> _Arg argument_type;</span><br><span class="line">  <span class="keyword">typedef</span> _Result result_type;</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
@@ -763,7 +989,7 @@
     
     <entry>
       <title><![CDATA[Qt Creator Shotcuts]]></title>
-      <url>http://idler1229.github.io/2016/04/29/Linux/Software/Qt-Creator-Shotcuts/</url>
+      <url>http://Ext4FAT.github.io/2016/04/29/Linux/Software/Qt-Creator-Shotcuts/</url>
       <content type="html"><![CDATA[<h2 id="Qt-Creator-Shotcuts"><a href="#Qt-Creator-Shotcuts" class="headerlink" title="Qt Creator Shotcuts"></a>Qt Creator Shotcuts</h2><p>Ctrl + Tab<br>Alt + Enter<br>Shift + F2<br><a id="more"></a></p>
 <table>
 <thead>
@@ -1081,7 +1307,7 @@
     
     <entry>
       <title><![CDATA[STL ALGO BASE]]></title>
-      <url>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-BASE/</url>
+      <url>http://Ext4FAT.github.io/2016/04/29/STL/STL-ALGO-BASE/</url>
       <content type="html"><![CDATA[<h2 id="Base-Algorithm"><a href="#Base-Algorithm" class="headerlink" title="Base Algorithm"></a>Base Algorithm</h2><pre><code>In &lt;stl_algobase.h&gt;
 </code></pre><a id="more"></a>
 <h3 id="Swap-and-Iter-swap"><a href="#Swap-and-Iter-swap" class="headerlink" title="Swap and Iter_swap"></a>Swap and Iter_swap</h3><p><em>iter_swap</em> swap the iterator pointed value, not the iterator itself.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _ForwardIter1, <span class="keyword">class</span> _ForwardIter2, <span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="keyword">inline</span> <span class="keyword">void</span> __iter_swap(_ForwardIter1 __a, _ForwardIter2 __b, _Tp*) {</span><br><span class="line">  _Tp __tmp = *__a;</span><br><span class="line">  *__a = *__b;</span><br><span class="line">  *__b = __tmp;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _ForwardIter1, <span class="keyword">class</span> _ForwardIter2&gt;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">iter_swap</span><span class="params">(_ForwardIter1 __a, _ForwardIter2 __b)</span> </span>{</span><br><span class="line"><span class="comment">/*</span><br><span class="line">  __STL_REQUIRES(_ForwardIter1, _Mutable_ForwardIterator);</span><br><span class="line">  __STL_REQUIRES(_ForwardIter2, _Mutable_ForwardIterator);</span><br><span class="line">  __STL_CONVERTIBLE(typename iterator_traits&lt;_ForwardIter1&gt;::value_type,</span><br><span class="line">                    typename iterator_traits&lt;_ForwardIter2&gt;::value_type);</span><br><span class="line">  __STL_CONVERTIBLE(typename iterator_traits&lt;_ForwardIter2&gt;::value_type,</span><br><span class="line">                    typename iterator_traits&lt;_ForwardIter1&gt;::value_type);</span><br><span class="line">*/</span></span><br><span class="line">  __iter_swap(__a, __b, __VALUE_TYPE(__a));</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> _Tp&gt;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">swap</span><span class="params">(_Tp&amp; __a, _Tp&amp; __b)</span> </span>{</span><br><span class="line"> <span class="comment">// __STL_REQUIRES(_Tp, _Assignable);</span></span><br><span class="line">  _Tp __tmp = __a;</span><br><span class="line">  __a = __b;</span><br><span class="line">  __b = __tmp;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
@@ -1091,7 +1317,7 @@
     
     <entry>
       <title><![CDATA[CMake Manual [TODO]]]></title>
-      <url>http://idler1229.github.io/2016/04/29/Compile/CMake/</url>
+      <url>http://Ext4FAT.github.io/2016/04/29/Compile/CMake/</url>
       <content type="html"><![CDATA[<h2 id="CMake-&#x5E38;&#x7528;&#x6307;&#x4EE4;"><a href="#CMake-&#x5E38;&#x7528;&#x6307;&#x4EE4;" class="headerlink" title="CMake &#x5E38;&#x7528;&#x6307;&#x4EE4;"></a>CMake &#x5E38;&#x7528;&#x6307;&#x4EE4;</h2><h3 id="CMake-Manual-&#x6458;&#x8981;"><a href="#CMake-Manual-&#x6458;&#x8981;" class="headerlink" title="CMake Manual &#x6458;&#x8981;"></a>CMake Manual &#x6458;&#x8981;</h3><h3 id="CMakeLists-txt"><a href="#CMakeLists-txt" class="headerlink" title="[CMakeLists.txt]"></a>[CMakeLists.txt]</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Example]</span><br><span class="line">PROJECT (HELLO)</span><br><span class="line">SET(SRC_LIST main.c)</span><br><span class="line">MESSAGE(STATUS <span class="string">&quot;This is BINARY dir &quot;</span> <span class="variable">${HELLO_BINARY_DIR}</span>)</span><br><span class="line">MESSAGE(STATUS <span class="string">&quot;This is SOURCE dir &quot;</span><span class="variable">${HELLO_SOURCE_DIR}</span>)</span><br><span class="line">ADD_EXECUTABLE(hello <span class="variable">${SRC_LIST}</span>)</span><br></pre></td></tr></table></figure>
 <h4 id="PROJECT"><a href="#PROJECT" class="headerlink" title="PROJECT"></a>PROJECT</h4><p>PROJECT&#x6307;&#x4EE4;&#x53EF;&#x5B9A;&#x4E49;&#x5DE5;&#x7A0B;&#x540D;&#x79F0;, &#x5E76;&#x6307;&#x5B9A;&#x5DE5;&#x7A0B;&#x652F;&#x6301;&#x7684;&#x8BED;&#x8A00;, (&#x652F;&#x6301;&#x7684;&#x8BED;&#x8A00;&#x5217;&#x8868;&#x662F;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;&#x7684;, &#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x8868;&#x793A;&#x652F;&#x6301;&#x6240;&#x6709;&#x8BED;&#x8A00;)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PROJECT(projectname [CXX] [C] [Java])</span><br></pre></td></tr></table></figure></p>
 <p>PROJECT&#x9690;&#x5F0F;&#x7684;&#x5B9A;&#x4E49;&#x4E86;&#x4E24;&#x4E2A; cmake &#x53D8;&#x91CF;:<br><code>&lt;projectname&gt;</code>_BINARY_DIR &#x548C; <code>&lt;projectname&gt;</code>_SOURCE_DIR, &#x56E0;&#x6B64;[Example]&#x4E2D;&#x76F4;&#x63A5;&#x4F7F;&#x7528;.</p>
@@ -1111,7 +1337,7 @@
     
     <entry>
       <title><![CDATA[STL ALGO NUMERIC]]></title>
-      <url>http://idler1229.github.io/2016/04/29/STL/STL-ALGO-NUMERIC/</url>
+      <url>http://Ext4FAT.github.io/2016/04/29/STL/STL-ALGO-NUMERIC/</url>
       <content type="html"><![CDATA[<h2 id="Five-typical-Numeric-algorithm"><a href="#Five-typical-Numeric-algorithm" class="headerlink" title="Five typical Numeric algorithm"></a>Five typical Numeric algorithm</h2><pre><code>In &lt;stl_numeric.h&gt;
 </code></pre><p>These algorithms all provide two function version, the one is naive/nature operation, and the other is user-defined operation passed by functor.</p>
 <p>STL REQUIRES which you can ignore, when read source code. So I just  commented out these statements.</p>
@@ -1132,7 +1358,7 @@
     
     <entry>
       <title><![CDATA[APUE]]></title>
-      <url>http://idler1229.github.io/2016/04/28/Linux/APUE/</url>
+      <url>http://Ext4FAT.github.io/2016/04/28/Linux/APUE/</url>
       <content type="html"><![CDATA[<h1 id="APUE-NOTE"><a href="#APUE-NOTE" class="headerlink" title="APUE NOTE"></a>APUE NOTE</h1><h2 id="lseek"><a href="#lseek" class="headerlink" title="lseek"></a>lseek</h2><h3 id="Function-Prototype"><a href="#Function-Prototype" class="headerlink" title="Function Prototype"></a>Function Prototype</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="keyword">off_t</span> lseek(<span class="keyword">int</span> fd, <span class="keyword">off_t</span> offset, <span class="keyword">int</span> whence);</span><br><span class="line"><span class="comment">// &#x8FD4;&#x56DE;:&#x82E5;&#x6210;&#x529F;&#x4E3A;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x4F4D;&#x79FB;,&#x82E5;&#x51FA;&#x9519;&#x4E3A;- 1</span></span><br></pre></td></tr></table></figure>
 <h3 id="Whence"><a href="#Whence" class="headerlink" title="Whence"></a>Whence</h3><ul>
 <li>&#x82E5;wh enc e&#x662F;SEEK_S E T,&#x5219;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x79FB;&#x91CF;&#x8BBE;&#x7F6E;&#x4E3A;&#x8DDD;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x5904; offset &#x4E2A;&#x5B57;&#x8282;&#x3002;</li>
@@ -1164,7 +1390,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     
     <entry>
       <title><![CDATA[Leetcode Shell]]></title>
-      <url>http://idler1229.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</url>
+      <url>http://Ext4FAT.github.io/2016/04/28/Linux/Shell/Leetcode-Shell/</url>
       <content type="html"><![CDATA[<h2 id="Some-interesting-shell-script-on-Leetcode"><a href="#Some-interesting-shell-script-on-Leetcode" class="headerlink" title="Some interesting shell script on Leetcode"></a>Some interesting shell script on <em>Leetcode</em></h2><h3 id="Word-Frequency"><a href="#Word-Frequency" class="headerlink" title="Word Frequency"></a><a href="https://leetcode.com/problems/word-frequency/" target="_blank" rel="external">Word Frequency</a></h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep -oE <span class="string">&apos;[a-z]+&apos;</span> words.txt | sort | uniq -c | sort -r | awk <span class="string">&apos;{print $2&quot; &quot;$1}&apos;</span></span><br></pre></td></tr></table></figure>
 <h3 id="Transpose-File"><a href="#Transpose-File" class="headerlink" title="Transpose File"></a><a href="https://leetcode.com/problems/transpose-file/" target="_blank" rel="external">Transpose File</a></h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## &#x4EFB;&#x4F55;&#x5728;BEGIN&#x4E4B;&#x540E;&#x5217;&#x51FA;&#x7684;&#x64CD;&#x4F5C;&#xFF08;&#x5728;{}&#x5185;&#xFF09;&#x5C06;&#x5728;Unix awk&#x5F00;&#x59CB;&#x626B;&#x63CF;&#x8F93;&#x5165;&#x4E4B;&#x524D;&#x6267;&#x884C;&#xFF0C;&#x800C;END&#x4E4B;&#x540E;&#x5217;&#x51FA;&#x7684;&#x64CD;&#x4F5C;&#x5C06;&#x5728;&#x626B;&#x63CF;&#x5B8C;&#x5168;&#x90E8;&#x7684;&#x8F93;&#x5165;&#x4E4B;&#x540E;&#x6267;&#x884C;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x901A;&#x5E38;&#x4F7F;&#x7528;BEGIN&#x6765;&#x663E;&#x793A;&#x53D8;&#x91CF;&#x548C;&#x9884;&#x7F6E;&#xFF08;&#x521D;&#x59CB;&#x5316;&#xFF09;&#x53D8;&#x91CF;&#xFF0C;&#x4F7F;&#x7528;END&#x6765;&#x8F93;&#x51FA;&#x6700;&#x7EC8;&#x7ED3;&#x679C;&#x3002;</span></span><br><span class="line">awk <span class="string">&apos;</span><br><span class="line">{</span><br><span class="line">    for (i = 1; i &lt;= NF; i++) {</span><br><span class="line">        if(NR == 1) {</span><br><span class="line">            s[i] = $i;</span><br><span class="line">        } else {</span><br><span class="line">            s[i] = s[i] &quot; &quot; $i;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">END {</span><br><span class="line">    for (i = 1; s[i] != &quot;&quot;; i++) {</span><br><span class="line">        print s[i];</span><br><span class="line">    }</span><br><span class="line">}&apos;</span> file.txt</span><br></pre></td></tr></table></figure>
 <h3 id="Valid-Phone-Numbers"><a href="#Valid-Phone-Numbers" class="headerlink" title="Valid Phone Numbers"></a><a href="https://leetcode.com/problems/valid-phone-numbers/" target="_blank" rel="external">Valid Phone Numbers</a></h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep -Eo <span class="string">&apos;^(\([0-9]{3}\) ){1}[0-9]{3}-[0-9]{4}$|^([0-9]{3}-){2}[0-9]{4}$&apos;</span> file.txt</span><br></pre></td></tr></table></figure>
@@ -1174,7 +1400,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     
     <entry>
       <title><![CDATA[const_cast [TODO]]]></title>
-      <url>http://idler1229.github.io/2016/04/28/Programming/C++/const-cast/</url>
+      <url>http://Ext4FAT.github.io/2016/04/28/Programming/C++/const-cast/</url>
       <content type="html"><![CDATA[<h2 id="const-cast"><a href="#const-cast" class="headerlink" title="const_cast"></a>const_cast</h2><p>three examples to explain the usage of const_cast</p>
 <h3 id="Code"><a href="#Code" class="headerlink" title="[Code]"></a>[Code]</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span><br><span class="line">	&gt; File Name: mod_const.cpp</span><br><span class="line">	&gt; Author: zyy</span><br><span class="line">	&gt; Mail: zyy34472@gmail.com</span><br><span class="line"> ************************************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> NAME2STR(_VAR_) (#_VAR_)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> OUT(_VAR_) cout &lt;&lt; NAME2STR(_VAR_) &lt;&lt; <span class="string">&quot;: &quot;</span> &lt;&lt; _VAR_ &lt;&lt; endl</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>** argv)</span></span><br><span class="line"></span>{</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;const_cast&quot;</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">volatile</span> <span class="keyword">int</span> a1 = <span class="number">1</span>; </span><br><span class="line">    <span class="keyword">int</span> &amp;b1 = <span class="keyword">const_cast</span>&lt;<span class="keyword">int</span>&amp;&gt;(a1); </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[const volatile int -&gt; int&amp;]&quot;</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">    OUT(((&amp;a1) == (&amp;b1))); </span><br><span class="line">    OUT(&amp;a1); </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;But use printf, &amp;a = %p\n&quot;</span>, &amp;a1);</span><br><span class="line">    OUT(&amp;b1); </span><br><span class="line">    b1 = <span class="number">2</span>; </span><br><span class="line">    OUT(a1); </span><br><span class="line">    OUT(b1); </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; <span class="built_in">endl</span>; ; </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> a2 = <span class="number">1</span>; </span><br><span class="line">    <span class="keyword">int</span> &amp;b2 = <span class="keyword">const_cast</span>&lt;<span class="keyword">int</span>&amp;&gt;(a2); </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[const int -&gt; int&amp;]&quot;</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">    OUT(((&amp;a2) == (&amp;b2))); </span><br><span class="line">    OUT(&amp;a2); </span><br><span class="line">    OUT(&amp;b2); </span><br><span class="line">    b2 = <span class="number">2</span>; </span><br><span class="line">    OUT(a2); </span><br><span class="line">    OUT(b2); </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> a3 = <span class="number">1</span>; </span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> &amp;b3 = a3;</span><br><span class="line">    <span class="keyword">int</span> &amp;x = <span class="keyword">const_cast</span>&lt;<span class="keyword">int</span>&amp;&gt;(b3); </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[int -&gt; const int&amp;]&quot;</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">    <span class="comment">//int* const b2 = &amp;a2; </span></span><br><span class="line">    OUT(&amp;a3); </span><br><span class="line">    OUT(&amp;x); </span><br><span class="line">    x = <span class="number">20</span>;  </span><br><span class="line">    OUT(a3); </span><br><span class="line">    OUT(x); </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line"></span><br><span class="line">	return <span class="number">0</span>; </span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -1185,20 +1411,20 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     
     <entry>
       <title><![CDATA[Video Capture]]></title>
-      <url>http://idler1229.github.io/2016/04/27/CV/Video-Capture/</url>
+      <url>http://Ext4FAT.github.io/2016/04/27/CV/Video-Capture/</url>
       <content type="html"><![CDATA[<h2 id="Capture-Video-data-from-camera-and-save"><a href="#Capture-Video-data-from-camera-and-save" class="headerlink" title="Capture Video data from camera and save"></a>Capture Video data from camera and save</h2><p>Press ESC to exit program.<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;opencv2/opencv.hpp&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;video.hpp&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> cv;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span><br><span class="line"></span>{</span><br><span class="line">    <span class="keyword">if</span> (argc &lt; <span class="number">2</span>) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[Usage]&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;\t ./VideoCapture save_filename&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-1</span>;</span><br><span class="line">    }</span><br><span class="line">    VideoCapture vc;</span><br><span class="line">    vc.open(<span class="number">0</span>);</span><br><span class="line">    <span class="keyword">if</span> (!vc.isOpened()) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[ERROR] Camera can&apos;t open&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-2</span>;</span><br><span class="line">    }</span><br><span class="line">    VideoWriter vw;</span><br><span class="line">    vw.open( argv[<span class="number">1</span>], <span class="comment">// Saved filename</span></span><br><span class="line">            (int)vc.get( CV_CAP_PROP_FOURCC ), <span class="comment">// Windows:CV_FOURCC_PROMPT(-1) can select parameters in a Dialog</span></span><br><span class="line">            (double)vc.get( CV_CAP_PROP_FPS ), <span class="comment">// FPS</span></span><br><span class="line">            cv::Size( (int)vc.get( CV_CAP_PROP_FRAME_WIDTH ), (int)vc.get( CV_CAP_PROP_FRAME_HEIGHT ) ), <span class="comment">// Resolution</span></span><br><span class="line">            <span class="literal">true</span> ); <span class="comment">// Color or not);</span></span><br><span class="line">    <span class="keyword">if</span> (!vw.isOpened()) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[ERROR] Saved file can&apos;t open&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-3</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="comment">//Capture</span></span><br><span class="line">    Mat frame;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">long</span> <span class="keyword">long</span> framecnt = <span class="number">0</span>; vc.read(frame) &amp;&amp; waitKey(<span class="number">33</span>) != <span class="number">27</span>; framecnt++) {</span><br><span class="line">        vw &lt;&lt; frame;</span><br><span class="line">    }</span><br><span class="line">    vc.release();</span><br><span class="line">    vw.release();</span><br><span class="line">    return <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Filename remove blank]]></title>
-      <url>http://idler1229.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</url>
+      <url>http://Ext4FAT.github.io/2016/04/27/Linux/Shell/Filename-remove-blank/</url>
       <content type="html"><![CDATA[<h4 id="Get-rid-of-blank-in-filename"><a href="#Get-rid-of-blank-in-filename" class="headerlink" title="Get rid of blank in filename"></a>Get rid of blank in filename</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">mkdir rename</span><br><span class="line">ls *.png | <span class="keyword">while</span> <span class="built_in">read</span> file; <span class="keyword">do</span></span><br><span class="line">    newfile=`<span class="built_in">echo</span> <span class="variable">$file</span> | awk -F <span class="string">&apos; &apos;</span> <span class="string">&apos;{for(i=1;i&lt;=NF;i++) printf&quot;%s&quot;,$i}&apos;</span>`</span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$file</span> -&gt; <span class="variable">$newfile</span></span><br><span class="line">    mv <span class="string">&quot;<span class="variable">$file</span>&quot;</span> ./rename/<span class="string">&quot;<span class="variable">$newfile</span>&quot;</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Depth Segmentation]]></title>
-      <url>http://idler1229.github.io/2016/04/27/CV/Segmentation-Region-Grow/</url>
+      <url>http://Ext4FAT.github.io/2016/04/27/CV/Segmentation-Region-Grow/</url>
       <content type="html"><![CDATA[<h2 id="A-efficient-depth-segmentation-base-on-Region-growing"><a href="#A-efficient-depth-segmentation-base-on-Region-growing" class="headerlink" title="A efficient depth segmentation base on Region growing"></a>A efficient depth segmentation base on Region growing</h2><h3 id="Main-idea-merge-small-regions-and-black-regions-to-Main-regions"><a href="#Main-idea-merge-small-regions-and-black-regions-to-Main-regions" class="headerlink" title="Main idea: merge small regions and black regions to Main regions."></a>Main idea: merge small regions and black regions to Main regions.</h3><p>The image on the left is the <em>Color</em> source and the right is its <em>Depth</em> image, which are captured by an Intel Realsense F200 camera. Note that the point which is brighter implies it is farer from the camera. However, the point may become black once it is out of camera range. The red region denotes unreliable points representing too far or too close positions, which exceed the effective distance range of the camera (out of 0.2m - 1.2m). The blue region implies that the Realsense camera cannot ensure the distance is effective due to diffuse reflection.</p>
 <table>
 <thead>
@@ -1239,7 +1465,7 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     
     <entry>
       <title><![CDATA[Simple Object Classification with HOG and SVM]]></title>
-      <url>http://idler1229.github.io/2016/04/27/CV/HOG-SVM/</url>
+      <url>http://Ext4FAT.github.io/2016/04/27/CV/HOG-SVM/</url>
       <content type="html"><![CDATA[<h2 id="Do-object-recognition-with-HOG-feature-and-SVM-classifier"><a href="#Do-object-recognition-with-HOG-feature-and-SVM-classifier" class="headerlink" title="Do object recognition with HOG feature and SVM classifier."></a>Do object recognition with HOG feature and SVM classifier.</h2><h3 id="Usage"><a href="#Usage" class="headerlink" title="[Usage]"></a>[Usage]</h3><h4 id="Training-Algorithm-Flow"><a href="#Training-Algorithm-Flow" class="headerlink" title="Training Algorithm Flow"></a>Training Algorithm Flow</h4><blockquote>
 <ol>
 <li><p>manually select representive _sample_s to generate <em>TrainSet</em> and <em>TestSet</em></p>
@@ -1296,21 +1522,21 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     
     <entry>
       <title><![CDATA[Capture picture with camera]]></title>
-      <url>http://idler1229.github.io/2016/04/26/CV/Capture-picture-with-camera/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/CV/Capture-picture-with-camera/</url>
       <content type="html"><![CDATA[<h2 id="Capture-data-with-camera"><a href="#Capture-data-with-camera" class="headerlink" title="Capture data with camera"></a>Capture data with camera</h2><p>Press $Space$ to capture<br>Press $ESC$ to exit<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span><br><span class="line">	&gt; File Name: SplitVideo.cpp</span><br><span class="line">	&gt; Author: zyy</span><br><span class="line">	&gt; Mail: zyy34472@gmail.com</span><br><span class="line"> ************************************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctime&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/stat.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/types.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;opencv2/opencv.hpp&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> cv;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="built_in">string</span> <span class="title">getCurrentTime</span><span class="params">()</span></span><br><span class="line"></span>{</span><br><span class="line">	<span class="keyword">time_t</span> t = time(<span class="number">0</span>); </span><br><span class="line">	<span class="keyword">char</span> tmp[<span class="number">64</span>]; </span><br><span class="line">	strftime( tmp, <span class="keyword">sizeof</span>(tmp), <span class="string">&quot;%Y-%m-%d-%X&quot;</span>,localtime(&amp;t) ); </span><br><span class="line">	mkdir(tmp, S_IRWXU); </span><br><span class="line">	return <span class="built_in">string</span>(tmp);	</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span></span><br><span class="line"></span>{</span><br><span class="line">	Mat frame;</span><br><span class="line">	<span class="function">VideoCapture <span class="title">vc</span><span class="params">(<span class="number">0</span>)</span></span>;</span><br><span class="line">	<span class="keyword">int</span> i, fps, mykey;</span><br><span class="line">	<span class="built_in">string</span> now = getCurrentTime();</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>, fps = <span class="number">30</span>; mykey = waitKey(<span class="number">1000</span>/fps); i++) {</span><br><span class="line">		vc &gt;&gt; frame;</span><br><span class="line">		imshow(<span class="string">&quot;test&quot;</span>, frame);</span><br><span class="line">		<span class="keyword">if</span> (mykey == <span class="number">32</span>) </span><br><span class="line">			imwrite(<span class="string">&quot;./&quot;</span> + now + <span class="string">&quot;/&quot;</span> + to_string(i) + <span class="string">&quot;.jpg&quot;</span>, frame);</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (mykey == <span class="number">27</span>)</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">    }</span><br><span class="line">	return <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Split Video]]></title>
-      <url>http://idler1229.github.io/2016/04/26/CV/Split-Video/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/CV/Split-Video/</url>
       <content type="html"><![CDATA[<h2 id="Split-Video-to-a-batch-of-pictures"><a href="#Split-Video-to-a-batch-of-pictures" class="headerlink" title="Split Video to a batch of pictures"></a>Split Video to a batch of pictures</h2><p>Input&#xFF1A; Video file path, Output directory<br>Output&#xFF1A; png from frame to frame<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span><br><span class="line">	&gt; File Name: SplitVideo.cpp</span><br><span class="line">	&gt; Author: zyy</span><br><span class="line">	&gt; Mail: zyy34472@gmail.com</span><br><span class="line"> ************************************************************************/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;opencv2/opencv.hpp&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;video.hpp&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> cv;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>** argv)</span></span><br><span class="line"></span>{</span><br><span class="line">    <span class="keyword">if</span> (argc &lt; <span class="number">3</span>) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;[Usage] &quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;\t ./SplitVideo filename outputdir&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        return  <span class="number">-1</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="built_in">string</span> outdir = <span class="built_in">string</span>(argv[<span class="number">2</span>]);</span><br><span class="line">    <span class="built_in">string</span> cmd = <span class="string">&quot;mkdir &quot;</span> + outdir +<span class="string">&quot; 2&gt;/dev/null&quot;</span>;</span><br><span class="line">    system(cmd.c_str());</span><br><span class="line">    VideoCapture vc;</span><br><span class="line">    vc.open(argv[<span class="number">1</span>]);</span><br><span class="line">    <span class="keyword">if</span> (!vc.isOpened()) {</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Cann&apos;t open &quot;</span> &lt;&lt; argv[<span class="number">1</span>] &lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">        return <span class="number">-1</span>;</span><br><span class="line">    }</span><br><span class="line">    Mat frame;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; vc.read(frame); i++)</span><br><span class="line">        imwrite(outdir+ <span class="string">&quot;/&quot;</span> + to_string(i) + <span class="string">&quot;.png&quot;</span>, frame);</span><br><span class="line">    return <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[STL ALGO SET OPERATION]]></title>
-      <url>http://idler1229.github.io/2016/04/26/STL/STL-ALGO-SET-OP/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/STL/STL-ALGO-SET-OP/</url>
       <content type="html"><![CDATA[<h2 id="Five-Type-of-Set-algorithms"><a href="#Five-Type-of-Set-algorithms" class="headerlink" title="Five Type of  Set algorithms"></a>Five Type of  Set algorithms</h2><pre><code>In &lt;stl_algo.h&gt;
 </code></pre><p>Set algorithms: includes, set_union, set_intersection, set_difference, set_symmetric_difference. All of these algorithms have the precondition that their input ranges are sorted and the postcondition that their output ranges are sorted.</p>
 <p>Each algorithm has two impletementation, one of them with user-defined Compare function. In this article, we just list the first one and annotate requirement check code.<br><a id="more"></a></p>
@@ -1328,208 +1554,8 @@ optopt &#x2014;&#x2014; &#x6700;&#x540E;&#x4E00;&#x4E2A;&#x672A;&#x77E5;&#x9009;
     </entry>
     
     <entry>
-      <title><![CDATA[✍ Reading Books]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Books/Reading-Books/</url>
-      <content type="html"><![CDATA[<h2 id="My-Book-List"><a href="#My-Book-List" class="headerlink" title="My Book List"></a>My Book List</h2><h3 id="&#x3010;Unix-Linux&#x3011;"><a href="#&#x3010;Unix-Linux&#x3011;" class="headerlink" title="&#x3010;Unix/Linux&#x3011;"></a>&#x3010;Unix/Linux&#x3011;</h3><ul>
-<li><progress value="70" max="100"></progress>&#x2003;Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</li>
-<li><progress value="50" max="100"></progress>&#x2003;Linux&#x5185;&#x6838;&#x8BBE;&#x8BA1;&#x7684;&#x827A;&#x672F;</li>
-<li><progress value="35" max="100"></progress>&#x2003;&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;Linux&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;&#x7CFB;&#x7EDF;&#x6784;&#x5EFA;&#x548C;&#x539F;&#x7406;&#x89E3;&#x6790;</li>
-<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;</li>
-<li><p><progress value="25" max="100"></progress>&#x2003;&#x6DF1;&#x5165;Linux&#x5185;&#x6838;&#x67B6;&#x6784;</p>
-</li>
-<li><p><progress value="65" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;:&#x4F7F;&#x7528;Linux&#x6C47;&#x7F16;&#x8BED;&#x8A00;</p>
-</li>
-<li><progress value="30" max="100"></progress>&#x2003;Linux&#x7CFB;&#x7EDF;&#x7F16;&#x7A0B;</li>
-<li><progress value="70" max="100"></progress>&#x2003;Linux&#x9AD8;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x7F16;&#x7A0B;</li>
-<li><progress value="85" max="100"></progress>&#x2003;APUE</li>
-<li><progress value="25" max="100"></progress>&#x2003;UNP-V1</li>
-<li><p><progress value="75" max="100"></progress>&#x2003;UNP-V2</p>
-</li>
-<li><p><progress value="30" max="100"></progress>&#x2003;Linux C&#x4E00;&#x7AD9;&#x5F0F;&#x5B66;&#x4E60;</p>
-</li>
-</ul>
-<h3 id="&#x3010;Machine-Learning&#x3011;"><a href="#&#x3010;Machine-Learning&#x3011;" class="headerlink" title="&#x3010;Machine Learning&#x3011;"></a>&#x3010;Machine Learning&#x3011;</h3><ul>
-<li><progress value="95" max="100"></progress>&#x2003;&#x7EDF;&#x8BA1;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;</li>
-<li><progress value="90" max="100"></progress>&#x2003;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5B9E;&#x6218;</li>
-<li><p><progress value="80" max="100"></progress>&#x2003;&#x673A;&#x5668;&#x5B66;&#x4E60;(&#x897F;&#x74DC;&#x4E66;)</p>
-</li>
-<li><p><progress value="50" max="100"></progress>&#x2003;PRML</p>
-</li>
-<li><progress value="30" max="100"></progress>&#x2003;ESL</li>
-<li><progress value="35" max="100"></progress>&#x2003;Data mining concepts and techniques 3rd</li>
-<li><progress value="60" max="100"></progress>&#x2003;Data Mining: Practical Machine Learning Tools and Techniques</li>
-<li><progress value="85" max="100"></progress>&#x2003;Ensemble Methods: Foundations and Algorithms</li>
-<li><progress value="10" max="100"></progress>&#x2003;Understanding Machine Learning: From Theory To Algorithm</li>
-</ul>
-<h3 id="&#x3010;Big-Data&#x3011;"><a href="#&#x3010;Big-Data&#x3011;" class="headerlink" title="&#x3010;Big Data&#x3011;"></a>&#x3010;Big Data&#x3011;</h3><ul>
-<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x6570;&#x636E;&#x65F6;&#x4EE3;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x6570;&#x636E;&#x601D;&#x7EF4;&#x4E0E;&#x51B3;&#x7B56;</li>
-<li><progress value="65" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x5927;&#x6570;&#x636E;</li>
-</ul>
-<h3 id="&#x3010;Database&#x3011;"><a href="#&#x3010;Database&#x3011;" class="headerlink" title="&#x3010;Database&#x3011;"></a>&#x3010;Database&#x3011;</h3><ul>
-<li><progress value="25" max="100"></progress>&#x2003;&#x6570;&#x636E;&#x5E93;&#x7CFB;&#x7EDF;&#x5B9E;&#x73B0;</li>
-</ul>
-<h3 id="&#x3010;Computer-Vision&#x3011;"><a href="#&#x3010;Computer-Vision&#x3011;" class="headerlink" title="&#x3010;Computer Vision&#x3011;"></a>&#x3010;Computer Vision&#x3011;</h3><ul>
-<li><progress value="92" max="100"></progress>&#x2003;Learning Opencv</li>
-<li><progress value="96" max="100"></progress>&#x2003;OpenCV.2.Computer.Vision.Application.Programming.Cookbook</li>
-<li><progress value="70" max="100"></progress>&#x2003;&#x7279;&#x5F81;&#x63D0;&#x53D6;&#x4E0E;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
-<li><progress value="45" max="100"></progress>&#x2003;&#x8BA1;&#x7B97;&#x673A;&#x89C6;&#x89C9;&#x2014;&#x2014;&#x7B97;&#x6CD5;&#x4E0E;&#x5E94;&#x7528;</li>
-<li><progress value="85" max="100"></progress>&#x2003;&#x6570;&#x5B57;&#x56FE;&#x50CF;&#x5904;&#x7406;</li>
-</ul>
-<h3 id="&#x3010;Algorithm&#x3011;"><a href="#&#x3010;Algorithm&#x3011;" class="headerlink" title="&#x3010;Algorithm&#x3011;"></a>&#x3010;Algorithm&#x3011;</h3><ul>
-<li><progress value="85" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x5BFC;&#x8BBA;</li>
-<li><progress value="20" max="100"></progress>&#x2003;&#x5177;&#x4F53;&#x6570;&#x5B66;</li>
-<li><progress value="45" max="100"></progress>&#x2003;&#x8FF7;&#x832B;&#x7684;&#x65C5;&#x884C;&#x5546;&#xFF1A;&#x4E00;&#x4E2A;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7B97;&#x6CD5;&#x95EE;&#x9898;</li>
-</ul>
-<h3 id="&#x3010;Compile&#x3011;"><a href="#&#x3010;Compile&#x3011;" class="headerlink" title="&#x3010;Compile&#x3011;"></a>&#x3010;Compile&#x3011;</h3><ul>
-<li><progress value="90" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;</li>
-<li><progress value="35" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x81EA;&#x6211;&#x4FEE;&#x517B;</li>
-<li><progress value="75" max="100"></progress>&#x2003;&#x7F16;&#x8BD1;&#x539F;&#x7406;</li>
-</ul>
-<h3 id="&#x3010;Network&#x3011;"><a href="#&#x3010;Network&#x3011;" class="headerlink" title="&#x3010;Network&#x3011;"></a>&#x3010;Network&#x3011;</h3><ul>
-<li><progress value="70" max="100"></progress>&#x2003;&#x7269;&#x8054;&#x7F51;&#x5BFC;&#x8BBA;(&#x5218;&#x4E91;&#x6D69; &#x7F16;&#x8457;)</li>
-<li><progress value="20" max="100"></progress>&#x2003;Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
-<li><p><progress value="25" max="100"></progress>&#x2003;Nmap&#x626B;&#x63CF;&#x539F;&#x7406;&#x548C;&#x5E94;&#x7528;</p>
-</li>
-<li><p><progress value="30" max="100"></progress>&#x2003;TCP/IP&#x8BE6;&#x89E3;-V3</p>
-</li>
-<li><progress value="30" max="100"></progress>&#x2003;HTTP&#x6743;&#x5A01;&#x6307;&#x5357;</li>
-<li><progress value="10" max="100"></progress>&#x2003;Wireshark&#x7F51;&#x7EDC;&#x5206;&#x6790;</li>
-<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;</li>
-<li><progress value="20" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Nginx</li>
-<li><p><progress value="92" max="100"></progress>&#x2003;&#x540E;&#x53F0;&#x5F00;&#x53D1;:&#x6838;&#x5FC3;&#x6280;&#x672F;&#x4E0E;&#x5E94;&#x7528;&#x5B9E;&#x8DF5;</p>
-</li>
-<li><p><progress value="75" max="100"></progress>&#x2003;Headfirst html + css</p>
-</li>
-</ul>
-<h3 id="&#x3010;Programming&#x3011;"><a href="#&#x3010;Programming&#x3011;" class="headerlink" title="&#x3010;Programming&#x3011;"></a>&#x3010;Programming&#x3011;</h3><ul>
-<li><progress value="35" max="100"></progress>&#x2003;&#x5B66;&#x4E60;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</li>
-<li><progress value="85" max="100"></progress>&#x2003;Effective C++</li>
-<li><progress value="85" max="100"></progress>&#x2003;More Effective C++</li>
-<li><progress value="15" max="100"></progress>&#x2003;Effective Modern C++</li>
-<li><progress value="30" max="100"></progress>&#x2003;Think in C++</li>
-<li><progress value="55" max="100"></progress>&#x2003;Effective STL</li>
-<li><progress value="68" max="100"></progress>&#x2003;STL&#x6E90;&#x4EE3;&#x7801;&#x5206;&#x6790;</li>
-<li><progress value="78" max="100"></progress>&#x2003;&#x6DF1;&#x5EA6;&#x63A2;&#x7D22;C++&#x5BF9;&#x8C61;&#x6A21;&#x578B;</li>
-<li><p><progress value="72" max="100"></progress>&#x2003;C++&#x7F16;&#x7A0B;&#x89C4;&#x8303;101&#x6761;</p>
-</li>
-<li><p><progress value="20" max="100"></progress>&#x2003;Think in Java</p>
-</li>
-<li><progress value="10" max="100"></progress>&#x2003;Effective Java</li>
-<li><p><progress value="15" max="100"></progress>&#x2003;&#x6DF1;&#x5165;&#x7406;&#x89E3;Java&#x865A;&#x62DF;&#x673A;</p>
-</li>
-<li><p><progress value="25" max="100"></progress>&#x2003;Java&#x5E76;&#x53D1;&#x7F16;&#x7A0B;&#x5B9E;&#x6218;</p>
-</li>
-<li><p><progress value="15" max="100"></progress>&#x2003;Haskell&#x8DA3;&#x5B66;&#x6307;&#x5357;</p>
-</li>
-<li><p><progress value="16" max="100"></progress>&#x2003;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7684;&#x6784;&#x9020;&#x548C;&#x89E3;&#x91CA; </p>
-</li>
-<li><p><progress value="40" max="100"></progress>&#x2003;The Awk Programming Language</p>
-</li>
-</ul>
-<h3 id="&#x3010;History-amp-Biography&#x3011;"><a href="#&#x3010;History-amp-Biography&#x3011;" class="headerlink" title="&#x3010;History &amp; Biography&#x3011;"></a>&#x3010;History &amp; Biography&#x3011;</h3><ul>
-<li><progress value="100" max="100"></progress>&#x2003;&#x6D6A;&#x6F6E;&#x4E4B;&#x5DC5;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x5B66;&#x4E4B;&#x8DEF;</li>
-<li><progress value="95" max="100"></progress>&#x2003;&#x4FE1;&#x606F;&#x7B80;&#x53F2;</li>
-<li><progress value="15" max="100"></progress>&#x2003;&#x65F6;&#x95F4;&#x7B80;&#x53F2;</li>
-<li><progress value="70" max="100"></progress>&#x2003;&#x4E07;&#x7269;&#x7B80;&#x53F2;</li>
-<li><progress value="45" max="100"></progress>&#x2003;&#x6587;&#x660E;&#x4E4B;&#x5149;</li>
-<li><p><progress value="50" max="100"></progress>&#x2003;&#x667A;&#x80FD;&#x65F6;&#x4EE3; </p>
-</li>
-<li><p><progress value="100" max="100"></progress>&#x2003;Just For Fun</p>
-</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x5927;&#x6559;&#x5802;&#x4E0E;&#x5E02;&#x96C6;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x9ED1;&#x5BA2;&#x4E0E;&#x753B;&#x5BB6;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x4ECE;0&#x5230;1</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x8F6F;&#x4EF6;&#x968F;&#x60F3;&#x5F55;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x589E;&#x957F;&#x9ED1;&#x5BA2;</li>
-<li><p><progress value="5" max="100"></progress>&#x2003;&#x7279;&#x65AF;&#x62C9;&#x56DE;&#x5FC6;&#x5F55;</p>
-</li>
-<li><p><progress value="100" max="100"></progress>&#x2003;&#x6C11;&#x56FD;&#x98CE;&#x5EA6;</p>
-</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x4E2D;&#x56FD;&#x8FD1;&#x4EE3;&#x53F2;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x4E2D;&#x534E;&#x53F2;</li>
-<li><progress value="30" max="100"></progress>&#x2003;&#x7EA2;&#x592A;&#x9633;&#x662F;&#x600E;&#x6837;&#x5347;&#x8D77;&#x7684;</li>
-<li><p><progress value="30" max="100"></progress>&#x2003;&#x5E90;&#x5C71;&#x4F1A;&#x8BAE;&#x5B9E;&#x5F55;</p>
-</li>
-<li><p><progress value="3" max="100"></progress>&#x2003;&#x5168;&#x7403;&#x901A;&#x53F2;</p>
-</li>
-<li><p><progress value="3" max="100"></progress>&#x2003;&#x6781;&#x7B80;&#x6B27;&#x6D32;&#x53F2;</p>
-</li>
-<li><p><progress value="100" max="100"></progress>&#x2003;&#x8DB3;&#x7403;&#x6839;&#x672C;&#x4E0D;&#x662F;&#x5706;&#x7684;</p>
-</li>
-</ul>
-<h3 id="&#x3010;Thinking&#x3011;"><a href="#&#x3010;Thinking&#x3011;" class="headerlink" title="&#x3010;Thinking&#x3011;"></a>&#x3010;Thinking&#x3011;</h3><ul>
-<li><progress value="100" max="100"></progress>&#x2003;&#x4EBA;&#x6708;&#x795E;&#x8BDD;</li>
-<li><progress value="95" max="100"></progress>&#x2003;&#x6570;&#x5B66;&#x4E4B;&#x7F8E;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x7F16;&#x5199;&#x53EF;&#x8BFB;&#x4EE3;&#x7801;&#x7684;&#x827A;&#x672F;</li>
-<li><p><progress value="92" max="100"></progress>&#x2003;&#x6697;&#x65F6;&#x95F4;</p>
-</li>
-<li><p><progress value="15" max="100"></progress>&#x2003;&#x8BBE;&#x8BA1;&#x539F;&#x672C;</p>
-</li>
-<li><progress value="50" max="100"></progress>&#x2003;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x53EF;&#x590D;&#x7528;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8F6F;&#x4EF6;&#x7684;&#x57FA;&#x7840;</li>
-<li><progress value="18" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x601D;&#x7EF4;&#x4FEE;&#x70BC;&#xFF1A;&#x5F00;&#x53D1;&#x8BA4;&#x77E5;&#x6F5C;&#x80FD;&#x7684;&#x4E5D;&#x5802;&#x8BFE;</li>
-<li><progress value="20" max="100"></progress>&#x2003;&#x9AD8;&#x6548;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x56DB;&#x5341;&#x4E94;&#x4E2A;&#x4E60;&#x60EF;&#xFF1A;&#x654F;&#x6377;&#x5F00;&#x53D1;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;</li>
-<li><p><progress value="10" max="100"></progress>&#x2003;&#x7A0B;&#x5E8F;&#x5458;&#x4FEE;&#x70BC;&#x4E4B;&#x9053;-&#x4E13;&#x4E1A;&#x7A0B;&#x5E8F;&#x5458;&#x5FC5;&#x77E5;&#x7684;33&#x4E2A;&#x6280;&#x5DE7;</p>
-</li>
-<li><p><progress value="14" max="100"></progress>&#x2003;&#x6784;&#x5EFA;&#x4E4B;&#x6CD5;&#xFF1A;&#x73B0;&#x4EE3;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;</p>
-</li>
-<li><p><progress value="20" max="100"></progress>&#x2003;&#x7F16;&#x7801;&#xFF1A;&#x9690;&#x533F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x80CC;&#x540E;&#x7684;&#x8BED;&#x8A00;</p>
-</li>
-<li><p><progress value="95" max="100"></progress>&#x2003;&#x4EE3;&#x7801;&#x6574;&#x6D01;&#x4E4B;&#x9053;    </p>
-</li>
-<li><p><progress value="10" max="100"></progress>&#x2003;&#x4EE3;&#x7801;&#x5927;&#x5168;</p>
-</li>
-<li><p><progress value="100" max="100"></progress>&#x2003;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5FC3;&#x667A;: &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E4B;&#x54F2;&#x5B66;&#x539F;&#x7406;</p>
-</li>
-<li><p><progress value="100" max="100"></progress>&#x2003;C&#x9677;&#x9631;&#x4E0E;&#x7F3A;&#x9677;</p>
-</li>
-<li><p><progress value="40" max="100"></progress>&#x2003;Unix&#x7F16;&#x7A0B;&#x827A;&#x672F;  </p>
-</li>
-<li><progress value="30" max="100"></progress>&#x2003;&#x903B;&#x8F91;&#x7684;&#x5F15;&#x64CE;</li>
-<li><progress value="35" max="100"></progress>&#x2003;&#x54E5;&#x5FB7;&#x5C14; &#x57C3;&#x820D;&#x5C14; &#x5DF4;&#x8D6B;&#x2014;&#x2014;&#x96C6;&#x5F02;&#x74A7;&#x4E4B;&#x5927;&#x6210;</li>
-<li><progress value="5" max="100"></progress>&#x2003;&#x521B;&#x4E1A;&#x7EF4;&#x8270;</li>
-<li><progress value="75" max="100"></progress>&#x2003;&#x56DA;&#x5F92;&#x7684;&#x56F0;&#x5883;-&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;,&#x535A;&#x5F08;&#x8BBA;&#x548C;&#x539F;&#x5B50;&#x5F39;&#x4E4B;&#x8C1C;</li>
-<li><progress value="2" max="100"></progress>&#x2003;&#x8D28;&#x6570;&#x7684;&#x5B64;&#x72EC;</li>
-</ul>
-<h3 id="&#x3010;Hacker&#x3011;"><a href="#&#x3010;Hacker&#x3011;" class="headerlink" title="&#x3010;Hacker&#x3011;"></a>&#x3010;Hacker&#x3011;</h3><ul>
-<li><progress value="20" max="100"></progress>&#x2003;&#x7070;&#x5E3D;&#x9ED1;&#x5BA2;</li>
-<li><progress value="30" max="100"></progress>&#x2003;&#x6B3A;&#x9A97;&#x7684;&#x827A;&#x672F;</li>
-<li><progress value="10" max="100"></progress>&#x2003;web&#x4E4B;&#x56F0;&#xFF1A;&#x73B0;&#x4EE3;web&#x5E94;&#x7528;&#x5B89;&#x5168;&#x6307;&#x5357;</li>
-<li><progress value="5" max="100"></progress>&#x2003;web&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#xFF1A;&#x4F7F;&#x7528;Kali Linux</li>
-<li><progress value="10" max="100"></progress>&#x2003;&#x9ED1;&#x5BA2;&#x6280;&#x672F;&#x653B;&#x9632;&#x5B9D;&#x5178;&#xFF1A;web&#x5B9E;&#x6218;&#x7BC7;</li>
-<li><p><progress value="10" max="100"></progress>&#x2003;&#x767D;&#x5E3D;&#x5B50;&#x8BB2;web&#x5B89;&#x5168;</p>
-</li>
-<li><p><progress value="5" max="100"></progress>&#x2003;Metasploit&#x6E17;&#x900F;&#x6D4B;&#x8BD5;&#x9B54;&#x9B3C;&#x8BAD;&#x7EC3;&#x8425;</p>
-</li>
-</ul>
-<h3 id="&#x3010;Trick&#x3011;"><a href="#&#x3010;Trick&#x3011;" class="headerlink" title="&#x3010;Trick&#x3011;"></a>&#x3010;Trick&#x3011;</h3><ul>
-<li><progress value="96" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;</li>
-<li><progress value="88" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x4E4B;&#x7F8E;</li>
-<li><progress value="93" max="100"></progress>&#x2003;&#x5251;&#x6307;Offer</li>
-<li><progress value="50" max="100"></progress>&#x2003;&#x7F16;&#x7A0B;&#x73E0;&#x7391;&#xFF08;&#x7EED;&#xFF09;</li>
-<li><progress value="60" max="100"></progress>&#x2003;&#x7B97;&#x6CD5;&#x8C1C;&#x9898;</li>
-</ul>
-<h3 id="&#x3010;Psychology&#x3011;"><a href="#&#x3010;Psychology&#x3011;" class="headerlink" title="&#x3010;Psychology&#x3011;"></a>&#x3010;Psychology&#x3011;</h3><ul>
-<li><progress value="100" max="100"></progress>&#x2003;&#x5F71;&#x54CD;&#x529B;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x610F;&#x5FD7;&#x529B;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x81EA;&#x63A7;&#x529B;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x4E60;&#x60EF;&#x7684;&#x529B;&#x91CF;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x60C5;&#x5546;</li>
-<li><progress value="35" max="100"></progress>&#x2003;&#x63D0;&#x95EE;&#x7684;&#x827A;&#x672F;</li>
-<li><progress value="30" max="100"></progress>&#x2003;&#x601D;&#x8003;&#x7684;&#x827A;&#x672F;</li>
-<li><progress value="15" max="100"></progress>&#x2003;&#x4EBA;&#x6027;&#x7684;&#x5F31;&#x70B9;</li>
-</ul>
-<h3 id="&#x3010;Novel&#x3011;"><a href="#&#x3010;Novel&#x3011;" class="headerlink" title="&#x3010;Novel&#x3011;"></a>&#x3010;Novel&#x3011;</h3><ul>
-<li><progress value="93" max="100"></progress>&#x2003;&#x96CD;&#x6B63;&#x5251;&#x4FA0;&#x56FE;&#x5341;&#x4E09;&#x90E8;</li>
-<li><progress value="100" max="100"></progress>&#x2003;&#x9EC4;&#x91D1;&#x65F6;&#x4EE3;</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[OpenCV3.0-RealSense-Configuration]]></title>
-      <url>http://idler1229.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/CV/OpenCV3-0-RealSense-Configuration/</url>
       <content type="html"><![CDATA[<h2 id="1-Configure-RealSense"><a href="#1-Configure-RealSense" class="headerlink" title="1. Configure RealSense"></a>1. Configure RealSense</h2><h3 id="Install-the-driver-of-RealSense-F200-R200"><a href="#Install-the-driver-of-RealSense-F200-R200" class="headerlink" title="Install the driver of RealSense F200/R200"></a>Install the driver of RealSense F200/R200</h3><pre><code>EX:   
     intel_rs_dcm_f200_1.4.27.41944.exe
     intel_rs_dcm_r200_2.0.3.39488.exe
@@ -1584,13 +1610,13 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[Gedit Garbled]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Gedit-gibberish-onscreen/</url>
       <content type="html"><![CDATA[<h2 id="Gedit-Garbled"><a href="#Gedit-Garbled" class="headerlink" title="Gedit Garbled"></a>Gedit Garbled</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gsettings set org.gnome.gedit.preferences.encodings auto-detected &quot;[&apos;GB18030&apos;, &apos;GB2312&apos;, &apos;GBK&apos;, &apos;UTF-8&apos;, &apos;BIG5&apos;, &apos;CURRENT&apos;, &apos;UTF-16&apos;]&quot;</span><br><span class="line"></span><br><span class="line">gsettings set org.gnome.gedit.preferences.encodings shown-in-menu  &quot;[&apos;GB18030&apos;, &apos;GB2312&apos;, &apos;GBK&apos;, &apos;UTF-8&apos;, &apos;BIG5&apos;, &apos;CURRENT&apos;, &apos;UTF-16&apos;]&quot;</span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Configure JDK on Linux]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Programming/JAVA/Configure-JDK-on-Linux/</url>
       <content type="html"><![CDATA[<h2 id="Configure-JDK"><a href="#Configure-JDK" class="headerlink" title="Configure JDK"></a>Configure JDK</h2><h3 id="Decompression-JDK-to"><a href="#Decompression-JDK-to" class="headerlink" title="Decompression JDK to"></a>Decompression JDK to</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/lib/jvm</span><br></pre></td></tr></table></figure>
 <h3 id="See-if-there-is-other-optional-Java"><a href="#See-if-there-is-other-optional-Java" class="headerlink" title="See if there is other optional Java"></a>See if there is other optional Java</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-alternatives --list java</span><br></pre></td></tr></table></figure>
 <h3 id="Configure-environment-varible&#xFF1A;"><a href="#Configure-environment-varible&#xFF1A;" class="headerlink" title="Configure environment varible&#xFF1A;"></a>Configure environment varible&#xFF1A;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit ~/.bashrc</span><br><span class="line"><span class="comment">## copy and paste </span></span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/lib/jvm/jdk1.7.0_55   </span><br><span class="line"><span class="built_in">export</span> JRE_HOME=<span class="variable">${JAVA_HOME}</span>/jre  </span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.:{JRE_HOME}/lib  </span><br><span class="line"><span class="built_in">export</span> PATH=PATH</span><br></pre></td></tr></table></figure>
@@ -1599,7 +1625,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[Linux Add Fonts]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Linux-Add-Fonts/</url>
       <content type="html"><![CDATA[<h2 id="Add-fonts-on-Linux"><a href="#Add-fonts-on-Linux" class="headerlink" title="Add fonts on Linux"></a>Add fonts on Linux</h2><h3 id="Step-1&#xFF1A;"><a href="#Step-1&#xFF1A;" class="headerlink" title="Step 1&#xFF1A;"></a>Step 1&#xFF1A;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Copy and  authorize</span></span><br><span class="line">sudo cp <span class="variable">$fontspath</span> /usr/share/fonts/</span><br><span class="line">sudo chmod u+rwx /usr/share/fonts/xpfonts/*</span><br></pre></td></tr></table></figure>
 <h3 id="Step-2&#xFF1A;"><a href="#Step-2&#xFF1A;" class="headerlink" title="Step 2&#xFF1A;"></a>Step 2&#xFF1A;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Make font cache</span></span><br><span class="line"><span class="built_in">cd</span> /usr/share/fonts/xpfonts</span><br><span class="line">sudo mkfontscale</span><br><span class="line">sudo mkfontdir</span><br><span class="line">sudo <span class="built_in">fc</span>-cache -fv</span><br></pre></td></tr></table></figure>
 <h3 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3:"></a>Step 3:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>]]></content>
@@ -1607,7 +1633,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[C Trick]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Programming/C/C-Trick/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Programming/C/C-Trick/</url>
       <content type="html"><![CDATA[<h2 id="C-Trick"><a href="#C-Trick" class="headerlink" title="C Trick"></a>C Trick</h2><h3 id="BASIC"><a href="#BASIC" class="headerlink" title="BASIC"></a>BASIC</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">scanf( &quot;%[^\n]&quot;, str );     &#x56DE;&#x8F66;&#x624D;&#x8FD4;&#x56DE;</span><br><span class="line">printf&#x4E2D; %zu &#x53EF;&#x8F93;&#x51FA;size_t&#x7C7B;&#x578B;&#x4E14;&#x4E0D;&#x62A5;&#x8B66;&#x544A;</span><br></pre></td></tr></table></figure>
 <hr>
 <p>&#x5E95;&#x5C42;&#x662F;&#x6307;&#x9488;&#x5B9E;&#x73B0;<br>a[5] == 5[a];<br>&#x201C;ABCD&#x201D;[2] == 2[&#x201C;ABCD&#x201D;] == &#x2018;C&#x2019;;<br>&#x76F8;&#x5F53;&#x4E8E;<em>(a + 5) == </em>(5 + a)</p>
@@ -1638,7 +1664,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[C++ Trick]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Programming/C++/CPP-Trick/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Programming/C++/CPP-Trick/</url>
       <content type="html"><![CDATA[<h2 id="C-Trick"><a href="#C-Trick" class="headerlink" title="C++ Trick"></a>C++ Trick</h2><p>1.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">C++ 11</span><br><span class="line">std::to_string() &#x8981; g++ -std=c++11</span><br><span class="line">g++ -std=c++11 -w file.cpp -o file  &#x4F7F;&#x7528;c++11&#x6807;&#x51C6;&#xFF0C;&#x5E76;&#x4E14;&#x5FFD;&#x7565;&#x6240;&#x6709;&#x8B66;&#x544A;</span><br></pre></td></tr></table></figure></p>
 <p>2.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x6709;&#x4EBA;&#x4E5F;&#x8BB8;&#x4EE5;&#x4E3A;i++&#x6216;&#x8005;++i&#x7684;&#x6548;&#x7387;&#x6BD4;&#x62C6;&#x5F00;&#x4E4B;&#x540E;&#x8981;&#x9AD8;&#xFF0C;&#x8FD9;&#x53EA;&#x662F;&#x4E00;&#x79CD;&#x9519;&#x89C9;&#x3002;&#x8FD9;&#x4E9B;&#x4EE3;&#x7801;&#x7ECF;&#x8FC7;&#x57FA;&#x672C;&#x7684;&#x7F16;&#x8BD1;&#x5668;&#x4F18;&#x5316;&#x4E4B;&#x540E;&#xFF0C;&#x751F;&#x6210;&#x7684;&#x673A;&#x5668;&#x4EE3;&#x7801;&#x662F;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x533A;&#x522B;&#x7684;&#x3002;&#x81EA;&#x589E;&#x51CF;&#x8868;&#x8FBE;&#x5F0F;&#x53EA;&#x6709;&#x5728;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x624D;&#x53EF;&#x4EE5;&#x5B89;&#x5168;&#x7684;&#x4F7F;&#x7528;&#x3002;&#x4E00;&#x79CD;&#x662F;&#x5728;for&#x5FAA;&#x73AF;&#x7684;update&#x90E8;&#x5206;&#xFF0C;&#x6BD4;&#x5982;for(int i = 0; i &lt; 5; i++)&#x3002;&#x53E6;&#x4E00;&#x79CD;&#x60C5;&#x51B5;&#x662F;&#x5199;&#x6210;&#x5355;&#x72EC;&#x7684;&#x4E00;&#x884C;&#xFF0C;&#x6BD4;&#x5982;i++;&#x3002;&#x8FD9;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#x662F;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x6B67;&#x4E49;&#x7684;&#x3002;&#x4F60;&#x9700;&#x8981;&#x907F;&#x514D;&#x5176;&#x5B83;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x6BD4;&#x5982;&#x7528;&#x5728;&#x590D;&#x6742;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x91CC;&#x9762;&#xFF0C;&#x6BD4;&#x5982;foo(i++)&#xFF0C;foo(++i) + foo(i)&#xFF0C;&#x2026;&#x2026; &#x6CA1;&#x6709;&#x4EBA;&#x5E94;&#x8BE5;&#x77E5;&#x9053;&#xFF0C;&#x6216;&#x8005;&#x53BB;&#x8FFD;&#x7A76;&#x8FD9;&#x4E9B;&#x662F;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#x3002;</span><br></pre></td></tr></table></figure></p>
 <p>3.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x6709;&#x4EBA;&#x53EF;&#x80FD;&#x4F1A;&#x8BF4;&#xFF0C;&#x5168;&#x90FD;&#x6253;&#x4E0A;&#x82B1;&#x62EC;&#x53F7;&#xFF0C;&#x53EA;&#x6709;&#x4E00;&#x53E5;&#x8BDD;&#x4E5F;&#x6253;&#x4E0A;&#xFF0C;&#x591A;&#x788D;&#x773C;&#x554A;&#xFF1F;&#x7136;&#x800C;&#x7ECF;&#x8FC7;&#x5B9E;&#x884C;&#x8FD9;&#x79CD;&#x7F16;&#x7801;&#x89C4;&#x8303;&#x51E0;&#x5E74;&#x4E4B;&#x540E;&#xFF0C;&#x6211;&#x5E76;&#x6CA1;&#x6709;&#x53D1;&#x73B0;&#x8FD9;&#x79CD;&#x5199;&#x6CD5;&#x66F4;&#x52A0;&#x788D;&#x773C;&#xFF0C;&#x53CD;&#x800C;&#x7531;&#x4E8E;&#x82B1;&#x62EC;&#x53F7;&#x7684;&#x5B58;&#x5728;&#xFF0C;&#x4F7F;&#x5F97;&#x4EE3;&#x7801;&#x754C;&#x9650;&#x660E;&#x786E;&#xFF0C;&#x8BA9;&#x6211;&#x7684;&#x773C;&#x775B;&#x8D1F;&#x62C5;&#x66F4;&#x5C0F;&#x4E86;&#x3002;</span><br></pre></td></tr></table></figure></p>
@@ -1651,7 +1677,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[Laptop cannot wakeup]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/Laptop-cannot-wakeup/</url>
       <content type="html"><![CDATA[<p>##ubuntu&#x6302;&#x8D77;&#x540E;&#x4E0D;&#x80FD;&#x5524;&#x9192;&#x89E3;&#x51B3;</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##&#x5B89;&#x88C5;pm-utils  </span></span><br><span class="line">sudo apt-get install pm-utils  </span><br><span class="line"><span class="comment">##&#x5B89;&#x88C5;laptop-mode-tools</span></span><br><span class="line">sudo apt-get install laptop-mode-tools </span><br><span class="line"><span class="comment">##&#x67E5;&#x770B;&#x662F;&#x5426;&#x542F;&#x52A8;laptop_mode</span></span><br><span class="line">cat /proc/sys/vm/laptop_mode <span class="comment">#&#x5982;&#x679C;&#x663E;&#x793A;&#x7ED3;&#x679C;&#x4E3A;0&#xFF0C;&#x5219;&#x8868;&#x793A;&#x672A;&#x542F;&#x52A8;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##&#x89E3;&#x51B3;&#x65B9;&#x6848;</span></span><br><span class="line">&#x66F4;&#x6539;/etc/default/acpi-support&#x4E2D;ENABLE_LAPTOP_MODE=<span class="literal">true</span> </span><br><span class="line">sudo gedit /etc/default/acpi-support </span><br><span class="line"><span class="comment">##&#x60F3;&#x542F;&#x52A8;laptop_mode&#x6A21;&#x5F0F;</span></span><br><span class="line">sudo laptop_mode start</span><br></pre></td></tr></table></figure>
 ]]></content>
@@ -1659,21 +1685,21 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[Split Screen]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Software/Split-Screen/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Software/Split-Screen/</url>
       <content type="html"><![CDATA[<h2 id="&#x4F7F;&#x7528;-wmctrl-&#x548C;&#x4E00;&#x6BB5;&#x811A;&#x672C;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x57FA;&#x672C;&#x7684;&#x5C4F;&#x5E55;&#x5BF9;&#x5207;&#x7684;&#x529F;&#x80FD;"><a href="#&#x4F7F;&#x7528;-wmctrl-&#x548C;&#x4E00;&#x6BB5;&#x811A;&#x672C;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x57FA;&#x672C;&#x7684;&#x5C4F;&#x5E55;&#x5BF9;&#x5207;&#x7684;&#x529F;&#x80FD;" class="headerlink" title="&#x4F7F;&#x7528; wmctrl &#x548C;&#x4E00;&#x6BB5;&#x811A;&#x672C;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x57FA;&#x672C;&#x7684;&#x5C4F;&#x5E55;&#x5BF9;&#x5207;&#x7684;&#x529F;&#x80FD;:"></a>&#x4F7F;&#x7528; wmctrl &#x548C;&#x4E00;&#x6BB5;&#x811A;&#x672C;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x57FA;&#x672C;&#x7684;&#x5C4F;&#x5E55;&#x5BF9;&#x5207;&#x7684;&#x529F;&#x80FD;:</h2><h3 id="&#x5B89;&#x88C5;-wmctrl"><a href="#&#x5B89;&#x88C5;-wmctrl" class="headerlink" title="&#x5B89;&#x88C5; wmctrl"></a>&#x5B89;&#x88C5; wmctrl</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install wmctrl</span><br></pre></td></tr></table></figure>
 <h3 id="&#x5B89;&#x88C5;-shell-&#x811A;&#x672C;"><a href="#&#x5B89;&#x88C5;-shell-&#x811A;&#x672C;" class="headerlink" title="&#x5B89;&#x88C5; shell &#x811A;&#x672C;"></a>&#x5B89;&#x88C5; shell &#x811A;&#x672C;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"><span class="built_in">set</span> -- $(xwininfo -root| awk -F <span class="string">&apos;[ :]+&apos;</span> <span class="string">&apos;/ (Width|Height):/ { print $3 }&apos;</span>)</span><br><span class="line">width=<span class="variable">$1</span></span><br><span class="line">height=<span class="variable">$2</span></span><br><span class="line">win1=$(xwininfo| awk <span class="string">&apos;/^xwininfo: W/ { print $4 }&apos;</span>)</span><br><span class="line">win2=$(xwininfo| awk <span class="string">&apos;/^xwininfo: W/ { print $4 }&apos;</span>)</span><br><span class="line">wmctrl -i -r <span class="variable">$win1</span> <span class="_">-e</span> 0,0,0,$((width/2)),<span class="variable">$height</span></span><br><span class="line">wmctrl -i -r <span class="variable">$win2</span> <span class="_">-e</span> 0,$((width/2)),0,$((width/2)),<span class="variable">$height</span></span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Take A Break]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Software/Take-a-Break/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Software/Take-a-Break/</url>
       <content type="html"><![CDATA[<p>&#x7528;&#x7535;&#x8111;&#x5DE5;&#x4F5C;&#x65F6;&#x5E94;&#x9002;&#x5F53;&#x4F11;&#x606F;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x4EBA;&#x90FD;&#x4E0D;&#x662F;&#x81EA;&#x89C9;&#x201C;&#x4F11;&#x606F;&#x201D;&#x3002;&#x73B0;&#x5728;&#x6709;&#x4E00;&#x4E2A;&#x6B3E;&#x8F6F;&#x4EF6;&#x53EF;&#x5E2E;&#x52A9;&#x4F60;&#x2014;&#x2014;&#x201C;Take a Break&#x201D;&#xFF0C;&#x8F6F;&#x4EF6;&#x63D0;&#x4F9B;&#x8BBE;&#x7F6E;&#x5DE5;&#x4F5C;&#x65F6;&#x95F4;&#x548C;&#x4F11;&#x606F;&#x65F6;&#x95F4;&#xFF0C;&#x4EE5;&#x53CA;&#x4E0D;&#x540C;&#x4EFB;&#x52A1;&#x671F;&#x95F4;&#x663E;&#x793A;&#x7684;&#x6548;&#x679C;&#xFF0C;&#x5982;&#x5728;&#x4F11;&#x606F;&#x65F6;&#x8BA9;&#x7535;&#x8111;&#x8FDB;&#x5165;&#x9501;&#x5C4F;&#x6A21;&#x5F0F;&#x3002; PPA:vlijm/takeabreak&#xFF0C;update&#x540E;&#x201D;sudo apt-get install takeabreak&#x201D;</p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[What the fuck on Ubuntu]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Solution/What-the-fuck-on-Ubuntu/</url>
       <content type="html"><![CDATA[<h2 id="&#x5751;&#x7239;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;"><a href="#&#x5751;&#x7239;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;" class="headerlink" title="&#x5751;&#x7239;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;"></a>&#x5751;&#x7239;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;</h2><h3 id="&#x5DE6;&#x4E0A;&#x89D2;&#x201D;&#x7F51;&#x7EDC;&#x201D;&#x56FE;&#x6807;&#x4E0D;&#x89C1;"><a href="#&#x5DE6;&#x4E0A;&#x89D2;&#x201D;&#x7F51;&#x7EDC;&#x201D;&#x56FE;&#x6807;&#x4E0D;&#x89C1;" class="headerlink" title="&#x5DE6;&#x4E0A;&#x89D2;&#x201D;&#x7F51;&#x7EDC;&#x201D;&#x56FE;&#x6807;&#x4E0D;&#x89C1;"></a>&#x5DE6;&#x4E0A;&#x89D2;&#x201D;&#x7F51;&#x7EDC;&#x201D;&#x56FE;&#x6807;&#x4E0D;&#x89C1;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install indicator-applet</span><br><span class="line">sudo apt-get install network-manager-gnome</span><br><span class="line">sudo killall unity-panel-service <span class="comment">#&#x91CD;&#x542F;&#x663E;&#x793A;&#x680F;</span></span><br></pre></td></tr></table></figure>
 <h3 id="&#x5F00;&#x673A;&#x7981;&#x6B62;&#x84DD;&#x7259;&#x542F;&#x52A8;"><a href="#&#x5F00;&#x673A;&#x7981;&#x6B62;&#x84DD;&#x7259;&#x542F;&#x52A8;" class="headerlink" title="&#x5F00;&#x673A;&#x7981;&#x6B62;&#x84DD;&#x7259;&#x542F;&#x52A8;"></a>&#x5F00;&#x673A;&#x7981;&#x6B62;&#x84DD;&#x7259;&#x542F;&#x52A8;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/rc.local &#x4E2D;&#x52A0;&#x5165; rfkill block bluetooth</span><br></pre></td></tr></table></figure>
 <h3 id="&#x7981;&#x6B62;&#x79FB;&#x52A8;&#x8BBE;&#x5907;&#x81EA;&#x52A8;&#x5F39;&#x51FA;"><a href="#&#x7981;&#x6B62;&#x79FB;&#x52A8;&#x8BBE;&#x5907;&#x81EA;&#x52A8;&#x5F39;&#x51FA;" class="headerlink" title="&#x7981;&#x6B62;&#x79FB;&#x52A8;&#x8BBE;&#x5907;&#x81EA;&#x52A8;&#x5F39;&#x51FA;"></a>&#x7981;&#x6B62;&#x79FB;&#x52A8;&#x8BBE;&#x5907;&#x81EA;&#x52A8;&#x5F39;&#x51FA;</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system-setting &#x91CC; detail&#x53EF;&#x4EE5;&#x7981;&#x6B62;, &#x53E6;&#x5916;&#x5728;safe&amp;privacy&#x91CC;&#x53EF;&#x4EE5;&#x6E05;&#x9664;&#x7F13;&#x5B58;</span><br></pre></td></tr></table></figure>
@@ -1694,7 +1720,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[Linux Command Miscellaneous]]></title>
-      <url>http://idler1229.github.io/2016/04/26/Linux/Shell/Linux-cmd/</url>
+      <url>http://Ext4FAT.github.io/2016/04/26/Linux/Shell/Linux-cmd/</url>
       <content type="html"><![CDATA[<h2 id="&#x5E38;&#x7528;&#x547D;&#x4EE4;"><a href="#&#x5E38;&#x7528;&#x547D;&#x4EE4;" class="headerlink" title="&#x5E38;&#x7528;&#x547D;&#x4EE4;"></a>&#x5E38;&#x7528;&#x547D;&#x4EE4;</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##&#x6CE8;&#xFF1A;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x7B49;&#x53F7;&#x4E0D;&#x80FD;&#x542B;&#x7A7A;&#x683C;</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$command</span> 3&gt;&amp;1 1&gt;&amp;2 2&gt;&amp;3 &#x4EA4;&#x6362;stdout&#x548C; stderr</span><br><span class="line"></span><br><span class="line">cat -n file  or cat -b file    <span class="comment">#&#x663E;&#x793A;&#x6587;&#x4EF6;&#x6587;&#x4EF6;&#x65F6;&#x5019;&#x5E26;&#x4E0A;&#x884C;&#x53F7;</span></span><br><span class="line"></span><br><span class="line">cp --backup=t source.file target.file <span class="comment">#&#x590D;&#x5236;&#x65F6;&#x4E0D;&#x8986;&#x76D6;</span></span><br><span class="line"></span><br><span class="line">find -printf <span class="string">&quot;%C@ %p\n&quot;</span>|sort <span class="comment">#&#x67E5;&#x627E;&#x6587;&#x4EF6;&#x5E76;&#x4E14;&#x6309;&#x7167;&#x4FEE;&#x6539;&#x65F6;&#x95F4;&#x8FDB;&#x884C;&#x6392;&#x5E8F;</span></span><br><span class="line"></span><br><span class="line">find . -print -exec chmod 777 {} \;    <span class="comment">#&#x9012;&#x5F52;&#x4FEE;&#x6539;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x6743;&#x9650;&#x4E3A;777</span></span><br><span class="line"><span class="variable">$command</span> 3&gt;&amp;1 1&gt;&amp;2 2&gt;&amp;3 &#x4EA4;&#x6362;stdout&#x548C; stderr</span><br><span class="line">lshw -C display    <span class="comment">#&#x83B7;&#x53D6;&#x56FE;&#x5F62;&#x82AF;&#x7247;&#x4FE1;&#x606F;</span></span><br><span class="line"></span><br><span class="line">lsusb <span class="_">-d</span> &#x4EA7;&#x54C1;ID -v     <span class="comment">#&#x67E5;&#x770B;&#x786C;&#x4EF6;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;</span></span><br><span class="line">lsusb <span class="_">-s</span> devnum -v    </span><br><span class="line"></span><br><span class="line">find -type l -xtype d     <span class="comment">#&#x5BFB;&#x627E;&#x6240;&#x6709;&#x6307;&#x5411;&#x76EE;&#x5F55;&#x7684;&#x8F6F;link                        </span></span><br><span class="line"></span><br><span class="line">find /path/to/dir -type f | grep -o <span class="string">&apos;\.[^./]*$&apos;</span> | sort | uniq     <span class="comment">#&#x5217;&#x51FA;&#x76EE;&#x5F55;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x6269;&#x5C55;&#x540D;                        </span></span><br><span class="line"></span><br><span class="line">du -h /path | sort -h     <span class="comment">#&#x67E5;&#x770B;&#x6240;&#x6709;&#x76EE;&#x5F55;&#x5927;&#x5C0F;</span></span><br><span class="line"></span><br><span class="line">du <span class="_">-d</span> /path     <span class="comment">#&#x67E5;&#x770B;path&#x76EE;&#x5F55;&#x7684;&#x5360;&#x7528;&#x7A7A;&#x95F4;&#x5927;&#x5C0F;</span></span><br><span class="line"></span><br><span class="line">free -m | awk <span class="string">&apos;/cache:/ { printf(&quot;%d%\n&quot;,$3/($3+$4)*100)}&apos;</span> &#x7A7A;&#x95F2;&#x5185;&#x5B58;&#x767E;&#x5206;&#x6BD4;</span><br><span class="line"></span><br><span class="line">pgrep <span class="_">-f</span> <span class="string">&apos;process.*argument.*&apos;</span>     <span class="comment">#&#x6839;&#x636E;&#x540D;&#x79F0;&#x548C;&#x53C2;&#x6570;&#x83B7;&#x53D6;&#x8FDB;&#x7A0B;id  </span></span><br><span class="line"></span><br><span class="line">ps -p $$ <span class="comment">#&#x663E;&#x793A;&#x81EA;&#x5DF1;&#x5728;&#x90A3;&#x4E2A;shell&#x4E0A;     </span></span><br><span class="line"></span><br><span class="line">ps auxf <span class="comment">#&#x5E26;&#x7236;&#x5B50;&#x8FDB;&#x7A0B;&#x6811;&#x7684;ps&#x8F93;&#x51FA;</span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&apos;pattern&apos;</span>| xargs du -hc <span class="comment">#&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;&#x603B;&#x548C;</span></span><br><span class="line"></span><br><span class="line">find . -mtime +30 -exec mv {} old/ \;     <span class="comment">#&#x628A;30&#x5929;&#x524D;&#x4FEE;&#x6539;&#x7684;&#x6587;&#x4EF6;&#x79FB;&#x52A8;&#x5230; old &#x76EE;&#x5F55;     </span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&quot;*.cpp&quot;</span> |xargs cat|wc <span class="_">-l</span> <span class="comment">#&#x5F53;&#x524D;&#x76EE;&#x5F55;cpp&#x6E90;&#x6587;&#x4EF6;&#x4EE3;&#x7801;&#x884C;&#x6570;</span></span><br><span class="line"></span><br><span class="line">find . -name <span class="string">&quot;*.cpp&quot;</span>|xargs cat|grep -v ^$|wc <span class="_">-l</span> <span class="comment">#&#x5F53;&#x524D;&#x76EE;&#x5F55;cpp&#x6E90;&#x6587;&#x4EF6;&#x975E;&#x7A7A;&#x884C;&#x4EE3;&#x7801;&#x6570;</span></span><br><span class="line"></span><br><span class="line">find . -type f -name <span class="string">&apos;*.pm&apos;</span> -printf <span class="string">&apos;%6s %p\n&apos;</span> | sort -nr | head -n 50     <span class="comment">#&#x5217;&#x51FA;50&#x4E2A;&#x5927;&#x6587;&#x4EF6; </span></span><br><span class="line"></span><br><span class="line">find -iname \*.pdf -print0 | xargs -0 pdfgrep -i <span class="string">&quot;my search text&quot;</span>     <span class="comment">#&#x5728;pdf&#x4E2D;&#x67E5;&#x627E; </span></span><br><span class="line"></span><br><span class="line">pwdx pid     <span class="comment">#&#x663E;&#x793A;&#x8FDB;&#x7A0B;&#x7684;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55; </span></span><br><span class="line"></span><br><span class="line">ps -ef | grep [f]oo | awk <span class="string">&apos;{print $2}&apos;</span> | xargs <span class="built_in">kill</span> -9  <span class="comment">#&#x6E05;&#x7406;&#x6240;&#x6709;&#x53EB;foo&#x7684;&#x8FDB;&#x7A0B;(killall)</span></span><br><span class="line"></span><br><span class="line">du -sm /home/* | sort -n | tail -10    <span class="comment">#&#x67E5;&#x627E;10&#x4E2A;home&#x76EE;&#x5F55;&#x5927;&#x7684;&#x7528;&#x6237;</span></span><br><span class="line"></span><br><span class="line">ls -1 | rename <span class="string">&apos;s/\ /_/&apos;</span>  <span class="comment">#&#x628A;&#x6587;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x7A7A;&#x683C;&#x66FF;&#x6362;&#x6210;&#x4E0B;&#x5212;&#x7EBF;</span></span><br><span class="line"></span><br><span class="line">find / -iname <span class="string">&apos;*.pdf&apos;</span> -print -exec pdftotext <span class="string">&apos;{}&apos;</span> - \; | grep --color -i <span class="string">&quot;unix&quot;</span> <span class="comment"># &#x5728;pdf&#x4E2D;grep</span></span><br><span class="line"></span><br><span class="line">sed <span class="string">&apos;/^ #.*DEBUG.*/ s/^# //&apos;</span> <span class="variable">$FILE</span> <span class="comment"># &#x4F7F;&#x7528; sed &#x6253;&#x5F00;&#x5173;&#x95ED;&#x6CE8;&#x91CA;</span></span><br><span class="line"></span><br><span class="line">pv file1 &gt; file2	<span class="comment">#&#x5E26;&#x8FDB;&#x5EA6;&#x6761;&#x7684;&#x590D;&#x5236;&#x6587;&#x4EF6;</span></span><br><span class="line"></span><br><span class="line">rename -v <span class="string">&apos;s/ /_/g&apos;</span> *	<span class="comment"># &#x66FF;&#x6362;&#x6587;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x7A7A;&#x683C;&#x4E3A;&#x4E0B;&#x5212;&#x7EBF;</span></span><br><span class="line"></span><br><span class="line">vim -c new myfile	<span class="comment"># &#x7528;vim&#x540C;&#x65F6;&#x6253;&#x5F00;&#x591A;&#x4E2A;&#x6587;&#x4EF6;</span></span><br><span class="line"></span><br><span class="line">rm **/*(-@)	<span class="comment"># &#x6E05;&#x7406;&#x6389;&#x65E0;&#x6548;&#x7684;&#x7B26;&#x53F7;link</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">garg</span></span> () { tail -n 1 <span class="variable">${HISTFILE}</span> | awk <span class="string">&quot;{ print \$<span class="variable">$1</span> }&quot;</span> } <span class="comment">#&#x83B7;&#x53D6;&#x7B2C;n&#x4E2A;&#x53C2;&#x6570;</span></span><br></pre></td></tr></table></figure>
 <h2 id="&#x76D1;&#x63A7;"><a href="#&#x76D1;&#x63A7;" class="headerlink" title="&#x76D1;&#x63A7;"></a>&#x76D1;&#x63A7;</h2><a id="more"></a>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &#x76D1;&#x63A7;&#x8FDB;&#x7A0B;&#x4FE1;&#x606F;&#x5E76;&#x5B9E;&#x65F6;&#x8F93;&#x51FA;</span></span><br><span class="line">top -b <span class="_">-d</span> 1 | sed <span class="string">&apos;s/^/varName schoolId/&apos;</span> | awk <span class="string">&apos;{print $1,$2,$3,$4,$11,$12,systime(),$14}&apos;</span> | grep --line-buffered firefox</span><br><span class="line"></span><br><span class="line">tcpdump -w - |pv -bert &gt;/dev/null  <span class="comment">#&#x67E5;&#x770B;&#x7F51;&#x7EDC;&#x541E;&#x5410;&#x91CF;</span></span><br><span class="line"></span><br><span class="line">ps axu | grep [a]pache2 <span class="comment">#&#x67E5;&#x770B;&#x8FDB;&#x7A0B;&#x65F6;&#x5019;&#x907F;&#x514D;&#x81EA;&#x5DF1;&#x88AB;grep &#x5230;</span></span><br><span class="line"></span><br><span class="line">ifconfig <span class="_">-a</span>| grep -o -E <span class="string">&apos;([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}&apos;</span> <span class="comment">#&#x83B7;&#x53D6;&#x6240;&#x6709;mac&#x5730;&#x5740;</span></span><br><span class="line"></span><br><span class="line">PID=httpd ; ps aux | grep <span class="variable">$PID</span> | grep -v grep | awk <span class="string">&apos;{print $2}&apos;</span> | xargs <span class="built_in">kill</span> -9 <span class="comment">#&#x6740;&#x6B7B;&#x6240;&#x6709; $PID &#x7684;&#x5B50;&#x8FDB;&#x7A0B;</span></span><br><span class="line"></span><br><span class="line">myLongScript &amp;&amp; <span class="built_in">echo</span> <span class="_">-e</span> <span class="string">&apos;\a&apos;</span> || (<span class="built_in">echo</span> <span class="_">-e</span> <span class="string">&apos;\a&apos;</span>; sleep 1; <span class="built_in">echo</span> <span class="_">-e</span> <span class="string">&apos;\a&apos;</span>) <span class="comment">#&#x957F;&#x8017;&#x65F6;&#x811A;&#x672C;&#x6267;&#x884C;&#x5B8C;&#x53D1;&#x51FA;&#x58F0;&#x97F3;</span></span><br></pre></td></tr></table></figure>
@@ -1712,7 +1738,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[PCL Configuration]]></title>
-      <url>http://idler1229.github.io/2016/04/16/CV/PCL-Configuration/</url>
+      <url>http://Ext4FAT.github.io/2016/04/16/CV/PCL-Configuration/</url>
       <content type="html"><![CDATA[<h2 id="Configure-PCL-on-WIN10"><a href="#Configure-PCL-on-WIN10" class="headerlink" title="Configure PCL on WIN10"></a>Configure PCL on WIN10</h2><h3 id="Download-Packages"><a href="#Download-Packages" class="headerlink" title="Download Packages"></a>Download Packages</h3><p><em>url</em>: <a href="http://pan.baidu.com/s/1c3FU3c" target="_blank" rel="external">http://pan.baidu.com/s/1c3FU3c</a><br><em>passwd</em>: wubh</p>
 <h3 id="System-Varibles"><a href="#System-Varibles" class="headerlink" title="System Varibles"></a>System Varibles</h3><h4 id="Add-PCL-ROOT-Path"><a href="#Add-PCL-ROOT-Path" class="headerlink" title="Add PCL_ROOT Path"></a>Add <em>PCL_ROOT</em> Path</h4><p>PCL_ROOT = <em>Files-Location</em></p>
 <h4 id="Append-Path"><a href="#Append-Path" class="headerlink" title="Append Path"></a>Append Path</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">;%PCL_ROOT%\bin;%PCL_ROOT%\3rdParty\FLANN\bin;%PCL_ROOT%\3rdParty\VTK\bin</span><br></pre></td></tr></table></figure>
@@ -1721,7 +1747,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[CMake Note]]></title>
-      <url>http://idler1229.github.io/2016/04/15/Compile/CMake-Note/</url>
+      <url>http://Ext4FAT.github.io/2016/04/15/Compile/CMake-Note/</url>
       <content type="html"><![CDATA[<h2 id="CMake-Note"><a href="#CMake-Note" class="headerlink" title="CMake Note"></a>CMake Note</h2><h3 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h3><h4 id="CmakeLists-txt"><a href="#CmakeLists-txt" class="headerlink" title="CmakeLists.txt"></a>CmakeLists.txt</h4><p>Input text files that contain the project parameters and<br>describe the flow control of the build process in simple CMake language.</p>
 <h4 id="CMake-Modules"><a href="#CMake-Modules" class="headerlink" title="CMake Modules"></a>CMake Modules</h4><p>Special cmake file written for the purpose of finding a certain piece of software and to set it&#x2019;s libraries, include files and definitions into appropriate variables so that they can be used in the build process of another project. (e.g. FindJava.cmake, FindZLIB.cmake, FindQt4.cmake)</p>
 <p>When CMake finds a SUBDIR command it stops processing the current file immediately and goes down the tree branch</p>
@@ -1734,7 +1760,7 @@ libcmtd.lib
     
     <entry>
       <title><![CDATA[Realsense Q&A]]></title>
-      <url>http://idler1229.github.io/2016/04/10/CV/Realsense-Q-A/</url>
+      <url>http://Ext4FAT.github.io/2016/04/10/CV/Realsense-Q-A/</url>
       <content type="html"><![CDATA[<h3 id="Configure-on-Linux"><a href="#Configure-on-Linux" class="headerlink" title="Configure on Linux"></a>Configure on Linux</h3><p>1 Cann&#x2019;t find /dev/video0</p>
 <pre><code class="sh">modprobe uvcvideo
 modprobe -r uvcvideo <span class="comment">#remove module UVC</span>
@@ -1744,7 +1770,7 @@ modprobe -r uvcvideo <span class="comment">#remove module UVC</span>
     
     <entry>
       <title><![CDATA[Problems]]></title>
-      <url>http://idler1229.github.io/2016/04/10/Problems/Problems/</url>
+      <url>http://Ext4FAT.github.io/2016/04/10/Problems/Problems/</url>
       <content type="html"><![CDATA[<h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><h3 id="Progamming"><a href="#Progamming" class="headerlink" title="Progamming"></a>Progamming</h3><h4 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h4><h5 id="1"><a href="#1" class="headerlink" title="1"></a>1</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&apos;a&apos;</span>==<span class="string">&quot;a&quot;</span>, <span class="string">&quot;a&quot;</span> == <span class="string">&quot;a&quot;</span></span><br></pre></td></tr></table></figure>
 <h5 id="2"><a href="#2" class="headerlink" title="2"></a>2</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">new,<span class="built_in">free</span> </span><br><span class="line"><span class="built_in">malloc</span> <span class="keyword">delete</span></span><br></pre></td></tr></table></figure>
 <h5 id="3-&#x5185;&#x5B58;&#x7BA1;&#x7406;"><a href="#3-&#x5185;&#x5B58;&#x7BA1;&#x7406;" class="headerlink" title="3 &#x5185;&#x5B58;&#x7BA1;&#x7406;"></a>3 &#x5185;&#x5B58;&#x7BA1;&#x7406;</h5><p>1MB&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;90%&#x7684;&#x65F6;&#x95F4;&#x53EA;&#x7528;&#x4E86;60%&#x7684;&#x7A7A;&#x95F4;<br>&#x5982;&#x4F55;&#x8BBE;&#x8BA1;</p>
@@ -1754,7 +1780,7 @@ modprobe -r uvcvideo <span class="comment">#remove module UVC</span>
     
     <entry>
       <title><![CDATA[Beyond Compare Crack]]></title>
-      <url>http://idler1229.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</url>
+      <url>http://Ext4FAT.github.io/2016/04/06/Linux/Solution/Beyond-Compare-Crack/</url>
       <content type="html"><![CDATA[<h2 id="Crack-Beyond-Compare-on-Linux-&#x2265;&#x25C7;&#x2264;"><a href="#Crack-Beyond-Compare-on-Linux-&#x2265;&#x25C7;&#x2264;" class="headerlink" title="Crack Beyond Compare on Linux  (&#x2265;&#x25C7;&#x2264;)"></a>Crack Beyond Compare on Linux  (&#x2265;&#x25C7;&#x2264;)</h2><h3 id="Download-Beyond-Compare-Version-4-for-Linux"><a href="#Download-Beyond-Compare-Version-4-for-Linux" class="headerlink" title="Download Beyond Compare Version 4 for Linux"></a>Download <a href="http://www.scootersoftware.com/download.php" target="_blank" rel="external">Beyond Compare Version 4 for Linux</a></h3><p>Install to  <em>/usr/lib/beyondcompare/</em></p>
 <h3 id="Replace-binary-sequence"><a href="#Replace-binary-sequence" class="headerlink" title="Replace binary sequence"></a>Replace binary sequence</h3><p>Replace<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">keexjEP3t4Mue23hrnuPtY4TdcsqNiJL-5174TsUdLmJSIXKfG2NGPwBL6vnRPddT7tH29qpkneX63DO9ECSPE9rzY1zhThHERg8lHM9IBFT+rVuiY823aQJuqzxCKIE1bcDqM4wgW01FH6oCBP1G4ub01xmb4BGSUG6ZrjxWHJyNLyIlGvOhoY2HAYzEtzYGwxFZn2JZ66o4RONkXjX0DF9EzsdUef3UAS+JQ+fCYReLawdjEe6tXCv88GKaaPKWxCeaUL9PejICQgRQOLGOZtZQkLgAelrOtehxz5ANOOqCaJgy2mJLQVLM5SJ9Dli909c5ybvEhVmIC0dc9dWH+</span><br></pre></td></tr></table></figure></p>
 <p>To<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">N9KmiLVlKMU7RJqnE+WXEEPI1SgglmfmLc1yVH7dqBb9ehOoKG9UE+HAE1YvH1XX2XVGeEqYUY-Tsk7YBTz0WpSpoYyPgx6Iki5KLtQ5G-aKP9eysnkuOAkrvHU8bLbGtZteGwJarev03PhfCioJL4OSqsmQGEvDbHFEbNl1qJtdwEriR+VNZts9vNNLk7UGfeNwIiqpxjk4Mn09nmSd8FhM4ifvcaIbNCRoMPGl6KU12iseSe+w+1kFsLhX+OhQM8WXcWV10cGqBzQE9OqOLUcg9n0krrR3KrohstS9smTwEx9olyLYppvC0p5i7dAx2deWvM1ZxKNs0BvcXGukR+</span><br></pre></td></tr></table></figure></p>
@@ -1766,7 +1792,7 @@ modprobe -r uvcvideo <span class="comment">#remove module UVC</span>
     
     <entry>
       <title><![CDATA[Use f.lux to protect eyes]]></title>
-      <url>http://idler1229.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</url>
+      <url>http://Ext4FAT.github.io/2016/04/04/Linux/Software/Use-f-lux-to-protect-eyes/</url>
       <content type="html"><![CDATA[<h2 id="f-lux-software-to-make-your-life-better"><a href="#f-lux-software-to-make-your-life-better" class="headerlink" title="f.lux: software to make your life better"></a>f.lux: software to make your life better</h2><h3 id="Official-Website"><a href="#Official-Website" class="headerlink" title="Official Website"></a>Official Website</h3><p><a href="https://justgetflux.com/" target="_blank" rel="external">https://justgetflux.com/</a></p>
 <h3 id="Install-with-ppa"><a href="#Install-with-ppa" class="headerlink" title="Install with ppa"></a>Install with ppa</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:kilian/f.lux</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install fluxgui</span><br></pre></td></tr></table></figure>
 <h3 id="Replace-core"><a href="#Replace-core" class="headerlink" title="Replace core"></a>Replace core</h3><p>If your f.lux does not work, please download core from official website.<br><a href="https://justgetflux.com/linux/xflux-pre.tgz" target="_blank" rel="external">32 bit</a><br><a href="https://justgetflux.com/linux/xflux64.tgz" target="_blank" rel="external">64 bit</a></p>
@@ -1777,14 +1803,14 @@ modprobe -r uvcvideo <span class="comment">#remove module UVC</span>
     
     <entry>
       <title><![CDATA[Pic2Pdf]]></title>
-      <url>http://idler1229.github.io/2016/04/02/Linux/Shell/Shell-Maze/</url>
+      <url>http://Ext4FAT.github.io/2016/04/02/Linux/Shell/Shell-Maze/</url>
       <content type="html"><![CDATA[<h2 id="Shell-&#x7591;&#x60D1;"><a href="#Shell-&#x7591;&#x60D1;" class="headerlink" title="Shell &#x7591;&#x60D1;"></a>Shell &#x7591;&#x60D1;</h2><h3 id="&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;"><a href="#&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;" class="headerlink" title="&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;"></a>&#x9012;&#x5F52;&#x8BBF;&#x95EE;&#xFF0C;&#x5982;&#x4F55;&#x7ED9;&#x8DEF;&#x5F84;&#x6807;&#x53F7;</h3><h4 id="&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;"><a href="#&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;" class="headerlink" title="&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;"></a>&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6765;&#x89E3;&#x51B3;&#xFF08;&#x4F46;&#x4E0D;&#x4F18;&#x96C5;&#xFF09;</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">trimDFS</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]</span><br><span class="line">        <span class="keyword">then</span></span><br><span class="line">			<span class="built_in">let</span> count+=1</span><br><span class="line">			<span class="built_in">echo</span> <span class="string">&quot;[<span class="variable">$count</span>] <span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">            trimDFS <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">        <span class="comment">#else</span></span><br><span class="line">            <span class="comment">#dos2unix $1&quot;/&quot;$file</span></span><br><span class="line">            <span class="comment">#echo &quot;$1&quot;&quot;/&quot;&quot;$file&quot;</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">trimDFS <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Picture batch to Pdf]]></title>
-      <url>http://idler1229.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</url>
+      <url>http://Ext4FAT.github.io/2016/04/02/Linux/Shell/Pic2Pdf/</url>
       <content type="html"><![CDATA[<h2 id="Archive-pictures-to-pdf"><a href="#Archive-pictures-to-pdf" class="headerlink" title="Archive pictures to pdf"></a>Archive pictures to pdf</h2><h3 id="Get-rid-of-filename-blank"><a href="#Get-rid-of-filename-blank" class="headerlink" title="Get rid of filename blank"></a>Get rid of filename blank</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">function</span> rm-ALL-<span class="function"><span class="title">blank</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">		<span class="comment">#echo $newfile</span></span><br><span class="line">		<span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">			newfile=`<span class="built_in">echo</span> <span class="variable">$file</span> | sed <span class="string">&apos;s/ //g&apos;</span>`</span><br><span class="line">			mv <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$newfile</span>&quot;</span> 2&gt;/dev/null</span><br><span class="line">			rm-ALL-blank <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">		<span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">rm-ALL-blank <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
 <h3 id="Pictures-to-pdf"><a href="#Pictures-to-pdf" class="headerlink" title="Pictures to pdf"></a>Pictures to pdf</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">myconvert</span></span>() {</span><br><span class="line">    ls <span class="string">&quot;<span class="variable">$1</span>&quot;</span>| <span class="keyword">while</span> <span class="built_in">read</span> file</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">if</span> [ <span class="_">-d</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> ]</span><br><span class="line">        <span class="keyword">then</span></span><br><span class="line">			find <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span> -maxdepth 1 -name <span class="string">&quot;*.jpg&quot;</span>|sort 1&gt;<span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span></span><br><span class="line">			<span class="keyword">if</span> [ <span class="_">-s</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span> ]; <span class="keyword">then</span>  </span><br><span class="line">				<span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span>.pdf</span><br><span class="line">				convert @<span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span> <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span>.pdf</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				myconvert <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>&quot;</span></span><br><span class="line">			<span class="keyword">fi</span></span><br><span class="line">		<span class="keyword">fi</span></span><br><span class="line">		rm <span class="string">&quot;<span class="variable">$1</span>/<span class="variable">$file</span>/_myTmp_&quot;</span> 2&gt;/dev/null</span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">myconvert <span class="variable">$1</span></span><br></pre></td></tr></table></figure>
 <h3 id="Move-pdf"><a href="#Move-pdf" class="headerlink" title="Move pdf"></a>Move pdf</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkdir ../pdf</span><br><span class="line"><span class="keyword">for</span> pdf <span class="keyword">in</span> `find . -name <span class="string">&quot;*.pdf&quot;</span>`</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">	mv <span class="variable">$pdf</span> ../pdf/</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
